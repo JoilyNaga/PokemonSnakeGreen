@@ -1172,7 +1172,6 @@ Generation = 6
 #-------------------------------
 [ABOMASNOW,1]
 FormName = Mega Abomasnow
-MegaStone = ABOMASITE
 BaseStats = 90,132,105,30,132,105
 BaseExp = 208
 HiddenAbilities = SNOWWARNING

@@ -45,9 +45,10 @@ Land,21
 Land,21
     20,BELLSPROUT,6,10
     20,LICKITUNG,8,12
+    20,MAWILE,7,10
 #-------------------------------
 [045] # Temporary Cave
 Cave,5
-    20,GOLBAT,6,11
     20,ARBOK,8,12
+    20,GOLBAT,6,11
     20,SWALOT,8,12

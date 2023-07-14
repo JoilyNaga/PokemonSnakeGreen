@@ -1532,7 +1532,7 @@ Evolutions = ARCANINE,Item,FIRESTONE
 #-------------------------------
 [ARCANINE]
 Name = Bryst
-Types = WATER,NORMAL
+Types = WATER,FAIRY
 BaseStats = 90,110,80,95,100,80
 GenderRatio = AlwaysFemale
 GrowthRate = Slow

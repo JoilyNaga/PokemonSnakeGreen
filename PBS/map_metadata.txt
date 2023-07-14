@@ -93,7 +93,7 @@ MapPosition = 0,13,10
 #-------------------------------
 [020]   # OutHouse
 Name = Public Bathroom
-Outdoor = true
+Outdoor = false
 ShowArea = true
 MapPosition = 0,13,10
 #-------------------------------
