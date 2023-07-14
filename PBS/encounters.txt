@@ -1,0 +1,53 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[001] # Intro
+Land,21
+    50,SHELLOS,12,15
+    30,BIDOOF,14,17
+    10,MURKROW,12,14
+    10,WURMPLE,9,12
+RockSmash,50
+    90,NOSEPASS,13,14
+    10,GEODUDE,12,15
+#-------------------------------
+[002] # Palate Town
+Water,2
+    60,TENTACOOL,14,19
+    30,MANTYKE,15,16
+    10,REMORAID,14,16
+OldRod
+    100,MAGIKARP,16,19
+GoodRod
+    60,BARBOACH,17,18
+    20,KRABBY,15,16
+    20,SHELLDER,16,19
+SuperRod
+    40,CHINCHOU,17,19
+    40,QWILFISH,16,19
+    15,CORSOLA,15,18
+    5,STARYU,15,17
+#-------------------------------
+[005] # Route 1
+Land,21
+    20,EKANS,2,7
+    20,GULPIN,3,10
+#-------------------------------
+[021] # Old Route 2
+Land,21
+    100,MAWILE,15,20
+#-------------------------------
+[023] # Old Route 3
+Land,21
+    50,ARBOK,25,30
+    50,SWALOT,25,30
+#-------------------------------
+[032] # Route 2
+Land,21
+    20,BELLSPROUT,6,10
+    20,LICKITUNG,8,12
+#-------------------------------
+[045] # Temporary Cave
+Cave,5
+    20,GOLBAT,6,11
+    20,ARBOK,8,12
+    20,SWALOT,8,12

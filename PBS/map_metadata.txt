@@ -1,0 +1,426 @@
+﻿# See the documentation on the wiki to learn how to edit this file.
+#-------------------------------
+[001]   # Intro
+Name = Intro
+#-------------------------------
+[002]   # Palate Town
+Name = Palate Town
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,12
+BattleBack = field
+#-------------------------------
+[003]   # Plum's Lab
+Name = Plum's Laboratory
+HealingSpot = 2,8,8
+MapPosition = 0,13,12
+#-------------------------------
+[004]   # Plum Labs Reformation Center
+Name = Plum Labs. Reformation Center
+ShowArea = false
+MapPosition = 0,13,12
+#-------------------------------
+[005]   # Route 1
+Name = Route 1
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,11
+BattleBack = field
+#-------------------------------
+[006]   # Lyra's house
+Name = Lyra's House
+MapPosition = 0,13,11
+#-------------------------------
+[007]   # Gullut City
+Name = Gullut City
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,10
+MapSize = 2,11
+#-------------------------------
+[008]   # BlueDoorHouse
+Name = Villi City
+MapPosition = 0,13,12
+#-------------------------------
+[009]   # BrownDoorHouse
+Name = Villi City
+HealingSpot = 8,17,11
+MapPosition = 0,14,10
+#-------------------------------
+[010]   # Purple House
+Name = Villi City
+MapPosition = 0,13,10
+BattleBack = indoor3
+Environment = Rock
+Flags = DisableBoxLink
+#-------------------------------
+[011]   # Wailord
+Name = Inside the Wailord
+MapPosition = 0,14,10
+#-------------------------------
+[012]   # Intestines
+Name = Inside the Wailord
+MapPosition = 0,14,10
+#-------------------------------
+[013]   # Underwater
+Name = Under the Wailord
+ShowArea = true
+MapPosition = 0,14,10
+#-------------------------------
+[014]   # More Intestines
+Name = Cedolan City
+MapPosition = 0,13,10
+#-------------------------------
+[015]   # More Intestines
+Name = Cedolan City
+MapPosition = 0,13,10
+#-------------------------------
+[016]   # Under the Acids
+Name = Inside the Wailord
+MapPosition = 0,13,10
+#-------------------------------
+[017]   # Passing House
+Name = Villi City
+MapPosition = 0,13,10
+#-------------------------------
+[018]   # Gullut City Reformation Center
+Name = Villi City
+MapPosition = 0,13,10
+#-------------------------------
+[019]   # Shady Cabin
+Name = Cedolan City
+MapPosition = 0,13,10
+#-------------------------------
+[020]   # OutHouse
+Name = Public Bathroom
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,10
+#-------------------------------
+[021]   # Old Route 2
+Name = Route 2
+Outdoor = true
+ShowArea = true
+Weather = Rain,100
+MapPosition = 0,14,8
+BattleBack = field
+MapSize = 1,11
+#-------------------------------
+[022]   # Gorgul Ruins
+Name = Gorgul Ruins
+#-------------------------------
+[023]   # Old Route 3
+Name = Route 3
+Outdoor = true
+ShowArea = true
+MapPosition = 0,15,8
+MapSize = 0,
+#-------------------------------
+[024]   # Mountains
+Name = Lerucean Town
+HealingSpot = 23,11,15
+MapPosition = 0,15,8
+#-------------------------------
+[025]   # Rocket Base
+Name = Lerucean Town
+MapPosition = 0,15,8
+#-------------------------------
+[026]   # Forest
+Name = Lerucean Town
+MapPosition = 0,15,8
+#-------------------------------
+[027]   # Joily's House
+Name = Joily's Cage
+Outdoor = true
+ShowArea = true
+MapPosition = 0,15,8
+#-------------------------------
+[028]   # Joily's House Basement
+Name = Joily's Basement
+Outdoor = false
+ShowArea = false
+MapPosition = 0,16,8
+BattleBack = field
+Flags = MossRock
+#-------------------------------
+[029]   # Event Hold
+Name = Natural Park
+Bicycle = true
+MapPosition = 0,16,8
+#-------------------------------
+[030]   # Sphinc Town
+Name = Sphinc Town
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,16,8
+#-------------------------------
+[031]   # Gurgol City
+Name = Gurgol City
+Outdoor = true
+ShowArea = true
+MapPosition = 0,14,6
+BattleBack = field
+MapSize = 2,1101
+#-------------------------------
+[032]   # Route 2
+Name = Route 2
+Outdoor = true
+ShowArea = true
+WildBattleBGM = Battle Gym Leader.mid
+WildVictoryBGM = Battle victory leader.ogg
+#-------------------------------
+[033]   # Gutte City
+Name = Gutte City
+Outdoor = true
+ShowArea = true
+#-------------------------------
+[034]   # Route 3
+Name = Route 3
+Outdoor = true
+ShowArea = true
+Bicycle = true
+MapPosition = 0,15,6
+BattleBack = cave1
+Environment = Cave
+Flags = IceRock
+#-------------------------------
+[035]   # Route 4
+Name = Route 4
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,6
+#-------------------------------
+[036]   # Vellus Forest
+Name = Vellus Forest
+Outdoor = true
+HealingSpot = 35,17,7
+Weather = Fog,100
+MapPosition = 0,13,6
+#-------------------------------
+[037]   # Extended Route
+Name = Ingido Plateau
+MapPosition = 0,13,6
+BattleBack = elite1
+Flags = DisableBoxLink
+#-------------------------------
+[038]   # Extended Route 2
+Name = Ingido Plateau
+MapPosition = 0,13,6
+Flags = DisableBoxLink
+#-------------------------------
+[039]   # Villi City
+Name = Route 4
+Outdoor = true
+ShowArea = true
+MapPosition = 0,11,6
+BattleBack = field
+MapSize = 2,11
+#-------------------------------
+[040]   # Tribe
+Name = Route 4
+Outdoor = true
+ShowArea = true
+BicycleAlways = true
+MapPosition = 0,11,6
+#-------------------------------
+[041]   # Late Route
+Name = Route 5
+Outdoor = true
+ShowArea = true
+BicycleAlways = true
+MapPosition = 0,11,7
+MapSize = 1,111
+#-------------------------------
+[044]   # Em House
+Name = Route 6
+Outdoor = true
+ShowArea = true
+MapPosition = 0,11,10
+BattleBack = field
+MapSize = 2,11
+#-------------------------------
+[045]   # Temporary Cave
+Name = Route 6
+Outdoor = true
+ShowArea = true
+BicycleAlways = true
+MapPosition = 0,11,10
+#-------------------------------
+[046]   # Forest2
+Name = Route 4
+Outdoor = true
+Bicycle = true
+MapPosition = 0,12,6
+#-------------------------------
+[047]   # Shady Cabin
+Name = Route 7
+Outdoor = true
+ShowArea = true
+Weather = Rain,0
+MapPosition = 0,15,10
+BattleBack = rocky
+MapSize = 2,11
+Environment = Rock
+#-------------------------------
+[049]
+Name = Route 7
+Bicycle = true
+MapPosition = 0,16,10
+BattleBack = cave1
+Environment = Cave
+Flags = Magnetic,DistortionWorld
+#-------------------------------
+[050]
+Name = Route 7
+Bicycle = true
+MapPosition = 0,16,10
+DarkMap = true
+BattleBack = cave3
+Environment = Cave
+Flags = Magnetic,DistortionWorld
+#-------------------------------
+[051]
+Name = Route 7
+Bicycle = true
+MapPosition = 0,16,10
+Dungeon = true
+BattleBack = cave2
+Environment = Cave
+Flags = Magnetic,DistortionWorld
+#-------------------------------
+[052]
+Name = Battle Frontier
+Outdoor = true
+ShowArea = true
+MapPosition = 0,17,10
+#-------------------------------
+[053]
+Name = Battle Frontier
+HealingSpot = 52,17,14
+MapPosition = 0,17,10
+#-------------------------------
+[054]
+Name = Battle Frontier
+MapPosition = 0,17,10
+#-------------------------------
+[055]
+Name = Battle Frontier
+HealingSpot = 52,30,10
+MapPosition = 0,17,10
+#-------------------------------
+[056]
+Name = Battle Frontier
+MapPosition = 0,17,10
+BattleBack = indoor1
+Flags = DisableBoxLink
+#-------------------------------
+[057]
+Name = Battle Frontier
+MapPosition = 0,17,10
+#-------------------------------
+[058]
+Name = Battle Frontier
+MapPosition = 0,17,10
+#-------------------------------
+[059]
+Name = Battle Frontier
+MapPosition = 0,17,10
+BattleBack = indoor1
+Flags = DisableBoxLink
+#-------------------------------
+[060]
+Name = Battle Frontier
+MapPosition = 0,17,10
+#-------------------------------
+[061]
+Name = Battle Frontier
+MapPosition = 0,17,10
+BattleBack = indoor1
+Flags = DisableBoxLink
+#-------------------------------
+[062]
+Name = Battle Frontier
+MapPosition = 0,17,10
+#-------------------------------
+[063]
+Name = Battle Frontier
+MapPosition = 0,17,10
+Flags = DisableBoxLink
+#-------------------------------
+[064]
+Name = Battle Frontier
+MapPosition = 0,17,10
+BattleBack = indoor1
+Flags = DisableBoxLink
+#-------------------------------
+[065]
+Name = Battle Frontier
+MapPosition = 0,17,10
+Flags = DisableBoxLink
+#-------------------------------
+[066]
+Name = Safari Zone
+Outdoor = true
+ShowArea = true
+MapPosition = 0,12,12
+BattleBack = field
+#-------------------------------
+[067]
+Name = Safari Zone
+MapPosition = 0,12,12
+#-------------------------------
+[068]
+Name = Safari Zone
+Outdoor = true
+ShowArea = true
+MapPosition = 0,12,12
+SafariMap = true
+BattleBack = forest
+Environment = Forest
+#-------------------------------
+[069]
+Name = Route 8
+Outdoor = true
+ShowArea = true
+MapPosition = 0,13,13
+DiveMap = 70
+BattleBack = field
+#-------------------------------
+[070]
+Name = Route 8
+MapPosition = 0,13,13
+BattleBack = underwater
+Environment = Underwater
+#-------------------------------
+[071]
+Name = Route 8
+MapPosition = 0,13,13
+#-------------------------------
+[072]
+Name = Berth Island
+Outdoor = true
+ShowArea = true
+Weather = Storm,50
+MapPosition = 0,18,17
+BattleBack = field
+Flags = DistortionWorld
+#-------------------------------
+[073]
+Name = Faraday Island
+Outdoor = true
+ShowArea = true
+MapPosition = 0,22,16
+BattleBack = field
+Flags = DistortionWorld
+#-------------------------------
+[074]
+Name = Route 6
+Bicycle = true
+MapPosition = 0,12,10
+#-------------------------------
+[075]
+Name = Tiall Region
+Outdoor = true
+MapPosition = 1,13,16
+BattleBack = city

@@ -1,0 +1,526 @@
+
+=================
+
+[2023-04-21 20:52:59 +0100]
+[Pokémon Essentials version 20.1]
+
+Script error in event 1 (coords 11,7), map 10 (Villi City)
+Exception: NameError
+Message: uninitialized constant Interpreter::PELIPPER
+
+***Full script:
+setBattleRule("canLose")
+setBattleRule("outcome", 46)
+WildBattle.start(PELIPPER, 25)
+
+Backtrace:
+(eval):3:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+Scene_Map:159:in `loop'
+
+=================
+
+[2023-04-26 12:05:39 +0100]
+[Pokémon Essentials version 20.1]
+
+Exception: RuntimeError
+Message: Undefined value Normal in GameData::Type
+File PBS/moves.txt, line 8739
+Type = Normal
+
+
+
+Backtrace:
+Compiler:345:in `checkEnumField'
+Compiler:320:in `csvEnumField!'
+Compiler:523:in `block (2 levels) in pbGetCsvRecord'
+Compiler:415:in `each'
+Compiler:415:in `block in pbGetCsvRecord'
+Compiler:413:in `loop'
+Compiler:413:in `pbGetCsvRecord'
+Compiler_CompilePBS:332:in `block in compile_moves'
+Compiler:242:in `block (2 levels) in pbCompilerEachPreppedLine'
+Compiler:234:in `each_line'
+
+=================
+
+[2023-04-26 17:15:09 +0100]
+[Pokémon Essentials version 20.1]
+
+Exception: NoMethodError
+Message: undefined method `map_renderer' for #<Scene_Credits>
+
+Backtrace:
+Spriteset_Map:50:in `initialize'
+Sprite_AnimationSprite:50:in `initialize'
+Sprite_DynamicShadows:197:in `initialize'
+Scene_Map:23:in `new'
+Scene_Map:23:in `block in createSpritesets'
+Scene_Map:22:in `each'
+Scene_Map:22:in `createSpritesets'
+Scene_Map:86:in `transfer_player'
+Scene_Map:166:in `block in update'
+Scene_Map:159:in `loop'
+
+=================
+
+[2023-04-26 20:51:44 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Joily's new level is less than its
+current level, which shouldn't happen.
+[Debug: Levels: 100->86 | Exp: 800000->800184 | gain: 184]
+
+Backtrace:
+Battle_ExpAndMoveLearning:176:in `pbGainExpOne'
+Battle_ExpAndMoveLearning:39:in `block (2 levels) in pbGainExp'
+Battle:411:in `block in eachInTeam'
+Battle:411:in `each'
+Battle:411:in `each_with_index'
+Battle:411:in `eachInTeam'
+Battle_ExpAndMoveLearning:35:in `block in pbGainExp'
+Battle_ExpAndMoveLearning:13:in `each'
+Battle_ExpAndMoveLearning:13:in `pbGainExp'
+Battler_UseMove:520:in `pbUseMove'
+
+=================
+
+[2023-04-26 20:56:53 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Joily's new level is less than its
+current level, which shouldn't happen.
+[Debug: Levels: 100->86 | Exp: 800000->800184 | gain: 184]
+
+Backtrace:
+Battle_ExpAndMoveLearning:176:in `pbGainExpOne'
+Battle_ExpAndMoveLearning:39:in `block (2 levels) in pbGainExp'
+Battle:411:in `block in eachInTeam'
+Battle:411:in `each'
+Battle:411:in `each_with_index'
+Battle:411:in `eachInTeam'
+Battle_ExpAndMoveLearning:35:in `block in pbGainExp'
+Battle_ExpAndMoveLearning:13:in `each'
+Battle_ExpAndMoveLearning:13:in `pbGainExp'
+Battler_UseMove:520:in `pbUseMove'
+
+=================
+
+[2023-04-26 21:01:37 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Joily's new level is less than its
+current level, which shouldn't happen.
+[Debug: Levels: 100->86 | Exp: 800000->800184 | gain: 184]
+
+Backtrace:
+Battle_ExpAndMoveLearning:176:in `pbGainExpOne'
+Battle_ExpAndMoveLearning:39:in `block (2 levels) in pbGainExp'
+Battle:411:in `block in eachInTeam'
+Battle:411:in `each'
+Battle:411:in `each_with_index'
+Battle:411:in `eachInTeam'
+Battle_ExpAndMoveLearning:35:in `block in pbGainExp'
+Battle_ExpAndMoveLearning:13:in `each'
+Battle_ExpAndMoveLearning:13:in `pbGainExp'
+Battler_UseMove:520:in `pbUseMove'
+
+=================
+
+[2023-04-27 21:24:42 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Joily's new level is less than its
+current level, which shouldn't happen.
+[Debug: Levels: 100->86 | Exp: 800000->800201 | gain: 201]
+
+Backtrace:
+Battle_ExpAndMoveLearning:176:in `pbGainExpOne'
+Battle_ExpAndMoveLearning:39:in `block (2 levels) in pbGainExp'
+Battle:411:in `block in eachInTeam'
+Battle:411:in `each'
+Battle:411:in `each_with_index'
+Battle:411:in `eachInTeam'
+Battle_ExpAndMoveLearning:35:in `block in pbGainExp'
+Battle_ExpAndMoveLearning:13:in `each'
+Battle_ExpAndMoveLearning:13:in `pbGainExp'
+Battler_UseMove:520:in `pbUseMove'
+
+=================
+
+[2023-04-30 12:11:44 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Joily's new level is less than its
+current level, which shouldn't happen.
+[Debug: Levels: 100->86 | Exp: 800000->800201 | gain: 201]
+
+Backtrace:
+Battle_ExpAndMoveLearning:176:in `pbGainExpOne'
+Battle_ExpAndMoveLearning:39:in `block (2 levels) in pbGainExp'
+Battle:411:in `block in eachInTeam'
+Battle:411:in `each'
+Battle:411:in `each_with_index'
+Battle:411:in `eachInTeam'
+Battle_ExpAndMoveLearning:35:in `block in pbGainExp'
+Battle_ExpAndMoveLearning:13:in `each'
+Battle_ExpAndMoveLearning:13:in `pbGainExp'
+Battler_UseMove:520:in `pbUseMove'
+
+=================
+
+[2023-05-01 11:49:01 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Joily's new level is less than its
+current level, which shouldn't happen.
+[Debug: Levels: 100->86 | Exp: 800000->800003 | gain: 3]
+
+Backtrace:
+Battle_ExpAndMoveLearning:176:in `pbGainExpOne'
+Battle_ExpAndMoveLearning:39:in `block (2 levels) in pbGainExp'
+Battle:411:in `block in eachInTeam'
+Battle:411:in `each'
+Battle:411:in `each_with_index'
+Battle:411:in `eachInTeam'
+Battle_ExpAndMoveLearning:35:in `block in pbGainExp'
+Battle_ExpAndMoveLearning:13:in `each'
+Battle_ExpAndMoveLearning:13:in `pbGainExp'
+Battler_UseMove:520:in `pbUseMove'
+
+=================
+
+[2023-05-01 12:00:30 +0100]
+[Pokémon Essentials version 20.1]
+
+Error in Plugin: [v20.1 Hotfixes]
+Exception: SyntaxError
+Message: [v20.1 Hotfixes] Battle bug fixes.rb:1: syntax error, unexpected ===
+================================...
+^~~
+
+
+Backtrace:
+Section008:653:in `eval'
+Section008:653:in `block (2 levels) in runPlugins'
+Section008:643:in `each'
+Section008:643:in `block in runPlugins'
+Section008:634:in `each'
+Section008:634:in `runPlugins'
+Section386:28:in `mainFunctionDebug'
+Section386:18:in `block in mainFunction'
+Section014:80:in `pbCriticalCode'
+Section386:18:in `mainFunction'
+
+=================
+
+[2023-05-02 21:16:55 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `pbAllFainted?' for nil:NilClass
+
+Backtrace:
+Battle_AbilityEffects:2415:in `block in <main>'
+Event_Handlers:227:in `trigger'
+Battle_AbilityEffects:229:in `triggerOnEndOfUsingMove'
+Battler_UseMoveTriggerEffects:113:in `pbEffectsAfterMove'
+Battler_UseMove:511:in `pbUseMove'
+Battler_UseMove:52:in `block in pbProcessTurn'
+PBDebug:6:in `logonerr'
+Battler_UseMove:51:in `pbProcessTurn'
+Battle_AttackPhase:128:in `block (2 levels) in pbAttackPhaseMoves'
+Battle_AttackPhase:124:in `each'
+
+=================
+
+[2023-05-02 21:17:16 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `pbAllFainted?' for nil:NilClass
+
+Backtrace:
+Battle_AbilityEffects:2415:in `block in <main>'
+Event_Handlers:227:in `trigger'
+Battle_AbilityEffects:229:in `triggerOnEndOfUsingMove'
+Battler_UseMoveTriggerEffects:113:in `pbEffectsAfterMove'
+Battler_UseMove:511:in `pbUseMove'
+Battler_UseMove:52:in `block in pbProcessTurn'
+PBDebug:6:in `logonerr'
+Battler_UseMove:51:in `pbProcessTurn'
+Battle_AttackPhase:128:in `block (2 levels) in pbAttackPhaseMoves'
+Battle_AttackPhase:124:in `each'
+
+=================
+
+[2023-05-02 21:17:20 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `pbAllFainted?' for nil:NilClass
+
+Backtrace:
+Battle_AbilityEffects:2415:in `block in <main>'
+Event_Handlers:227:in `trigger'
+Battle_AbilityEffects:229:in `triggerOnEndOfUsingMove'
+Battler_UseMoveTriggerEffects:113:in `pbEffectsAfterMove'
+Battler_UseMove:511:in `pbUseMove'
+Battler_UseMove:52:in `block in pbProcessTurn'
+PBDebug:6:in `logonerr'
+Battler_UseMove:51:in `pbProcessTurn'
+Battle_AttackPhase:128:in `block (2 levels) in pbAttackPhaseMoves'
+Battle_AttackPhase:124:in `each'
+
+=================
+
+[2023-05-08 15:25:28 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NameError
+Message: undefined local variable or method `pbThis' for nil:NilClass
+
+Backtrace:
+Battle_AbilityEffects:2016:in `block in <main>'
+Event_Handlers:227:in `trigger'
+Battle_AbilityEffects:219:in `triggerOnBeingHit'
+Battler_UseMoveTriggerEffects:10:in `pbEffectsOnMakingHit'
+Battler_UseMove:694:in `block in pbProcessMoveHit'
+Battler_UseMove:692:in `each'
+Battler_UseMove:692:in `pbProcessMoveHit'
+Battler_UseMove:415:in `block in pbUseMove'
+Battler_UseMove:413:in `times'
+Battler_UseMove:413:in `pbUseMove'
+
+=================
+
+[2023-05-08 15:25:31 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NameError
+Message: undefined local variable or method `pbThis' for nil:NilClass
+
+Backtrace:
+Battle_AbilityEffects:2016:in `block in <main>'
+Event_Handlers:227:in `trigger'
+Battle_AbilityEffects:219:in `triggerOnBeingHit'
+Battler_UseMoveTriggerEffects:10:in `pbEffectsOnMakingHit'
+Battler_UseMove:694:in `block in pbProcessMoveHit'
+Battler_UseMove:692:in `each'
+Battler_UseMove:692:in `pbProcessMoveHit'
+Battler_UseMove:415:in `block in pbUseMove'
+Battler_UseMove:413:in `times'
+Battler_UseMove:413:in `pbUseMove'
+
+=================
+
+[2023-05-08 15:43:09 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NameError
+Message: uninitialized constant PBEffects::Digestion
+
+Backtrace:
+Battler_UseMoveTriggerEffects:77:in `pbEffectsOnMakingHit'
+Battler_UseMove:694:in `block in pbProcessMoveHit'
+Battler_UseMove:692:in `each'
+Battler_UseMove:692:in `pbProcessMoveHit'
+Battler_UseMove:415:in `block in pbUseMove'
+Battler_UseMove:413:in `times'
+Battler_UseMove:413:in `pbUseMove'
+Battler_UseMove:52:in `block in pbProcessTurn'
+PBDebug:6:in `logonerr'
+Battler_UseMove:51:in `pbProcessTurn'
+
+=================
+
+[2023-05-08 15:43:12 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NameError
+Message: uninitialized constant PBEffects::Digestion
+
+Backtrace:
+Battler_UseMoveTriggerEffects:77:in `pbEffectsOnMakingHit'
+Battler_UseMove:694:in `block in pbProcessMoveHit'
+Battler_UseMove:692:in `each'
+Battler_UseMove:692:in `pbProcessMoveHit'
+Battler_UseMove:415:in `block in pbUseMove'
+Battler_UseMove:413:in `times'
+Battler_UseMove:413:in `pbUseMove'
+Battler_UseMove:52:in `block in pbProcessTurn'
+PBDebug:6:in `logonerr'
+Battler_UseMove:51:in `pbProcessTurn'
+
+=================
+
+[2023-07-05 15:46:13 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NameError
+Message: undefined local variable or method `target' for #<Battle::Battler>
+
+Backtrace:
+Battler_ChangeSelf:184:in `pbCheckFormOnStatusChange'
+Battler_Statuses:256:in `pbInflictStatus'
+Battler_Statuses:595:in `pbDevoured'
+MoveEffects_BattlerOther:1388:in `pbEffectAgainstTarget'
+Battler_UseMove:712:in `block in pbProcessMoveHit'
+Battler_UseMove:710:in `each'
+Battler_UseMove:710:in `pbProcessMoveHit'
+Battler_UseMove:415:in `block in pbUseMove'
+Battler_UseMove:413:in `times'
+Battler_UseMove:413:in `pbUseMove'
+
+=================
+
+[2023-07-05 15:46:37 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NameError
+Message: undefined local variable or method `target' for #<Battle::Battler>
+
+Backtrace:
+Battler_ChangeSelf:184:in `pbCheckFormOnStatusChange'
+Battler_Statuses:256:in `pbInflictStatus'
+Battler_Statuses:595:in `pbDevoured'
+MoveEffects_BattlerOther:1388:in `pbEffectAgainstTarget'
+Battler_UseMove:712:in `block in pbProcessMoveHit'
+Battler_UseMove:710:in `each'
+Battler_UseMove:710:in `pbProcessMoveHit'
+Battler_UseMove:415:in `block in pbUseMove'
+Battler_UseMove:413:in `times'
+Battler_UseMove:413:in `pbUseMove'
+
+=================
+
+[2023-07-05 16:46:15 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `NONE?' for #<Battle::Battler>
+
+Backtrace:
+Battler_ChangeSelf:241:in `pbCheckUserFormOnStatusChange'
+Battler_Statuses:257:in `pbInflictStatus'
+Battler_Statuses:595:in `pbDevoured'
+MoveEffects_BattlerOther:1388:in `pbEffectAgainstTarget'
+Battler_UseMove:712:in `block in pbProcessMoveHit'
+Battler_UseMove:710:in `each'
+Battler_UseMove:710:in `pbProcessMoveHit'
+Battler_UseMove:415:in `block in pbUseMove'
+Battler_UseMove:413:in `times'
+Battler_UseMove:413:in `pbUseMove'
+
+=================
+
+[2023-07-05 17:22:07 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: ArgumentError
+Message: wrong number of arguments (given 1, expected 2)
+
+Backtrace:
+Battler_ChangeSelf:155:in `pbChangeForm'
+Battler_ChangeSelf:189:in `pbCheckUserFormOnStatusChange'
+Battler_Statuses:257:in `pbInflictStatus'
+Battler_Statuses:595:in `pbDevoured'
+MoveEffects_BattlerOther:1388:in `pbEffectAgainstTarget'
+Battler_UseMove:712:in `block in pbProcessMoveHit'
+Battler_UseMove:710:in `each'
+Battler_UseMove:710:in `pbProcessMoveHit'
+Battler_UseMove:415:in `block in pbUseMove'
+Battler_UseMove:413:in `times'
+
+=================
+
+[2023-07-07 21:59:24 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: TypeError
+Message: no implicit conversion from nil to integer
+
+Backtrace:
+Debug_BattlePkmnCommands:510:in `block in <main>'
+Event_HandlerCollections:121:in `call'
+Debug_Menus:398:in `block in pbBattlePokemonDebug'
+Debug_Menus:373:in `loop'
+Debug_Menus:373:in `pbBattlePokemonDebug'
+Debug_BattleCommands:51:in `block (2 levels) in <main>'
+Debug_BattleCommands:48:in `loop'
+Debug_BattleCommands:48:in `block in <main>'
+Event_HandlerCollections:121:in `call'
+Debug_Menus:251:in `block in pbBattleDebug'
+
+=================
+
+[2023-07-09 13:27:36 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: Errno::ENOENT
+Message: File Data/Map044.rxdata not found.
+
+Backtrace:
+[v20.1 Hotfixes] Misc bug fixes.rb:799:in `load_data'
+[v20.1 Hotfixes] Misc bug fixes.rb:799:in `autofade'
+Scene_Map:68:in `transfer_player'
+Scene_Map:166:in `block in update'
+Scene_Map:159:in `loop'
+Scene_Map:159:in `update'
+[v20.1 Hotfixes] Overworld bug fixes.rb:28:in `block in main'
+[v20.1 Hotfixes] Overworld bug fixes.rb:25:in `loop'
+[v20.1 Hotfixes] Overworld bug fixes.rb:25:in `main'
+Main:35:in `mainFunctionDebug'
+
+=================
+
+[2023-07-09 20:46:44 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: TypeError
+Message: no implicit conversion from nil to integer
+
+Backtrace:
+Debug_BattlePkmnCommands:510:in `block in <main>'
+Event_HandlerCollections:121:in `call'
+Debug_Menus:398:in `block in pbBattlePokemonDebug'
+Debug_Menus:373:in `loop'
+Debug_Menus:373:in `pbBattlePokemonDebug'
+Debug_BattleCommands:51:in `block (2 levels) in <main>'
+Debug_BattleCommands:48:in `loop'
+Debug_BattleCommands:48:in `block in <main>'
+Event_HandlerCollections:121:in `call'
+Debug_Menus:251:in `block in pbBattleDebug'
