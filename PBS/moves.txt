@@ -5331,7 +5331,7 @@ Category = Status
 Accuracy = 90
 TotalPP = 20 
 Target = NearOther
-FunctionCode = DevourTarget
+FunctionCode = StartDigestionWeather
 Flags = CanProtect,CanMirrorMove,TrapTargetInBattle
 Description = The user swallows their prey whole.
 #-------------------------------
