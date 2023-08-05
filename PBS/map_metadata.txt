@@ -40,12 +40,12 @@ MapSize = 2,11
 #-------------------------------
 [008]   # BlueDoorHouse
 Name = Villi City
-MapPosition = 0,13,12
+MapPosition = 0,13,10
 #-------------------------------
 [009]   # BrownDoorHouse
 Name = Villi City
 HealingSpot = 8,17,11
-MapPosition = 0,14,10
+MapPosition = 0,13,10
 #-------------------------------
 [010]   # Purple House
 Name = Villi City
@@ -133,13 +133,13 @@ MapPosition = 0,15,8
 Name = Joily's Cage
 Outdoor = true
 ShowArea = true
-MapPosition = 0,15,8
+MapPosition = 0,13,12
 #-------------------------------
 [028]   # Joily's House Basement
 Name = Joily's Basement
 Outdoor = false
 ShowArea = false
-MapPosition = 0,16,8
+MapPosition = 0,13,12
 BattleBack = field
 Flags = MossRock
 #-------------------------------
@@ -153,13 +153,13 @@ Name = Sphinc Town
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 0,16,8
+MapPosition = 0,11,6
 #-------------------------------
 [031]   # Gurgol City
 Name = Gurgol City
 Outdoor = true
 ShowArea = true
-MapPosition = 0,14,6
+MapPosition = 0,17,10
 BattleBack = field
 MapSize = 2,1101
 #-------------------------------
@@ -167,6 +167,7 @@ MapSize = 2,1101
 Name = Route 2
 Outdoor = true
 ShowArea = true
+MapPosition = 0,11,10
 WildBattleBGM = Battle Gym Leader.mid
 WildVictoryBGM = Battle victory leader.ogg
 #-------------------------------
@@ -174,13 +175,14 @@ WildVictoryBGM = Battle victory leader.ogg
 Name = Gutte City
 Outdoor = true
 ShowArea = true
+MapPosition = 0,17,3
 #-------------------------------
 [034]   # Route 3
 Name = Route 3
 Outdoor = true
 ShowArea = true
 Bicycle = true
-MapPosition = 0,15,6
+MapPosition = 0,14,6
 BattleBack = cave1
 Environment = Cave
 Flags = IceRock
@@ -189,14 +191,14 @@ Flags = IceRock
 Name = Route 4
 Outdoor = true
 ShowArea = true
-MapPosition = 0,13,6
+MapPosition = 0,17,7
 #-------------------------------
 [036]   # Vellus Forest
 Name = Vellus Forest
 Outdoor = true
 HealingSpot = 35,17,7
 Weather = Fog,100
-MapPosition = 0,13,6
+MapPosition = 0,18,6
 #-------------------------------
 [037]   # Extended Route
 Name = Ingido Plateau
@@ -213,7 +215,7 @@ Flags = DisableBoxLink
 Name = Route 4
 Outdoor = true
 ShowArea = true
-MapPosition = 0,11,6
+MapPosition = 0,24,12
 BattleBack = field
 MapSize = 2,11
 #-------------------------------
@@ -222,15 +224,19 @@ Name = Route 4
 Outdoor = true
 ShowArea = true
 BicycleAlways = true
-MapPosition = 0,11,6
+MapPosition = 0,13,15
 #-------------------------------
 [041]   # Late Route
 Name = Route 5
 Outdoor = true
 ShowArea = true
 BicycleAlways = true
-MapPosition = 0,11,7
+MapPosition = 0,13,13
 MapSize = 1,111
+#-------------------------------
+[043]   # Gullut Gym
+Name = Gullut Gym
+MapPosition = 0,13,10
 #-------------------------------
 [044]   # Em House
 Name = Route 6
@@ -263,10 +269,14 @@ BattleBack = rocky
 MapSize = 2,11
 Environment = Rock
 #-------------------------------
-[049]
+[048]   # Sphinc Museum
+Name = Sphinc Museum
+MapPosition = 0,11,6
+#-------------------------------
+[049]   # Ruins
 Name = Route 7
 Bicycle = true
-MapPosition = 0,16,10
+MapPosition = 0,11,6
 BattleBack = cave1
 Environment = Cave
 Flags = Magnetic,DistortionWorld

@@ -549,3 +549,28 @@ Interpreter:90:in `loop'
 Interpreter:90:in `update'
 Scene_Map:160:in `block in update'
 Scene_Map:159:in `loop'
+
+=================
+
+[2023-08-04 15:43:06 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 9 (coords 7,4), map 3 (Plum's Laboratory)
+Exception: NoMethodError
+Message: undefined method `pokegear=' for #<Player Pokémon Trainer Joily @party=[:AIPOM]>
+
+***Full script:
+$Trainer.pokegear=true
+
+Backtrace:
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+Scene_Map:159:in `loop'
