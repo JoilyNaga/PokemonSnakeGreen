@@ -3,19 +3,19 @@
 [NORMAL]
 Name = Normal
 IconPosition = 0
-Weaknesses = FIGHTING
+Weaknesses = FIGHTING,LAMIA
 Immunities = GHOST
 #-------------------------------
 [FIGHTING]
 Name = Fighting
 IconPosition = 1
-Weaknesses = FLYING,PSYCHIC,FAIRY
+Weaknesses = FLYING,PSYCHIC,FAIRY,LAMIA
 Resistances = ROCK,BUG,DARK
 #-------------------------------
 [FLYING]
 Name = Flying
 IconPosition = 2
-Weaknesses = ROCK,ELECTRIC,ICE
+Weaknesses = ROCK,ELECTRIC,ICE,SNACK
 Resistances = FIGHTING,BUG,GRASS
 Immunities = GROUND
 #-------------------------------
@@ -109,14 +109,14 @@ Resistances = ICE
 Name = Dragon
 IconPosition = 16
 IsSpecialType = true
-Weaknesses = ICE,DRAGON,FAIRY
+Weaknesses = ICE,DRAGON,FAIRY,SNACK
 Resistances = FIRE,WATER,GRASS,ELECTRIC
 #-------------------------------
 [DARK]
 Name = Dark
 IconPosition = 17
 IsSpecialType = true
-Weaknesses = FIGHTING,BUG,FAIRY
+Weaknesses = FIGHTING,BUG,FAIRY,SNACK
 Resistances = GHOST,DARK
 Immunities = PSYCHIC
 #-------------------------------
@@ -127,3 +127,15 @@ IsSpecialType = true
 Weaknesses = POISON,STEEL
 Resistances = FIGHTING,BUG,DARK
 Immunities = DRAGON
+#-------------------------------
+[SNACK]
+Name = Snack
+IconPosition = 19
+Weaknesses = POISON,STEEL,ICE,LAMIA
+Resistances = DARK,FAIRY,ELECTRIC
+#-------------------------------
+[LAMIA]
+Name = Lamia
+IconPosition = 20
+Weaknesses = ICE,GROUND,ELECTRIC
+Resistances = FIRE,GRASS,FAIRY

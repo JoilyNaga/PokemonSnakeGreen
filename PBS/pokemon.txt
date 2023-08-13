@@ -1503,58 +1503,6 @@ Category = Pig Monkey
 Pokedex = When it becomes furious, its blood circulation becomes more robust, and its muscles are made stronger. But it also becomes much less intelligent.
 Generation = 1
 #-------------------------------
-[GROWLITHE]
-Name = Growlithe
-Types = FIRE
-BaseStats = 55,70,45,60,70,50
-GenderRatio = Female25Percent
-GrowthRate = Slow
-BaseExp = 70
-EVs = ATTACK,1
-CatchRate = 190
-Happiness = 50
-Abilities = INTIMIDATE,FLASHFIRE
-HiddenAbilities = JUSTIFIED
-Moves = 1,EMBER,1,LEER,4,HOWL,8,BITE,12,FLAMEWHEEL,16,HELPINGHAND,20,AGILITY,24,FIREFANG,28,RETALIATE,32,CRUNCH,36,TAKEDOWN,40,FLAMETHROWER,44,ROAR,48,PLAYROUGH,52,REVERSAL,56,FLAREBLITZ
-TutorMoves = AERIALACE,AGILITY,ATTRACT,BODYSLAM,CLOSECOMBAT,CRUNCH,DIG,DOUBLETEAM,ENDURE,FACADE,FIREBLAST,FIREFANG,FIRESPIN,FLAMETHROWER,FLAREBLITZ,HEATWAVE,HELPINGHAND,HIDDENPOWER,IRONTAIL,OUTRAGE,OVERHEAT,PLAYROUGH,PROTECT,PSYCHICFANGS,REST,RETALIATE,REVERSAL,ROAR,ROCKSMASH,ROUND,SAFEGUARD,SLEEPTALK,SNARL,SNORE,STRENGTH,SUBSTITUTE,SUNNYDAY,SWAGGER,SWIFT,THIEF,WILDCHARGE,WILLOWISP
-EggMoves = BODYSLAM,BURNUP,CLOSECOMBAT,COVET,CRUNCH,DOUBLEEDGE,DOUBLEKICK,FIRESPIN,FLAREBLITZ,HEATWAVE,HOWL,MORNINGSUN,THRASH
-EggGroups = Field
-HatchSteps = 5120
-Height = 0.7
-Weight = 19.0
-Color = Brown
-Shape = Quadruped
-Habitat = Grassland
-Category = Puppy
-Pokedex = Its superb sense of smell ensures that this Pokémon won't forget any scent, no matter what. It uses its sense of smell to detect the emotions of others.
-Generation = 1
-Evolutions = ARCANINE,Item,FIRESTONE
-#-------------------------------
-[ARCANINE]
-Name = Bryst
-Types = WATER,FAIRY
-BaseStats = 90,110,80,95,100,80
-GenderRatio = AlwaysFemale
-GrowthRate = Slow
-BaseExp = 194
-EVs = ATTACK,2
-CatchRate = 75
-Happiness = 50
-Abilities = OBLIVIOUS
-HiddenAbilities = JUSTIFIED
-Moves = 1,DEVOUR
-TutorMoves = AERIALACE,AGILITY,ATTRACT,BODYSLAM,BULLDOZE,CLOSECOMBAT,CRUNCH,DIG,DOUBLETEAM,DRAGONPULSE,ENDURE,FACADE,FIREBLAST,FIREFANG,FIRESPIN,FLAMETHROWER,FLAREBLITZ,GIGAIMPACT,HEATWAVE,HELPINGHAND,HIDDENPOWER,HYPERBEAM,HYPERVOICE,IRONHEAD,IRONTAIL,OUTRAGE,OVERHEAT,PLAYROUGH,PROTECT,PSYCHICFANGS,REST,RETALIATE,REVERSAL,ROAR,ROCKCLIMB,ROCKSMASH,ROUND,SAFEGUARD,SCARYFACE,SCORCHINGSANDS,SLEEPTALK,SNARL,SNORE,SOLARBEAM,STRENGTH,SUBSTITUTE,SUNNYDAY,SWAGGER,SWIFT,THIEF,THUNDERFANG,WILDCHARGE,WILLOWISP
-EggGroups = Field
-HatchSteps = 5120
-Height = 1.9
-Weight = 155.0
-Color = Brown
-Shape = Quadruped
-Habitat = Grassland
-Category = Legendary
-Pokedex = This fleet-footed Pokémon is said to run over 6,200 miles in a single day and night. The fire that blazes wildly within its body is its source of power.
-Generation = 1
-#-------------------------------
 [POLIWAG]
 Name = Poliwag
 Types = WATER
@@ -1634,31 +1582,6 @@ Category = Tadpole
 Pokedex = Its highly developed muscles never grow fatigued, however much it exercises. This Pokémon can swim back and forth across the Pacific Ocean without effort.
 Generation = 1
 WildItemUncommon = KINGSROCK
-#-------------------------------
-[ABRA]
-Name = Synopse
-Types = FIGHTING
-BaseStats = 25,20,15,90,105,55
-GenderRatio = AlwaysFemale
-GrowthRate = Fast
-BaseExp = 30
-EVs = SPECIAL_ATTACK,1
-CatchRate = 200
-Happiness = 50
-Abilities = CAPTIVEGUTS
-Moves = 1,DEVOUR
-TutorMoves = ALLYSWITCH,ATTRACT,BODYSLAM,CALMMIND,CHARGEBEAM,DAZZLINGGLEAM,DOUBLETEAM,DRAINPUNCH,DREAMEATER,ENCORE,ENDURE,ENERGYBALL,FACADE,FIREPUNCH,FLASH,FLING,FOCUSPUNCH,FOULPLAY,GRASSKNOT,GUARDSWAP,HIDDENPOWER,ICEPUNCH,IRONTAIL,LIGHTSCREEN,MAGICROOM,MEGAKICK,MEGAPUNCH,METRONOME,POWERSWAP,PROTECT,PSYCHIC,PSYCHICTERRAIN,PSYCHUP,PSYSHOCK,RAINDANCE,RECYCLE,REFLECT,REST,ROUND,SAFEGUARD,SHADOWBALL,SHOCKWAVE,SKILLSWAP,SLEEPTALK,SNORE,SPEEDSWAP,SUBSTITUTE,SUNNYDAY,SWAGGER,SWIFT,TAUNT,THIEF,THUNDERPUNCH,THUNDERWAVE,TORMENT,TRIATTACK,TRICK,TRICKROOM,WONDERROOM,ZENHEADBUTT
-EggMoves = ALLYSWITCH,CONFUSION,ENCORE,FIREPUNCH,GUARDSPLIT,GUARDSWAP,ICEPUNCH,KNOCKOFF,MAGICCOAT,POWERTRICK,PSYCHOSHIFT,THUNDERPUNCH
-EggGroups = Humanlike
-HatchSteps = 5120
-Height = 0.9
-Weight = 19.5
-Color = Green
-Shape = Serpentine
-Habitat = Urban
-Category = Brutal Leader
-Pokedex = A Pokémon that sleeps 18 hours a day. Observation revealed that it uses Teleport to change its location once every hour.
-Generation = 1
 #-------------------------------
 [KADABRA]
 Name = Kadabra
@@ -4977,32 +4900,6 @@ Shape = BipedalTail
 Habitat = Grassland
 Category = Cottonweed
 Pokedex = Jumpluff ride warm southern winds to cross the sea and fly to foreign lands. This Pokémon lands when it encounters cold air while it is floating.
-Generation = 2
-#-------------------------------
-[AIPOM]
-Name = Joily
-Types = NORMAL
-BaseStats = 85,150,95,120,95,95
-GenderRatio = AlwaysFemale
-GrowthRate = Slow
-BaseExp = 72
-EVs = 
-CatchRate = 45
-Happiness = 50
-Abilities = HUNGRYFORNOODLES
-Moves = 1,TAILWHIP,1,TACKLE,1,FAINT,1,CONSTRICT
-TutorMoves = BABYDOLLEYES,BITE,BOUNCE,CHARM,CLOSECOMBAT,CRUNCH,DIG,FAINT,FALSESURRENDER,HEADCHARGE,HYPERFANG,IRONTAIL,KARATECHOP,LOVELYKISS,PLAYROUGH,POISONFANG,PROTECT,ROLEPLAY,SKULLBASH,SPLASH,STOMPINGTANTRUM,SUPERFANG,THRASH,WRAP
-EggMoves = AGILITY,BEATUP,BOUNCE,COUNTER,COVET,FAKEOUT,QUICKGUARD,REVENGE,SCREECH,SLAM,SPITE,SWITCHEROO
-EggGroups = Field
-HatchSteps = 5120
-Height = 0.8
-Weight = 11.5
-Color = Purple
-Shape = Serpentine
-Habitat = Forest
-Category = Long Tail
-Pokedex = The runt of the litter, Joily was almost executed in her tribe for being too small and weak.
-FormName = Snake
 Generation = 2
 #-------------------------------
 [SUNKERN]
@@ -9438,7 +9335,7 @@ Generation = 3
 WildItemUncommon = CLEANSETAG
 #-------------------------------
 [ABSOL]
-Name = Hilda
+Name = Absol
 Types = DARK,FIGHTING
 BaseStats = 65,130,60,75,75,60
 GenderRatio = AlwaysFemale
@@ -12025,7 +11922,7 @@ Evolutions = ABOMASNOW,Level,40
 #-------------------------------
 [ABOMASNOW]
 Name = Hungry Gal
-Types = NORMAL,DARK
+Types = GRASS,ICE
 BaseStats = 90,92,75,250,92,85
 GenderRatio = AlwaysFemale
 GrowthRate = Slow
@@ -15198,30 +15095,6 @@ Shape = Quadruped
 Category = Season
 Pokedex = The plants growing on its horns change according to the season. The leaders of the herd possess magnificent horns.
 FormName = Spring Form
-Generation = 5
-#-------------------------------
-[EMOLGA]
-Name = Lyra
-Types = POISON
-BaseStats = 75,85,90,75,75,65
-GenderRatio = AlwaysFemale
-GrowthRate = Medium
-BaseExp = 150
-EVs = SPEED,2
-CatchRate = 200
-Happiness = 50
-Abilities = CAPTIVEGUTS
-Moves = 1,DEVOUR
-TutorMoves = ACROBATICS,AGILITY,AIRSLASH,ATTRACT,BATONPASS,CHARM,DUALWINGBEAT,EERIEIMPULSE,ELECTROBALL,ELECTROWEB,ENCORE,ENDURE,ENERGYBALL,FACADE,FLING,HELPINGHAND,HIDDENPOWER,IRONTAIL,LIGHTSCREEN,PROTECT,RAINDANCE,REST,RISINGVOLTAGE,ROUND,SLEEPTALK,SNORE,SOLARBEAM,SPEEDSWAP,SUBSTITUTE,SWIFT,TAUNT,THUNDER,THUNDERBOLT,THUNDERWAVE,UTURN,VOLTSWITCH,WILDCHARGE
-EggMoves = ASTONISH,COVET,DEFOG,ROOST,SHOCKWAVE,TICKLE
-EggGroups = Field
-HatchSteps = 5120
-Height = 0.4
-Weight = 5.0
-Color = White
-Shape = Serpentine
-Category = Wild Forest Lamia
-Pokedex = They live on treetops and glide using the inside of a cape-like membrane while discharging electricity.
 Generation = 5
 #-------------------------------
 [KARRABLAST]
@@ -22978,3 +22851,177 @@ Shape = Bipedal
 Category = King
 Pokedex = Calyrex is a merciful Pokémon, capable of providing healing and blessings. It reigned over the Galar region in times of yore.
 Generation = 8
+#-------------------------------
+[JOILY]
+Name = Joily
+Types = SNACK,LAMIA
+BaseStats = 85,150,95,120,95,95
+GenderRatio = AlwaysFemale
+GrowthRate = Medium
+BaseExp = 72
+EVs = 
+CatchRate = 45
+Happiness = 50
+Abilities = ESCAPEPLAN
+Moves = 1,TAILWHIP,1,TACKLE,1,FAINT,1,CONSTRICT
+TutorMoves = BABYDOLLEYES,BITE,BOUNCE,CHARM,CLOSECOMBAT,CRUNCH,DIG,FAINT,FALSESURRENDER,HEADCHARGE,HYPERFANG,IRONTAIL,KARATECHOP,LOVELYKISS,PLAYROUGH,POISONFANG,PROTECT,ROLEPLAY,SKULLBASH,SPLASH,STOMPINGTANTRUM,SUPERFANG,THRASH,WRAP
+EggMoves = AGILITY,BEATUP,BOUNCE,COUNTER,COVET,FAKEOUT,QUICKGUARD,REVENGE,SCREECH,SLAM,SPITE,SWITCHEROO
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.8
+Weight = 11.5
+Color = Purple
+Shape = Serpentine
+Habitat = Forest
+Category = Long Tail
+Pokedex = The runt of the litter, Joily was almost executed in her tribe for being too small and weak.
+FormName = Snake
+Generation = 2
+#-------------------------------
+[LYRA]
+Name = Lyra
+Types = LAMIA,POISON
+BaseStats = 75,85,90,75,75,65
+GenderRatio = AlwaysFemale
+GrowthRate = Medium
+BaseExp = 150
+EVs = SPEED,2
+CatchRate = 200
+Happiness = 50
+Abilities = CAPTIVEGUTS
+Moves = 1,DEVOUR
+TutorMoves = ACROBATICS,AGILITY,AIRSLASH,ATTRACT,BATONPASS,CHARM,DUALWINGBEAT,EERIEIMPULSE,ELECTROBALL,ELECTROWEB,ENCORE,ENDURE,ENERGYBALL,FACADE,FLING,HELPINGHAND,HIDDENPOWER,IRONTAIL,LIGHTSCREEN,PROTECT,RAINDANCE,REST,RISINGVOLTAGE,ROUND,SLEEPTALK,SNORE,SOLARBEAM,SPEEDSWAP,SUBSTITUTE,SWIFT,TAUNT,THUNDER,THUNDERBOLT,THUNDERWAVE,UTURN,VOLTSWITCH,WILDCHARGE
+EggMoves = ASTONISH,COVET,DEFOG,ROOST,SHOCKWAVE,TICKLE
+EggGroups = Field
+HatchSteps = 5120
+Height = 0.4
+Weight = 5.0
+Color = White
+Shape = Serpentine
+Category = Wild Forest Lamia
+Pokedex = They live on treetops and glide using the inside of a cape-like membrane while discharging electricity.
+Generation = 5
+#-------------------------------
+[SYNOPSE]
+Name = Synopse
+Types = LAMIA,FIGHTING
+BaseStats = 25,20,15,90,105,55
+GenderRatio = AlwaysFemale
+GrowthRate = Fast
+BaseExp = 30
+EVs = SPECIAL_ATTACK,1
+CatchRate = 200
+Happiness = 50
+Abilities = CAPTIVEGUTS
+Moves = 1,DEVOUR
+TutorMoves = ALLYSWITCH,ATTRACT,BODYSLAM,CALMMIND,CHARGEBEAM,DAZZLINGGLEAM,DOUBLETEAM,DRAINPUNCH,DREAMEATER,ENCORE,ENDURE,ENERGYBALL,FACADE,FIREPUNCH,FLASH,FLING,FOCUSPUNCH,FOULPLAY,GRASSKNOT,GUARDSWAP,HIDDENPOWER,ICEPUNCH,IRONTAIL,LIGHTSCREEN,MAGICROOM,MEGAKICK,MEGAPUNCH,METRONOME,POWERSWAP,PROTECT,PSYCHIC,PSYCHICTERRAIN,PSYCHUP,PSYSHOCK,RAINDANCE,RECYCLE,REFLECT,REST,ROUND,SAFEGUARD,SHADOWBALL,SHOCKWAVE,SKILLSWAP,SLEEPTALK,SNORE,SPEEDSWAP,SUBSTITUTE,SUNNYDAY,SWAGGER,SWIFT,TAUNT,THIEF,THUNDERPUNCH,THUNDERWAVE,TORMENT,TRIATTACK,TRICK,TRICKROOM,WONDERROOM,ZENHEADBUTT
+EggMoves = ALLYSWITCH,CONFUSION,ENCORE,FIREPUNCH,GUARDSPLIT,GUARDSWAP,ICEPUNCH,KNOCKOFF,MAGICCOAT,POWERTRICK,PSYCHOSHIFT,THUNDERPUNCH
+EggGroups = Humanlike
+HatchSteps = 5120
+Height = 0.9
+Weight = 19.5
+Color = Green
+Shape = Serpentine
+Habitat = Urban
+Category = Brutal Leader
+Pokedex = A Pokémon that sleeps 18 hours a day. Observation revealed that it uses Teleport to change its location once every hour.
+Generation = 1
+#-------------------------------
+[HILDA]
+Name = Hilda
+Types = DARK,FIGHTING
+BaseStats = 65,130,60,75,75,60
+GenderRatio = AlwaysFemale
+GrowthRate = Parabolic
+BaseExp = 163
+EVs = ATTACK,2
+CatchRate = 30
+Happiness = 35
+Abilities = PRESSURE,SUPERLUCK
+HiddenAbilities = JUSTIFIED
+Moves = 1,DEVOUR
+TutorMoves = AERIALACE,AIRSLASH,ASSURANCE,ATTRACT,BATONPASS,BLIZZARD,BODYSLAM,BOUNCE,BRUTALSWING,CALMMIND,CHARGEBEAM,CLOSECOMBAT,CUT,DARKPULSE,DOUBLETEAM,DREAMEATER,ENDURE,FACADE,FALSESWIPE,FIREBLAST,FLAMETHROWER,FLASH,FOCUSENERGY,FOULPLAY,FUTURESIGHT,GIGAIMPACT,HAIL,HEX,HIDDENPOWER,HYPERBEAM,ICEBEAM,ICYWIND,IRONTAIL,MEGAHORN,PAYBACK,PLAYROUGH,PROTECT,PSYCHOCUT,PSYCHUP,RAINDANCE,REST,RETALIATE,ROCKSLIDE,ROCKSMASH,ROCKTOMB,ROUND,SANDSTORM,SHADOWBALL,SHADOWCLAW,SHOCKWAVE,SLEEPTALK,SNARL,SNORE,STONEEDGE,STRENGTH,SUBSTITUTE,SUNNYDAY,SUPERPOWER,SWAGGER,SWIFT,SWORDSDANCE,TAUNT,THIEF,THROATCHOP,THUNDER,THUNDERBOLT,THUNDERWAVE,TORMENT,WATERPULSE,WILLOWISP,XSCISSOR,ZENHEADBUTT
+EggMoves = ASSURANCE,BATONPASS,BITE,CURSE,DOUBLEEDGE,FEINT,HEX,MAGICCOAT,MEANLOOK,MEGAHORN,PERISHSONG,PLAYROUGH,SUCKERPUNCH,ZENHEADBUTT
+EggGroups = Field
+HatchSteps = 6400
+Height = 1.2
+Weight = 47.0
+Color = White
+Shape = Quadruped
+Habitat = Mountain
+Category = Disaster
+Pokedex = It sharply senses even subtle changes in the sky and the land to predict natural disasters. It is a long-lived Pokémon that has a life-span of 100 years.
+Generation = 3
+#-------------------------------
+[HUNGRYGAL]
+Name = Hungry Gal
+Types = NORMAL,DARK
+BaseStats = 90,92,75,250,92,85
+GenderRatio = AlwaysFemale
+GrowthRate = Slow
+BaseExp = 20
+EVs = ATTACK,1,SPECIAL_ATTACK,1
+CatchRate = 60
+Happiness = 50
+Abilities = CAPTIVEGUTS
+Moves = 1,DEVOUR
+TutorMoves = ATTRACT,AVALANCHE,BLIZZARD,BRICKBREAK,BULLDOZE,BULLETSEED,DOUBLETEAM,EARTHPOWER,EARTHQUAKE,ENDURE,ENERGYBALL,FACADE,FLASH,FLING,FOCUSBLAST,FOCUSPUNCH,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,HAIL,HIDDENPOWER,HYPERBEAM,ICEBEAM,ICEPUNCH,ICICLESPEAR,ICYWIND,IRONTAIL,LEAFSTORM,LIGHTSCREEN,MAGICALLEAF,MEGAKICK,MEGAPUNCH,OUTRAGE,PROTECT,RAINDANCE,REST,ROCKCLIMB,ROCKSLIDE,ROCKSMASH,ROCKTOMB,ROUND,SAFEGUARD,SEEDBOMB,SHADOWBALL,SLEEPTALK,SNORE,SOLARBEAM,STOMPINGTANTRUM,STRENGTH,SUBSTITUTE,SWAGGER,SWORDSDANCE,WATERPULSE,WEATHERBALL
+EggGroups = Monster,Grass
+HatchSteps = 5120
+Height = 2.2
+Weight = 135.5
+Color = White
+Shape = BipedalTail
+Category = Hunger
+Pokedex = It whips up blizzards in mountains that are always buried in snow. It is the abominable snowman.
+Generation = 4
+#-------------------------------
+[GRUNTLADY]
+Name = Grunt
+Types = DARK
+BaseStats = 114,85,70,30,85,80
+GenderRatio = AlwaysFemale
+GrowthRate = Medium
+BaseExp = 162
+EVs = HP,2
+CatchRate = 75
+Happiness = 50
+Abilities = CAPTIVEGUTS
+Moves = 1,DEVOUR
+TutorMoves = ATTRACT,BODYSLAM,ENDURE,ENERGYBALL,FACADE,FOULPLAY,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYTERRAIN,HEX,HIDDENPOWER,HYPERBEAM,PAYBACK,POLLENPUFF,PROTECT,RAINDANCE,REST,ROUND,SEEDBOMB,SLEEPTALK,SLUDGEBOMB,SNORE,SOLARBEAM,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,VENOSHOCK
+EggGroups = Grass
+HatchSteps = 5120
+Height = 0.6
+Weight = 10.5
+Color = White
+Shape = HeadArms
+Category = Voracious Rocket
+Pokedex = They show off their Poké Ball caps to lure prey, but very few Pokémon are fooled by this.
+Generation = 5
+WildItemCommon = TINYMUSHROOM
+WildItemUncommon = BIGMUSHROOM
+#-------------------------------
+[BRYST]
+Name = Bryst
+Types = WATER,FAIRY
+BaseStats = 90,110,80,95,100,80
+GenderRatio = AlwaysFemale
+GrowthRate = Slow
+BaseExp = 194
+EVs = ATTACK,2
+CatchRate = 75
+Happiness = 50
+Abilities = OBLIVIOUS
+HiddenAbilities = JUSTIFIED
+Moves = 1,DEVOUR
+TutorMoves = AERIALACE,AGILITY,ATTRACT,BODYSLAM,BULLDOZE,CLOSECOMBAT,CRUNCH,DIG,DOUBLETEAM,DRAGONPULSE,ENDURE,FACADE,FIREBLAST,FIREFANG,FIRESPIN,FLAMETHROWER,FLAREBLITZ,GIGAIMPACT,HEATWAVE,HELPINGHAND,HIDDENPOWER,HYPERBEAM,HYPERVOICE,IRONHEAD,IRONTAIL,OUTRAGE,OVERHEAT,PLAYROUGH,PROTECT,PSYCHICFANGS,REST,RETALIATE,REVERSAL,ROAR,ROCKCLIMB,ROCKSMASH,ROUND,SAFEGUARD,SCARYFACE,SCORCHINGSANDS,SLEEPTALK,SNARL,SNORE,SOLARBEAM,STRENGTH,SUBSTITUTE,SUNNYDAY,SWAGGER,SWIFT,THIEF,THUNDERFANG,WILDCHARGE,WILLOWISP
+EggGroups = Field
+HatchSteps = 5120
+Height = 1.9
+Weight = 155.0
+Color = Brown
+Shape = Quadruped
+Habitat = Grassland
+Category = Legendary
+Pokedex = This fleet-footed Pokémon is said to run over 6,200 miles in a single day and night. The fire that blazes wildly within its body is its source of power.
+Generation = 1

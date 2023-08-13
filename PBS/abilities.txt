@@ -1082,3 +1082,7 @@ Description = Hungry for Joily
 [DANGERZONE]
 Name = Danger Zone
 Description = Can Keep Joily Contained
+#-------------------------------
+[ESCAPEPLAN]
+Name = Escape Plan
+Description = Raises Attack in Stomachs

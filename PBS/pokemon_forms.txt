@@ -747,7 +747,7 @@ Weight = 62.5
 Pokedex = A tremendous influx of energy builds it up, but when Mega Evolution ends, Heracross is bothered by terrible soreness in its muscles.
 Generation = 6
 #-------------------------------
-[AIPOM,1]
+[JOILY,1]
 FormName = Eaten Joily
 BaseStats = 85,150,95,120,95,95
 BaseExp = 210
