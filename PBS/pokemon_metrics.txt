@@ -368,9 +368,9 @@ ShadowSize = 3
 #-------------------------------
 [SYNOPSE]
 BackSprite = 3,0
-FrontSprite = -1,18
+FrontSprite = 1,16
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 3
 #-------------------------------
 [KADABRA]
 BackSprite = 2,0
@@ -1136,9 +1136,15 @@ ShadowSize = 1
 #-------------------------------
 [JOILY]
 BackSprite = 3,0
-FrontSprite = 0,15
+FrontSprite = -3,7
 ShadowX = 0
 ShadowSize = 1
+#-------------------------------
+[JOILY,1]
+BackSprite = 3,0
+FrontSprite = 0,15
+ShadowX = 0
+ShadowSize = 0
 #-------------------------------
 [SUNKERN]
 BackSprite = 3,0
@@ -3614,9 +3620,9 @@ ShadowSize = 2
 #-------------------------------
 [LYRA]
 BackSprite = -4,0
-FrontSprite = 9,11
+FrontSprite = 9,13
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 3
 #-------------------------------
 [LYRA,1]
 BackSprite = -4,0
@@ -4052,6 +4058,66 @@ ShadowSize = 3
 #-------------------------------
 [HILDA]
 BackSprite = -5,0
-FrontSprite = -1,17
+FrontSprite = -4,12
 ShadowX = 0
 ShadowSize = 3
+#-------------------------------
+[KELLY]
+BackSprite = 0,0
+FrontSprite = 0,7
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[MOON]
+BackSprite = 0,0
+FrontSprite = 1,8
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[EM]
+BackSprite = 0,0
+FrontSprite = 0,6
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[GASTRICGRUNTNB]
+BackSprite = 0,0
+FrontSprite = 0,9
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[GASTRICGRUNT]
+BackSprite = 0,0
+FrontSprite = -3,5
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[GASTRICGRUNTF]
+BackSprite = 0,0
+FrontSprite = 0,11
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[HUNGRYGAL]
+BackSprite = 0,0
+FrontSprite = 3,5
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[ROXXIE]
+BackSprite = 0,0
+FrontSprite = 1,9
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[ROCKETGRUNT]
+BackSprite = 0,0
+FrontSprite = 0,7
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[ROCKETGRUNT,1]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2

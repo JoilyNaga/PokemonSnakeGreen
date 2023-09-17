@@ -574,3 +574,477 @@ Interpreter:90:in `loop'
 Interpreter:90:in `update'
 Scene_Map:160:in `block in update'
 Scene_Map:159:in `loop'
+
+=================
+
+[2023-08-14 12:58:23 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined species constant name: GRUNTLADY
+Make sure the species is defined in PBS/pokemon.txt.
+File PBS/regional_dexes.txt, line 14
+GRUNTLADY
+
+
+
+Backtrace:
+Compiler:669:in `parseSpecies'
+Compiler_CompilePBS:1149:in `block (2 levels) in compile_regional_dexes'
+Compiler_CompilePBS:1147:in `each'
+Compiler_CompilePBS:1147:in `block in compile_regional_dexes'
+Compiler:242:in `block (2 levels) in pbCompilerEachPreppedLine'
+Compiler:234:in `each_line'
+Compiler:234:in `block in pbCompilerEachPreppedLine'
+Compiler:231:in `open'
+Compiler:231:in `pbCompilerEachPreppedLine'
+Compiler_CompilePBS:1136:in `compile_regional_dexes'
+
+=================
+
+[2023-08-14 14:37:52 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined species constant name: GRUNTLADY
+Make sure the species is defined in PBS/pokemon.txt.
+File PBS/regional_dexes.txt, line 14
+GRUNTLADY
+
+
+
+Backtrace:
+Compiler:669:in `parseSpecies'
+Compiler_CompilePBS:1149:in `block (2 levels) in compile_regional_dexes'
+Compiler_CompilePBS:1147:in `each'
+Compiler_CompilePBS:1147:in `block in compile_regional_dexes'
+Compiler:242:in `block (2 levels) in pbCompilerEachPreppedLine'
+Compiler:234:in `each_line'
+Compiler:234:in `block in pbCompilerEachPreppedLine'
+Compiler:231:in `open'
+Compiler:231:in `pbCompilerEachPreppedLine'
+Compiler_CompilePBS:1136:in `compile_regional_dexes'
+
+=================
+
+[2023-08-28 12:03:54 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 9 (coords 7,4), map 3 (Plum's Laboratory)
+Exception: SyntaxError
+Message: (eval):3: unterminated string meets end of file
+colorQuest("purple"), true)
+                           ^
+(eval):3: syntax error, unexpected end-of-input, expecting ')'
+colorQuest("purple"), true)
+                           ^
+
+
+***Full script:
+pbAddPokemonSilent(:AIPOM, 5)
+activateQuest(Get Plum's Letter, 
+colorQuest("purple"), true)
+
+=================
+
+[2023-08-28 12:12:21 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 9 (coords 7,4), map 3 (Plum's Laboratory)
+Exception: SyntaxError
+Message: (eval):3: unterminated string meets end of file
+colorQuest("purple"))
+                     ^
+(eval):3: syntax error, unexpected end-of-input, expecting ')'
+colorQuest("purple"))
+                     ^
+
+
+***Full script:
+pbAddPokemonSilent(:AIPOM, 5)
+activateQuest(Get Plum's Letter, 
+colorQuest("purple"))
+
+=================
+
+[2023-08-28 12:18:06 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 9 (coords 7,4), map 3 (Plum's Laboratory)
+Exception: RuntimeError
+Message: Unknown ID AIPOM.
+
+***Full script:
+pbAddPokemonSilent(:AIPOM, 5)
+activateQuest(Quest1, 
+colorQuest("purple"), true)
+
+Backtrace:
+GameData:95:in `get'
+Pokemon:1154:in `initialize'
+Utilities_Pokemon:79:in `new'
+Utilities_Pokemon:79:in `pbAddPokemonSilent'
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+
+=================
+
+[2023-08-28 12:19:25 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 9 (coords 7,4), map 3 (Plum's Laboratory)
+Exception: RuntimeError
+Message: Unknown ID AIPOM.
+
+***Full script:
+pbAddPokemonSilent(:AIPOM, 5)
+
+Backtrace:
+GameData:95:in `get'
+Pokemon:1154:in `initialize'
+Utilities_Pokemon:79:in `new'
+Utilities_Pokemon:79:in `pbAddPokemonSilent'
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+
+=================
+
+[2023-08-28 12:20:10 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 9 (coords 7,4), map 3 (Plum's Laboratory)
+Exception: SyntaxError
+Message: (eval):2: syntax error, unexpected (, expecting ')'
+("purple"), true)
+^
+(eval):2: syntax error, unexpected ',', expecting end-of-input
+("purple"), true)
+          ^
+
+***Line '("purple"), true)' shouldn't begin with '('. Try putting the '('
+at the end of the previous line instead, or using 'extendtext.exe'.
+
+***Full script:
+activateQuest(Quest1, colorQuest
+("purple"), true)
+
+=================
+
+[2023-09-10 10:43:01 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 9 (coords 7,4), map 3 (Plum's Laboratory)
+Exception: SyntaxError
+Message: (eval):2: syntax error, unexpected (, expecting ')'
+("purple"), true)
+^
+(eval):2: syntax error, unexpected ',', expecting end-of-input
+("purple"), true)
+          ^
+
+***Line '("purple"), true)' shouldn't begin with '('. Try putting the '('
+at the end of the previous line instead, or using 'extendtext.exe'.
+
+***Full script:
+activateQuest(Quest1, colorQuest
+("purple"), true)
+
+=================
+
+[2023-09-10 11:09:13 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 9 (coords 7,4), map 3 (Plum's Laboratory)
+Exception: SyntaxError
+Message: (eval):2: syntax error, unexpected (, expecting ')'
+("purple"), true)
+^
+(eval):2: syntax error, unexpected ',', expecting end-of-input
+("purple"), true)
+          ^
+
+***Line '("purple"), true)' shouldn't begin with '('. Try putting the '('
+at the end of the previous line instead, or using 'extendtext.exe'.
+
+***Full script:
+activateQuest(Quest1, colorQuest
+("purple"), true)
+
+=================
+
+[2023-09-10 11:11:12 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 9 (coords 7,4), map 3 (Plum's Laboratory)
+Exception: SyntaxError
+Message: (eval):2: syntax error, unexpected string literal, expecting ')'
+"purple", true)
+^
+(eval):2: syntax error, unexpected ',', expecting end-of-input
+"purple", true)
+        ^
+
+
+***Full script:
+activateQuest(Quest1, colorQuest
+"purple", true)
+
+=================
+
+[2023-09-10 11:12:52 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 9 (coords 7,4), map 3 (Plum's Laboratory)
+Exception: SyntaxError
+Message: (eval):2: syntax error, unexpected (, expecting ')'
+("purple"), true)
+^
+(eval):2: syntax error, unexpected ',', expecting end-of-input
+("purple"), true)
+          ^
+
+***Line '("purple"), true)' shouldn't begin with '('. Try putting the '('
+at the end of the previous line instead, or using 'extendtext.exe'.
+
+***Full script:
+activateQuest(:Quest1, colorQuest
+("purple"), true)
+
+=================
+
+[2023-09-10 11:15:50 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 9 (coords 7,4), map 3 (Plum's Laboratory)
+Exception: SyntaxError
+Message: (eval):2: syntax error, unexpected (, expecting ')'
+("purple"), true)
+^
+(eval):2: syntax error, unexpected ',', expecting end-of-input
+("purple"), true)
+          ^
+
+***Line '("purple"), true)' shouldn't begin with '('. Try putting the '('
+at the end of the previous line instead, or using 'extendtext.exe'.
+
+***Full script:
+activateQuest(:Quest1, colorQuest
+("purple"), true)
+
+=================
+
+[2023-09-10 14:05:35 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Error in Plugin: [Modern Quest System + UI]
+Exception: SyntaxError
+Message: [Modern Quest System + UI] 004_Quest_Data.rb:37: syntax error, unexpected symbol literal, expecting '}'
+    :Location4 => "Gurgol City",
+    ^
+[Modern Quest System + UI] 004_Quest_Data.rb:38: syntax error, unexpected string literal, expecting local variable or method
+    :Location5 => "Villi City",
+                  ^
+[Modern Quest System + UI] 004_Quest_Data.rb:38: syntax error, unexpected ',', expecting `end'
+    :Location5 => "Villi City",
+                              ^
+[Modern Quest System + UI] 004_Quest_Data.rb:40: syntax error, unexpected string literal, expecting local variable or method
+    :Location7 => "Bowhul Town",
+                  ^
+[Modern Quest System + UI] 004_Quest_Data.rb:40: syntax error, unexpected ',', expecting `end'
+...   :Location7 => "Bowhul Town",
+...                              ^
+[Modern Quest System + UI] 004_Quest_Data.rb:42: syntax error, unexpected string literal, expecting local variable or method
+    :Location9 => "Champion's Chambers",
+                  ^
+[Modern Quest System + UI] 004_Quest_Data.rb:42: syntax error, unexpected ',', expecting `end'
+...tion9 => "Champion's Chambers",
+...                              ^
+[Modern Quest System + UI] 004_Quest_Data.rb:44: syntax error, unexpected string literal, expecting local variable or method
+  :StageLabel2 => "2",
+                  ^
+[Modern Quest System + UI] 004_Quest_Data.rb:44: syntax error, unexpected ',', expecting `end'
+  :StageLabel2 => "2",
+                     ^
+[Modern Quest System + UI] 004_Quest_Data.rb:46: syntax error, unexpected string literal, expecting local variable or method
+  :StageLabel4 => "4",
+                  ^
+[Modern Quest System + UI] 004_Quest_Data.rb:46: syntax error, unexpected ',', expecting `end'
+  :StageLabel4 => "4",
+                     ^
+[Modern Quest System + UI] 004_Quest_Data.rb:48: syntax error, unexpected string literal, expecting local variable or method
+  :StageLabel6 => "6",
+                  ^
+[Modern Quest System + UI] 004_Quest_Data.rb:48: syntax error, unexpected ',', expecting `end'
+  :StageLabel6 => "6",
+                     ^
+[Modern Quest System + UI] 004_Quest_Data.rb:50: syntax error, unexpected string literal, expecting local variable or method
+  :StageLabel8 => "8",
+                  ^
+[Modern Quest System + UI] 004_Quest_Data.rb:50: syntax error, unexpected ',', expecting `end'
+  :StageLabel8 => "8",
+                     ^
+[Modern Quest System + UI] 004_Quest_Data.rb:52: syntax error, unexpected string literal, expecting local variable or method
+    :QuestDescription => "Plum wants to research the ma...
+                         ^
+[Modern Quest System + UI] 004_Quest_Data.rb:52: syntax error, unexpected ',', expecting `end'
+... Leader and win their badges!",
+...                              ^
+[Modern Quest System + UI] 004_Quest_Data.rb:54: syntax error, unexpected '}', expecting `end'
+
+Backtrace:
+Section008:653:in `eval'
+Section008:653:in `block (2 levels) in runPlugins'
+Section008:643:in `each'
+Section008:643:in `block in runPlugins'
+Section008:634:in `each'
+Section008:634:in `runPlugins'
+Section386:28:in `mainFunctionDebug'
+Section386:18:in `block in mainFunction'
+Section014:80:in `pbCriticalCode'
+Section386:18:in `mainFunction'
+
+=================
+
+[2023-09-10 14:23:32 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 2 (coords 9,8), map 43 (Gullut Gym)
+Exception: NameError
+Message: undefined local variable or method `quest2' for #<Interpreter @event_id: 2>
+
+***Full script:
+advanceQuestToStage(quest2, stageNumber2)
+
+Backtrace:
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+Scene_Map:159:in `loop'
+
+=================
+
+[2023-09-10 14:27:12 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 2 (coords 9,8), map 43 (Gullut Gym)
+Exception: NameError
+Message: undefined local variable or method `stageNumber2' for #<Interpreter @event_id: 2>
+
+***Full script:
+advanceQuestToStage(:Quest2, stageNumber2)
+
+Backtrace:
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+Scene_Map:159:in `loop'
+
+=================
+
+[2023-09-10 14:33:31 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 2 (coords 9,8), map 43 (Gullut Gym)
+Exception: NameError
+Message: undefined local variable or method `stage2' for #<Interpreter @event_id: 2>
+
+***Full script:
+advanceQuestToStage(:Quest2, stage2)
+
+Backtrace:
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+Scene_Map:159:in `loop'
+
+=================
+
+[2023-09-10 14:39:37 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 2 (coords 9,8), map 43 (Gullut Gym)
+Exception: NameError
+Message: uninitialized constant Interpreter::Stage2
+
+***Full script:
+advanceQuestToStage(:Quest2,Stage2)
+
+Backtrace:
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+Scene_Map:159:in `loop'
+
+=================
+
+[2023-09-10 14:41:38 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 2 (coords 9,8), map 43 (Gullut Gym)
+Exception: ArgumentError
+Message: comparison of Symbol with 11 failed
+
+***Full script:
+advanceQuestToStage(:Quest2,:Stage2)
+
+Backtrace:
+[Modern Quest System + UI] 002_Quest_Main.rb:24:in `>'
+[Modern Quest System + UI] 002_Quest_Main.rb:24:in `stage='
+[Modern Quest System + UI] 002_Quest_Main.rb:153:in `block in advanceQuestToStage'
+[Modern Quest System + UI] 002_Quest_Main.rb:151:in `each'
+[Modern Quest System + UI] 002_Quest_Main.rb:151:in `advanceQuestToStage'
+[Modern Quest System + UI] 002_Quest_Main.rb:213:in `advanceQuestToStage'
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
