@@ -23202,3 +23202,27 @@ Category = Gastric Admin
 Pokedex = This fleet-footed Pokémon is said to run over 6,200 miles in a single day and night. The fire that blazes wildly within its body is its source of power.
 Generation = 1
 #-------------------------------
+[CAVEGIRL]
+Name = Cave Girl
+Types = NORMAL,GROUND
+BaseStats = 90,80,110,40,80,45
+GenderRatio = AlwaysFemale
+GrowthRate = Slow
+BaseExp = 194
+EVs = ATTACK,2
+CatchRate = 75
+Happiness = 50
+Abilities = BATTLEARMOR
+HiddenAbilities = ROCKHEAD
+Moves = 1,TACKLE
+TutorMoves = AERIALACE,AGILITY,ATTRACT,BODYSLAM,BULLDOZE,CLOSECOMBAT,CRUNCH,DIG,DOUBLETEAM,DRAGONPULSE,ENDURE,FACADE,FIREBLAST,FIREFANG,FIRESPIN,FLAMETHROWER,FLAREBLITZ,GIGAIMPACT,HEATWAVE,HELPINGHAND,HIDDENPOWER,HYPERBEAM,HYPERVOICE,IRONHEAD,IRONTAIL,OUTRAGE,OVERHEAT,PLAYROUGH,PROTECT,PSYCHICFANGS,REST,RETALIATE,REVERSAL,ROAR,ROCKCLIMB,ROCKSMASH,ROUND,SAFEGUARD,SCARYFACE,SCORCHINGSANDS,SLEEPTALK,SNARL,SNORE,SOLARBEAM,STRENGTH,SUBSTITUTE,SUNNYDAY,SWAGGER,SWIFT,THIEF,THUNDERFANG,WILDCHARGE,WILLOWISP
+EggGroups = Field
+HatchSteps = 5120
+Height = 1.9
+Weight = 90.0
+Color = White
+Shape = Bipedal
+Habitat = Grassland
+Category = Ancient
+Pokedex = This ancestor of modern day humans is smart enough to carry hand-made weaponry and is perhaps even more voracious than the people of today. 
+Generation = 1

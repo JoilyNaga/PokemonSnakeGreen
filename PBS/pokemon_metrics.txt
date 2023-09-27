@@ -4121,3 +4121,9 @@ BackSprite = 0,0
 FrontSprite = 0,0
 ShadowX = 0
 ShadowSize = 2
+#-------------------------------
+[CAVEGIRL]
+BackSprite = -5,0
+FrontSprite = -3,7
+ShadowX = 0
+ShadowSize = 3
