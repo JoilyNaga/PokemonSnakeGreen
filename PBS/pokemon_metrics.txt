@@ -818,7 +818,7 @@ ShadowSize = 2
 #-------------------------------
 [OMANYTE]
 BackSprite = 0,0
-FrontSprite = 2,25
+FrontSprite = 1,4
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -842,7 +842,7 @@ ShadowSize = 3
 #-------------------------------
 [AERODACTYL]
 BackSprite = -4,0
-FrontSprite = -3,14
+FrontSprite = 0,-7
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -4124,6 +4124,18 @@ ShadowSize = 2
 #-------------------------------
 [CAVEGIRL]
 BackSprite = -5,0
-FrontSprite = -3,7
+FrontSprite = 7,10
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[AURORUS]
+BackSprite = 0,0
+FrontSprite = 7,8
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[TYRANTRUM]
+BackSprite = 0,0
+FrontSprite = 5,8
 ShadowX = 0
 ShadowSize = 3
