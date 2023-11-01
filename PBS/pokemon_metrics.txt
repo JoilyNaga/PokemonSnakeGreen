@@ -2,19 +2,25 @@
 #-------------------------------
 [BULBASAUR]
 BackSprite = -4,0
-FrontSprite = -1,26
+FrontSprite = -1,3
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [IVYSAUR]
 BackSprite = -9,0
-FrontSprite = 2,22
+FrontSprite = 2,4
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
 [VENUSAUR]
 BackSprite = 1,0
-FrontSprite = 2,11
+FrontSprite = 2,12
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[VENUSAUR,1]
+BackSprite = 1,0
+FrontSprite = 2,6
 ShadowX = 0
 ShadowSize = 3
 #-------------------------------
@@ -62,7 +68,7 @@ ShadowSize = 1
 #-------------------------------
 [METAPOD]
 BackSprite = -1,0
-FrontSprite = -1,23
+FrontSprite = -1,3
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -518,7 +524,13 @@ ShadowSize = 3
 #-------------------------------
 [GRIMER]
 BackSprite = 3,0
-FrontSprite = -6,24
+FrontSprite = -6,5
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[GRIMER,1]
+BackSprite = 3,0
+FrontSprite = -6,6
 ShadowX = 0
 ShadowSize = 3
 #-------------------------------
@@ -674,7 +686,7 @@ ShadowSize = 2
 #-------------------------------
 [TANGELA]
 BackSprite = 0,0
-FrontSprite = 0,22
+FrontSprite = 0,3
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -2078,7 +2090,7 @@ ShadowSize = 3
 #-------------------------------
 [LILEEP]
 BackSprite = 5,0
-FrontSprite = 0,16
+FrontSprite = -1,4
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------
@@ -3746,7 +3758,7 @@ ShadowSize = 1
 #-------------------------------
 [LITWICK]
 BackSprite = -1,0
-FrontSprite = -1,13
+FrontSprite = -2,32
 ShadowX = 0
 ShadowSize = 1
 #-------------------------------
