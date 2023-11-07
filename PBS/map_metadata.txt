@@ -281,7 +281,7 @@ BattleBack = cave1
 Environment = Cave
 Flags = Magnetic,DistortionWorld
 #-------------------------------
-[050]
+[050]   # Sphinc Gym
 Name = Route 7
 Bicycle = true
 MapPosition = 0,16,10
@@ -290,8 +290,8 @@ BattleBack = cave3
 Environment = Cave
 Flags = Magnetic,DistortionWorld
 #-------------------------------
-[051]
-Name = Route 7
+[051]   # Museum Upstairs
+Name = Museum Upstairs
 Bicycle = true
 MapPosition = 0,16,10
 Dungeon = true
@@ -299,41 +299,46 @@ BattleBack = cave2
 Environment = Cave
 Flags = Magnetic,DistortionWorld
 #-------------------------------
-[052]
-Name = Battle Frontier
-Outdoor = true
-ShowArea = true
+[052]   # Museum Staircase
+Name = Museum Staircase
+Outdoor = false
+ShowArea = false
 MapPosition = 0,17,10
 #-------------------------------
-[053]
+[053]   # MAP053
 Name = Battle Frontier
 HealingSpot = 52,17,14
 MapPosition = 0,17,10
 #-------------------------------
-[054]
+[054]   # Museum Back
 Name = Battle Frontier
 MapPosition = 0,17,10
 #-------------------------------
-[055]
-Name = Battle Frontier
+[055]   # Jurrasic Sphinc Town
+Name = Jurrasic Sphnic Town
+Outdoor = true
+ShowArea = true
+Bicycle = true
 HealingSpot = 52,30,10
+Weather = Sun,100
 MapPosition = 0,17,10
+Environment = Sand
 #-------------------------------
-[056]
+[056]   # Aerodactyl Nest
 Name = Battle Frontier
 MapPosition = 0,17,10
 BattleBack = indoor1
 Flags = DisableBoxLink
 #-------------------------------
-[057]
+[057]   # Sphinc PokeMart
 Name = Battle Frontier
 MapPosition = 0,17,10
 #-------------------------------
-[058]
+[058]   # Sphinc House Behind Mart
 Name = Battle Frontier
 MapPosition = 0,17,10
 #-------------------------------
-[059]
+[059]   # Inside Jurrasic Sphinc Museum
 Name = Battle Frontier
 MapPosition = 0,17,10
 BattleBack = indoor1

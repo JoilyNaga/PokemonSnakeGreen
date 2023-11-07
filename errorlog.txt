@@ -1069,3 +1069,52 @@ Debug_BattleCommands:48:in `loop'
 Debug_BattleCommands:48:in `block in <main>'
 Event_HandlerCollections:121:in `call'
 Debug_Menus:251:in `block in pbBattleDebug'
+
+=================
+
+[2023-11-04 22:52:46 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 70 (coords 3,8), map 48 (Sphinc Museum)
+Exception: RuntimeError
+Message: Species GASTRICGRUNTMALE does not exist.
+
+***Full script:
+setBattleRule("canLose")
+setBattleRule("outcome", 46)
+WildBattle.start(:GASTRICGRUNTMALE, 
+12)
+
+Backtrace:
+Overworld_BattleStarting:426:in `block in generate_foes'
+Overworld_BattleStarting:407:in `each'
+Overworld_BattleStarting:407:in `generate_foes'
+Overworld_BattleStarting:348:in `start'
+(eval):3:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+
+=================
+
+[2023-11-04 23:17:41 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NameError
+Message: undefined local variable or method `i' for StringListProperty:Class
+
+Backtrace:
+Editor_DataTypes:244:in `block in set'
+Editor_DataTypes:243:in `times'
+Editor_DataTypes:243:in `set'
+Editor_DataTypes:1605:in `block (2 levels) in pbPropertyList'
+Editor_DataTypes:1574:in `loop'
+Editor_DataTypes:1574:in `block in pbPropertyList'
+Editor_DataTypes:1573:in `loop'
+Editor_DataTypes:1573:in `pbPropertyList'
+EditorScreens:824:in `pbEditMapMetadata'
+EditorScreens:810:in `block in pbMapMetadataScreen'
