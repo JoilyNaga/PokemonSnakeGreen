@@ -1118,3 +1118,63 @@ Editor_DataTypes:1573:in `loop'
 Editor_DataTypes:1573:in `pbPropertyList'
 EditorScreens:824:in `pbEditMapMetadata'
 EditorScreens:810:in `block in pbMapMetadataScreen'
+
+=================
+
+[2023-11-10 15:52:13 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 23 (coords 2,14), map 60 (Museum Basement)
+Exception: SyntaxError
+Message: (eval):1: `@' without identifiers is not allowed as an instance variable name
+@>Script: pbPokemonMart([
+^
+(eval):1: syntax error, unexpected ':', expecting end-of-input
+@>Script: pbPokemonMart([
+        ^
+
+
+***Full script:
+@>Script: pbPokemonMart([
+ :      :   :POKEBALL, :GREATBALL,
+ :      :   :POTION, :SUPERPOTION,
+ :      :   :ANTIDOTE, :PARALYZEHEAL,
+ :      :   :AWAKENING, :BURNHEAL, 
+:ICEHEAL,
+ :      :   :ESCAPEROPE,
+ :      :   :REPEL
+ :      : ])
+@>
+
+=================
+
+[2023-11-10 17:01:32 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 23 (coords 2,14), map 60 (Museum Basement)
+Exception: RuntimeError
+Message: Unknown ID JOILYCONE.
+
+***Full script:
+pbPokemonMart([
+  :JOILYMILK, :JOILYCONE,
+  :HYPERPOTION, :MAXPOTION,
+  :FULLRESTORE, :REVIVE,
+  :ANTIDOTE, :PARALYZEHEAL,
+  :BURNHEAL, :ICEHEAL,
+  :AWAKENING, :FULLHEAL
+])
+
+Backtrace:
+GameData:95:in `get'
+UI_PokeMart:706:in `block in pbPokemonMart'
+UI_PokeMart:706:in `delete_if'
+UI_PokeMart:706:in `pbPokemonMart'
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'

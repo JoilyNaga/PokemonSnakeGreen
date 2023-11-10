@@ -6093,3 +6093,44 @@ BattleUse = OnPokemon
 Consumable = false
 Flags = Fling_30
 Description = A flute used for charming Serpentine creatures. Upon hearing it, you feel physical pain. 
+#-------------------------------
+[JOILYMILK]
+Name = Lamia Lactose
+NamePlural = Jars of Milked Joily
+Pocket = 2
+Price = 600
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = Milk made from your liquified form. It restores HP by 100 points.
+#-------------------------------
+[JOILYCONE]
+Name = Cobra Cone
+NamePlural = Cobra Cones
+Pocket = 2
+Price = 350
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A delicious replica of the time you turned into a Vanilite. It heals any status problem.
+#-------------------------------
+[JOILYSODA]
+Name = Snake Soda
+NamePlural = Cans of Soda
+Pocket = 2
+Price = 300
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A highly carbonated soda drink made out of your transformed aqueous form. It can be used to restore 50 HP.
+#-------------------------------
+[JOILYCAN]
+Name = Can O' Joily
+NamePlural = Cans O's Joilys
+Pocket = 2
+Price = 350
+SellPrice = 200
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = A can featuring your cartoonishly compacted body. It can be used to restore 70 HP.

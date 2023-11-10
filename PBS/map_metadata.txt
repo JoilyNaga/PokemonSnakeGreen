@@ -290,7 +290,7 @@ BattleBack = cave3
 Environment = Cave
 Flags = Magnetic,DistortionWorld
 #-------------------------------
-[051]   # Museum Upstairs
+[051]   # MuseumBasement
 Name = Museum Upstairs
 Bicycle = true
 MapPosition = 0,16,10
@@ -344,8 +344,8 @@ MapPosition = 0,17,10
 BattleBack = indoor1
 Flags = DisableBoxLink
 #-------------------------------
-[060]
-Name = Battle Frontier
+[060]   # MuseumBasement
+Name = Museum Basement
 MapPosition = 0,17,10
 #-------------------------------
 [061]
