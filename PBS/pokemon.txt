@@ -596,7 +596,7 @@ Color = Purple
 Shape = Serpentine
 Habitat = Grassland
 Category = Snake
-Pokedex = An Ekans curls itself up in a spiral while it rests. This position allows it to quickly respond to an enemy from any direction with a threat from its upraised head.
+Pokedex = It's stretchy skin allows it to hold meals almost fifteen times its size in it's stomach. This was first discovered by Professor Oak as he tried to feed one a Pidgey.
 Generation = 1
 Evolutions = ARBOK,Level,22
 #-------------------------------
@@ -621,7 +621,7 @@ Color = Purple
 Shape = Serpentine
 Habitat = Grassland
 Category = Cobra
-Pokedex = This Pokémon has a terrifically strong constricting power. It can even flatten steel oil drums. Once it wraps its body around its foe, escaping is impossible.
+Pokedex = This Pokémon has a terrifically strong constricting power. Once it wraps its body around its prey, escaping is impossible.
 Generation = 1
 #-------------------------------
 [PIKACHU]
@@ -1740,7 +1740,7 @@ Color = Green
 Shape = Bipedal
 Habitat = Forest
 Category = Flower
-Pokedex = A Bellsprout's thin and flexible body lets it bend and sway to avoid any attack, however strong it may be. From its mouth, it leaks a fluid that melts even iron.
+Pokedex = From its mouth, it leaks a fluid that melts even iron. Once it's suckling mouth latches onto it's prey, the frictionless insides make escape efforts futile.
 Generation = 1
 Evolutions = WEEPINBELL,Level,21
 #-------------------------------
@@ -3651,7 +3651,7 @@ Generation = 1
 #-------------------------------
 [AERODACTYL]
 Name = Aerodactyl
-Types = FIGHTING
+Types = FLYING,ROCK
 BaseStats = 80,105,65,130,60,75
 GenderRatio = AlwaysFemale
 GrowthRate = Slow
@@ -3672,7 +3672,7 @@ Color = Purple
 Shape = Winged
 Habitat = Mountain
 Category = Fossil
-Pokedex = Aerodactyl is a Pokémon from the age of dinosaurs. It was regenerated from DNA extracted from amber. It is imagined to have been the king of the skies.
+Pokedex = Aerodactyl is a renowned for it's voracious appetite. It often captures it's prey and takes it to it's isolated nest to feed in peace. It is known to become hostile when it's prey retaliates.
 Generation = 1
 #-------------------------------
 [SNORLAX]
@@ -8643,7 +8643,7 @@ Color = Green
 Shape = Bipedal
 Habitat = RoughTerrain
 Category = Scarecrow
-Pokedex = After spending thousands of years in harsh deserts, its blood transformed into the same substances as sand. It is nocturnal, so it hunts at night.
+Pokedex = It is nocturnal, so it hunts at night. It is always hunting for some poor soul to take it's place as a scarecrow.
 Generation = 3
 WildItemUncommon = STICKYBARB
 #-------------------------------
@@ -11373,7 +11373,7 @@ Weight = 15.0
 Color = Brown
 Shape = HeadLegs
 Category = Bonsai
-Pokedex = It looks as if it is always crying. It is actually adjusting its body's fluid levels by eliminating excess.
+Pokedex = A funny little guy who gets upset a lot. Him and Joily have a lot in common.
 Generation = 4
 Evolutions = SUDOWOODO,HasMove,MIMIC
 #-------------------------------
@@ -21530,7 +21530,7 @@ Weight = 18.0
 Color = Blue
 Shape = Winged
 Category = Gulp
-Pokedex = It's so strong that it can knock out some opponents in a single hit, but it also may forget what it's battling midfight.
+Pokedex = It often dives underwater to catch it's prey, sometimes shooting it out as a form of attack. However, some prey don't get that luxury as they become Cramorant food.
 Generation = 8
 #-------------------------------
 [ARROKUDA]
@@ -23124,7 +23124,7 @@ Color = White
 Shape = Bipedal
 Habitat = Grassland
 Category = Gastric Admin
-Pokedex = This fleet-footed Pokémon is said to run over 6,200 miles in a single day and night. The fire that blazes wildly within its body is its source of power.
+Pokedex = These members of Team Gastric won't rest until every non-believer is tucked away safely on their bodies. Whether or not they mean their stomachs or their sacks is up for debate amongst the members.
 Generation = 1
 #-------------------------------
 [KELLY]
@@ -23174,7 +23174,7 @@ Color = White
 Shape = Bipedal
 Habitat = Grassland
 Category = Gastric Admin
-Pokedex = This fleet-footed Pokémon is said to run over 6,200 miles in a single day and night. The fire that blazes wildly within its body is its source of power.
+Pokedex = These lower-level grunts of Team Gastric have one objective. Total control via any digestive means necessary.
 Generation = 1
 #-------------------------------
 [GASTRICGRUNTF]
@@ -23198,8 +23198,8 @@ Weight = 155.0
 Color = White
 Shape = Bipedal
 Habitat = Grassland
-Category = Gastric Admin
-Pokedex = This fleet-footed Pokémon is said to run over 6,200 miles in a single day and night. The fire that blazes wildly within its body is its source of power.
+Category = Gastric Grunt
+Pokedex = A loyal recruit to Team Gastric, these members intend to digest all that oppose them and convert them into fat tissue on their breasts.
 Generation = 1
 #-------------------------------
 [CAVEGIRL]
