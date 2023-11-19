@@ -1178,3 +1178,580 @@ Interpreter:143:in `execute_script'
 Interpreter_Commands:1112:in `command_355'
 Interpreter_Commands:116:in `execute_command'
 Interpreter:133:in `block in update'
+
+=================
+
+[2023-11-12 21:23:18 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined value TRAILBLAZE in GameData::Move
+File PBS/pokemon.txt, section SPRIGATITO, key TutorMoves
+ACROBATICS,AGILITY,BULLETSEED,CHARM,DISARMINGVOICE,ENDURE,ENERGYBALL,FACADE,FAKETEARS,GIGADRAIN,GRASSKNOT,GRASSPLEDGE,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,LEAFSTORM,MAGICALLEAF,MUDSLAP,NASTYPLOT,PLAY...
+
+
+
+Backtrace:
+Compiler:345:in `checkEnumField'
+Compiler:320:in `csvEnumField!'
+Compiler:523:in `block (2 levels) in pbGetCsvRecord'
+Compiler:415:in `each'
+Compiler:415:in `block in pbGetCsvRecord'
+Compiler:413:in `loop'
+Compiler:413:in `pbGetCsvRecord'
+Compiler_CompilePBS:633:in `block (3 levels) in compile_pokemon'
+Compiler_CompilePBS:626:in `each_key'
+Compiler_CompilePBS:626:in `block (2 levels) in compile_pokemon'
+
+=================
+
+[2023-11-12 21:24:55 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Field -1 is not a positive integer
+File PBS/pokemon.txt, section MEOWSCARADA, key Moves
+-1,DOUBLETEAM,-1,TRICK,0,FLOWERTRICK,1,LEAFAGE,1,TAILWHIP,1,SCRATCH,7,BITE,10,HONECLAWS,13,MAGICALLEAF,15,QUICKATTACK,20,SEEDBOMB,24,UTURN,29,WORRYSEED,33,SLASH,38,NIGHTSLASH,42,ENERGYBALL,47,PLAYROUG...
+
+
+
+Backtrace:
+Compiler:308:in `csvPosInt!'
+Compiler:430:in `block (2 levels) in pbGetCsvRecord'
+Compiler:415:in `each'
+Compiler:415:in `block in pbGetCsvRecord'
+Compiler:413:in `loop'
+Compiler:413:in `pbGetCsvRecord'
+Compiler_CompilePBS:633:in `block (3 levels) in compile_pokemon'
+Compiler_CompilePBS:626:in `each_key'
+Compiler_CompilePBS:626:in `block (2 levels) in compile_pokemon'
+Compiler:135:in `block in pbEachFileSection'
+
+=================
+
+[2023-11-12 21:26:33 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined value LINGERINGAROMA in GameData::Ability
+File PBS/pokemon.txt, section OINKOLOGNE, key Abilities
+LINGERINGAROMA,GLUTTONY
+
+
+
+Backtrace:
+Compiler:345:in `checkEnumField'
+Compiler:320:in `csvEnumField!'
+Compiler:523:in `block (2 levels) in pbGetCsvRecord'
+Compiler:415:in `each'
+Compiler:415:in `block in pbGetCsvRecord'
+Compiler:413:in `loop'
+Compiler:413:in `pbGetCsvRecord'
+Compiler_CompilePBS:633:in `block (3 levels) in compile_pokemon'
+Compiler_CompilePBS:626:in `each_key'
+Compiler_CompilePBS:626:in `block (2 levels) in compile_pokemon'
+
+=================
+
+[2023-11-12 21:27:50 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined value LevelWalk in GameData::Evolution
+File PBS/pokemon.txt, section , key Evolutions
+PAWMOT,LevelWalk,1000
+
+
+
+Backtrace:
+Compiler:345:in `checkEnumField'
+Compiler:320:in `csvEnumField!'
+Compiler:523:in `block (2 levels) in pbGetCsvRecord'
+Compiler:415:in `each'
+Compiler:415:in `block in pbGetCsvRecord'
+Compiler:413:in `loop'
+Compiler:413:in `pbGetCsvRecord'
+Compiler_CompilePBS:633:in `block (3 levels) in compile_pokemon'
+Compiler_CompilePBS:626:in `each_key'
+Compiler_CompilePBS:626:in `block (2 levels) in compile_pokemon'
+
+=================
+
+[2023-11-12 21:30:00 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined value LevelWalk in GameData::Evolution
+File PBS/pokemon.txt, section , key Evolutions
+BRAMBLEGHAST,LevelWalk,1000
+
+
+
+Backtrace:
+Compiler:345:in `checkEnumField'
+Compiler:320:in `csvEnumField!'
+Compiler:523:in `block (2 levels) in pbGetCsvRecord'
+Compiler:415:in `each'
+Compiler:415:in `block in pbGetCsvRecord'
+Compiler:413:in `loop'
+Compiler:413:in `pbGetCsvRecord'
+Compiler_CompilePBS:633:in `block (3 levels) in compile_pokemon'
+Compiler_CompilePBS:626:in `each_key'
+Compiler_CompilePBS:626:in `block (2 levels) in compile_pokemon'
+
+=================
+
+[2023-11-12 21:30:58 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined value LevelWalk in GameData::Evolution
+File PBS/pokemon.txt, section , key Evolutions
+RABSCA,LevelWalk,1000
+
+
+
+Backtrace:
+Compiler:345:in `checkEnumField'
+Compiler:320:in `csvEnumField!'
+Compiler:523:in `block (2 levels) in pbGetCsvRecord'
+Compiler:415:in `each'
+Compiler:415:in `block in pbGetCsvRecord'
+Compiler:413:in `loop'
+Compiler:413:in `pbGetCsvRecord'
+Compiler_CompilePBS:633:in `block (3 levels) in compile_pokemon'
+Compiler_CompilePBS:626:in `each_key'
+Compiler_CompilePBS:626:in `block (2 levels) in compile_pokemon'
+
+=================
+
+[2023-11-12 21:32:02 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined value LevelWithPartner in GameData::Evolution
+File PBS/pokemon.txt, section , key Evolutions
+PALAFIN,LevelWithPartner,38
+
+
+
+Backtrace:
+Compiler:345:in `checkEnumField'
+Compiler:320:in `csvEnumField!'
+Compiler:523:in `block (2 levels) in pbGetCsvRecord'
+Compiler:415:in `each'
+Compiler:415:in `block in pbGetCsvRecord'
+Compiler:413:in `loop'
+Compiler:413:in `pbGetCsvRecord'
+Compiler_CompilePBS:633:in `block (3 levels) in compile_pokemon'
+Compiler_CompilePBS:626:in `each_key'
+Compiler_CompilePBS:626:in `block (2 levels) in compile_pokemon'
+
+=================
+
+[2023-11-12 21:32:54 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined value BOOSTERENERGY in GameData::Item
+File PBS/pokemon.txt, section GREATTUSK, key WildItemUncommon
+BOOSTERENERGY
+
+
+
+Backtrace:
+380:Compiler:345:in `checkEnumField'
+380:Compiler:320:in `csvEnumField!'
+380:Compiler:523:in `block (2 levels) in pbGetCsvRecord'
+380:Compiler:415:in `each'
+380:Compiler:415:in `block in pbGetCsvRecord'
+380:Compiler:413:in `loop'
+380:Compiler:413:in `pbGetCsvRecord'
+381:Compiler_CompilePBS:633:in `block (3 levels) in compile_pokemon'
+381:Compiler_CompilePBS:626:in `each_key'
+381:Compiler_CompilePBS:626:in `block (2 levels) in compile_pokemon'
+
+=================
+
+[2023-11-12 21:35:07 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined value CollectItems in GameData::Evolution
+File PBS/pokemon.txt, section , key Evolutions
+GHOLDENGO,CollectItems,GIMMIGHOULCOIN
+
+
+
+Backtrace:
+Compiler:345:in `checkEnumField'
+Compiler:320:in `csvEnumField!'
+Compiler:523:in `block (2 levels) in pbGetCsvRecord'
+Compiler:415:in `each'
+Compiler:415:in `block in pbGetCsvRecord'
+Compiler:413:in `loop'
+Compiler:413:in `pbGetCsvRecord'
+Compiler_CompilePBS:633:in `block (3 levels) in compile_pokemon'
+Compiler_CompilePBS:626:in `each_key'
+Compiler_CompilePBS:626:in `block (2 levels) in compile_pokemon'
+
+=================
+
+[2023-11-12 21:36:10 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined value AUSPICIOUSARMOR in GameData::Item
+File PBS/pokemon.txt, section CHARCADET, key Evolutions
+
+
+
+
+Backtrace:
+Compiler:345:in `checkEnumField'
+Compiler:320:in `csvEnumField!'
+Compiler_CompilePBS:750:in `block (2 levels) in compile_pokemon'
+Compiler_CompilePBS:742:in `each'
+Compiler_CompilePBS:742:in `block in compile_pokemon'
+GameData:117:in `block in each'
+GameData:117:in `each_value'
+GameData:117:in `each'
+Compiler_CompilePBS:740:in `compile_pokemon'
+Compiler:766:in `compile_pbs_files'
+
+=================
+
+[2023-11-12 21:37:27 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined value UNREMARKABLETEACUP in GameData::Item
+File PBS/pokemon.txt, section POLTCHAGEIST, key Evolutions
+
+
+
+
+Backtrace:
+380:Compiler:345:in `checkEnumField'
+380:Compiler:320:in `csvEnumField!'
+381:Compiler_CompilePBS:750:in `block (2 levels) in compile_pokemon'
+381:Compiler_CompilePBS:742:in `each'
+381:Compiler_CompilePBS:742:in `block in compile_pokemon'
+103:GameData:117:in `block in each'
+103:GameData:117:in `each_value'
+103:GameData:117:in `each'
+381:Compiler_CompilePBS:740:in `compile_pokemon'
+380:Compiler:766:in `compile_pbs_files'
+
+=================
+
+[2023-11-16 22:47:58 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Unknown ID POLTEAGEIST.
+
+Backtrace:
+GameData:95:in `get'
+Compiler_WritePBS:480:in `block (2 levels) in write_pokemon_metrics'
+Compiler_WritePBS:474:in `each'
+Compiler_WritePBS:474:in `block in write_pokemon_metrics'
+Compiler_WritePBS:471:in `open'
+Compiler_WritePBS:471:in `write_pokemon_metrics'
+EditorScreens_SpritePositioning:105:in `pbSaveMetrics'
+EditorScreens_SpritePositioning:93:in `pbClose'
+EditorScreens_SpritePositioning:408:in `pbStart'
+Debug_MenuCommands:992:in `block (2 levels) in <main>'
+
+=================
+
+[2023-11-16 23:57:21 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: ArgumentError
+Message: Invalid argument passed to method.
+Expected 0 to be one of [Symbol, GameData::Species, String], but got Integer.
+
+Backtrace:
+Validation:29:in `validate'
+GameData:103:in `try_get'
+Player_Pokedex:51:in `seen?'
+Player:93:in `seen?'
+UI_Pokedex_Main:417:in `pbRefresh'
+UI_Pokedex_Main:408:in `pbRefreshDexList'
+UI_Pokedex_Main:293:in `pbStartScene'
+UI_Pokedex_Main:1299:in `pbStartScreen'
+UI_PauseMenu:151:in `block (2 levels) in <main>'
+MessageConfig:570:in `pbFadeOutIn'
+
+=================
+
+[2023-11-17 00:01:09 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+
+Backtrace:
+UI_Pokedex_Entry:26:in `pbStartScene'
+UI_Pokedex_Entry:568:in `pbStartScreen'
+UI_Pokedex_Main:877:in `pbDexEntry'
+UI_Pokedex_Main:1282:in `block (2 levels) in pbPokedex'
+UI_Pokedex_Main:1257:in `loop'
+UI_Pokedex_Main:1257:in `block in pbPokedex'
+MessageConfig:705:in `pbActivateWindow'
+UI_Pokedex_Main:1256:in `pbPokedex'
+UI_Pokedex_Main:1300:in `pbStartScreen'
+UI_PauseMenu:151:in `block (2 levels) in <main>'
+
+=================
+
+[2023-11-17 00:05:29 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+
+Backtrace:
+UI_Pokedex_Entry:26:in `pbStartScene'
+UI_Pokedex_Entry:568:in `pbStartScreen'
+UI_Pokedex_Main:877:in `pbDexEntry'
+UI_Pokedex_Main:1282:in `block (2 levels) in pbPokedex'
+UI_Pokedex_Main:1257:in `loop'
+UI_Pokedex_Main:1257:in `block in pbPokedex'
+MessageConfig:705:in `pbActivateWindow'
+UI_Pokedex_Main:1256:in `pbPokedex'
+UI_Pokedex_Main:1300:in `pbStartScreen'
+UI_PauseMenu:151:in `block (2 levels) in <main>'
+
+=================
+
+[2023-11-19 12:01:08 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+
+Backtrace:
+UI_Pokedex_Entry:26:in `pbStartScene'
+UI_Pokedex_Entry:568:in `pbStartScreen'
+UI_Pokedex_Main:877:in `pbDexEntry'
+UI_Pokedex_Main:1282:in `block (2 levels) in pbPokedex'
+UI_Pokedex_Main:1257:in `loop'
+UI_Pokedex_Main:1257:in `block in pbPokedex'
+MessageConfig:705:in `pbActivateWindow'
+UI_Pokedex_Main:1256:in `pbPokedex'
+UI_Pokedex_Main:1300:in `pbStartScreen'
+UI_PauseMenu:151:in `block (2 levels) in <main>'
+
+=================
+
+[2023-11-19 12:44:07 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+
+Backtrace:
+UI_Pokedex_Entry:26:in `pbStartScene'
+UI_Pokedex_Entry:568:in `pbStartScreen'
+UI_Pokedex_Main:877:in `pbDexEntry'
+UI_Pokedex_Main:1282:in `block (2 levels) in pbPokedex'
+UI_Pokedex_Main:1257:in `loop'
+UI_Pokedex_Main:1257:in `block in pbPokedex'
+MessageConfig:705:in `pbActivateWindow'
+UI_Pokedex_Main:1256:in `pbPokedex'
+UI_Pokedex_Main:1300:in `pbStartScreen'
+UI_PauseMenu:151:in `block (2 levels) in <main>'
+
+=================
+
+[2023-11-19 13:46:49 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Form 1 for species ID MAWILE is defined twice.
+File PBS/pokemon_forms.txt, section MAWILE,1, key header
+
+
+
+
+Backtrace:
+Compiler_CompilePBS:811:in `block (2 levels) in compile_pokemon_forms'
+Compiler:149:in `block in pbEachFileSectionPokemonForms'
+Compiler:108:in `block in pbEachFileSectionEx'
+Compiler:100:in `each_line'
+Compiler:100:in `pbEachFileSectionEx'
+Compiler:148:in `pbEachFileSectionPokemonForms'
+Compiler_CompilePBS:792:in `block in compile_pokemon_forms'
+Compiler_CompilePBS:785:in `open'
+Compiler_CompilePBS:785:in `compile_pokemon_forms'
+Compiler:767:in `compile_pbs_files'
+
+=================
+
+[2023-11-19 13:47:58 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined value TEAMROCKET in GameData::Species
+File PBS/pokemon_forms.txt, section TEAMROCKET,1, key header
+
+
+
+
+Backtrace:
+Compiler:345:in `checkEnumField'
+Compiler:320:in `csvEnumField!'
+Compiler_CompilePBS:802:in `block (2 levels) in compile_pokemon_forms'
+Compiler:149:in `block in pbEachFileSectionPokemonForms'
+Compiler:108:in `block in pbEachFileSectionEx'
+Compiler:100:in `each_line'
+Compiler:100:in `pbEachFileSectionEx'
+Compiler:148:in `pbEachFileSectionPokemonForms'
+Compiler_CompilePBS:792:in `block in compile_pokemon_forms'
+Compiler_CompilePBS:785:in `open'
+
+=================
+
+[2023-11-19 13:49:20 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Form 1 for species ID GRIMER is defined twice.
+File PBS/pokemon_forms.txt, section GRIMER,1, key header
+
+
+
+
+Backtrace:
+Compiler_CompilePBS:811:in `block (2 levels) in compile_pokemon_forms'
+Compiler:149:in `block in pbEachFileSectionPokemonForms'
+Compiler:108:in `block in pbEachFileSectionEx'
+Compiler:100:in `each_line'
+Compiler:100:in `pbEachFileSectionEx'
+Compiler:148:in `pbEachFileSectionPokemonForms'
+Compiler_CompilePBS:792:in `block in compile_pokemon_forms'
+Compiler_CompilePBS:785:in `open'
+Compiler_CompilePBS:785:in `compile_pokemon_forms'
+Compiler:767:in `compile_pbs_files'
+
+=================
+
+[2023-11-19 13:50:21 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined value Metapod in GameData::Species
+File PBS/pokemon_forms.txt, section Metapod,1, key header
+
+
+
+
+Backtrace:
+Compiler:345:in `checkEnumField'
+Compiler:320:in `csvEnumField!'
+Compiler_CompilePBS:802:in `block (2 levels) in compile_pokemon_forms'
+Compiler:149:in `block in pbEachFileSectionPokemonForms'
+Compiler:108:in `block in pbEachFileSectionEx'
+Compiler:100:in `each_line'
+Compiler:100:in `pbEachFileSectionEx'
+Compiler:148:in `pbEachFileSectionPokemonForms'
+Compiler_CompilePBS:792:in `block in compile_pokemon_forms'
+Compiler_CompilePBS:785:in `open'
+
+=================
+
+[2023-11-19 13:51:22 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined value MAVE in GameData::Species
+File PBS/pokemon_forms.txt, section MAVE,1, key header
+
+
+
+
+Backtrace:
+Compiler:345:in `checkEnumField'
+Compiler:320:in `csvEnumField!'
+Compiler_CompilePBS:802:in `block (2 levels) in compile_pokemon_forms'
+Compiler:149:in `block in pbEachFileSectionPokemonForms'
+Compiler:108:in `block in pbEachFileSectionEx'
+Compiler:100:in `each_line'
+Compiler:100:in `pbEachFileSectionEx'
+Compiler:148:in `pbEachFileSectionPokemonForms'
+Compiler_CompilePBS:792:in `block in compile_pokemon_forms'
+Compiler_CompilePBS:785:in `open'
+
+=================
+
+[2023-11-19 13:53:34 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Form 1 for species ID YAMASK is defined twice.
+File PBS/pokemon_forms.txt, section YAMASK,1, key header
+
+
+
+
+Backtrace:
+Compiler_CompilePBS:811:in `block (2 levels) in compile_pokemon_forms'
+Compiler:149:in `block in pbEachFileSectionPokemonForms'
+Compiler:108:in `block in pbEachFileSectionEx'
+Compiler:100:in `each_line'
+Compiler:100:in `pbEachFileSectionEx'
+Compiler:148:in `pbEachFileSectionPokemonForms'
+Compiler_CompilePBS:792:in `block in compile_pokemon_forms'
+Compiler_CompilePBS:785:in `open'
+Compiler_CompilePBS:785:in `compile_pokemon_forms'
+Compiler:767:in `compile_pbs_files'
+
+=================
+
+[2023-11-19 13:54:38 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Form 1 for species ID FROSLASS is defined twice.
+File PBS/pokemon_forms.txt, section FROSLASS,1, key header
+
+
+
+
+Backtrace:
+Compiler_CompilePBS:811:in `block (2 levels) in compile_pokemon_forms'
+Compiler:149:in `block in pbEachFileSectionPokemonForms'
+Compiler:108:in `block in pbEachFileSectionEx'
+Compiler:100:in `each_line'
+Compiler:100:in `pbEachFileSectionEx'
+Compiler:148:in `pbEachFileSectionPokemonForms'
+Compiler_CompilePBS:792:in `block in compile_pokemon_forms'
+Compiler_CompilePBS:785:in `open'
+Compiler_CompilePBS:785:in `compile_pokemon_forms'
+Compiler:767:in `compile_pbs_files'

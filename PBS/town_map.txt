@@ -21,3 +21,26 @@ Point = 14,3,Route Three,,,,,
 Point = 15,3,Route Three,,,,,
 Point = 16,3,Gutte City,,033,069,020,
 Point = 17,3,Gutte City,,033,069,020,
+#-------------------------------
+[1]
+Name = Dyjest
+Filename = mapRegion1.png
+Point = 13,12,Palate Town,Plum's Lab,2,15,15,
+Point = 13,10,Gullut City,,7,38,21,
+Point = 13,11,Route One,,,,,
+Point = 12,10,Route Two,,,,,
+Point = 11,10,Route Two,,,,,
+Point = 11,9,Route Two,,,,,
+Point = 11,8,Route Two,,,,,
+Point = 11,7,Sphinc Town,Slange Ruins and Museum,30,50,44,
+Point = 11,6,Sphinc Town,Slange Ruins and Museum,30,50,44,
+Point = 12,6,Sphinc Town,Slange Ruins and Museum,30,50,44,
+Point = 13,6,Route Three,,,,,
+Point = 14,6,Route Three,,,,,
+Point = 14,5,Route Three,,,,,
+Point = 14,4,Route Three,,,,,
+Point = 14,3,Route Three,,,,,
+Point = 15,3,Route Three,,,,,
+Point = 16,3,Gutte City,,033,069,020,
+Point = 17,3,Gutte City,,033,069,020,
+

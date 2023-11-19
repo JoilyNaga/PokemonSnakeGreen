@@ -1,8 +1,27 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
+[BULBASAUR,1]
+FormName = Tangling Vines
+BaseStats = 80,100,123,80,122,120
+BaseExp = 313
+Abilities = OVERGROW
+Height = 2.4
+Weight = 155.5
+Pokedex = Tangly.
+Generation = 1
+#-------------------------------
+[IVYSAUR,1]
+FormName = Tangling Vines
+BaseStats = 80,100,123,80,122,120
+BaseExp = 313
+Abilities = OVERGROW
+Height = 2.4
+Weight = 155.5
+Pokedex = Tangly.
+Generation = 1
+#-------------------------------
 [VENUSAUR,1]
-FormName = Mega Venusaur
-MegaStone = VENUSAURITE
+FormName = Tangling Vines
 BaseStats = 80,100,123,80,122,120
 BaseExp = 313
 Abilities = THICKFAT
@@ -383,7 +402,7 @@ Flags = InheritFormWithEverStone
 WildItemCommon = LEEK
 Evolutions = SIRFETCHD,BattleDealCriticalHit,3
 #-------------------------------
-[GRIMER,1]
+[GRIMER,2]
 FormName = Alolan
 Types = POISON,DARK
 Abilities = POISONTOUCH,GLUTTONY
@@ -398,7 +417,7 @@ Pokedex = A Grimer, which had been brought in to solve a problem with garbage, d
 Generation = 7
 Flags = InheritFormWithEverStone
 #-------------------------------
-[MUK,1]
+[MUK,2]
 FormName = Alolan
 Types = POISON,DARK
 Abilities = POISONTOUCH,GLUTTONY
@@ -520,16 +539,7 @@ Pokedex = It zooms out of the water at Mach speeds. Even large ships caught in i
 Generation = 6
 #-------------------------------
 [AERODACTYL,1]
-FormName = Mega Aerodactyl
-MegaStone = AERODACTYLITE
-BaseStats = 80,135,85,150,70,95
-BaseExp = 215
-Abilities = TOUGHCLAWS
-HiddenAbilities = TOUGHCLAWS
-Height = 2.1
-Weight = 79.0
-Pokedex = When it Mega Evolves, it becomes more vicious than ever before. Some say that's because its excess of power is causing it pain.
-Generation = 6
+FormName = Pterodactyl Ptea
 #-------------------------------
 [ARTICUNO,1]
 FormName = Galarian
@@ -867,18 +877,6 @@ Abilities = MAGICBOUNCE
 HiddenAbilities = MAGICBOUNCE
 Weight = 161.0
 Pokedex = Supporting a giant heavy jewel, it can't change direction very nimbly and is vulnerable to attack from behind.
-Generation = 6
-#-------------------------------
-[MAWILE,1]
-FormName = Mega Mawile
-MegaStone = MAWILITE
-BaseStats = 50,105,125,50,55,95
-BaseExp = 168
-Abilities = HUGEPOWER
-HiddenAbilities = HUGEPOWER
-Height = 1.0
-Weight = 23.5
-Pokedex = Its two sets of jaws thrash about violently as if they each had a will of their own. One gnash from them can turn a boulder to dust.
 Generation = 6
 #-------------------------------
 [AGGRON,1]
@@ -1224,6 +1222,55 @@ BaseStats = 50,65,107,86,105,107
 BaseExp = 182
 Pokedex = This is Rotom after it's seized control of a lawn mower that has a special motor. As it mows down grass, it scatters the clippings everywhere.
 #-------------------------------
+[ROTOM,6]
+FormName = Lamia Rotom
+Types = ELECTRIC,LAMIA
+BaseStats = 50,65,107,86,105,107
+BaseExp = 182
+Pokedex = This Rotom looks... very familiar...
+#-------------------------------
+[ROTOM,7]
+FormName = Lamia Rotom
+Types = ELECTRIC,LAMIA
+BaseStats = 50,65,107,86,105,107
+BaseExp = 182
+Pokedex = A familiar rotom, now powered up!
+#-------------------------------
+[ROTOM,8]
+FormName = Heat Rotom in Action
+Types = ELECTRIC,FIRE
+BaseStats = 50,65,107,86,105,107
+BaseExp = 182
+Pokedex = This Rotom has possessed a convection microwave oven that uses a special motor. It also has a flair for manipulating flames.
+#-------------------------------
+[ROTOM,9]
+FormName = Wash Rotom in Action
+Types = ELECTRIC,WATER
+BaseStats = 50,65,107,86,105,107
+BaseExp = 182
+Pokedex = This form of Rotom enjoys coming up with water-based pranks. Be careful with it if you don't want your room flooded.
+#-------------------------------
+[ROTOM,10]
+FormName = Frost Rotom in Action
+Types = ELECTRIC,ICE
+BaseStats = 50,65,107,86,105,107
+BaseExp = 182
+Pokedex = Rotom assumes this form when it takes over a refrigerator powered by a special motor. It battles by spewing cold air.
+#-------------------------------
+[ROTOM,11]
+FormName = Fan Rotom in Action
+Types = ELECTRIC,FLYING
+BaseStats = 50,65,107,86,105,107
+BaseExp = 182
+Pokedex = In this form, Rotom applies its new power over wind to its love of pranks. It will happily blow away any important documents it can find.
+#-------------------------------
+[ROTOM,12]
+FormName = Mow Rotom in Action
+Types = ELECTRIC,GRASS
+BaseStats = 50,65,107,86,105,107
+BaseExp = 182
+Pokedex = This is Rotom after it's seized control of a lawn mower that has a special motor. As it mows down grass, it scatters the clippings everywhere.
+#-------------------------------
 [GIRATINA,1]
 FormName = Origin Forme
 BaseStats = 150,120,100,90,120,100
@@ -1390,7 +1437,7 @@ Category = Zen Charm
 Pokedex = Anger has reignited its atrophied flame sac. This Pokémon spews fire everywhere as it rampages indiscriminately.
 Generation = 8
 #-------------------------------
-[YAMASK,1]
+[YAMASK,2]
 FormName = Galarian
 Types = GROUND,GHOST
 BaseStats = 38,55,85,30,30,65
@@ -2325,5 +2372,203 @@ Category = High King
 Pokedex = Legend says that by using its power to see all events from past to future, this Pokémon saved the creatures of a forest from a meteorite strike.
 #-------------------------------
 [LYRA,1]
-FormName = Full
+FormName = Filled Snakegut
 #-------------------------------
+[PELIPPER,1]
+FormName = Beakful of Snack
+#-------------------------------
+[ARBOK,1]
+FormName = Swollen Coils
+#-------------------------------
+[EKANS,1]
+FormName = Stretched Stomach
+#-------------------------------
+[MAWILE,1]
+FormName = Hungry Hair
+#-------------------------------
+[SNORLAX,1]
+FormName = Barely a Bulge
+#-------------------------------
+[GULPIN,1]
+FormName = Full Fleshbag
+#-------------------------------
+[SWALOT,1]
+FormName = Pumped-Up Gastric Sack
+#-------------------------------
+[ROCKETGRUNT,1]
+FormName = Grunt Grub
+#-------------------------------
+[GOLBAT,1]
+FormName = Blood-Sucking Banquet
+#-------------------------------
+[REUNICLUS,1]
+FormName = Absorbed Adversary
+#-------------------------------
+[BELLSPROUT,1]
+FormName = Plant Food
+#-------------------------------
+[WEEPINBELL,1]
+FormName = Suckled Snake
+#-------------------------------
+[VICTREEBEL,1]
+FormName = Pitcher of Acid
+#-------------------------------
+[SPINARAK,1]
+FormName = Webbed Weakling
+#-------------------------------
+[JOLTIK,1]
+FormName = Bolts 'N Bound
+#-------------------------------
+[COFAGRIGUS,1]
+FormName = Mummified Munchies
+#-------------------------------
+[EM,1]
+FormName = Tank Top Triumph
+#-------------------------------
+[LICKITUNG,1]
+FormName = Slobbered and Swallowed
+#-------------------------------
+[DITTO,1]
+FormName = Duplicitous Dinner
+#-------------------------------
+[GASTRICGRUNTF,1]
+FormName = Fighting for her Cause
+#-------------------------------
+[GASTRICGRUNT,1]
+FormName = Fighting for his Cause
+#-------------------------------
+[GASTRICGRUNTNB,1]
+FormName = Fighting for their Cause
+#-------------------------------
+[MOON,1]
+FormName = Hidden in Flab
+#-------------------------------
+[ROXXIE,1]
+FormName = Shortstack Shortcake
+#-------------------------------
+[KELLY,1]
+FormName = Prey for a Prey
+#-------------------------------
+[BRYST,1]
+FormName = Sloshed Serpent
+#-------------------------------
+[HILDA,1]
+FormName = Bitten by a Bandit
+#-------------------------------
+[HUNGRYGAL,1]
+FormName = Food for Gullut's best!
+#-------------------------------
+[SYNOPSE,1]
+FormName = Trofi Trophy
+#-------------------------------
+[LILEEP,1]
+FormName = Wrapped and Snacked
+#-------------------------------
+[CRADILY,1]
+FormName = Over the Eyes, Past the Gums
+#-------------------------------
+[CAVEGIRL,1]
+FormName = Mmmmm, Ugg
+#-------------------------------
+[AURORUS,1]
+FormName = The Twenty-Second Swallow
+#-------------------------------
+[GRIMER,1]
+FormName = Sloppy Seconds
+#-------------------------------
+[MUK,1]
+FormName = Sludge for Sludge
+#-------------------------------
+[PORYGON,1]
+FormName = Eating away at your Data
+#-------------------------------
+[OMANYTE,1]
+FormName = Fossil Fuel
+#-------------------------------
+[METAPOD,1]
+FormName = Harden
+#-------------------------------
+[TOTODILE,1]
+FormName = Chomp Chump
+#-------------------------------
+[TANGELA,1]
+FormName = Tangled
+#-------------------------------
+[TANGROWTH,1]
+FormName = Voracious Vines 
+#-------------------------------
+[TYRANTRUM,1]
+FormName = Tucked away in T-Rex
+#-------------------------------
+[MAVE,1]
+FormName = Tightly Packed Lunch
+#-------------------------------
+[CARNIVINE,1]
+FormName = Just like a Fly
+#-------------------------------
+[MILTANK,1]
+FormName = MooMoo Milk
+#-------------------------------
+[KECLEON,1]
+FormName = Watch and Learn
+#-------------------------------
+[YAMASK,1]
+FormName = Pretty Little Mask
+#-------------------------------
+[GIRAFARIG,1]
+FormName = Chain Chomped
+#-------------------------------
+[DRIFLOON,1]
+FormName = Taking a Ride...
+#-------------------------------
+[FROSLASS,1]
+FormName = Redecorating
+#-------------------------------
+[FROSLASS,2]
+FormName = Soul Sucking
+#-------------------------------
+[FROSLASS,3]
+FormName = Hollow Insides 
+#-------------------------------
+[VANILLITE,1]
+FormName = Small Scoop
+#-------------------------------
+[VANILLISH,1]
+FormName = Standard-Sized
+#-------------------------------
+[VANILLUXE,1]
+FormName = Double-Scooped
+#-------------------------------
+[TROPIUS,1]
+FormName = Served With Bananas
+#-------------------------------
+[GALVANTULA,1]
+FormName = Sticky and Shocking
+#-------------------------------
+[ARIADOS,1]
+FormName = Sticky Situation
+#-------------------------------
+[CACTURNE,1]
+FormName = Scarecrow Swap
+#-------------------------------
+[NURSEJOY,1]
+FormName = Please Come Again!
+#-------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
