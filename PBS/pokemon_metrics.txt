@@ -806,9 +806,15 @@ ShadowSize = 3
 #-------------------------------
 [MAGIKARP]
 BackSprite = -1,0
-FrontSprite = 2,-1
+FrontSprite = 0,5
 ShadowX = 0
 ShadowSize = 2
+#-------------------------------
+[MAGIKARP,1]
+BackSprite = -1,0
+FrontSprite = 0,5
+ShadowX = 0
+ShadowSize = 3
 #-------------------------------
 [GYARADOS]
 BackSprite = 2,0
@@ -2585,6 +2591,12 @@ BackSprite = 8,0
 FrontSprite = 0,11
 ShadowX = 0
 ShadowSize = 2
+#-------------------------------
+[ROSERADE,1]
+BackSprite = 8,0
+FrontSprite = -4,20
+ShadowX = 0
+ShadowSize = 3
 #-------------------------------
 [CRANIDOS]
 BackSprite = 0,0

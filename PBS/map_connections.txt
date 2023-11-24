@@ -16,6 +16,8 @@
 33,South,0,30,North,102
 # Extended Route (37) - Sphinc Town (30)
 37,South,0,30,North,62
+# Forest3 (64) - Sphinc Town (30)
+64,West,0,30,East,45
 # Route 1 (5) - Gullut City (7)
 5,North,0,7,South,4
 # Route 2 (32) - Gullut City (7)
@@ -36,10 +38,14 @@
 33,South,0,34,North,22
 # Extended Route (37) - Route 3 (34)
 37,South,18,34,North,0
+# Forest3 (64) - Route 3 (34)
+64,North,0,34,South,0
 # Vellus Forest (36) - Gurgol City (31)
 36,South,0,31,North,0
 # Extended Route 2 (38) - Gurgol City (31)
 38,West,0,31,East,0
+# Forest3 (64) - Gurgol City (31)
+64,East,105,31,West,0
 # Gutte City (33) - Vellus Forest (36)
 33,South,28,36,North,0
 # Extended Route (37) - Vellus Forest (36)
@@ -48,6 +54,8 @@
 35,North,0,36,South,70
 # Extended Route 2 (38) - Vellus Forest (36)
 38,North,0,36,South,50
+# Forest3 (64) - Vellus Forest (36)
+64,East,0,36,West,45
 # Extended Route (37) - Gutte City (33)
 37,East,0,33,West,76
 # Extended Route 2 (38) - Route 4 (35)

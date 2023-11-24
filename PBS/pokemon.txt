@@ -22923,12 +22923,12 @@ TutorMoves = BABYDOLLEYES,BITE,BOUNCE,CHARM,CLOSECOMBAT,CRUNCH,DIG,FAINT,FALSESU
 EggMoves = AGILITY,BEATUP,BOUNCE,COUNTER,COVET,FAKEOUT,QUICKGUARD,REVENGE,SCREECH,SLAM,SPITE,SWITCHEROO
 EggGroups = Field
 HatchSteps = 5120
-Height = 0.8
-Weight = 11.5
-Color = Purple
+Height = 1.8
+Weight = 120.6
+Color = Pink
 Shape = Serpentine
 Habitat = Forest
-Category = Long Tail
+Category = Weak Serpent
 Pokedex = The runt of the litter, Joily was almost executed in her tribe for being too small and weak.
 FormName = Snake
 Generation = 2
@@ -22949,12 +22949,13 @@ TutorMoves = ACROBATICS,AGILITY,AIRSLASH,ATTRACT,BATONPASS,CHARM,DUALWINGBEAT,EE
 EggMoves = ASTONISH,COVET,DEFOG,ROOST,SHOCKWAVE,TICKLE
 EggGroups = Field
 HatchSteps = 5120
-Height = 0.4
-Weight = 5.0
-Color = White
+Height = 2.7
+Weight = 301.6
+Color = Brown
 Shape = Serpentine
-Category = Wild Forest Lamia
-Pokedex = They live on treetops and glide using the inside of a cape-like membrane while discharging electricity.
+Habitat = Forest
+Category = Wild Snake
+Pokedex = A fierce lamia who was raised in the wilderness. She moved into an abandoned house to stay close to Joily. Even as her friend, Lyra will happily eat her little buddy for breakfast, lunch and dinner.
 Generation = 5
 #-------------------------------
 [SYNOPSE]
@@ -22973,13 +22974,13 @@ TutorMoves = ALLYSWITCH,ATTRACT,BODYSLAM,CALMMIND,CHARGEBEAM,DAZZLINGGLEAM,DOUBL
 EggMoves = ALLYSWITCH,CONFUSION,ENCORE,FIREPUNCH,GUARDSPLIT,GUARDSWAP,ICEPUNCH,KNOCKOFF,MAGICCOAT,POWERTRICK,PSYCHOSHIFT,THUNDERPUNCH
 EggGroups = Humanlike
 HatchSteps = 5120
-Height = 0.9
-Weight = 19.5
+Height = 3.7
+Weight = 560.0
 Color = Green
 Shape = Serpentine
-Habitat = Urban
+Habitat = Forest
 Category = Brutal Leader
-Pokedex = A Pokémon that sleeps 18 hours a day. Observation revealed that it uses Teleport to change its location once every hour.
+Pokedex = The leader of the warrior tribe which Joily once belonged, Synopse wants to get rid of Joily for being too weak. While she rests at twelve foot, her entire body is thirty-five foot long from Tip-to-tail.
 Generation = 1
 #-------------------------------
 [HILDA]
@@ -22999,13 +23000,13 @@ TutorMoves = AERIALACE,AIRSLASH,ASSURANCE,ATTRACT,BATONPASS,BLIZZARD,BODYSLAM,BO
 EggMoves = ASSURANCE,BATONPASS,BITE,CURSE,DOUBLEEDGE,FEINT,HEX,MAGICCOAT,MEANLOOK,MEGAHORN,PERISHSONG,PLAYROUGH,SUCKERPUNCH,ZENHEADBUTT
 EggGroups = Field
 HatchSteps = 6400
-Height = 1.2
-Weight = 47.0
+Height = 1.7
+Weight = 210.0
 Color = White
-Shape = Quadruped
-Habitat = Mountain
-Category = Disaster
-Pokedex = It sharply senses even subtle changes in the sky and the land to predict natural disasters. It is a long-lived Pokémon that has a life-span of 100 years.
+Shape = Bipedal
+Habitat = Urban
+Category = Bandit Queen
+Pokedex = This hunter has the grand goal of making one member of each Demi-Human species extinct and she's set her eyes on you as the lamia in that list. Rumours have it that she is the leader of a camp of bandits.
 Generation = 3
 #-------------------------------
 [HUNGRYGAL]
@@ -23027,8 +23028,8 @@ Height = 2.2
 Weight = 135.5
 Color = White
 Shape = BipedalTail
-Category = Hunger
-Pokedex = It whips up blizzards in mountains that are always buried in snow. It is the abominable snowman.
+Category = Hungry Beauty
+Pokedex = Known as 'The Voracious Stunner of Gullut', this trainer hangs out on Route 2, waiting for her prey to be dazzled be her attractiveness before she sends them to their digestive demise.
 Generation = 4
 #-------------------------------
 [ROCKETGRUNT]
@@ -23046,15 +23047,13 @@ Moves = 1,DEVOUR
 TutorMoves = ATTRACT,BODYSLAM,ENDURE,ENERGYBALL,FACADE,FOULPLAY,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYTERRAIN,HEX,HIDDENPOWER,HYPERBEAM,PAYBACK,POLLENPUFF,PROTECT,RAINDANCE,REST,ROUND,SEEDBOMB,SLEEPTALK,SLUDGEBOMB,SNORE,SOLARBEAM,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,VENOSHOCK
 EggGroups = Grass
 HatchSteps = 5120
-Height = 0.6
-Weight = 10.5
+Height = 1.4
+Weight = 160.5
 Color = White
 Shape = HeadArms
 Category = Voracious Rocket
-Pokedex = They show off their Poké Ball caps to lure prey, but very few Pokémon are fooled by this.
-Generation = 5
-WildItemCommon = TINYMUSHROOM
-WildItemUncommon = BIGMUSHROOM
+Pokedex = A member of the now-defunct crime syndicate 'Rocket', this nostalgic grunt refuses to let go of the past as she runs a small gang of ex-Rocketeers, trying to return once more.
+Generation = 1
 #-------------------------------
 [BRYST]
 Name = Bryst
@@ -23076,9 +23075,9 @@ Height = 1.9
 Weight = 155.0
 Color = White
 Shape = Bipedal
-Habitat = Grassland
+Habitat = Urban
 Category = Gastric Admin
-Pokedex = This fleet-footed Pokémon is said to run over 6,200 miles in a single day and night. The fire that blazes wildly within its body is its source of power.
+Pokedex = This member of Team Gastric is very friendly. Perhaps it's because she's new, but she seems to genuinely care about Joily. Her breasts can convert a full-sized human into several gallons of milk in less than three minutes.
 Generation = 1
 #-------------------------------
 [MOON]
@@ -23100,16 +23099,15 @@ HatchSteps = 5120
 Height = 0.8
 Weight = 11.5
 Color = Purple
-Shape = Serpentine
+Shape = Bipedal
 Habitat = Forest
-Category = Long Tail
-Pokedex = The runt of the litter, Joily was almost executed in her tribe for being too small and weak.
-FormName = Snake
+Category = Lardball Feline
+Pokedex = [Needs inserting]
 Generation = 2
 #-------------------------------
 [ROXXIE]
 Name = Roxxie
-Types = WATER,FAIRY
+Types = FIGHTING,DRAGON
 BaseStats = 90,110,80,95,100,80
 GenderRatio = AlwaysFemale
 GrowthRate = Slow
@@ -23123,18 +23121,18 @@ Moves = 1,DEVOUR
 TutorMoves = AERIALACE,AGILITY,ATTRACT,BODYSLAM,BULLDOZE,CLOSECOMBAT,CRUNCH,DIG,DOUBLETEAM,DRAGONPULSE,ENDURE,FACADE,FIREBLAST,FIREFANG,FIRESPIN,FLAMETHROWER,FLAREBLITZ,GIGAIMPACT,HEATWAVE,HELPINGHAND,HIDDENPOWER,HYPERBEAM,HYPERVOICE,IRONHEAD,IRONTAIL,OUTRAGE,OVERHEAT,PLAYROUGH,PROTECT,PSYCHICFANGS,REST,RETALIATE,REVERSAL,ROAR,ROCKCLIMB,ROCKSMASH,ROUND,SAFEGUARD,SCARYFACE,SCORCHINGSANDS,SLEEPTALK,SNARL,SNORE,SOLARBEAM,STRENGTH,SUBSTITUTE,SUNNYDAY,SWAGGER,SWIFT,THIEF,THUNDERFANG,WILDCHARGE,WILLOWISP
 EggGroups = Field
 HatchSteps = 5120
-Height = 1.9
-Weight = 155.0
+Height = 1.5
+Weight = 190.0
 Color = White
 Shape = Bipedal
-Habitat = Grassland
-Category = Gastric Admin
-Pokedex = This fleet-footed Pokémon is said to run over 6,200 miles in a single day and night. The fire that blazes wildly within its body is its source of power.
+Habitat = Urban
+Category = Rowdy Idiot
+Pokedex = [Needs inserting]
 Generation = 1
 #-------------------------------
 [EM]
 Name = Em
-Types = WATER,FAIRY
+Types = DARK,PSYCHIC
 BaseStats = 90,110,80,95,100,80
 GenderRatio = AlwaysFemale
 GrowthRate = Slow
@@ -23148,13 +23146,13 @@ Moves = 1,DEVOUR
 TutorMoves = AERIALACE,AGILITY,ATTRACT,BODYSLAM,BULLDOZE,CLOSECOMBAT,CRUNCH,DIG,DOUBLETEAM,DRAGONPULSE,ENDURE,FACADE,FIREBLAST,FIREFANG,FIRESPIN,FLAMETHROWER,FLAREBLITZ,GIGAIMPACT,HEATWAVE,HELPINGHAND,HIDDENPOWER,HYPERBEAM,HYPERVOICE,IRONHEAD,IRONTAIL,OUTRAGE,OVERHEAT,PLAYROUGH,PROTECT,PSYCHICFANGS,REST,RETALIATE,REVERSAL,ROAR,ROCKCLIMB,ROCKSMASH,ROUND,SAFEGUARD,SCARYFACE,SCORCHINGSANDS,SLEEPTALK,SNARL,SNORE,SOLARBEAM,STRENGTH,SUBSTITUTE,SUNNYDAY,SWAGGER,SWIFT,THIEF,THUNDERFANG,WILDCHARGE,WILLOWISP
 EggGroups = Field
 HatchSteps = 5120
-Height = 1.9
-Weight = 155.0
-Color = White
+Height = 2.1
+Weight = 193.0
+Color = Purple
 Shape = Bipedal
-Habitat = Grassland
-Category = Gastric Admin
-Pokedex = This fleet-footed Pokémon is said to run over 6,200 miles in a single day and night. The fire that blazes wildly within its body is its source of power.
+Habitat = Urban
+Category = Luridly malicious
+Pokedex = [Needs inserting]
 Generation = 1
 #-------------------------------
 [GASTRICGRUNT]
@@ -23184,7 +23182,7 @@ Generation = 1
 #-------------------------------
 [KELLY]
 Name = Kelly
-Types = NORMAL,GROUND
+Types = DARK,SNACK
 BaseStats = 90,110,80,95,100,80
 GenderRatio = AlwaysFemale
 GrowthRate = Slow
@@ -23198,13 +23196,13 @@ Moves = 1,DEVOUR
 TutorMoves = AERIALACE,AGILITY,ATTRACT,BODYSLAM,BULLDOZE,CLOSECOMBAT,CRUNCH,DIG,DOUBLETEAM,DRAGONPULSE,ENDURE,FACADE,FIREBLAST,FIREFANG,FIRESPIN,FLAMETHROWER,FLAREBLITZ,GIGAIMPACT,HEATWAVE,HELPINGHAND,HIDDENPOWER,HYPERBEAM,HYPERVOICE,IRONHEAD,IRONTAIL,OUTRAGE,OVERHEAT,PLAYROUGH,PROTECT,PSYCHICFANGS,REST,RETALIATE,REVERSAL,ROAR,ROCKCLIMB,ROCKSMASH,ROUND,SAFEGUARD,SCARYFACE,SCORCHINGSANDS,SLEEPTALK,SNARL,SNORE,SOLARBEAM,STRENGTH,SUBSTITUTE,SUNNYDAY,SWAGGER,SWIFT,THIEF,THUNDERFANG,WILDCHARGE,WILLOWISP
 EggGroups = Field
 HatchSteps = 5120
-Height = 1.9
-Weight = 155.0
+Height = 1.2
+Weight = 90.0
 Color = White
 Shape = Bipedal
 Habitat = Grassland
-Category = Gastric Admin
-Pokedex = This fleet-footed Pokémon is said to run over 6,200 miles in a single day and night. The fire that blazes wildly within its body is its source of power.
+Category = Lamia Rodent
+Pokedex = A sweet mousegirl with a high tolerance and a love for research. Her main studies revolve around lamias and other large predators. 
 Generation = 1
 #-------------------------------
 [GASTRICGRUNTNB]
@@ -23274,7 +23272,7 @@ TutorMoves = AERIALACE,AGILITY,ATTRACT,BODYSLAM,BULLDOZE,CLOSECOMBAT,CRUNCH,DIG,
 EggGroups = Field
 HatchSteps = 5120
 Height = 1.9
-Weight = 90.0
+Weight = 180.0
 Color = White
 Shape = Bipedal
 Habitat = Grassland
@@ -23290,8 +23288,10 @@ GenderRatio = Female50Percent
 GrowthRate = Slow
 BaseExp = 163
 EVs = ATTACK,2
+CatchRate = 255
+Happiness = 70
 Abilities = INTIMIDATE,FRISK
-HiddenAbility = FRISK
+HiddenAbilities = FRISK
 Moves = 1,DEVOUR
 TutorMoves = BOUNCE
 EggGroups = Field
@@ -23301,20 +23301,22 @@ Weight = 95.1
 Color = Gray
 Shape = Quadruped
 Habitat = Forest
+Category = ???
 Pokedex = The black orbs shine with an uncanny light when the Pokémon is erecting invisible barriers. The fur shed from its beard retains heat well and is a highly useful material for winter clothing
 Generation = 8
 #-------------------------------
 [KLEAVOR]
 Name = Kleavor
-InternalName = KLEAVOR
 Types = BUG,ROCK
 BaseStats = 70,135,95,85,45,70
 GenderRatio = Female50Percent
 GrowthRate = Medium
 BaseExp = 100
 EVs = ATTACK,2
+CatchRate = 255
+Happiness = 70
 Abilities = SWARM,SHEERFORCE
-HiddenAbility = STEADFAST
+HiddenAbilities = STEADFAST
 Moves = 1,DEVOUR
 TutorMoves = BOUNCE
 EggGroups = Bug
@@ -23322,21 +23324,24 @@ HatchSteps = 6630
 Height = 1.8
 Weight = 89.0
 Color = Brown
+Shape = Head
 Habitat = Grassland
+Category = ???
 Pokedex = A violent creature that fells towering trees with its crude axes and shields itself with hard stone. If one should chance upon this Pokémon in the wilds, one's only recourse is to flee.
 Generation = 8
 #-------------------------------
 [URSALUNA]
 Name = Ursaluna
-InternalName = URSALUNA
 Types = GROUND,NORMAL
 BaseStats = 130,140,105,50,45,80
 GenderRatio = Female50Percent
 GrowthRate = Medium
 BaseExp = 175
 EVs = ATTACK,2
+CatchRate = 255
+Happiness = 70
 Abilities = GUTS,BULLETPROOF
-HiddenAbility = UNNERVE
+HiddenAbilities = UNNERVE
 Moves = 1,DEVOUR
 TutorMoves = BOUNCE
 EggGroups = Field
@@ -23346,20 +23351,22 @@ Weight = 290.0
 Color = Brown
 Shape = BipedalTail
 Habitat = Mountain
+Category = ???
 Pokedex = It is believed that the swampy terrain of its ancient home region that gave Ursaluna its burly physique and newfound capacity to manipulate peat at will.
 Generation = 8
 #-------------------------------
 [BASCULEGION]
 Name = Basculegion
-InternalName = BASCULEGION
 Types = WATER,GHOST
 BaseStats = 120,112,65,78,80,75
 GenderRatio = AlwaysMale
 GrowthRate = Medium
 BaseExp = 161
 EVs = ATTACK,2
+CatchRate = 255
+Happiness = 70
 Abilities = RATTLED,ADAPTABILITY
-HiddenAbility = MOLDBREAKER
+HiddenAbilities = MOLDBREAKER
 Moves = 1,DEVOUR
 TutorMoves = BOUNCE
 EggGroups = Water2
@@ -23369,20 +23376,22 @@ Weight = 110.0
 Color = Green
 Shape = Finned
 Habitat = Sea
+Category = ???
 Pokedex = The souls of its comdrades cloak its body and propel it towards its next meal before it can escape.
 Generation = 8
 #-------------------------------
 [SNEASLER]
 Name = Sneasler
-InternalName = SNEASLER
 Types = FIGHTING,POISON
 BaseStats = 80,130,60,120,40,80
 GenderRatio = Female50Percent
 GrowthRate = Parabolic
 BaseExp = 86
 EVs = ATTACK,2
+CatchRate = 255
+Happiness = 70
 Abilities = PRESSURE
-HiddenAbility = POISONTOUCH
+HiddenAbilities = POISONTOUCH
 Moves = 1,DEVOUR
 TutorMoves = BOUNCE
 EggGroups = Field
@@ -23392,20 +23401,22 @@ Weight = 43.0
 Color = Gray
 Shape = BipedalTail
 Habitat = Grassland
+Category = ???
 Pokedex = Because of Sneasler’s virulent poison and daunting physical prowess, no other species could hope to best it on frozen highlands. Preferring solitude, this species does not form packs.
 Generation = 8
 #-------------------------------
 [OVERQWIL]
 Name = Overqwil
-InternalName = OVERQWIL
 Types = DARK,POISON
 BaseStats = 85,115,95,85,65,65
 GenderRatio = Female50Percent
 GrowthRate = Medium
 BaseExp = 88
 EVs = ATTACK,2
+CatchRate = 255
+Happiness = 70
 Abilities = POISONPOINT,SWIFTSWIM
-HiddenAbility = INTIMIDATE
+HiddenAbilities = INTIMIDATE
 Moves = 1,DEVOUR
 TutorMoves = BOUNCE
 EggGroups = Water2
@@ -23415,20 +23426,22 @@ Weight = 60.5
 Color = Black
 Shape = Finned
 Habitat = Sea
+Category = ???
 Pokedex = Its lancelike spikes and savage temperament have earned it the nickname "sea fiend." It slurps up poison to nourish itself.
 Generation = 8
 #-------------------------------
 [ENAMORUS]
 Name = Enamorus
-InternalName = ENAMORUS
 Types = FAIRY,FLYING
 BaseStats = 74,115,70,106,135,80
 GenderRatio = AlwaysFemale
 GrowthRate = Slow
 BaseExp = 270
 EVs = ATTACK,2
+CatchRate = 255
+Happiness = 70
 Abilities = HEALER
-HiddenAbility = CONTRARY
+HiddenAbilities = CONTRARY
 Moves = 1,DEVOUR
 TutorMoves = BOUNCE
 EggGroups = Undiscovered
@@ -23438,6 +23451,7 @@ Weight = 118.0
 Color = Pink
 Shape = HeadArms
 Habitat = RoughTerrain
+Category = ???
 Pokedex = When it flies to this land from across the sea, the bitter winter comes to an end. According to legend, this Pokémon's love gives rise to the budding of fresh life across Hisui.
 FormName = Incarnate Forme
 Generation = 8
@@ -23705,7 +23719,6 @@ Evolutions = OINKOLOGNE,Level,18
 #-------------------------------
 [OINKOLOGNE]
 Name = Oinkologne
-FormName = Male
 Types = NORMAL
 BaseStats = 110,100,75,65,59,80
 GenderRatio = Female50Percent
@@ -23727,6 +23740,7 @@ Shape = Quadruped
 Habitat = Grassland
 Category = Hog
 Pokedex = It entrances female Pokémon with the sweet, alluring scent that wafts from all over its body.
+FormName = Male
 Generation = 9
 #-------------------------------
 [TAROUNTULA]
@@ -23940,7 +23954,6 @@ Evolutions = MAUSHOLD,Level,25
 #-------------------------------
 [MAUSHOLD]
 Name = Maushold
-FormName = Family of Four
 Types = NORMAL
 BaseStats = 74,75,70,111,65,75
 GenderRatio = Genderless
@@ -23962,6 +23975,7 @@ Shape = MultiBody
 Habitat = Urban
 Category = Family
 Pokedex = They build huge nests with many rooms that are used for different purposes, such as eating and sleeping.
+FormName = Family of Four
 Generation = 9
 #-------------------------------
 [FIDOUGH]
@@ -24096,7 +24110,6 @@ Generation = 9
 #-------------------------------
 [SQUAWKABILLY]
 Name = Squawkabilly
-FormName = Green Plumage
 Types = NORMAL,FLYING
 BaseStats = 82,96,51,92,45,51
 GenderRatio = Female50Percent
@@ -24119,6 +24132,7 @@ Shape = Winged
 Habitat = Urban
 Category = Parrot
 Pokedex = These Pokémon prefer to live in cities. They form flocks based on the color of their feathers, and they fight over territory.
+FormName = Green Plumage
 Generation = 9
 #-------------------------------
 [NACLI]
@@ -24954,7 +24968,6 @@ Evolutions = PALAFIN,Level,38
 #-------------------------------
 [PALAFIN]
 Name = Palafin
-FormName = Zero Form
 Types = WATER
 BaseStats = 100,70,72,100,53,62
 GenderRatio = Female50Percent
@@ -24975,6 +24988,7 @@ Shape = Finned
 Habitat = Sea
 Category = Dolphin
 Pokedex = This Pokémon changes its appearance if it hears its allies calling for help. Palafin will never show anybody its moment of transformation.
+FormName = Zero Form
 Generation = 9
 #-------------------------------
 [VAROOM]
@@ -25317,7 +25331,6 @@ Generation = 9
 #-------------------------------
 [TATSUGIRI]
 Name = Tatsugiri
-FormName = Curly Form
 Types = DRAGON,WATER
 BaseStats = 68,50,60,82,120,95
 GenderRatio = Female50Percent
@@ -25340,6 +25353,7 @@ Shape = Serpentine
 Habitat = Sea
 Category = Mimicry
 Pokedex = This is a small dragon Pokémon. It lives inside the mouth of Dondozo to protect itself from enemies on the outside.
+FormName = Curly Form
 Generation = 9
 #-------------------------------
 [ANNIHILAPE]
@@ -25420,7 +25434,6 @@ Generation = 9
 #-------------------------------
 [DUDUNSPARCE]
 Name = Dudunsparce
-FormName = Two-Segment Form
 Types = NORMAL
 BaseStats = 125,100,80,55,85,75
 GenderRatio = Female50Percent
@@ -25442,6 +25455,7 @@ Shape = Serpentine
 Habitat = Cave
 Category = Land Snake
 Pokedex = This Pokémon uses its hard tail to make its nest by boring holes into bedrock deep underground. The nest can reach lengths of over six miles.
+FormName = Two-Segment Form
 Generation = 9
 #-------------------------------
 [KINGAMBIT]
@@ -25849,7 +25863,6 @@ Generation = 9
 #-------------------------------
 [GIMMIGHOUL]
 Name = Gimmighoul
-FormName = Chest Form
 Types = GHOST
 BaseStats = 45,30,70,10,75,70
 GenderRatio = Genderless
@@ -25870,6 +25883,7 @@ Shape = Head
 Habitat = Urban
 Category = Coin Chest
 Pokedex = This Pokémon was born inside a treasure chest about 1,500 years ago. It sucks the life-force out of scoundrels who try to steal the treasure.
+FormName = Chest Form
 Generation = 9
 Evolutions = GHOLDENGO,Level,30
 #-------------------------------
@@ -26173,7 +26187,6 @@ Generation = 9
 #-------------------------------
 [POLTCHAGEIST]
 Name = Poltchageist
-FormName = Counterfeit Form
 Types = GRASS,GHOST
 BaseStats = 40,45,45,50,74,54
 GenderRatio = Genderless
@@ -26195,12 +26208,12 @@ Shape = Head
 Habitat = Urban
 Category = Matcha
 Pokedex = Supposedly, the regrets of a tea ceremony master who died before perfecting his craft lingered in some matcha and became a Pokémon.
+FormName = Counterfeit Form
 Generation = 9
 Evolutions = SINISTCHA,Level,18
 #-------------------------------
 [SINISTCHA]
 Name = Sinistcha
-FormName = Unremarkable Form
 Types = GRASS,GHOST
 BaseStats = 71,60,106,70,121,80
 GenderRatio = Genderless
@@ -26222,6 +26235,7 @@ Shape = Head
 Habitat = Urban
 Category = Matcha
 Pokedex = It pretends to be tea, trying to fool people into drinking it so it can drain their life-force. Its ruse is generally unsuccessful.
+FormName = Unremarkable Form
 Generation = 9
 #-------------------------------
 [OKIDOGI]
@@ -26304,7 +26318,6 @@ Flags = Legendary
 #-------------------------------
 [OGERPON]
 Name = Ogerpon
-FormName = Teal Mask
 Types = GRASS
 BaseStats = 80,120,84,110,60,96
 GenderRatio = AlwaysFemale
@@ -26325,6 +26338,7 @@ Shape = Bipedal
 Habitat = Rare
 Category = Mask
 Pokedex = This Pokémon's type changes based on which mask it's wearing. It confounds its enemies with nimble movements and kicks.
+FormName = Teal Mask
 Generation = 9
 Flags = Legendary,TeraType_GRASS
 #-------------------------------

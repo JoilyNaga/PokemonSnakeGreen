@@ -1,7 +1,7 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
 [BULBASAUR,1]
-FormName = Tangling Vines
+FormName = Vine Whipped
 BaseStats = 80,100,123,80,122,120
 BaseExp = 313
 Abilities = OVERGROW
@@ -21,7 +21,7 @@ Pokedex = Tangly.
 Generation = 1
 #-------------------------------
 [VENUSAUR,1]
-FormName = Tangling Vines
+FormName = Solar Power Fuel
 BaseStats = 80,100,123,80,122,120
 BaseExp = 313
 Abilities = THICKFAT
@@ -524,18 +524,6 @@ Height = 1.7
 Weight = 59.0
 Shape = MultiWinged
 Pokedex = It zips around at blistering speeds, looking for an opening to skewer its opponent on its giant pincers.
-Generation = 6
-#-------------------------------
-[GYARADOS,1]
-FormName = Mega Gyarados
-MegaStone = GYARADOSITE
-Types = WATER,DARK
-BaseStats = 95,155,109,81,70,130
-BaseExp = 224
-Abilities = MOLDBREAKER
-HiddenAbilities = MOLDBREAKER
-Weight = 305.0
-Pokedex = It zooms out of the water at Mach speeds. Even large ships caught in its path are split cleanly in two!
 Generation = 6
 #-------------------------------
 [AERODACTYL,1]
@@ -2554,8 +2542,18 @@ FormName = Scarecrow Swap
 [NURSEJOY,1]
 FormName = Please Come Again!
 #-------------------------------
-
-
+[SEVIPER,1]
+FormName = Dinner at Knife-Point
+#-------------------------------
+[MAGIKARP,1]
+FormName = Weakling inside a weakling
+#-------------------------------
+[ROSERADE,1]
+FormName = Feeding the Flowers
+#-------------------------------
+[GYARADOS,1]
+FormName = Undressed by Fangs
+#-------------------------------
 
 
 

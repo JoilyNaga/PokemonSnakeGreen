@@ -91,7 +91,7 @@ MapPosition = 0,13,10
 Name = Cedolan City
 MapPosition = 0,13,10
 #-------------------------------
-[020]   # OutHouse
+[020]   # Gullut OutHouse
 Name = Public Bathroom
 Outdoor = false
 ShowArea = true
@@ -282,12 +282,12 @@ Environment = Cave
 Flags = Magnetic,DistortionWorld
 #-------------------------------
 [050]   # Sphinc Gym
-Name = Route 7
+Name = Sphinc Town Gym
 Bicycle = true
 MapPosition = 0,16,10
-DarkMap = true
+DarkMap = false
 BattleBack = cave3
-Environment = Cave
+Environment = None
 Flags = Magnetic,DistortionWorld
 #-------------------------------
 [051]   # MuseumBasement
@@ -305,7 +305,7 @@ Outdoor = false
 ShowArea = false
 MapPosition = 0,17,10
 #-------------------------------
-[053]   # MAP053
+[053]   # Museum Upstairs
 Name = Battle Frontier
 HealingSpot = 52,17,14
 MapPosition = 0,17,10
@@ -334,7 +334,7 @@ Flags = DisableBoxLink
 Name = Battle Frontier
 MapPosition = 0,17,10
 #-------------------------------
-[058]   # Sphinc House Behind Mart
+[058]   # Egirl House
 Name = Battle Frontier
 MapPosition = 0,17,10
 #-------------------------------
@@ -348,49 +348,49 @@ Flags = DisableBoxLink
 Name = Museum Basement
 MapPosition = 0,17,10
 #-------------------------------
-[061]
+[061]   # Sphinc Reformation Center
 Name = Battle Frontier
 MapPosition = 0,17,10
 BattleBack = indoor1
 Flags = DisableBoxLink
 #-------------------------------
-[062]
+[062]   # Sphinc OutHouse
 Name = Battle Frontier
 MapPosition = 0,17,10
 #-------------------------------
-[063]
+[063]   # Curator's Home
 Name = Battle Frontier
 MapPosition = 0,17,10
 Flags = DisableBoxLink
 #-------------------------------
-[064]
+[064]   # Forest3
 Name = Battle Frontier
 MapPosition = 0,17,10
 BattleBack = indoor1
 Flags = DisableBoxLink
 #-------------------------------
-[065]
+[065]   # Cynthia's House
 Name = Battle Frontier
 MapPosition = 0,17,10
 Flags = DisableBoxLink
 #-------------------------------
-[066]
+[066]   # Routes
 Name = Safari Zone
 Outdoor = true
 ShowArea = true
 MapPosition = 0,12,12
 BattleBack = field
 #-------------------------------
-[067]
+[067]   # Museum Upstairs GIANT
 Name = Safari Zone
 MapPosition = 0,12,12
 #-------------------------------
-[068]
-Name = Safari Zone
-Outdoor = true
-ShowArea = true
-MapPosition = 0,12,12
-SafariMap = true
+[068]   # MAP068
+Name = Sphinc Museum
+Outdoor = false
+ShowArea = false
+MapPosition = 0,11,7
+SafariMap = false
 BattleBack = forest
 Environment = Forest
 #-------------------------------

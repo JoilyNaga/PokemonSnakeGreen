@@ -1755,3 +1755,59 @@ Compiler_CompilePBS:792:in `block in compile_pokemon_forms'
 Compiler_CompilePBS:785:in `open'
 Compiler_CompilePBS:785:in `compile_pokemon_forms'
 Compiler:767:in `compile_pbs_files'
+
+=================
+
+[2023-11-20 10:48:54 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NameError
+Message: undefined local variable or method `i' for StringListProperty:Class
+
+Backtrace:
+Editor_DataTypes:244:in `block in set'
+Editor_DataTypes:243:in `times'
+Editor_DataTypes:243:in `set'
+Editor_DataTypes:1605:in `block (2 levels) in pbPropertyList'
+Editor_DataTypes:1574:in `loop'
+Editor_DataTypes:1574:in `block in pbPropertyList'
+Editor_DataTypes:1573:in `loop'
+Editor_DataTypes:1573:in `pbPropertyList'
+EditorScreens:824:in `pbEditMapMetadata'
+EditorScreens:810:in `block in pbMapMetadataScreen'
+
+=================
+
+[2023-11-24 09:39:53 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 26 (coords 10,23), map 7 (Gullut City)
+Exception: ArgumentError
+Message: wrong number of arguments (given 0, expected 1..2)
+
+***Full script:
+$player.pokedex.set_owned(:KELLY)
+$player.pokedex.set_owned
+(:GASTRICGRUNT)
+$player.pokedex.set_owned
+(:GASTRICGRUNTF)
+$player.pokedex.set_owned
+(:GASTRICGRUNTNB)
+$player.pokedex.set_owned(:MOON)
+$player.pokedex.set_owned(:ROXXIE)
+$player.pokedex.set_owned(:CAVEGIRL)
+$player.pokedex.set_owned(:BRYST)
+
+Backtrace:
+Player_Pokedex:147:in `set_owned'
+(eval):2:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
