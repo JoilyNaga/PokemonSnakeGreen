@@ -320,7 +320,6 @@ Outdoor = true
 ShowArea = true
 Bicycle = true
 HealingSpot = 52,30,10
-Weather = Sun,100
 MapPosition = 0,17,10
 Environment = Sand
 #-------------------------------
@@ -385,7 +384,7 @@ BattleBack = field
 Name = Safari Zone
 MapPosition = 0,12,12
 #-------------------------------
-[068]   # MAP068
+[068]   # Museum Upstairs SUPER GIANT
 Name = Sphinc Museum
 Outdoor = false
 ShowArea = false
