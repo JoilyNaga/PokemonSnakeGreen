@@ -393,27 +393,27 @@ SafariMap = false
 BattleBack = forest
 Environment = Forest
 #-------------------------------
-[069]
-Name = Route 8
-Outdoor = true
+[069]   # Museum Warp
+Name = Sphinct Museum Warp
+Outdoor = false
 ShowArea = true
 MapPosition = 0,13,13
 DiveMap = 70
 BattleBack = field
 #-------------------------------
-[070]
-Name = Route 8
+[070]   # Delia's House
+Name = Delia's Holiday Home
 MapPosition = 0,13,13
 BattleBack = underwater
 Environment = Underwater
 #-------------------------------
-[071]
+[071]   # House by PokeCentre
 Name = Route 8
 MapPosition = 0,13,13
 #-------------------------------
-[072]
+[072]   # House behind PokeCentre
 Name = Berth Island
-Outdoor = true
+Outdoor = false
 ShowArea = true
 Weather = Storm,50
 MapPosition = 0,18,17
