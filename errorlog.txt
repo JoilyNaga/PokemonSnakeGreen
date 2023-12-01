@@ -1811,3 +1811,57 @@ Interpreter:133:in `block in update'
 Interpreter:90:in `loop'
 Interpreter:90:in `update'
 Scene_Map:160:in `block in update'
+
+=================
+
+[2023-11-30 22:55:14 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 2 (coords 9,8), map 43 (Gullut Gym)
+Exception: RuntimeError
+Message: Species EMOLGA does not exist.
+
+***Full script:
+setBattleRule("cannotRun")
+setBattleRule("canLose")
+setBattleRule("outcome", 48)
+WildBattle.start(:EMOLGA, 15)
+
+Backtrace:
+Overworld_BattleStarting:426:in `block in generate_foes'
+Overworld_BattleStarting:407:in `each'
+Overworld_BattleStarting:407:in `generate_foes'
+Overworld_BattleStarting:348:in `start'
+(eval):4:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+
+=================
+
+[2023-12-01 00:05:46 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 1 (coords 14,15), map 56 (Battle Frontier)
+Exception: ArgumentError
+Message: wrong number of arguments (given 0, expected 1..2)
+
+***Full script:
+$player.pokedex.set_owned
+(:AERODACTYL)
+
+Backtrace:
+Player_Pokedex:147:in `set_owned'
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'

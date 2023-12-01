@@ -2554,6 +2554,9 @@ FormName = Feeding the Flowers
 [GYARADOS,1]
 FormName = Undressed by Fangs
 #-------------------------------
+[FRANCIS,1]
+FormName = Incel Insides
+#-------------------------------
 
 
 

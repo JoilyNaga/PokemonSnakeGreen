@@ -26508,3 +26508,27 @@ Habitat = Rare
 Category = Healing
 Pokedex = This Pokémon's type changes based on which mask it's wearing. It confounds its enemies with nimble movements and kicks.
 Generation = 8
+#-------------------------------
+[FRANCIS]
+Name = Francis
+Types = NORMAL
+BaseStats = 80,120,84,110,60,96
+GenderRatio = AlwaysMale
+GrowthRate = Slow
+BaseExp = 275
+EVs = ATTACK,3
+CatchRate = 5
+Happiness = 50
+Abilities = DEFIANT
+Moves = 1,DEVOUR
+TutorMoves = BRICKBREAK,BULLETSEED,CHARM,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LOWKICK,LOWSWEEP,MAGICALLEAF,PLAYROUGH,PROTECT,RAINDANCE,REST,REVERSAL,ROCKTOMB,SANDSTORM,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SOLARBLADE,SPIKES,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SWORDSDANCE,TAKEDOWN,TAUNT,TRAILBLAZE,UTURN,ZENHEADBUTT
+EggGroups = Undiscovered
+HatchSteps = 2560
+Height = 1.2
+Weight = 39.8
+Color = Pink
+Shape = Bipedal
+Habitat = Rare
+Category = Nerd
+Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Generation = 8

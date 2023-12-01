@@ -411,30 +411,29 @@ Environment = Underwater
 Name = Route 8
 MapPosition = 0,13,13
 #-------------------------------
-[072]   # House behind PokeCentre
-Name = Berth Island
+[072]   # Francis' House
+Name = Francis' House
 Outdoor = false
-ShowArea = true
-Weather = Storm,50
+ShowArea = false
 MapPosition = 0,18,17
 BattleBack = field
 Flags = DistortionWorld
 #-------------------------------
-[073]
+[073]   # Francis' Basement
 Name = Faraday Island
-Outdoor = true
-ShowArea = true
+Outdoor = false
+ShowArea = false
 MapPosition = 0,22,16
 BattleBack = field
 Flags = DistortionWorld
 #-------------------------------
-[074]
-Name = Route 6
+[074]   # Francis' Computer
+Name = Francis' Computer
 Bicycle = true
 MapPosition = 0,12,10
 #-------------------------------
-[075]
-Name = Tiall Region
-Outdoor = true
+[075]   # Recycling Bin
+Name = Recycling Bin
+Outdoor = false
 MapPosition = 1,13,16
 BattleBack = city
