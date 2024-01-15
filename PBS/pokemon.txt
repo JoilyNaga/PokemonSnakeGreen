@@ -23051,7 +23051,7 @@ Height = 1.4
 Weight = 160.5
 Color = White
 Shape = HeadArms
-Category = Voracious Rocket
+Category = Low Level
 Pokedex = A member of the now-defunct crime syndicate 'Rocket', this nostalgic grunt refuses to let go of the past as she runs a small gang of ex-Rocketeers, trying to return once more.
 Generation = 1
 #-------------------------------
@@ -25315,7 +25315,7 @@ CatchRate = 25
 Happiness = 50
 Abilities = UNAWARE,OBLIVIOUS
 HiddenAbilities = WATERVEIL
-Moves = 1,TACKLE,1,SUPERSONIC,1,WATERGUN,5,TICKLE,10,FLAIL,15,REST,15,SLEEPTALK,20,DIVE,25,NOBLEROAR,30,SOAK,35,BODYSLAM,40,AQUATAIL,45,RAINDANCE,50,ORDERUP,55,HEAVYSLAM,60,DOUBLEEDGE,65,WAVECRASH
+Moves = 1,DEVOUR
 TutorMoves = AVALANCHE,BODYPRESS,BODYSLAM,BULLDOZE,CHILLINGWATER,CRUNCH,EARTHQUAKE,ENDURE,FACADE,GIGAIMPACT,HEAVYSLAM,HYDROPUMP,HYPERBEAM,ICEFANG,LIQUIDATION,OUTRAGE,PROTECT,RAINDANCE,REST,ROCKSLIDE,SCARYFACE,SLEEPTALK,STOMPINGTANTRUM,SUBSTITUTE,SURF,TAKEDOWN,WATERFALL,WATERPULSE,ZENHEADBUTT
 EggMoves = CURSE,FISSURE,THRASH,YAWN
 EggGroups = Water2
@@ -26353,7 +26353,7 @@ EVs = ATTACK,3
 CatchRate = 5
 Happiness = 50
 Abilities = DEFIANT
-Moves = 1,HORNLEECH,1,DOUBLEKICK,1,COUNTER,1,RETALIATE,1,VINEWHIP,1,LEECHSEED,1,QUICKATTACK,1,FOLLOWME,6,FOCUSENERGY,12,GROWTH,18,SLAM,24,LOWSWEEP,30,IVYCUDGEL,36,THROATCHOP,42,SYNTHESIS,48,SPIKYSHIELD,54,POWERWHIP,60,SUPERPOWER,66,WOODHAMMER
+Moves = 1,DEVOUR
 TutorMoves = BRICKBREAK,BULLETSEED,CHARM,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LOWKICK,LOWSWEEP,MAGICALLEAF,PLAYROUGH,PROTECT,RAINDANCE,REST,REVERSAL,ROCKTOMB,SANDSTORM,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SOLARBLADE,SPIKES,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SWORDSDANCE,TAKEDOWN,TAUNT,TRAILBLAZE,UTURN,ZENHEADBUTT
 EggGroups = Undiscovered
 HatchSteps = 2560
@@ -26485,30 +26485,6 @@ Category = Healing
 Pokedex = This Pokémon's type changes based on which mask it's wearing. It confounds its enemies with nimble movements and kicks.
 Generation = 8
 #-------------------------------
-[ROV]
-Name = Rov
-Types = NORMAL
-BaseStats = 80,120,84,110,60,96
-GenderRatio = AlwaysFemale
-GrowthRate = Slow
-BaseExp = 275
-EVs = ATTACK,3
-CatchRate = 5
-Happiness = 50
-Abilities = DEFIANT
-Moves = 1,DEVOUR
-TutorMoves = BRICKBREAK,BULLETSEED,CHARM,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LOWKICK,LOWSWEEP,MAGICALLEAF,PLAYROUGH,PROTECT,RAINDANCE,REST,REVERSAL,ROCKTOMB,SANDSTORM,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SOLARBLADE,SPIKES,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SWORDSDANCE,TAKEDOWN,TAUNT,TRAILBLAZE,UTURN,ZENHEADBUTT
-EggGroups = Undiscovered
-HatchSteps = 2560
-Height = 1.2
-Weight = 39.8
-Color = Pink
-Shape = Bipedal
-Habitat = Rare
-Category = Healing
-Pokedex = This Pokémon's type changes based on which mask it's wearing. It confounds its enemies with nimble movements and kicks.
-Generation = 8
-#-------------------------------
 [FRANCIS]
 Name = Francis
 Types = NORMAL
@@ -26532,3 +26508,542 @@ Habitat = Rare
 Category = Nerd
 Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
 Generation = 8
+#-------------------------------
+[FREY]
+Name = Frey
+Types = DARK
+BaseStats = 80,120,84,110,60,96
+GenderRatio = AlwaysMale
+GrowthRate = Slow
+BaseExp = 275
+EVs = ATTACK,3
+CatchRate = 5
+Happiness = 50
+Abilities = DEFIANT
+Moves = 1,DEVOUR
+TutorMoves = BRICKBREAK,BULLETSEED,CHARM,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LOWKICK,LOWSWEEP,MAGICALLEAF,PLAYROUGH,PROTECT,RAINDANCE,REST,REVERSAL,ROCKTOMB,SANDSTORM,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SOLARBLADE,SPIKES,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SWORDSDANCE,TAKEDOWN,TAUNT,TRAILBLAZE,UTURN,ZENHEADBUTT
+EggGroups = Undiscovered
+HatchSteps = 2560
+Height = 1.2
+Weight = 39.8
+Color = Pink
+Shape = Bipedal
+Habitat = Rare
+Category = Alpha Predator
+Pokedex = This guy is pretty terrifying. If I enter his mouth, I'm not squirming free. Avoid at all costs. If forced into contact, do whatever he says. It makes it go quicker.
+Generation = 8
+#-------------------------------
+[KVC]
+Name = KVC
+Types = NORMAL,DRAGON
+BaseStats = 80,120,84,110,60,96
+GenderRatio = AlwaysFemale
+GrowthRate = Slow
+BaseExp = 275
+EVs = ATTACK,3
+CatchRate = 5
+Happiness = 50
+Abilities = DEFIANT
+Moves = 1,DEVOUR
+TutorMoves = BRICKBREAK,BULLETSEED,CHARM,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LOWKICK,LOWSWEEP,MAGICALLEAF,PLAYROUGH,PROTECT,RAINDANCE,REST,REVERSAL,ROCKTOMB,SANDSTORM,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SOLARBLADE,SPIKES,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SWORDSDANCE,TAKEDOWN,TAUNT,TRAILBLAZE,UTURN,ZENHEADBUTT
+EggGroups = Undiscovered
+HatchSteps = 2560
+Height = 1.2
+Weight = 39.8
+Color = Pink
+Shape = Bipedal
+Habitat = Rare
+Category = Nerd
+Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Generation = 8
+#-------------------------------
+[CARLY]
+Name = Carly
+Types = NORMAL
+BaseStats = 80,120,84,110,60,96
+GenderRatio = AlwaysFemale
+GrowthRate = Slow
+BaseExp = 275
+EVs = ATTACK,3
+CatchRate = 5
+Happiness = 50
+Abilities = DEFIANT
+Moves = 1,DEVOUR
+TutorMoves = BRICKBREAK,BULLETSEED,CHARM,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LOWKICK,LOWSWEEP,MAGICALLEAF,PLAYROUGH,PROTECT,RAINDANCE,REST,REVERSAL,ROCKTOMB,SANDSTORM,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SOLARBLADE,SPIKES,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SWORDSDANCE,TAKEDOWN,TAUNT,TRAILBLAZE,UTURN,ZENHEADBUTT
+EggGroups = Undiscovered
+HatchSteps = 2560
+Height = 1.2
+Weight = 39.8
+Color = Pink
+Shape = Bipedal
+Habitat = Rare
+Category = Nerd
+Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Generation = 8
+#-------------------------------
+[ROV]
+Name = Rov
+Types = GROUND
+BaseStats = 80,120,84,110,60,96
+GenderRatio = Genderless
+GrowthRate = Slow
+BaseExp = 275
+EVs = ATTACK,3
+CatchRate = 5
+Happiness = 50
+Abilities = DEFIANT
+Moves = 1,DEVOUR
+TutorMoves = BRICKBREAK,BULLETSEED,CHARM,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LOWKICK,LOWSWEEP,MAGICALLEAF,PLAYROUGH,PROTECT,RAINDANCE,REST,REVERSAL,ROCKTOMB,SANDSTORM,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SOLARBLADE,SPIKES,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SWORDSDANCE,TAKEDOWN,TAUNT,TRAILBLAZE,UTURN,ZENHEADBUTT
+EggGroups = Undiscovered
+HatchSteps = 2560
+Height = 1.2
+Weight = 39.8
+Color = Pink
+Shape = Bipedal
+Habitat = Rare
+Category = Nerd
+Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Generation = 8
+#-------------------------------
+[JOAN]
+Name = Joan
+Types = NORMAL,SNACK
+BaseStats = 80,120,84,110,60,96
+GenderRatio = AlwaysFemale
+GrowthRate = Slow
+BaseExp = 275
+EVs = ATTACK,3
+CatchRate = 5
+Happiness = 50
+Abilities = DEFIANT
+Moves = 1,DEVOUR
+TutorMoves = BRICKBREAK,BULLETSEED,CHARM,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LOWKICK,LOWSWEEP,MAGICALLEAF,PLAYROUGH,PROTECT,RAINDANCE,REST,REVERSAL,ROCKTOMB,SANDSTORM,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SOLARBLADE,SPIKES,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SWORDSDANCE,TAKEDOWN,TAUNT,TRAILBLAZE,UTURN,ZENHEADBUTT
+EggGroups = Undiscovered
+HatchSteps = 2560
+Height = 1.2
+Weight = 39.8
+Color = Pink
+Shape = Bipedal
+Habitat = Rare
+Category = Nerd
+Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Generation = 8
+#-------------------------------
+[TOFFEE]
+Name = Toffee
+Types = NORMAL
+BaseStats = 80,120,84,110,60,96
+GenderRatio = AlwaysFemale
+GrowthRate = Slow
+BaseExp = 275
+EVs = ATTACK,3
+CatchRate = 5
+Happiness = 50
+Abilities = DEFIANT
+Moves = 1,DEVOUR
+TutorMoves = BRICKBREAK,BULLETSEED,CHARM,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LOWKICK,LOWSWEEP,MAGICALLEAF,PLAYROUGH,PROTECT,RAINDANCE,REST,REVERSAL,ROCKTOMB,SANDSTORM,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SOLARBLADE,SPIKES,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SWORDSDANCE,TAKEDOWN,TAUNT,TRAILBLAZE,UTURN,ZENHEADBUTT
+EggGroups = Undiscovered
+HatchSteps = 2560
+Height = 1.2
+Weight = 39.8
+Color = Pink
+Shape = Bipedal
+Habitat = Rare
+Category = Nerd
+Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Generation = 8
+#-------------------------------
+[HGSSACETRAINERF]
+Name = Ace Trainer
+Types = NORMAL
+BaseStats = 80,120,84,110,60,96
+GenderRatio = AlwaysFemale
+GrowthRate = Slow
+BaseExp = 275
+EVs = ATTACK,3
+CatchRate = 5
+Happiness = 50
+Abilities = DEFIANT
+Moves = 1,DEVOUR
+TutorMoves = BRICKBREAK,BULLETSEED,CHARM,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LOWKICK,LOWSWEEP,MAGICALLEAF,PLAYROUGH,PROTECT,RAINDANCE,REST,REVERSAL,ROCKTOMB,SANDSTORM,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SOLARBLADE,SPIKES,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SWORDSDANCE,TAKEDOWN,TAUNT,TRAILBLAZE,UTURN,ZENHEADBUTT
+EggGroups = Undiscovered
+HatchSteps = 2560
+Height = 1.2
+Weight = 39.8
+Color = Pink
+Shape = Bipedal
+Habitat = Rare
+Category = Nerd
+Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Generation = 8
+#-------------------------------
+[SCIENTIST]
+Name = Scientist
+Types = NORMAL,POISON
+BaseStats = 80,120,84,110,60,96
+GenderRatio = AlwaysMale
+GrowthRate = Slow
+BaseExp = 275
+EVs = ATTACK,3
+CatchRate = 5
+Happiness = 50
+Abilities = DEFIANT
+Moves = 1,DEVOUR
+TutorMoves = BRICKBREAK,BULLETSEED,CHARM,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LOWKICK,LOWSWEEP,MAGICALLEAF,PLAYROUGH,PROTECT,RAINDANCE,REST,REVERSAL,ROCKTOMB,SANDSTORM,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SOLARBLADE,SPIKES,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SWORDSDANCE,TAKEDOWN,TAUNT,TRAILBLAZE,UTURN,ZENHEADBUTT
+EggGroups = Undiscovered
+HatchSteps = 2560
+Height = 1.2
+Weight = 39.8
+Color = Pink
+Shape = Bipedal
+Habitat = Rare
+Category = Nerd
+Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Generation = 8
+#-------------------------------
+[MAGI]
+Name = Magi
+Types = NORMAL
+BaseStats = 80,120,84,110,60,96
+GenderRatio = AlwaysMale
+GrowthRate = Slow
+BaseExp = 275
+EVs = ATTACK,3
+CatchRate = 5
+Happiness = 50
+Abilities = DEFIANT
+Moves = 1,DEVOUR
+TutorMoves = BRICKBREAK,BULLETSEED,CHARM,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LOWKICK,LOWSWEEP,MAGICALLEAF,PLAYROUGH,PROTECT,RAINDANCE,REST,REVERSAL,ROCKTOMB,SANDSTORM,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SOLARBLADE,SPIKES,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SWORDSDANCE,TAKEDOWN,TAUNT,TRAILBLAZE,UTURN,ZENHEADBUTT
+EggGroups = Undiscovered
+HatchSteps = 2560
+Height = 1.2
+Weight = 39.8
+Color = Pink
+Shape = Bipedal
+Habitat = Rare
+Category = Nerd
+Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Generation = 8
+#-------------------------------
+[RETROBEAUTY]
+Name = Beauty
+Types = NORMAL
+BaseStats = 80,120,84,110,60,96
+GenderRatio = AlwaysFemale
+GrowthRate = Slow
+BaseExp = 275
+EVs = ATTACK,3
+CatchRate = 5
+Happiness = 50
+Abilities = DEFIANT
+Moves = 1,DEVOUR
+TutorMoves = BRICKBREAK,BULLETSEED,CHARM,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LOWKICK,LOWSWEEP,MAGICALLEAF,PLAYROUGH,PROTECT,RAINDANCE,REST,REVERSAL,ROCKTOMB,SANDSTORM,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SOLARBLADE,SPIKES,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SWORDSDANCE,TAKEDOWN,TAUNT,TRAILBLAZE,UTURN,ZENHEADBUTT
+EggGroups = Undiscovered
+HatchSteps = 2560
+Height = 1.2
+Weight = 39.8
+Color = Pink
+Shape = Bipedal
+Habitat = Rare
+Category = Nerd
+Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Generation = 8
+#-------------------------------
+[JUGGLER]
+Name = Juggler
+Types = NORMAL
+BaseStats = 80,120,84,110,60,96
+GenderRatio = AlwaysMale
+GrowthRate = Slow
+BaseExp = 275
+EVs = ATTACK,3
+CatchRate = 5
+Happiness = 50
+Abilities = DEFIANT
+Moves = 1,DEVOUR
+TutorMoves = BRICKBREAK,BULLETSEED,CHARM,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LOWKICK,LOWSWEEP,MAGICALLEAF,PLAYROUGH,PROTECT,RAINDANCE,REST,REVERSAL,ROCKTOMB,SANDSTORM,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SOLARBLADE,SPIKES,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SWORDSDANCE,TAKEDOWN,TAUNT,TRAILBLAZE,UTURN,ZENHEADBUTT
+EggGroups = Undiscovered
+HatchSteps = 2560
+Height = 1.2
+Weight = 39.8
+Color = Pink
+Shape = Bipedal
+Habitat = Rare
+Category = Nerd
+Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Generation = 8
+#-------------------------------
+[BURGLAR]
+Name = Burglar
+Types = NORMAL
+BaseStats = 80,120,84,110,60,96
+GenderRatio = AlwaysMale
+GrowthRate = Slow
+BaseExp = 275
+EVs = ATTACK,3
+CatchRate = 5
+Happiness = 50
+Abilities = DEFIANT
+Moves = 1,DEVOUR
+TutorMoves = BRICKBREAK,BULLETSEED,CHARM,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LOWKICK,LOWSWEEP,MAGICALLEAF,PLAYROUGH,PROTECT,RAINDANCE,REST,REVERSAL,ROCKTOMB,SANDSTORM,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SOLARBLADE,SPIKES,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SWORDSDANCE,TAKEDOWN,TAUNT,TRAILBLAZE,UTURN,ZENHEADBUTT
+EggGroups = Undiscovered
+HatchSteps = 2560
+Height = 1.2
+Weight = 39.8
+Color = Pink
+Shape = Bipedal
+Habitat = Rare
+Category = Nerd
+Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Generation = 8
+#-------------------------------
+[HGSSBEAUTY]
+Name = Beauty
+Types = NORMAL
+BaseStats = 80,120,84,110,60,96
+GenderRatio = AlwaysFemale
+GrowthRate = Slow
+BaseExp = 275
+EVs = ATTACK,3
+CatchRate = 5
+Happiness = 50
+Abilities = DEFIANT
+Moves = 1,DEVOUR
+TutorMoves = BRICKBREAK,BULLETSEED,CHARM,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LOWKICK,LOWSWEEP,MAGICALLEAF,PLAYROUGH,PROTECT,RAINDANCE,REST,REVERSAL,ROCKTOMB,SANDSTORM,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SOLARBLADE,SPIKES,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SWORDSDANCE,TAKEDOWN,TAUNT,TRAILBLAZE,UTURN,ZENHEADBUTT
+EggGroups = Undiscovered
+HatchSteps = 2560
+Height = 1.2
+Weight = 39.8
+Color = Pink
+Shape = Bipedal
+Habitat = Rare
+Category = Nerd
+Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Generation = 8
+#-------------------------------
+[HGSSSWIMMERF]
+Name = Swimmer
+Types = NORMAL
+BaseStats = 80,120,84,110,60,96
+GenderRatio = AlwaysFemale
+GrowthRate = Slow
+BaseExp = 275
+EVs = ATTACK,3
+CatchRate = 5
+Happiness = 50
+Abilities = DEFIANT
+Moves = 1,DEVOUR
+TutorMoves = BRICKBREAK,BULLETSEED,CHARM,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LOWKICK,LOWSWEEP,MAGICALLEAF,PLAYROUGH,PROTECT,RAINDANCE,REST,REVERSAL,ROCKTOMB,SANDSTORM,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SOLARBLADE,SPIKES,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SWORDSDANCE,TAKEDOWN,TAUNT,TRAILBLAZE,UTURN,ZENHEADBUTT
+EggGroups = Undiscovered
+HatchSteps = 2560
+Height = 1.2
+Weight = 39.8
+Color = Pink
+Shape = Bipedal
+Habitat = Rare
+Category = Nerd
+Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Generation = 8
+#-------------------------------
+[BEBELLA]
+Name = Bebella
+Types = PSYCHIC
+BaseStats = 80,120,84,110,60,96
+GenderRatio = AlwaysFemale
+GrowthRate = Slow
+BaseExp = 275
+EVs = ATTACK,3
+CatchRate = 5
+Happiness = 50
+Abilities = DEFIANT
+Moves = 1,DEVOUR
+TutorMoves = BRICKBREAK,BULLETSEED,CHARM,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LOWKICK,LOWSWEEP,MAGICALLEAF,PLAYROUGH,PROTECT,RAINDANCE,REST,REVERSAL,ROCKTOMB,SANDSTORM,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SOLARBLADE,SPIKES,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SWORDSDANCE,TAKEDOWN,TAUNT,TRAILBLAZE,UTURN,ZENHEADBUTT
+EggGroups = Undiscovered
+HatchSteps = 2560
+Height = 1.2
+Weight = 39.8
+Color = Pink
+Shape = Bipedal
+Habitat = Rare
+Category = Nerd
+Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Generation = 8
+#-------------------------------
+[GIOVANNI]
+Name = Giovanni
+Types = GROUND,DARK
+BaseStats = 80,120,84,110,60,96
+GenderRatio = AlwaysMale
+GrowthRate = Slow
+BaseExp = 275
+EVs = ATTACK,3
+CatchRate = 5
+Happiness = 50
+Abilities = DEFIANT
+Moves = 1,DEVOUR
+TutorMoves = BRICKBREAK,BULLETSEED,CHARM,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LOWKICK,LOWSWEEP,MAGICALLEAF,PLAYROUGH,PROTECT,RAINDANCE,REST,REVERSAL,ROCKTOMB,SANDSTORM,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SOLARBLADE,SPIKES,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SWORDSDANCE,TAKEDOWN,TAUNT,TRAILBLAZE,UTURN,ZENHEADBUTT
+EggGroups = Undiscovered
+HatchSteps = 2560
+Height = 1.2
+Weight = 39.8
+Color = Pink
+Shape = Bipedal
+Habitat = Rare
+Category = Nerd
+Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Generation = 8
+#-------------------------------
+[CLARE]
+Name = Clair
+Types = DRAGON
+BaseStats = 80,120,84,110,60,96
+GenderRatio = AlwaysFemale
+GrowthRate = Slow
+BaseExp = 275
+EVs = ATTACK,3
+CatchRate = 5
+Happiness = 50
+Abilities = DEFIANT
+Moves = 1,DEVOUR
+TutorMoves = BRICKBREAK,BULLETSEED,CHARM,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LOWKICK,LOWSWEEP,MAGICALLEAF,PLAYROUGH,PROTECT,RAINDANCE,REST,REVERSAL,ROCKTOMB,SANDSTORM,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SOLARBLADE,SPIKES,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SWORDSDANCE,TAKEDOWN,TAUNT,TRAILBLAZE,UTURN,ZENHEADBUTT
+EggGroups = Undiscovered
+HatchSteps = 2560
+Height = 1.2
+Weight = 39.8
+Color = Pink
+Shape = Bipedal
+Habitat = Rare
+Category = Nerd
+Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Generation = 8
+#-------------------------------
+[EGIRL]
+Name = LaprAss24
+Types = FAIRY
+BaseStats = 80,120,84,110,60,96
+GenderRatio = AlwaysFemale
+GrowthRate = Slow
+BaseExp = 275
+EVs = ATTACK,3
+CatchRate = 5
+Happiness = 50
+Abilities = DEFIANT
+Moves = 1,DEVOUR
+TutorMoves = BRICKBREAK,BULLETSEED,CHARM,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LOWKICK,LOWSWEEP,MAGICALLEAF,PLAYROUGH,PROTECT,RAINDANCE,REST,REVERSAL,ROCKTOMB,SANDSTORM,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SOLARBLADE,SPIKES,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SWORDSDANCE,TAKEDOWN,TAUNT,TRAILBLAZE,UTURN,ZENHEADBUTT
+EggGroups = Undiscovered
+HatchSteps = 2560
+Height = 1.2
+Weight = 39.8
+Color = Pink
+Shape = Bipedal
+Habitat = Rare
+Category = E-Girl
+Pokedex = A woman who seems to make her income from videos of her playing video games and teasing her followers. She apparently earns enough to own her own home.
+Generation = 8
+#-------------------------------
+[DAISY]
+Name = Daisy
+Types = NORMAL
+BaseStats = 80,120,84,110,60,96
+GenderRatio = AlwaysFemale
+GrowthRate = Slow
+BaseExp = 275
+EVs = ATTACK,3
+CatchRate = 5
+Happiness = 50
+Abilities = DEFIANT
+Moves = 1,DEVOUR
+TutorMoves = BRICKBREAK,BULLETSEED,CHARM,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LOWKICK,LOWSWEEP,MAGICALLEAF,PLAYROUGH,PROTECT,RAINDANCE,REST,REVERSAL,ROCKTOMB,SANDSTORM,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SOLARBLADE,SPIKES,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SWORDSDANCE,TAKEDOWN,TAUNT,TRAILBLAZE,UTURN,ZENHEADBUTT
+EggGroups = Undiscovered
+HatchSteps = 2560
+Height = 1.2
+Weight = 39.8
+Color = Pink
+Shape = Bipedal
+Habitat = Rare
+Category = Early Game
+Pokedex = Blue Oak's Sister and Professor Oak's Grandaughter. Apparently, she gave the legend Red his first ever Town Map.
+Generation = 8
+#-------------------------------
+[ARIANA]
+Name = Ariana
+Types = POISON,DARK
+BaseStats = 80,120,84,110,60,96
+GenderRatio = AlwaysFemale
+GrowthRate = Slow
+BaseExp = 275
+EVs = ATTACK,3
+CatchRate = 5
+Happiness = 50
+Abilities = DEFIANT
+Moves = 1,DEVOUR
+TutorMoves = BRICKBREAK,BULLETSEED,CHARM,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LOWKICK,LOWSWEEP,MAGICALLEAF,PLAYROUGH,PROTECT,RAINDANCE,REST,REVERSAL,ROCKTOMB,SANDSTORM,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SOLARBLADE,SPIKES,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SWORDSDANCE,TAKEDOWN,TAUNT,TRAILBLAZE,UTURN,ZENHEADBUTT
+EggGroups = Undiscovered
+HatchSteps = 2560
+Height = 1.2
+Weight = 39.8
+Color = Pink
+Shape = Bipedal
+Habitat = Rare
+Category = Rocket Admin
+Pokedex = A powerful Admin from Team Rocket. She seems to have a close relationship to Giovanni.
+Generation = 8
+#-------------------------------
+[BWROUGHNECK]
+Name = Bad Boy
+Types = DARK,FIGHTING
+BaseStats = 80,120,84,110,60,96
+GenderRatio = AlwaysFemale
+GrowthRate = Slow
+BaseExp = 275
+EVs = ATTACK,3
+CatchRate = 5
+Happiness = 50
+Abilities = DEFIANT
+Moves = 1,DEVOUR
+TutorMoves = BRICKBREAK,BULLETSEED,CHARM,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LOWKICK,LOWSWEEP,MAGICALLEAF,PLAYROUGH,PROTECT,RAINDANCE,REST,REVERSAL,ROCKTOMB,SANDSTORM,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SOLARBLADE,SPIKES,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SWORDSDANCE,TAKEDOWN,TAUNT,TRAILBLAZE,UTURN,ZENHEADBUTT
+EggGroups = Undiscovered
+HatchSteps = 2560
+Height = 1.2
+Weight = 39.8
+Color = Pink
+Shape = Bipedal
+Habitat = Rare
+Category = Devious
+Pokedex = A powerful Admin from Team Rocket. She seems to have a close relationship to Giovanni.
+Generation = 8
+#-------------------------------
+[PLUM]
+Name = Plum
+Types = ELECTRIC,STEEL
+BaseStats = 80,120,84,110,60,96
+GenderRatio = AlwaysFemale
+GrowthRate = Slow
+BaseExp = 275
+EVs = ATTACK,3
+CatchRate = 5
+Happiness = 50
+Abilities = DEFIANT
+Moves = 1,DEVOUR
+TutorMoves = BRICKBREAK,BULLETSEED,CHARM,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LOWKICK,LOWSWEEP,MAGICALLEAF,PLAYROUGH,PROTECT,RAINDANCE,REST,REVERSAL,ROCKTOMB,SANDSTORM,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SOLARBLADE,SPIKES,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SWORDSDANCE,TAKEDOWN,TAUNT,TRAILBLAZE,UTURN,ZENHEADBUTT
+EggGroups = Undiscovered
+HatchSteps = 2560
+Height = 1.2
+Weight = 39.8
+Color = Purple
+Shape = Bipedal
+Habitat = Rare
+Category = Scientific
+Pokedex = A close friend and my boss. When she's not forcing me to do experiments that end in my digestion, she's usually pretty nice.
+Generation = 8
+
+
+
+
+
+
+
+
+
+
+

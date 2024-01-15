@@ -2557,6 +2557,152 @@ FormName = Undressed by Fangs
 [FRANCIS,1]
 FormName = Incel Insides
 #-------------------------------
+[FREY,1]
+FormName = Alpha Appetiser
+#-------------------------------
+[KVC,1]
+FormName = Amy's Nourishment
+#-------------------------------
+[CARLY,1]
+FormName = Draconic Dinner
+#-------------------------------
+[JOAN,1]
+FormName = The Prey's Prey
+#-------------------------------
+[TOFFEE,1]
+FormName = Vampiric Delight
+#-------------------------------
+[HGSSACETRAINERF,1]
+FormName = Ace in an Ace
+#-------------------------------
+[MAGI,1]
+FormName = Mew Meal
+#-------------------------------
+[SCIENTIST,1]
+FormName = Vile Vial
+#-------------------------------
+[RETROBEAUTY,1]
+FormName = Megabyte Mega Bite
+#-------------------------------
+[JUGGLER,1]
+FormName = Up in the air
+#-------------------------------
+[BURGLAR,1]
+FormName = Taken
+#-------------------------------
+[BEBELLA,1]
+FormName = Catering for the Stars
+#-------------------------------
+[GIOVANNI,1]
+FormName = Mob Boss Mulch
+#-------------------------------
+[GIOVANNI,2]
+FormName = Cumpactor Compactor
+#-------------------------------
+[HGSSBEAUTY,1]
+FormName = Fashion Disaster
+#-------------------------------
+[HGSSSWIMMERF,1]
+FormName = Fleshy Submarine
+#-------------------------------
+[CLARE,1]
+FormName = Proving your 'worth'
+#-------------------------------
+[ROV,1]
+FormName = Begruddingly Buttplugged
+#-------------------------------
+[ROV,2]
+FormName = In doubt, Cheeks out
+#-------------------------------
+[EGIRL,1]
+FormName = Squirming Streamer
+#-------------------------------
+[LICKILICKY,1]
+FormName = Soggy Lamia Wrap
+#-------------------------------
+[CRAMORANT,3]
+FormName = Stuffed Form
+#-------------------------------
+[CROCONAW,1]
+FormName = Last Look
+#-------------------------------
+[FERALIGATR,1]
+FormName = See you later, Feraligatr!
+#-------------------------------
+[NOSEPASS,1]
+FormName = Shoved up North
+#-------------------------------
+[PROBOPASS,1]
+FormName = Moustache Tickler
+#-------------------------------
+[SNEASLER,1]
+FormName = Chilling Reception
+#-------------------------------
+[SNEASLER,2]
+FormName = A New Carrying Basket
+#-------------------------------
+[BLASTOISE,2]
+FormName = Reloading the Cannons
+#-------------------------------
+[KANGASKHAN,2]
+FormName = Pouch Pals!
+#-------------------------------
+[BWROUGHNECK,1]
+FormName = Bad Boy Buttplug
+#-------------------------------
+[DONDOZO,1]
+FormName = Imitation Tatsugiri
+#-------------------------------
+[MILOTIC,1]
+FormName = A Beauty for A Beauty
+#-------------------------------
+[WURMPLE,1]
+FormName = That's a Wrap!
+#-------------------------------
+[LUCARIO,2]
+FormName = Aura Devourer
+#-------------------------------
+[SPIRITOMB,1]
+FormName = 109 Souls
+#-------------------------------
+[CLAMPERL,1]
+FormName = Ain't she a pearl?
+#-------------------------------
+[RAPTOZOLT,1]
+FormName = Ancient Appetiser
+#-------------------------------
+[BASCULEGION,2]
+FormName = Chomped Chump
+#-------------------------------
+[BASCULEGION,4]
+FormName = Chomped Chump but in blue
+#-------------------------------
+[APPLIN,1]
+FormName = Trappled
+#-------------------------------
+[FURRET,1]
+FormName = Scarfed by a Scarf
+#-------------------------------
+[WEEZING,2]
+FormName = Purification
+#-------------------------------
+[DAISY,1]
+FormName = Flower Power
+#-------------------------------
+[ARIANA,1]
+FormName = One Strong Belt
+#-------------------------------
+[PLUM,1]
+FormName = Experiment One: Oral Consumption
+#-------------------------------
+
+
+
+
+
+
+
+
 
 
 
