@@ -9698,3 +9698,259 @@ Target = NearOther
 FunctionCode = TypeIsUserSecondType
 Flags = CanProtect,CanMirrorMove,HighCriticalHitRate
 Description = An ivy-wrapped cudgel strike with a high critical-hit ratio. Type changes based on the user's Mask.
+#-------------------------------
+[CONSUME]
+Name = Consume
+Type = POISON
+Category = Status
+Accuracy = 100
+TotalPP = 20 
+Target = NearOther
+FunctionCode = DevourTarget
+Flags = CanProtect,CanMirrorMove,TrapTargetInBattle
+Description = The user swallows their prey whole.
+#-------------------------------
+[BUTTPLUG]
+Name = Buttplug
+Type = GROUND
+Category = Status
+Accuracy = 100
+TotalPP = 20 
+Target = NearOther
+FunctionCode = PluggedTarget
+Flags = CanProtect,CanMirrorMove,TrapTargetInBattle
+Description = The user swallows their prey whole.
+#-------------------------------
+[WARRIORSSQUEEZE]
+Name = Warrior's Squeeze
+Type = LAMIA
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 30
+Target = NearOther
+Priority = 1
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove,Punching
+Description = The user strikes the target with tough punches as fast as bullets. This move always goes first.
+#-------------------------------
+[LITTLESNACK]
+Name = Little Snack
+Type = SNACK
+Category = Status
+Accuracy = 100
+TotalPP = 20 
+Target = NearOther
+FunctionCode = DevourTarget
+Flags = CanProtect,CanMirrorMove,TrapTargetInBattle
+Description = The user swallows their prey whole.
+#-------------------------------
+[TAUNTINGCRUSH]
+Name = Taunting Crush
+Type = FAIRY
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetSpDef1
+Flags = CanProtect,CanMirrorMove,Sound
+EffectChance = 20
+Description = The user vibrates its wings to generate a damaging sound wave. It may also lower the target's Sp. Def stat.
+#-------------------------------
+[SALIVATINGFANGS]
+Name = Salivating Fangs
+Type = DARK
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetDefense1
+Flags = Contact,CanProtect,CanMirrorMove,Biting
+EffectChance = 20
+Description = The user crunches up the target with sharp fangs. It may also lower the target's Defense stat.
+#-------------------------------
+[VENOMOUSFANGS]
+Name = Venomous Fangs
+Type = POISON
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = BadPoisonTarget
+Flags = Contact,CanProtect,CanMirrorMove,Biting
+EffectChance = 25
+Description = The user bites the target with toxic fangs. It may also leave the target badly poisoned.
+#-------------------------------
+[HYPNOEYES]
+Name = Hypno Eyes
+Type = PSYCHIC
+Category = Status
+Accuracy = 75
+TotalPP = 20
+Target = NearOther
+FunctionCode = SleepTarget
+Flags = CanProtect,CanMirrorMove
+Description = The user employs hypnotic suggestion to make the target fall into a deep sleep.
+#-------------------------------
+[DATACONVERSION]
+Name = Data Conversion
+Type = NORMAL
+Category = Status
+Accuracy = 100
+TotalPP = 20 
+Target = NearOther
+FunctionCode = DevourTarget
+Flags = CanProtect,CanMirrorMove,TrapTargetInBattle
+Description = The user swallows their prey whole.
+#-------------------------------
+[DUPLICATINGDIGESTION]
+Name = Duplicating Digestion
+Type = NORMAL
+Category = Physical
+Power = 70
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetSpDef1
+Flags = CanProtect,CanMirrorMove,Sound
+EffectChance = 20
+Description = The user vibrates its wings to generate a damaging sound wave. It may also lower the target's Sp. Def stat.
+#-------------------------------
+[BRABUDDY]
+Name = Bra Buddy
+Type = PSYCHIC
+Category = Status
+Accuracy = 100
+TotalPP = 20 
+Target = NearOther
+FunctionCode = TransformedTarget
+Flags = CanProtect,CanMirrorMove,TrapTargetInBattle
+Description = The user swallows their prey whole.
+#-------------------------------
+[TRAININGBRATRAINER]
+Name = Training Bra Trainer
+Type = PSYCHIC
+Category = Status
+Accuracy = 100
+TotalPP = 20 
+Target = NearOther
+FunctionCode = TransformedTarget
+Flags = CanProtect,CanMirrorMove,TrapTargetInBattle
+Description = The user swallows their prey whole.
+#-------------------------------
+[BRASNAP]
+Name = Bra Snap
+Type = DARK
+Category = Physical
+Power = 60
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = LowerTargetDefense1
+Flags = Contact,CanProtect,CanMirrorMove,Biting
+EffectChance = 20
+Description = The user crunches up the target with sharp fangs. It may also lower the target's Defense stat.
+#-------------------------------
+[COMPRESSION]
+Name = Compression
+Type = NORMAL
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = LowerTargetDefense1
+Flags = Contact,CanProtect,CanMirrorMove,Biting
+EffectChance = 20
+Description = The user crunches up the target with sharp fangs. It may also lower the target's Defense stat.
+#-------------------------------
+[TITSQUEEZE]
+Name = Tit Squeeze
+Type = FAIRY
+Category = Physical
+Power = 40
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = HitTwoTimes
+Flags = Contact,CanProtect,CanMirrorMove,Biting
+EffectChance = 20
+Description = The user crunches up the target with sharp fangs. It may also lower the target's Defense stat.
+#-------------------------------
+[BOOBYTRAP]
+Name = Booby Trap
+Type = WATER
+Category = Special
+Power = 40
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+FunctionCode = HitTwoTimes
+Flags = Contact,CanProtect,CanMirrorMove,Biting
+EffectChance = 20
+Description = The user crunches up the target with sharp fangs. It may also lower the target's Defense stat.
+#-------------------------------
+[SLOSH]
+Name = Slosh
+Type = WATER
+Category = Special
+Power = 75
+Accuracy = 100
+TotalPP = 25
+Target = NearOther
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 20
+Description = The user crunches up the target with sharp fangs. It may also lower the target's Defense stat.
+#-------------------------------
+[GURGLE]
+Name = Gurgle
+Type = POISON
+Category = Special
+Power = 70
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetDef2
+Flags = CanProtect,CanMirrorMove,Sound
+EffectChance = 30
+Description = The user vibrates its wings to generate a damaging sound wave. It may also lower the target's Sp. Def stat.
+#-------------------------------
+[BELLYSLAM]
+Name = Belly Slam
+Type = NORMAL
+Category = Physical
+Power = 100
+Accuracy = 75
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The target is slammed with a long tail, vines, etc., to inflict damage.
+#-------------------------------
+[GUTGRAB]
+Name = Gut Grab
+Type = NORMAL
+Category = Physical
+Power = 25
+Accuracy = 100
+TotalPP = 20
+Target = NearOther
+FunctionCode = BindTarget
+Flags = Contact,CanProtect,CanMirrorMove
+EffectChance = 10
+Description = The foe is attacked with long, creeping tentacles or vines. It may also lower the target's Speed.
+#-------------------------------
+[BELLYSQUISH]
+Name = Belly Squish
+Type = DARK
+Category = Physical
+Power = 90
+Accuracy = 95
+TotalPP = 20
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The target is slammed with a long tail, vines, etc., to inflict damage.

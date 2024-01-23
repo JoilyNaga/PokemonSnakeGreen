@@ -4943,3 +4943,9 @@ BackSprite = 0,0
 FrontSprite = 11,31
 ShadowX = 0
 ShadowSize = 2
+#-------------------------------
+[MILES]
+BackSprite = 0,0
+FrontSprite = -2,6
+ShadowX = 0
+ShadowSize = 2
