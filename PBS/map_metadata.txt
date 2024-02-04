@@ -184,7 +184,7 @@ ShowArea = true
 Bicycle = true
 MapPosition = 0,14,6
 BattleBack = cave1
-Environment = Cave
+Environment = Grass
 Flags = IceRock
 #-------------------------------
 [035]   # Route 4
@@ -202,6 +202,7 @@ MapPosition = 0,18,6
 #-------------------------------
 [037]   # Extended Route
 Name = Ingido Plateau
+Outdoor = true
 MapPosition = 0,13,6
 BattleBack = elite1
 Flags = DisableBoxLink
