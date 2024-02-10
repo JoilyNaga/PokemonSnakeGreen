@@ -2429,7 +2429,7 @@ FormName = Fighting for his Cause
 FormName = Fighting for their Cause
 #-------------------------------
 [MOON,1]
-FormName = Hidden in Flab
+FormName = Barely a Bulge
 #-------------------------------
 [ROXXIE,1]
 FormName = Shortstack Shortcake
@@ -2701,7 +2701,10 @@ FormName = Artistic Expression
 [MILES,2]
 FormName = Avant Guarde Methods
 #-------------------------------
-
+[RETROMOON,1]
+FormName = Eight Bits in a single Bite
+Pokedex = This version of Moon comes from another universe where everything is monochromatic. She seems relatively unchanged in that universe. Consistency in nice!
+#-------------------------------
 
 
 

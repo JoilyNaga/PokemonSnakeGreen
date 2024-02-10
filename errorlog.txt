@@ -2990,3 +2990,531 @@ Compiler:413:in `pbGetCsvRecord'
 Compiler_CompilePBS:633:in `block (3 levels) in compile_pokemon'
 Compiler_CompilePBS:626:in `each_key'
 Compiler_CompilePBS:626:in `block (2 levels) in compile_pokemon'
+
+=================
+
+[2024-02-07 19:53:07 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 20 (coords 9,14), map 93 (Gutte City Game Corner)
+Exception: ArgumentError
+Message: Invalid argument passed to method.
+Expected 0 to be one of [Symbol, GameData::Item, String], but got Integer.
+
+***Full script:
+$bag.can_add?(pbGet(1))
+Backtrace:
+Validation:29:in `validate'
+GameData:103:in `try_get'
+PokemonBag:77:in `can_add?'
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:426:in `command_111'
+Interpreter_Commands:29:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+
+=================
+
+[2024-02-07 20:05:44 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 20 (coords 9,14), map 93 (Gutte City Game Corner)
+Exception: ArgumentError
+Message: Invalid argument passed to method.
+Expected 0 to be one of [Symbol, GameData::Item, String], but got Integer.
+
+***Full script:
+itm = GameData::Item.get(pbGet(1))
+pbSet(3, itm.name)
+
+Backtrace:
+Validation:29:in `validate'
+GameData:92:in `get'
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+=================
+
+[2024-02-07 21:22:50 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NameError
+Message: undefined local variable or method `pbAnalDuration' for #<Battle::Battler>
+
+Backtrace:
+Battler_Statuses:645:in `pbPlugged'
+MoveEffects_BattlerOther:1410:in `pbEffectAgainstTarget'
+Battler_UseMove:705:in `block in pbProcessMoveHit'
+Battler_UseMove:703:in `each'
+Battler_UseMove:703:in `pbProcessMoveHit'
+Battler_UseMove:408:in `block in pbUseMove'
+Battler_UseMove:406:in `times'
+Battler_UseMove:406:in `pbUseMove'
+Battler_UseMove:52:in `block in pbProcessTurn'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-02-07 21:22:55 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NameError
+Message: undefined local variable or method `pbAnalDuration' for #<Battle::Battler>
+
+Backtrace:
+Battler_Statuses:645:in `pbPlugged'
+MoveEffects_BattlerOther:1410:in `pbEffectAgainstTarget'
+Battler_UseMove:705:in `block in pbProcessMoveHit'
+Battler_UseMove:703:in `each'
+Battler_UseMove:703:in `pbProcessMoveHit'
+Battler_UseMove:408:in `block in pbUseMove'
+Battler_UseMove:406:in `times'
+Battler_UseMove:406:in `pbUseMove'
+Battler_UseMove:52:in `block in pbProcessTurn'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-02-07 21:22:57 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NameError
+Message: undefined local variable or method `pbAnalDuration' for #<Battle::Battler>
+
+Backtrace:
+Battler_Statuses:645:in `pbPlugged'
+MoveEffects_BattlerOther:1410:in `pbEffectAgainstTarget'
+Battler_UseMove:705:in `block in pbProcessMoveHit'
+Battler_UseMove:703:in `each'
+Battler_UseMove:703:in `pbProcessMoveHit'
+Battler_UseMove:408:in `block in pbUseMove'
+Battler_UseMove:406:in `times'
+Battler_UseMove:406:in `pbUseMove'
+Battler_UseMove:52:in `block in pbProcessTurn'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-02-07 21:22:59 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NameError
+Message: undefined local variable or method `pbAnalDuration' for #<Battle::Battler>
+
+Backtrace:
+Battler_Statuses:645:in `pbPlugged'
+MoveEffects_BattlerOther:1410:in `pbEffectAgainstTarget'
+Battler_UseMove:705:in `block in pbProcessMoveHit'
+Battler_UseMove:703:in `each'
+Battler_UseMove:703:in `pbProcessMoveHit'
+Battler_UseMove:408:in `block in pbUseMove'
+Battler_UseMove:406:in `times'
+Battler_UseMove:406:in `pbUseMove'
+Battler_UseMove:52:in `block in pbProcessTurn'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-02-07 21:23:00 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NameError
+Message: undefined local variable or method `pbAnalDuration' for #<Battle::Battler>
+
+Backtrace:
+Battler_Statuses:645:in `pbPlugged'
+MoveEffects_BattlerOther:1410:in `pbEffectAgainstTarget'
+Battler_UseMove:705:in `block in pbProcessMoveHit'
+Battler_UseMove:703:in `each'
+Battler_UseMove:703:in `pbProcessMoveHit'
+Battler_UseMove:408:in `block in pbUseMove'
+Battler_UseMove:406:in `times'
+Battler_UseMove:406:in `pbUseMove'
+Battler_UseMove:52:in `block in pbProcessTurn'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-02-07 21:23:02 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NameError
+Message: undefined local variable or method `pbAnalDuration' for #<Battle::Battler>
+
+Backtrace:
+Battler_Statuses:645:in `pbPlugged'
+MoveEffects_BattlerOther:1410:in `pbEffectAgainstTarget'
+Battler_UseMove:705:in `block in pbProcessMoveHit'
+Battler_UseMove:703:in `each'
+Battler_UseMove:703:in `pbProcessMoveHit'
+Battler_UseMove:408:in `block in pbUseMove'
+Battler_UseMove:406:in `times'
+Battler_UseMove:406:in `pbUseMove'
+Battler_UseMove:52:in `block in pbProcessTurn'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-02-07 21:23:09 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NameError
+Message: undefined local variable or method `pbAnalDuration' for #<Battle::Battler>
+
+Backtrace:
+Battler_Statuses:645:in `pbPlugged'
+MoveEffects_BattlerOther:1410:in `pbEffectAgainstTarget'
+Battler_UseMove:705:in `block in pbProcessMoveHit'
+Battler_UseMove:703:in `each'
+Battler_UseMove:703:in `pbProcessMoveHit'
+Battler_UseMove:408:in `block in pbUseMove'
+Battler_UseMove:406:in `times'
+Battler_UseMove:406:in `pbUseMove'
+Battler_UseMove:52:in `block in pbProcessTurn'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-02-07 21:23:12 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NameError
+Message: undefined local variable or method `pbAnalDuration' for #<Battle::Battler>
+
+Backtrace:
+Battler_Statuses:645:in `pbPlugged'
+MoveEffects_BattlerOther:1410:in `pbEffectAgainstTarget'
+Battler_UseMove:705:in `block in pbProcessMoveHit'
+Battler_UseMove:703:in `each'
+Battler_UseMove:703:in `pbProcessMoveHit'
+Battler_UseMove:408:in `block in pbUseMove'
+Battler_UseMove:406:in `times'
+Battler_UseMove:406:in `pbUseMove'
+Battler_UseMove:52:in `block in pbProcessTurn'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-02-10 12:05:56 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 18 (coords 20,13), map 2 (Palate Town)
+Exception: ArgumentError
+Message: wrong number of arguments (given 3, expected 1..2)
+
+***Full script:
+$player.pokedex.set_owned(:MOON, 1, 1)
+
+Backtrace:
+Player_Pokedex:147:in `set_owned'
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+
+=================
+
+[2024-02-10 12:06:35 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 18 (coords 20,13), map 2 (Palate Town)
+Exception: ArgumentError
+Message: wrong number of arguments (given 3, expected 1..2)
+
+***Full script:
+$player.pokedex.set_owned(:MOON,1,1)
+
+Backtrace:
+Player_Pokedex:147:in `set_owned'
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+
+=================
+
+[2024-02-10 12:07:41 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 18 (coords 20,13), map 2 (Palate Town)
+Exception: NameError
+Message: undefined local variable or method `pkmn' for #<Interpreter @event_id: 18>
+
+***Full script:
+$player.pokedex.register(pkmn)
+$player.pokedex.register(:MOON, 0, 1)
+
+Backtrace:
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+Scene_Map:159:in `loop'
+
+=================
+
+[2024-02-10 12:08:51 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 18 (coords 20,13), map 2 (Palate Town)
+Exception: NameError
+Message: undefined local variable or method `pkmn' for #<Interpreter @event_id: 18>
+
+***Full script:
+$player.pokedex.register(pkmn)
+$player.pokedex.register(:MOON,0,1)
+
+Backtrace:
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+Scene_Map:159:in `loop'
+
+=================
+
+[2024-02-10 12:10:05 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 18 (coords 20,13), map 2 (Palate Town)
+Exception: ArgumentError
+Message: wrong number of arguments (given 3, expected 1..2)
+
+***Full script:
+$player.pokedex.set_owned(:MOON,0,1)
+
+Backtrace:
+Player_Pokedex:147:in `set_owned'
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+
+=================
+
+[2024-02-10 12:49:59 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 18 (coords 20,13), map 2 (Palate Town)
+Exception: NameError
+Message: uninitialized constant MOON
+
+***Full script:
+$player.pokedex.set_owned(::MOON,0,2)
+
+Backtrace:
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+Scene_Map:159:in `loop'
+
+=================
+
+[2024-02-10 12:50:40 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 18 (coords 20,13), map 2 (Palate Town)
+Exception: ArgumentError
+Message: wrong number of arguments (given 3, expected 1..2)
+
+***Full script:
+$player.pokedex.set_owned(:MOON,0,2)
+
+Backtrace:
+Player_Pokedex:147:in `set_owned'
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+
+=================
+
+[2024-02-10 12:53:37 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 18 (coords 20,13), map 2 (Palate Town)
+Exception: NameError
+Message: undefined local variable or method `pkmn' for #<Interpreter @event_id: 18>
+
+***Full script:
+pbAddPokemonSilent(:MOON, 20)
+pkmn.form = 2
+
+Backtrace:
+(eval):2:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+Scene_Map:159:in `loop'
+
+=================
+
+[2024-02-10 12:55:13 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 18 (coords 20,13), map 2 (Palate Town)
+Exception: NoMethodError
+Message: undefined method `form=' for nil:NilClass
+
+***Full script:
+pbAddPokemonSilent(:MOON, 20)
+p.form = 2
+
+Backtrace:
+(eval):2:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+Scene_Map:159:in `loop'
+
+=================
+
+[2024-02-10 12:56:05 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 18 (coords 20,13), map 2 (Palate Town)
+Exception: NoMethodError
+Message: undefined method `form=' for nil:NilClass
+
+***Full script:
+pbAddPokemonSilent(:MOON, 20)
+p.form=2
+
+Backtrace:
+(eval):2:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+Scene_Map:159:in `loop'
+
+=================
+
+[2024-02-10 12:57:54 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 18 (coords 20,13), map 2 (Palate Town)
+Exception: NoMethodError
+Message: undefined method `form' for nil:NilClass
+
+***Full script:
+pbAddPokemonSilent(:MOON, 20)
+p.form(2)
+
+Backtrace:
+(eval):2:in `execute_script'
+033:Interpreter:143:in `eval'
+033:Interpreter:143:in `execute_script'
+034:Interpreter_Commands:1112:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:133:in `block in update'
+033:Interpreter:90:in `loop'
+033:Interpreter:90:in `update'
+032:Scene_Map:160:in `block in update'
+032:Scene_Map:159:in `loop'
+
+=================
+
+[2024-02-10 13:04:24 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 18 (coords 20,13), map 2 (Palate Town)
+Exception: NameError
+Message: undefined local variable or method `pkmn' for #<Interpreter @event_id: 18>
+
+***Full script:
+pbAddPokemonSilent(:MOON,20,2)
+
+pkmn.form=2
+
+Backtrace:
+(eval):3:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+Scene_Map:159:in `loop'

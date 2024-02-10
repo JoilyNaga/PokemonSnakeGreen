@@ -439,3 +439,9 @@ Name = Recycling Bin
 Outdoor = false
 MapPosition = 1,13,16
 BattleBack = city
+#-------------------------------
+[105]   # 90s Sphinc Gym
+Name = Sphinc Gym
+BattleBack = retro
+WildBattleBGM = RBY 127 Battle! (Gym Leader).ogg
+WildVictoryBGM = RBY 128 Victory! (Gym Leader).ogg
