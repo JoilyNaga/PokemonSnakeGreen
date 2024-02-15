@@ -4961,3 +4961,21 @@ BackSprite = 0,-1
 FrontSprite = -14,5
 ShadowX = 0
 ShadowSize = 0
+#-------------------------------
+[RETROSNORLAX]
+BackSprite = 0,0
+FrontSprite = 0,10
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[RETROBELLSPROUT]
+BackSprite = 0,0
+FrontSprite = 0,3
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[RETROLICKITUNG]
+BackSprite = 0,0
+FrontSprite = -2,10
+ShadowX = 0
+ShadowSize = 0

@@ -440,6 +440,14 @@ Outdoor = false
 MapPosition = 1,13,16
 BattleBack = city
 #-------------------------------
+[100]   # 90s Sphinc Town
+Name = Alternate Universe Sphinc Town
+ShowArea = true
+BattleBack = retro
+WildBattleBGM = RBY 110 Battle! (Wild Pokemon).ogg
+WildVictoryBGM = RBY 111 Victory! (Wild Pokemon).ogg
+Environment = None
+#-------------------------------
 [105]   # 90s Sphinc Gym
 Name = Sphinc Gym
 BattleBack = retro

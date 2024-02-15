@@ -2705,8 +2705,15 @@ FormName = Avant Guarde Methods
 FormName = Eight Bits in a single Bite
 Pokedex = This version of Moon comes from another universe where everything is monochromatic. She seems relatively unchanged in that universe. Consistency in nice!
 #-------------------------------
-
-
+[RETROSNORLAX,1]
+FormName = Filling all the Data
+#-------------------------------
+[RETROLICKITUNG,1]
+FormName = Slurping the Static
+#-------------------------------
+[RETROBELLSPROUT,1]
+FormName = Plants eat Bugs
+#-------------------------------
 
 
 

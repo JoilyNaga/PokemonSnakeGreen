@@ -3518,3 +3518,52 @@ Interpreter:90:in `loop'
 Interpreter:90:in `update'
 Scene_Map:160:in `block in update'
 Scene_Map:159:in `loop'
+
+=================
+
+[2024-02-11 14:42:07 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: Errno::ENOENT
+Message: File Audio/BGM/RBY 111 Victory! (Wild Pokemon).ogg not found.
+
+Backtrace:
+Game_System:56:in `bgm_play'
+Game_System:56:in `bgm_play_internal2'
+Game_System:67:in `bgm_play_internal'
+Game_System:47:in `bgm_play'
+Audio_Play:57:in `pbBGMPlay'
+Editor_Listers:215:in `pbPlayBGM'
+Editor_Listers:248:in `refresh'
+Editor_Listers:42:in `block in pbListScreen'
+Editor_Listers:37:in `loop'
+Editor_Listers:37:in `pbListScreen'
+
+=================
+
+[2024-02-11 14:53:02 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 21 (coords 22,68), map 100 (Alternate Universe Sphinc Town)
+Exception: RuntimeError
+Message: Species RETROLBELLSPROUT does not exist.
+
+***Full script:
+setBattleRule("cannotRun")
+setBattleRule("canLose")
+setBattleRule("outcome", 48)
+WildBattle.start(:RETROLBELLSPROUT, 15)
+
+Backtrace:
+Overworld_BattleStarting:426:in `block in generate_foes'
+Overworld_BattleStarting:407:in `each'
+Overworld_BattleStarting:407:in `generate_foes'
+Overworld_BattleStarting:348:in `start'
+(eval):4:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
