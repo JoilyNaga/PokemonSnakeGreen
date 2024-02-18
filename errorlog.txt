@@ -3567,3 +3567,156 @@ Interpreter:143:in `execute_script'
 Interpreter_Commands:1112:in `command_355'
 Interpreter_Commands:116:in `execute_command'
 Interpreter:133:in `block in update'
+
+=================
+
+[2024-02-18 12:04:21 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in Common Event, map 104 (90s Museum Back Room)
+Exception: SyntaxError
+Message: (eval):1: `@' without identifiers is not allowed as an instance variable name
+@>Script: Font.default_name = ...
+^
+(eval):1: syntax error, unexpected ':', expecting end-of-input
+@>Script: Font.default_name = 'Times N...
+        ^
+
+
+***Full script:
+@>Script: Font.default_name = 'Times New Roman'
+
+=================
+
+[2024-02-18 12:13:09 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in Common Event, map 104 (90s Museum Back Room)
+Exception: NoMethodError
+Message: undefined method `Generation' for #<Interpreter @event_id: 0>
+
+***Full script:
+ $defaultfonttype = $fontface = $fontname = Font.default_name = Pokemon Generation 1
+
+Backtrace:
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+Scene_Map:159:in `loop'
+
+=================
+
+[2024-02-18 12:17:16 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in Common Event, map 104 (90s Museum Back Room)
+Exception: NoMethodError
+Message: undefined method `Generation' for #<Interpreter @event_id: 0>
+
+***Full script:
+Font.default_name = Pokemon Generation 1
+
+Backtrace:
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+Scene_Map:159:in `loop'
+
+=================
+
+[2024-02-18 17:13:50 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `Milked?' for #<Battle::Battler>
+
+Backtrace:
+Battler_ChangeSelf:194:in `pbCheckFormOnStatusChange'
+Battle_CommandPhase:167:in `block in pbDebugMenu'
+Battle_CommandPhase:165:in `each'
+Battle_CommandPhase:165:in `pbDebugMenu'
+Battle_CommandPhase:242:in `block (2 levels) in pbCommandPhaseLoop'
+Battle_CommandPhase:213:in `loop'
+Battle_CommandPhase:213:in `block in pbCommandPhaseLoop'
+Battle_CommandPhase:198:in `loop'
+Battle_CommandPhase:198:in `pbCommandPhaseLoop'
+Battle_CommandPhase:188:in `pbCommandPhase'
+
+=================
+
+[2024-02-18 17:14:06 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `Milked?' for #<Battle::Battler>
+
+Backtrace:
+Battler_ChangeSelf:194:in `pbCheckFormOnStatusChange'
+Battler_Statuses:282:in `pbInflictStatus'
+Battler_Statuses:702:in `pbTrapped'
+MoveEffects_BattlerOther:1475:in `pbEffectAgainstTarget'
+Battler_UseMove:705:in `block in pbProcessMoveHit'
+Battler_UseMove:703:in `each'
+Battler_UseMove:703:in `pbProcessMoveHit'
+Battler_UseMove:408:in `block in pbUseMove'
+Battler_UseMove:406:in `times'
+Battler_UseMove:406:in `pbUseMove'
+
+=================
+
+[2024-02-18 17:25:49 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `Unbirthed?' for #<Battle::Battler>
+
+Backtrace:
+Battler_ChangeSelf:206:in `pbCheckFormOnStatusChange'
+Battle_CommandPhase:167:in `block in pbDebugMenu'
+Battle_CommandPhase:165:in `each'
+Battle_CommandPhase:165:in `pbDebugMenu'
+Battle_CommandPhase:242:in `block (2 levels) in pbCommandPhaseLoop'
+Battle_CommandPhase:213:in `loop'
+Battle_CommandPhase:213:in `block in pbCommandPhaseLoop'
+Battle_CommandPhase:198:in `loop'
+Battle_CommandPhase:198:in `pbCommandPhaseLoop'
+Battle_CommandPhase:188:in `pbCommandPhase'
+
+=================
+
+[2024-02-18 17:25:55 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `Unbirthed?' for #<Battle::Battler>
+
+Backtrace:
+Battler_ChangeSelf:206:in `pbCheckFormOnStatusChange'
+Battler_Statuses:282:in `pbInflictStatus'
+Battler_Statuses:787:in `pbTrapped'
+MoveEffects_BattlerOther:1475:in `pbEffectAgainstTarget'
+Battler_UseMove:705:in `block in pbProcessMoveHit'
+Battler_UseMove:703:in `each'
+Battler_UseMove:703:in `pbProcessMoveHit'
+Battler_UseMove:408:in `block in pbUseMove'
+Battler_UseMove:406:in `times'
+Battler_UseMove:406:in `pbUseMove'

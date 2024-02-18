@@ -4979,3 +4979,15 @@ BackSprite = 0,0
 FrontSprite = -2,10
 ShadowX = 0
 ShadowSize = 0
+#-------------------------------
+[JOLTIKBIG]
+BackSprite = 0,0
+FrontSprite = 2,20
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[JOLTIKBIG,1]
+BackSprite = 0,0
+FrontSprite = 1,10
+ShadowX = 0
+ShadowSize = 3

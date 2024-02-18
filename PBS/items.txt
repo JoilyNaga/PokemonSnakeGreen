@@ -5302,9 +5302,9 @@ Description = If held by a Pokémon, this Berry will increase the holder's Sp. D
 [GRASSMAIL]
 Name = Plum's Parcel
 NamePlural = Plum's Parcel
-Pocket = 6
-Price = 50
-Flags = IconMail
+Pocket = 8
+Price = 0
+Flags = KeyItem
 Description = A Parcel addressed to Professor Prudence St.Clare
 #-------------------------------
 [FLAMEMAIL]
@@ -6134,3 +6134,12 @@ FieldUse = OnPokemon
 BattleUse = OnPokemon
 Flags = Fling_30
 Description = A can featuring your cartoonishly compacted body. It can be used to restore 70 HP.
+#-------------------------------
+[PRESENT]
+Name = Present
+NamePlural = Presents
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = The present Nura wanted you to pick up for their partner!

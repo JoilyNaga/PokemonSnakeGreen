@@ -9954,3 +9954,14 @@ Target = NearOther
 FunctionCode = None
 Flags = Contact,CanProtect,CanMirrorMove
 Description = The target is slammed with a long tail, vines, etc., to inflict damage.
+#-------------------------------
+[WEBBING]
+Name = Webbing
+Type = BUG
+Category = Status
+Accuracy = 100
+TotalPP = 20 
+Target = NearOther
+FunctionCode = TrappedTarget
+Flags = CanProtect,CanMirrorMove,TrapTargetInBattle
+Description = The user swallows their prey whole.
