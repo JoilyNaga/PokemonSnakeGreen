@@ -440,6 +440,24 @@ Outdoor = false
 MapPosition = 1,13,16
 BattleBack = city
 #-------------------------------
+[088]   # Gutte City Reformation Center
+Name = Gutte Reformation Center
+#-------------------------------
+[089]   # Gutte OutHouse
+Name = Outhouse
+#-------------------------------
+[090]   # Gutte City Card Shop
+Name = Card Shop
+#-------------------------------
+[091]   # Card Shop Basement
+Name = Card Shop
+#-------------------------------
+[092]   # CardMachine
+Name = Card Shop
+#-------------------------------
+[093]   # Gutte City Game Corner
+Name = Game Corner
+#-------------------------------
 [100]   # 90s Sphinc Town
 Name = Alternate Universe Sphinc Town
 ShowArea = true
@@ -453,3 +471,30 @@ Name = Sphinc Gym
 BattleBack = retro
 WildBattleBGM = RBY 127 Battle! (Gym Leader).ogg
 WildVictoryBGM = RBY 128 Victory! (Gym Leader).ogg
+#-------------------------------
+[118]   # April's Cafe
+Name = April's Cafe
+#-------------------------------
+[119]   # Gutte City Apartments Ground Floor
+Name = Gutte Apartments
+#-------------------------------
+[120]   # Gutte City Apartments1st Floor
+Name = Gutte Apartments
+#-------------------------------
+[121]   # Gutte City Apartments 1
+Name = Gutte Apartment
+#-------------------------------
+[122]   # Gutte City Apartments 2
+Name = Gutte Apartment
+#-------------------------------
+[123]   # Gutte City Apartments 2nd Floor
+Name = Gutte Apartments
+#-------------------------------
+[124]   # Gutte City Apartments Lift
+Name = Gutte Apartments
+#-------------------------------
+[125]   # Gutte City Apartments 3rd Floor
+Name = Gutte Apartments
+#-------------------------------
+[126]   # Gutte City Apartments Roof
+Name = Gutte Apartments
