@@ -52,3 +52,8 @@ Cave,5
     20,ARBOK,8,12
     20,GOLBAT,6,11
     20,SWALOT,8,12
+#-------------------------------
+[100] # 90s Sphinc Town
+Land,21
+    20,RETROBELLSPROUT,9,13
+    20,RETROLICKITUNG,10,14

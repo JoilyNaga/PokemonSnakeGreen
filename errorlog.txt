@@ -3720,3 +3720,199 @@ Battler_UseMove:703:in `pbProcessMoveHit'
 Battler_UseMove:408:in `block in pbUseMove'
 Battler_UseMove:406:in `times'
 Battler_UseMove:406:in `pbUseMove'
+
+=================
+
+[2024-02-23 17:11:33 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 11 (coords 13,4), map 50 (Sphinc Town Gym)
+Exception: ArgumentError
+Message: wrong number of arguments (given 3, expected 1..2)
+
+***Full script:
+$player.pokedex.set_owned(:MOON, 0, 2)
+
+Backtrace:
+Player_Pokedex:147:in `set_owned'
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+
+=================
+
+[2024-02-23 17:14:37 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 11 (coords 13,4), map 50 (Sphinc Town Gym)
+Exception: ArgumentError
+Message: wrong number of arguments (given 3, expected 1..2)
+
+***Full script:
+$player.pokedex.set_owned(:MOON,0,2)
+
+Backtrace:
+Player_Pokedex:147:in `set_owned'
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+
+=================
+
+[2024-02-23 17:37:36 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 11 (coords 13,4), map 50 (Sphinc Town Gym)
+Exception: RuntimeError
+Message: Species MOON_10 does not exist.
+
+***Full script:
+setBattleRule("cannotRun")
+setBattleRule("canLose")
+setBattleRule("outcome", 48)
+WildBattle.start(:MOON_10, 18)
+$player.pokedex.register(:MOON_10)
+
+Backtrace:
+Overworld_BattleStarting:426:in `block in generate_foes'
+Overworld_BattleStarting:407:in `each'
+Overworld_BattleStarting:407:in `generate_foes'
+Overworld_BattleStarting:348:in `start'
+(eval):4:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+
+=================
+
+[2024-02-23 17:38:06 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 11 (coords 13,4), map 50 (Sphinc Town Gym)
+Exception: NoMethodError
+Message: undefined method `species' for nil:NilClass
+
+***Full script:
+$player.pokedex.register(:MOON_10)
+
+Backtrace:
+Player_Pokedex:203:in `register'
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+
+=================
+
+[2024-02-23 18:06:50 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `pbCanDevoured2?' for #<Battle::Battler>
+
+Backtrace:
+MoveEffects_BattlerOther:1492:in `pbFailsAgainstTarget?'
+Battler_UseMoveSuccessChecks:331:in `pbSuccessCheckAgainstTarget'
+Battler_UseMove:382:in `block in pbUseMove'
+Battler_UseMove:380:in `each'
+Battler_UseMove:380:in `pbUseMove'
+Battler_UseMove:52:in `block in pbProcessTurn'
+PBDebug:6:in `logonerr'
+Battler_UseMove:51:in `pbProcessTurn'
+Battle_AttackPhase:128:in `block (2 levels) in pbAttackPhaseMoves'
+Battle_AttackPhase:124:in `each'
+
+=================
+
+[2024-02-23 18:07:03 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `pbCanDevoured2?' for #<Battle::Battler>
+
+Backtrace:
+MoveEffects_BattlerOther:1492:in `pbFailsAgainstTarget?'
+Battler_UseMoveSuccessChecks:331:in `pbSuccessCheckAgainstTarget'
+Battler_UseMove:382:in `block in pbUseMove'
+Battler_UseMove:380:in `each'
+Battler_UseMove:380:in `pbUseMove'
+Battler_UseMove:52:in `block in pbProcessTurn'
+PBDebug:6:in `logonerr'
+Battler_UseMove:51:in `pbProcessTurn'
+Battle_AttackPhase:128:in `block (2 levels) in pbAttackPhaseMoves'
+Battle_AttackPhase:124:in `each'
+
+=================
+
+[2024-02-28 22:56:46 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 9 (coords 4,10), map 93 (Game Corner)
+Exception: NameError
+Message: uninitialized constant Interpreter::Roulette
+
+***Full script:
+Roulette.start(1, Roulette::BLUE)
+
+Backtrace:
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+Scene_Map:159:in `loop'
+
+=================
+
+[2024-02-28 23:06:21 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 9 (coords 4,10), map 93 (Game Corner)
+Exception: NameError
+Message: uninitialized constant Interpreter::Roulette
+
+***Full script:
+Roulette.start(1, Roulette::BLUE)
+
+Backtrace:
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+Scene_Map:159:in `loop'

@@ -1,0 +1,4 @@
+﻿Name       = Essentials-RouletteGame-main
+Version    = 1.0.7
+Essentials = 20.1
+Credits    = FL

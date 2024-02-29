@@ -1,0 +1,4 @@
+Name      = Passcodes Plugin V21.1
+Version   = 1.0
+Credits   = StarlightChildAltair (Apples), GolisopodUser (PW background script), Tiles111 (Built off their scripts), IndianAnimator, TheOnlyFelicity
+Essentials = 21.1
