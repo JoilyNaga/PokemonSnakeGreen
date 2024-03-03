@@ -9,8 +9,8 @@ class Passwords
       end
     end
  def self.Gluttony
-      if $game_switches[0325] == false
-         $game_switches[0325] == true
+      if $game_switches[325] == false
+         $game_switches[325] = true
          pbMessage(_INTL("Multiversal creature unlocked! Go and see the scientist in Sphinc Museum!"))
       else
          pbMessage(_INTL("You have already redeemed this code."))

@@ -22955,7 +22955,7 @@ Color = Brown
 Shape = Serpentine
 Habitat = Forest
 Category = Wild Snake
-Pokedex = A fierce lamia who was raised in the wilderness. She moved into an abandoned house to stay close to Joily. Even as her friend, Lyra will happily eat her little buddy for breakfast, lunch and dinner.
+Pokedex = A fierce lamia who was raised in the wilderness. She moved into an abandoned house to stay closer to me. Even as my friend, Lyra would happily eat me for breakfast, lunch and dinner!
 Generation = 5
 #-------------------------------
 [SYNOPSE]
@@ -22980,7 +22980,7 @@ Color = Green
 Shape = Serpentine
 Habitat = Forest
 Category = Brutal Leader
-Pokedex = The leader of the warrior tribe which Joily once belonged, Synopse wants to get rid of Joily for being too weak. While she rests at twelve foot, her entire body is thirty-five foot long from Tip-to-tail.
+Pokedex = The leader of the warrior tribe which I once belonged, Synopse wants to get rid of me for being too weak. While she stands at twelve foot, her entire body is thirty-five foot long from Tip-to-tail.
 Generation = 1
 #-------------------------------
 [HILDA]
@@ -23006,7 +23006,7 @@ Color = White
 Shape = Bipedal
 Habitat = Urban
 Category = Bandit Queen
-Pokedex = This hunter has the grand goal of making one member of each Demi-Human species extinct and she's set her eyes on you as the lamia in that list. Rumours have it that she is the leader of a camp of bandits.
+Pokedex = This hunter has the grand goal of making one member of each Demi-Human species extinct and she's set her eyes on me as the lamia in that list. Rumours have it that she is the leader of a camp of bandits.
 Generation = 3
 #-------------------------------
 [HUNGRYGAL]
@@ -23029,7 +23029,7 @@ Weight = 135.5
 Color = White
 Shape = BipedalTail
 Category = Hungry Beauty
-Pokedex = Known as 'The Voracious Stunner of Gullut', this trainer hangs out on Route 2, waiting for her prey to be dazzled be her attractiveness before she sends them to their digestive demise.
+Pokedex = Known as 'The Voracious Stunner of Gullut', this trainer hangs out on Route 2, waiting for her prey to be dazzled by her attractiveness before she sends them to their digestive demise.
 Generation = 4
 #-------------------------------
 [ROCKETGRUNT]
@@ -23077,7 +23077,7 @@ Color = White
 Shape = Bipedal
 Habitat = Urban
 Category = Gastric Admin
-Pokedex = This member of Team Gastric is very friendly. Perhaps it's because she's new, but she seems to genuinely care about Joily. Her breasts can convert a full-sized human into several gallons of milk in less than three minutes.
+Pokedex = This member of Team Gastric is very friendly. Perhaps it's because she's new, but she seems to genuinely care about me! Her breasts can convert a full-sized human into several gallons of milk in less than three minutes.
 Generation = 1
 #-------------------------------
 [MOON]
@@ -23102,7 +23102,7 @@ Color = Purple
 Shape = Bipedal
 Habitat = Forest
 Category = Lardball Feline
-Pokedex = [Needs inserting]
+Pokedex = A dangerous adversary, considering half of her sentences don't make much sense! What she lacks in language capability, she makes up for in power! 
 Generation = 2
 #-------------------------------
 [ROXXIE]
@@ -23127,7 +23127,7 @@ Color = White
 Shape = Bipedal
 Habitat = Urban
 Category = Rowdy Idiot
-Pokedex = [Needs inserting]
+Pokedex = Considered a 'ShortStack', this miniature human seems rather cocky. However, even with her small stature, she's proven herself very dangerous! Do not underestimate!
 Generation = 1
 #-------------------------------
 [EM]
@@ -23152,11 +23152,11 @@ Color = Purple
 Shape = Bipedal
 Habitat = Urban
 Category = Luridly malicious
-Pokedex = [Needs inserting]
+Pokedex = A... human? This being seems to be infatuated by Lyra, so, anytime I'm around while Em's stalking usually ends up with me transformed into something sordid!
 Generation = 1
 #-------------------------------
 [GASTRICGRUNT]
-Name = Gastric Grunt
+Name = Grunt
 Types = POISON
 BaseStats = 90,110,80,95,100,80
 GenderRatio = AlwaysFemale
@@ -23202,11 +23202,11 @@ Color = White
 Shape = Bipedal
 Habitat = Grassland
 Category = Lamia Rodent
-Pokedex = A sweet mousegirl with a high tolerance and a love for research. Her main studies revolve around lamias and other large predators.
+Pokedex = A sweet mousegirl with a high tolerance and a love for research. Her main studies revolve around lamias and other large predators. One of the nicest people I've met, but mainly because they don't want to eat me.
 Generation = 1
 #-------------------------------
 [GASTRICGRUNTNB]
-Name = Gastric Grunt
+Name = Grunt
 Types = POISON
 BaseStats = 90,110,80,95,100,80
 GenderRatio = Genderless
@@ -23231,7 +23231,7 @@ Pokedex = These lower-level grunts of Team Gastric have one objective. Total con
 Generation = 1
 #-------------------------------
 [GASTRICGRUNTF]
-Name = Gastric Grunt
+Name = Grunt
 Types = POISON
 BaseStats = 90,110,80,95,100,80
 GenderRatio = AlwaysFemale
@@ -23277,7 +23277,7 @@ Color = White
 Shape = Bipedal
 Habitat = Grassland
 Category = Ancient
-Pokedex = This ancestor of modern day humans is smart enough to carry hand-made weaponry and is perhaps even more voracious than the people of today.
+Pokedex = This ancestor of modern day humans is smart enough to carry hand-made weaponry and is perhaps even more voracious than the people of today. Thank goodness they haven't learned about fire yet, or I'd end up roast serpent!
 Generation = 1
 #-------------------------------
 [WYRDEER]
@@ -26459,7 +26459,7 @@ Color = Pink
 Shape = Bipedal
 Habitat = Rare
 Category = Healing
-Pokedex = This Pokémon's type changes based on which mask it's wearing. It confounds its enemies with nimble movements and kicks.
+Pokedex = This lovely nurse is very similar to the Reformation Center ladies in every city. However, this one has a name: Joy. Her name reflects how I feel around her.
 #-------------------------------
 [MAVE]
 Name = Mave
@@ -26481,8 +26481,8 @@ Weight = 39.8
 Color = Brown
 Shape = Bipedal
 Habitat = Rare
-Category = Healing
-Pokedex = This Pokémon's type changes based on which mask it's wearing. It confounds its enemies with nimble movements and kicks.
+Category = Oral
+Pokedex = One of the heads of Team Gastric. More sultry and unforgiving than Bryst. Still, there's definitely potential for friendship. There's something about her... like it's all an act.
 Generation = 8
 #-------------------------------
 [FRANCIS]
@@ -26502,7 +26502,7 @@ EggGroups = Undiscovered
 HatchSteps = 2560
 Height = 1.2
 Weight = 39.8
-Color = Pink
+Color = Red
 Shape = Bipedal
 Habitat = Rare
 Category = Nerd
@@ -26526,7 +26526,7 @@ EggGroups = Undiscovered
 HatchSteps = 2560
 Height = 1.2
 Weight = 39.8
-Color = Pink
+Color = Red
 Shape = Bipedal
 Habitat = Rare
 Category = Alpha Predator
@@ -26550,11 +26550,11 @@ EggGroups = Undiscovered
 HatchSteps = 2560
 Height = 1.2
 Weight = 39.8
-Color = Pink
+Color = Yellow
 Shape = Bipedal
 Habitat = Rare
-Category = Nerd
-Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Category = Movie Geek
+Pokedex = Is KVC a codename? Her real name seems to be Amy! A big nerd who likes the Mecha-Tyranitar movies! She seems to have a sweet heart at her core!
 Generation = 8
 #-------------------------------
 [CARLY]
@@ -26574,11 +26574,11 @@ EggGroups = Undiscovered
 HatchSteps = 2560
 Height = 1.2
 Weight = 39.8
-Color = Pink
+Color = Gray
 Shape = Bipedal
 Habitat = Rare
-Category = Nerd
-Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Category = Devistating
+Pokedex = Another hybrid, Carly seems to be a lot more powerful than anything I'm capable of. Defeating her was definitely a fluke. She would decimate me, given the chance.
 Generation = 8
 #-------------------------------
 [ROV]
@@ -26598,11 +26598,11 @@ EggGroups = Undiscovered
 HatchSteps = 2560
 Height = 1.2
 Weight = 39.8
-Color = Pink
+Color = Brown
 Shape = Bipedal
 Habitat = Rare
-Category = Nerd
-Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Category = Rear View
+Pokedex = The Gastric Admin who specialises in Anal Vore. Very powerful but seems to be holding back. It's like she doesn't want to hurt anyone with her strength...
 Generation = 8
 #-------------------------------
 [JOAN]
@@ -26625,8 +26625,8 @@ Weight = 39.8
 Color = Pink
 Shape = Bipedal
 Habitat = Rare
-Category = Nerd
-Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Category = Bouncy Cutie
+Pokedex = A lapine demi. She hangs out at cafés and supplies them with milk. Maybe befriending her will save me from becoming her milk myself. Maybe.
 Generation = 8
 #-------------------------------
 [TOFFEE]
@@ -26649,8 +26649,8 @@ Weight = 39.8
 Color = Pink
 Shape = Bipedal
 Habitat = Rare
-Category = Nerd
-Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Category = Vampiric Delight
+Pokedex = This vampire isn't just hungry for blood. She wants the whole meal. And, unfortunately, I'm on the menu. Has a partner somewhere in the region. Hope they are used to reformation centers...
 Generation = 8
 #-------------------------------
 [HGSSACETRAINERF]
@@ -26670,11 +26670,11 @@ EggGroups = Undiscovered
 HatchSteps = 2560
 Height = 1.2
 Weight = 39.8
-Color = Pink
+Color = Red
 Shape = Bipedal
 Habitat = Rare
-Category = Nerd
-Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Category = Professionally Trained
+Pokedex = A massively talented trainer, with an unfortunately tight gut. This human seems to train constantly instead of overeating. As a result, their food is crammed and doesn't last long...
 Generation = 8
 #-------------------------------
 [SCIENTIST]
@@ -26698,12 +26698,12 @@ Color = Pink
 Shape = Bipedal
 Habitat = Rare
 Category = Nerd
-Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Pokedex = Why is it, when there's SO many different liquids to use, this academic decides I'm the best suited for his work? The only person who is allowed to test on me is Plum!
 Generation = 8
 #-------------------------------
 [MAGI]
 Name = Magi
-Types = NORMAL
+Types = PSYCHIC
 BaseStats = 80,120,84,110,60,96
 GenderRatio = AlwaysMale
 GrowthRate = Slow
@@ -26718,11 +26718,11 @@ EggGroups = Undiscovered
 HatchSteps = 2560
 Height = 1.2
 Weight = 39.8
-Color = Pink
+Color = Blue
 Shape = Bipedal
 Habitat = Rare
 Category = Nerd
-Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Pokedex = A very rare Pokémon... or so I'm told. I found him originally sleeping under a truck. Maybe people just aren't looking in the right places?
 Generation = 8
 #-------------------------------
 [RETROBEAUTY]
@@ -26742,11 +26742,11 @@ EggGroups = Undiscovered
 HatchSteps = 2560
 Height = 1.2
 Weight = 39.8
-Color = Pink
+Color = White
 Shape = Bipedal
 Habitat = Rare
-Category = Nerd
-Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Category = Nostalgic Fashionista
+Pokedex = A reminder of fashion of a bygone era. Everyone where she's from seems to be stuck in the past when it comes to clothing. Still, she looks damn good for it!
 Generation = 8
 #-------------------------------
 [JUGGLER]
@@ -26769,8 +26769,8 @@ Weight = 39.8
 Color = Pink
 Shape = Bipedal
 Habitat = Rare
-Category = Nerd
-Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Category = Circus
+Pokedex = It may be a massively impressive skill, but, I do NOT appreciate being used as a prop like this! What is it about predators turning me into balls or putting me in them?
 Generation = 8
 #-------------------------------
 [BURGLAR]
@@ -26793,8 +26793,8 @@ Weight = 39.8
 Color = Pink
 Shape = Bipedal
 Habitat = Rare
-Category = Nerd
-Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Category = Thief
+Pokedex = Kidnapping is a crime! How come nobody noticed the massive squirming burlap sack on his back?!
 Generation = 8
 #-------------------------------
 [HGSSBEAUTY]
@@ -26817,8 +26817,8 @@ Weight = 39.8
 Color = Pink
 Shape = Bipedal
 Habitat = Rare
-Category = Nerd
-Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Category = Darling Dressmaker
+Pokedex = A beautiful girl with a less-than-beautiful soul. Her good looks are offset by her terrible concepts of clothing transformation.
 Generation = 8
 #-------------------------------
 [HGSSSWIMMERF]
@@ -26841,8 +26841,8 @@ Weight = 39.8
 Color = Pink
 Shape = Bipedal
 Habitat = Rare
-Category = Nerd
-Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Category = Waterbound
+Pokedex = Don't ask where she keeps her Poké balls! A professional swimmer who is determined to turn me into a passenger in the first flesh submarine.
 Generation = 8
 #-------------------------------
 [BEBELLA]
@@ -26865,8 +26865,8 @@ Weight = 39.8
 Color = Pink
 Shape = Bipedal
 Habitat = Rare
-Category = Nerd
-Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Category = Actress
+Pokedex = It's Sabrina in her actress gear! She's so genuine and kind! I've seperated this from her regular dex entry, as I think of Bebella as a seperate person. Method acting or something...
 Generation = 8
 #-------------------------------
 [GIOVANNI]
@@ -26886,11 +26886,11 @@ EggGroups = Undiscovered
 HatchSteps = 2560
 Height = 1.2
 Weight = 39.8
-Color = Pink
+Color = Gray
 Shape = Bipedal
 Habitat = Rare
-Category = Nerd
-Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Category = Crime Lord
+Pokedex = The previous rules of the crime syndicate 'Team Rocket'. Known for Stealing and Selling on Pokémon. DO NOT INTERACT WITH!... Also, Magi seemed terrified of him?
 Generation = 8
 #-------------------------------
 [CLARE]
@@ -26913,8 +26913,8 @@ Weight = 39.8
 Color = Pink
 Shape = Bipedal
 Habitat = Rare
-Category = Nerd
-Pokedex = This creep seems to mix reality and fantasy. Francis' entitlement makes him believe that just because someone looks like an anime character, he then can treat them as such. He owns every 'Starship X-Naut' comic in pristine condition. Except issue 248.
+Category = Johtoian Gym
+Pokedex = The Gym Leader of the Blackthorne City Gym in Johto. Seems to have a connection to dragon-type Pokémon, like her cousin, the previous Indigo League champion, Lance.
 Generation = 8
 #-------------------------------
 [EGIRL]
@@ -26938,7 +26938,7 @@ Color = Pink
 Shape = Bipedal
 Habitat = Rare
 Category = E-Girl
-Pokedex = A woman who seems to make her income from videos of her playing video games and teasing her followers. She apparently earns enough to own her own home.
+Pokedex = A woman who seems to make her income from videos of her playing video games and teasing her followers. She apparently earns enough to own her own home. Lucky. I don't even own my cage.
 Generation = 8
 #-------------------------------
 [DAISY]
@@ -26962,7 +26962,7 @@ Color = Pink
 Shape = Bipedal
 Habitat = Rare
 Category = Early Game
-Pokedex = Blue Oak's Sister and Professor Oak's Grandaughter. Apparently, she gave the legend Red his first ever Town Map.
+Pokedex = Blue Oak's Sister and Professor Oak's Grandaughter. Apparently, she gave the legendary Trainer Red his first ever Town Map.
 Generation = 8
 #-------------------------------
 [ARIANA]
@@ -26993,7 +26993,7 @@ Generation = 8
 Name = Bad Boy
 Types = DARK,FIGHTING
 BaseStats = 80,120,84,110,60,96
-GenderRatio = AlwaysFemale
+GenderRatio = AlwaysMale
 GrowthRate = Slow
 BaseExp = 275
 EVs = ATTACK,3
@@ -27010,7 +27010,7 @@ Color = Pink
 Shape = Bipedal
 Habitat = Rare
 Category = Devious
-Pokedex = A powerful Admin from Team Rocket. She seems to have a close relationship to Giovanni.
+Pokedex = This guy's bark is as bad as his bite. Well, slurp. He talks a big game, but he can back it up. Gang warfare isn't fair when you're a weakling against a tough biker.
 Generation = 8
 #-------------------------------
 [PLUM]
@@ -27034,7 +27034,7 @@ Color = Purple
 Shape = Bipedal
 Habitat = Rare
 Category = Scientific
-Pokedex = A close friend and my boss. When she's not forcing me to do experiments that end in my digestion, she's usually pretty nice.
+Pokedex = A close friend and my boss. When she's not forcing me to do experiments that end in my digestion, she's usually pretty nice. Real name is Prudence Sinclair. 
 Generation = 8
 #-------------------------------
 [MILES]
@@ -27058,7 +27058,7 @@ Color = Purple
 Shape = Bipedal
 Habitat = Rare
 Category = Artistic
-Pokedex = A strange painted who's grouchiness matched her artistic capabilities.
+Pokedex = A strange painter who's grouchiness matches her artistic capabilities. 
 #-------------------------------
 [RETROMOON]
 Name = Moon

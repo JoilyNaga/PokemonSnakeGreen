@@ -57,3 +57,7 @@ Cave,5
 Land,21
     20,RETROBELLSPROUT,9,13
     20,RETROLICKITUNG,10,14
+#-------------------------------
+[129] # Museum Warp Back
+Land,21
+    20,EYEKANS,8,11

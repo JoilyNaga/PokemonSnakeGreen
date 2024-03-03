@@ -4991,3 +4991,63 @@ BackSprite = 0,0
 FrontSprite = 1,10
 ShadowX = 0
 ShadowSize = 3
+#-------------------------------
+[EYEKANS]
+BackSprite = 0,0
+FrontSprite = 2,30
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[AMAURA]
+BackSprite = 0,0
+FrontSprite = 0,22
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[ANOCCULTA]
+BackSprite = 0,0
+FrontSprite = 1,10
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[BOUNSWEET]
+BackSprite = 0,0
+FrontSprite = 1,32
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[BRAIXEN]
+BackSprite = 0,0
+FrontSprite = 0,17
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[BRIONNE]
+BackSprite = 0,0
+FrontSprite = -1,25
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[BRUXISH]
+BackSprite = 0,0
+FrontSprite = 0,10
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[CALI]
+BackSprite = 0,0
+FrontSprite = -2,2
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[PHEROMOSA]
+BackSprite = 0,0
+FrontSprite = -2,7
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[PSYBOK]
+BackSprite = 0,0
+FrontSprite = 1,22
+ShadowX = 0
+ShadowSize = 3

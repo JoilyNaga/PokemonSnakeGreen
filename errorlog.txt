@@ -3916,3 +3916,28 @@ Interpreter:90:in `loop'
 Interpreter:90:in `update'
 Scene_Map:160:in `block in update'
 Scene_Map:159:in `loop'
+
+=================
+
+[2024-02-29 20:04:58 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined value Grey in GameData::BodyColor
+File PBS/pokemon.txt, section GIOVANNI, key Color
+Grey
+
+
+
+Backtrace:
+Compiler:345:in `checkEnumField'
+Compiler:320:in `csvEnumField!'
+Compiler:523:in `block (2 levels) in pbGetCsvRecord'
+Compiler:415:in `each'
+Compiler:415:in `block in pbGetCsvRecord'
+Compiler:413:in `loop'
+Compiler:413:in `pbGetCsvRecord'
+Compiler_CompilePBS:633:in `block (3 levels) in compile_pokemon'
+Compiler_CompilePBS:626:in `each_key'
+Compiler_CompilePBS:626:in `block (2 levels) in compile_pokemon'

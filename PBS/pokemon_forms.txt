@@ -2706,22 +2706,21 @@ FormName = Eight Bits in a single Bite
 Pokedex = This version of Moon comes from another universe where everything is monochromatic. She seems relatively unchanged in that universe. Consistency in nice!
 #-------------------------------
 [RETROSNORLAX,1]
-FormName = Filling all the Data
+FormName = Filled with Data
 #-------------------------------
 [RETROLICKITUNG,1]
-FormName = Slurping the Static
+FormName = Static Slurper
 #-------------------------------
 [RETROBELLSPROUT,1]
-FormName = Plants eat Bugs
+FormName = Buggy Bugcatcher
 #-------------------------------
 [JOLTIKBIG,1]
-FormName = Webbing up a bug.
+FormName = Webbing up a bug
 #-------------------------------
-[MOON,2]
-FormName = Test
-#-------------------------------
-[MOON,3]
-FormName = Test
+[EYEKANS,1]
+FormName = Multiversal Meal
+
+
 
 
 
