@@ -5051,3 +5051,9 @@ BackSprite = 0,0
 FrontSprite = 1,22
 ShadowX = 0
 ShadowSize = 3
+#-------------------------------
+[JENNY]
+BackSprite = 0,0
+FrontSprite = 3,5
+ShadowX = 0
+ShadowSize = 2

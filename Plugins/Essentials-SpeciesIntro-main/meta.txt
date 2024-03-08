@@ -1,0 +1,4 @@
+Name       = Show Species Introdution 
+Version    = 1.0.2
+Essentials = 20.1
+Credits    = FL

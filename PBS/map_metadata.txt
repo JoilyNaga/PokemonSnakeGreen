@@ -16,7 +16,7 @@ HealingSpot = 2,8,8
 MapPosition = 0,13,12
 #-------------------------------
 [004]   # Plum Labs Reformation Center
-Name = Plum Labs. Reformation Center
+Name = Plum Labs. RC
 ShowArea = false
 MapPosition = 0,13,12
 #-------------------------------
@@ -84,7 +84,7 @@ Name = Villi City
 MapPosition = 0,13,10
 #-------------------------------
 [018]   # Gullut City Reformation Center
-Name = Villi City
+Name = Gullut City RC
 MapPosition = 0,13,10
 #-------------------------------
 [019]   # Shady Cabin
@@ -126,7 +126,8 @@ Name = Lerucean Town
 MapPosition = 0,15,8
 #-------------------------------
 [026]   # Forest
-Name = Lerucean Town
+Name = Forest
+Name = 
 MapPosition = 0,15,8
 #-------------------------------
 [027]   # Joily's House
@@ -213,7 +214,7 @@ MapPosition = 0,13,6
 Flags = DisableBoxLink
 #-------------------------------
 [039]   # Villi City
-Name = Route 4
+Name = Villi City
 Outdoor = true
 ShowArea = true
 MapPosition = 0,24,12
@@ -221,7 +222,7 @@ BattleBack = field
 MapSize = 2,11
 #-------------------------------
 [040]   # Tribe
-Name = Route 4
+Name = Lamia Tribe
 Outdoor = true
 ShowArea = true
 BicycleAlways = true
@@ -234,6 +235,9 @@ ShowArea = true
 BicycleAlways = true
 MapPosition = 0,13,13
 MapSize = 1,111
+#-------------------------------
+[042]   # Cavernous Depths
+Name = Cavernous Depths
 #-------------------------------
 [043]   # Gullut Gym
 Name = Gullut Gym
@@ -275,7 +279,7 @@ Name = Sphinc Museum
 MapPosition = 0,11,6
 #-------------------------------
 [049]   # Ruins
-Name = Route 7
+Name = Sphinc Ruins
 Bicycle = true
 MapPosition = 0,11,6
 BattleBack = cave1
@@ -292,7 +296,7 @@ Environment = None
 Flags = Magnetic,DistortionWorld
 #-------------------------------
 [051]   # MuseumBasement
-Name = Museum Upstairs
+Name = Sphinc Museum
 Bicycle = true
 MapPosition = 0,16,10
 Dungeon = true
@@ -301,22 +305,22 @@ Environment = Cave
 Flags = Magnetic,DistortionWorld
 #-------------------------------
 [052]   # Museum Staircase
-Name = Museum Staircase
+Name = Sphinc Museum
 Outdoor = false
 ShowArea = false
 MapPosition = 0,17,10
 #-------------------------------
 [053]   # Museum Upstairs
-Name = Battle Frontier
+Name = Sphinc Museum
 HealingSpot = 52,17,14
 MapPosition = 0,17,10
 #-------------------------------
 [054]   # Museum Back
-Name = Battle Frontier
+Name = Sphinc Museum
 MapPosition = 0,17,10
 #-------------------------------
 [055]   # Jurrasic Sphinc Town
-Name = Jurrasic Sphnic Town
+Name = Jurrasic Sphnic
 Outdoor = true
 ShowArea = true
 Bicycle = true
@@ -325,7 +329,7 @@ MapPosition = 0,17,10
 Environment = Sand
 #-------------------------------
 [056]   # Aerodactyl Nest
-Name = Battle Frontier
+Name = Jurrasic Palate
 Outdoor = true
 MapPosition = 0,17,10
 BattleBack = indoor1
@@ -340,13 +344,13 @@ Name = Battle Frontier
 MapPosition = 0,17,10
 #-------------------------------
 [059]   # Inside Jurrasic Sphinc Museum
-Name = Battle Frontier
+Name = Jurrasic Sphinc
 MapPosition = 0,17,10
 BattleBack = indoor1
 Flags = DisableBoxLink
 #-------------------------------
 [060]   # MuseumBasement
-Name = Museum Basement
+Name = Sphinc Museum
 MapPosition = 0,17,10
 #-------------------------------
 [061]   # Sphinc Reformation Center
@@ -365,7 +369,8 @@ MapPosition = 0,17,10
 Flags = DisableBoxLink
 #-------------------------------
 [064]   # Forest3
-Name = Battle Frontier
+Name = Forest3
+Name = 
 MapPosition = 0,17,10
 BattleBack = indoor1
 Flags = DisableBoxLink
@@ -383,7 +388,7 @@ MapPosition = 0,12,12
 BattleBack = field
 #-------------------------------
 [067]   # Museum Upstairs GIANT
-Name = Safari Zone
+Name = Sphinc Museum
 MapPosition = 0,12,12
 #-------------------------------
 [068]   # Museum Upstairs SUPER GIANT
@@ -396,7 +401,7 @@ BattleBack = forest
 Environment = Forest
 #-------------------------------
 [069]   # Museum Warp
-Name = Sphinct Museum Warp
+Name = Sphinct Museum
 Outdoor = false
 ShowArea = true
 MapPosition = 0,13,13
@@ -440,11 +445,23 @@ Outdoor = false
 MapPosition = 1,13,16
 BattleBack = city
 #-------------------------------
+[083]   # JoilyBathroom
+Name = Joily's Bathroom
+#-------------------------------
+[084]   # Deep Ruins
+Name = Sphinc Ruins
+#-------------------------------
+[085]   # Plum's Bathroom
+Name = Plum's Bathroom
+#-------------------------------
+[086]   # Sphinc Gym Oral
+Name = Sphinc Gym Oral
+#-------------------------------
 [088]   # Gutte City Reformation Center
-Name = Gutte Reformation Center
+Name = Gutte City RC
 #-------------------------------
 [089]   # Gutte OutHouse
-Name = Outhouse
+Name = Public Bathroom
 #-------------------------------
 [090]   # Gutte City Card Shop
 Name = Card Shop
@@ -459,18 +476,25 @@ Name = Card Shop
 Name = Game Corner
 #-------------------------------
 [100]   # 90s Sphinc Town
-Name = Alternate Universe Sphinc Town
+Name = Alternate Sphinc Town
 ShowArea = true
+MapPosition = 0,11,6
 BattleBack = retro
 WildBattleBGM = RBY 110 Battle! (Wild Pokemon).ogg
 WildVictoryBGM = RBY 111 Victory! (Wild Pokemon).ogg
 Environment = None
+#-------------------------------
+[101]   # 90s Sphinc PokeCenter
+Name = 90s Sphinc PokeCenter
 #-------------------------------
 [105]   # 90s Sphinc Gym
 Name = Sphinc Gym
 BattleBack = retro
 WildBattleBGM = RBY 127 Battle! (Gym Leader).ogg
 WildVictoryBGM = RBY 128 Victory! (Gym Leader).ogg
+#-------------------------------
+[116]   # SuperGiant Museum Under TV
+Name = Sphinc Museum
 #-------------------------------
 [118]   # April's Cafe
 Name = April's Cafe
@@ -498,3 +522,26 @@ Name = Gutte Apartments
 #-------------------------------
 [126]   # Gutte City Apartments Roof
 Name = Gutte Apartments
+#-------------------------------
+[127]   # Game Freak Apartment
+Name = Dame Freak
+#-------------------------------
+[128]   # Gutte City Apartments 2
+Name = Gutte Apartments
+#-------------------------------
+[129]   # Museum Warp Back
+Name = Sphinc Museum
+Outdoor = true
+MapPosition = 0,11,6
+#-------------------------------
+[130]   # Gutte City Pokestar Studios
+Name = Pokestar Studios
+#-------------------------------
+[131]   # Gutte Cite Pokestar Editing
+Name = Pokestar Studios
+#-------------------------------
+[132]   # Gutte Cite Pokestar Kitchen
+Name = Pokestar Studios
+#-------------------------------
+[133]   # Dressing Room
+Name = Pokestar Studios

@@ -3941,3 +3941,317 @@ Compiler:413:in `pbGetCsvRecord'
 Compiler_CompilePBS:633:in `block (3 levels) in compile_pokemon'
 Compiler_CompilePBS:626:in `each_key'
 Compiler_CompilePBS:626:in `block (2 levels) in compile_pokemon'
+
+=================
+
+[2024-03-04 11:19:54 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 83 (coords 17,35), map 130 (Gutte City Pokestar Studios)
+Exception: SyntaxError
+Message: (eval):4: syntax error, unexpected string literal
+dangerous alien."
+                ^
+(eval):5: unterminated string meets end of file
+# si.show
+         ^
+
+
+***Full script:
+# si = SpeciesIntro.new(:JOILY)
+# si.form = 8
+# si.message_complement = ".\nAn 
+dangerous alien."
+# si.show
+
+=================
+
+[2024-03-04 11:21:17 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 83 (coords 17,35), map 130 (Gutte City Pokestar Studios)
+Exception: NameError
+Message: uninitialized constant Interpreter::SpeciesIntro
+
+***Full script:
+si = SpeciesIntro.new(:JOILY)
+si.form = 8
+si.message_complement = ".\nAn 
+dangerous alien."
+si.show
+
+Backtrace:
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+Scene_Map:159:in `loop'
+
+=================
+
+[2024-03-04 11:22:05 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 83 (coords 17,35), map 130 (Gutte City Pokestar Studios)
+Exception: NameError
+Message: uninitialized constant Interpreter::SpeciesIntro
+
+***Full script:
+SpeciesIntro.new(:JOILY)
+si.form = 8
+si.message_complement = ".\nAn 
+dangerous alien."
+si.show
+
+Backtrace:
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+Scene_Map:159:in `loop'
+
+=================
+
+[2024-03-04 11:24:09 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 83 (coords 17,35), map 130 (Gutte City Pokestar Studios)
+Exception: NameError
+Message: uninitialized constant Interpreter::SpeciesIntro
+
+***Full script:
+SpeciesIntro.new(:JOILY_8)
+
+Backtrace:
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+Scene_Map:159:in `loop'
+
+=================
+
+[2024-03-04 11:28:01 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 83 (coords 17,35), map 130 (Gutte City Pokestar Studios)
+Exception: NoMethodError
+Message: undefined method `species' for nil:NilClass
+
+***Full script:
+SpeciesIntro.new(:JOILY_8)
+
+Backtrace:
+[Show Species Introdution] Script.rb:180:in `species_and_form'
+[Show Species Introdution] Script.rb:88:in `initialize'
+(eval):1:in `new'
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+
+=================
+
+[2024-03-04 11:29:12 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 83 (coords 17,35), map 130 (Gutte City Pokestar Studios)
+Exception: NoMethodError
+Message: undefined method `species' for nil:NilClass
+
+***Full script:
+SpeciesIntro.new(:JOILY_8)
+
+Backtrace:
+[Show Species Introdution] Script.rb:180:in `species_and_form'
+[Show Species Introdution] Script.rb:88:in `initialize'
+(eval):1:in `new'
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+
+=================
+
+[2024-03-04 11:31:59 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 83 (coords 17,35), map 130 (Gutte City Pokestar Studios)
+Exception: NoMethodError
+Message: undefined method `species' for nil:NilClass
+
+***Full script:
+SpeciesIntro.new(:JOILY_8).show
+
+Backtrace:
+[Show Species Introdution] Script.rb:180:in `species_and_form'
+[Show Species Introdution] Script.rb:88:in `initialize'
+(eval):1:in `new'
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+
+=================
+
+[2024-03-05 16:00:14 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 23 (coords 27,61), map 130 (Pokestar Studios)
+Exception: RuntimeError
+Message: Species BRYCENFAN does not exist.
+
+***Full script:
+setBattleRule("cannotRun")
+setBattleRule("canLose")
+setBattleRule("outcome", 48)
+WildBattle.start(:BRYCENFAN, 5)
+
+Backtrace:
+Overworld_BattleStarting:426:in `block in generate_foes'
+Overworld_BattleStarting:407:in `each'
+Overworld_BattleStarting:407:in `generate_foes'
+Overworld_BattleStarting:348:in `start'
+(eval):4:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+
+=================
+
+[2024-03-07 10:07:59 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+
+Backtrace:
+UI_Pokedex_Entry:312:in `block in pbGetEncounterPoints'
+Encounter:53:in `block in each_of_version'
+Encounter:45:in `block in each'
+Encounter:45:in `each'
+Encounter:45:in `each'
+Encounter:52:in `each_of_version'
+UI_Pokedex_Entry:306:in `pbGetEncounterPoints'
+UI_Pokedex_Entry:342:in `drawPageArea'
+UI_Pokedex_Entry:195:in `drawPage'
+UI_Pokedex_Entry:533:in `block in pbScene'
+
+=================
+
+[2024-03-07 10:08:49 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+
+Backtrace:
+UI_Pokedex_Entry:312:in `block in pbGetEncounterPoints'
+Encounter:53:in `block in each_of_version'
+Encounter:45:in `block in each'
+Encounter:45:in `each'
+Encounter:45:in `each'
+Encounter:52:in `each_of_version'
+UI_Pokedex_Entry:306:in `pbGetEncounterPoints'
+UI_Pokedex_Entry:342:in `drawPageArea'
+UI_Pokedex_Entry:195:in `drawPage'
+UI_Pokedex_Entry:533:in `block in pbScene'
+
+=================
+
+[2024-03-07 23:46:57 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+
+Backtrace:
+UI_Pokedex_Entry:312:in `block in pbGetEncounterPoints'
+Encounter:53:in `block in each_of_version'
+Encounter:45:in `block in each'
+Encounter:45:in `each'
+Encounter:45:in `each'
+Encounter:52:in `each_of_version'
+UI_Pokedex_Entry:306:in `pbGetEncounterPoints'
+UI_Pokedex_Entry:342:in `drawPageArea'
+UI_Pokedex_Entry:195:in `drawPage'
+UI_Pokedex_Entry:533:in `block in pbScene'
+
+=================
+
+[2024-03-08 06:58:52 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+
+Backtrace:
+UI_Pokedex_Entry:312:in `block in pbGetEncounterPoints'
+Encounter:53:in `block in each_of_version'
+Encounter:45:in `block in each'
+Encounter:45:in `each'
+Encounter:45:in `each'
+Encounter:52:in `each_of_version'
+UI_Pokedex_Entry:306:in `pbGetEncounterPoints'
+UI_Pokedex_Entry:342:in `drawPageArea'
+UI_Pokedex_Entry:195:in `drawPage'
+UI_Pokedex_Entry:533:in `block in pbScene'
+
+=================
+
+[2024-03-08 07:13:22 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+
+Backtrace:
+UI_Pokedex_Entry:312:in `block in pbGetEncounterPoints'
+Encounter:53:in `block in each_of_version'
+Encounter:45:in `block in each'
+Encounter:45:in `each'
+Encounter:45:in `each'
+Encounter:52:in `each_of_version'
+UI_Pokedex_Entry:306:in `pbGetEncounterPoints'
+UI_Pokedex_Entry:342:in `drawPageArea'
+UI_Pokedex_Entry:195:in `drawPage'
+UI_Pokedex_Entry:533:in `block in pbScene'

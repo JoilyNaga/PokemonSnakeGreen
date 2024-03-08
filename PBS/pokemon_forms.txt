@@ -2715,10 +2715,13 @@ FormName = Static Slurper
 FormName = Buggy Bugcatcher
 #-------------------------------
 [JOLTIKBIG,1]
-FormName = Webbing up a bug
+FormName = Webbing up a pitiful bug
 #-------------------------------
 [EYEKANS,1]
 FormName = Multiversal Meal
+#-------------------------------
+[JENNY,1]
+FormName = Under Arrest under A Breast
 
 
 
