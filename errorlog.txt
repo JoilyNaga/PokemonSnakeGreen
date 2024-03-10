@@ -4255,3 +4255,45 @@ UI_Pokedex_Entry:306:in `pbGetEncounterPoints'
 UI_Pokedex_Entry:342:in `drawPageArea'
 UI_Pokedex_Entry:195:in `drawPage'
 UI_Pokedex_Entry:533:in `block in pbScene'
+
+=================
+
+[2024-03-08 10:14:04 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NameError
+Message: undefined local variable or method `line' for Compiler:Module
+
+Backtrace:
+Compiler_CompilePBS:411:in `compile_moves'
+Compiler:763:in `compile_pbs_files'
+Compiler:784:in `compile_all'
+Compiler:897:in `main'
+Main:29:in `mainFunctionDebug'
+Main:18:in `block in mainFunction'
+Errors:80:in `pbCriticalCode'
+Main:18:in `mainFunction'
+Main:45:in `block in <main>'
+Main:44:in `loop'
+
+=================
+
+[2024-03-08 10:22:15 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NameError
+Message: undefined local variable or method `line' for Compiler:Module
+
+Backtrace:
+Compiler_CompilePBS:411:in `compile_moves'
+Compiler:763:in `compile_pbs_files'
+Compiler:784:in `compile_all'
+Compiler:897:in `main'
+Main:29:in `mainFunctionDebug'
+Main:18:in `block in mainFunction'
+Errors:80:in `pbCriticalCode'
+Main:18:in `mainFunction'
+Main:45:in `block in <main>'
+Main:44:in `loop'

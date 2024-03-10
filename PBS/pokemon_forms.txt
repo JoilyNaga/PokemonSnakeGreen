@@ -2413,6 +2413,12 @@ FormName = Mummified Munchies
 [EM,1]
 FormName = Tank Top Triumph
 #-------------------------------
+[EM,2]
+FormName = Tank Top Triumph
+#-------------------------------
+[EM,3]
+FormName = Tank Top Triumph
+#-------------------------------
 [LICKITUNG,1]
 FormName = Slobbered and Swallowed
 #-------------------------------

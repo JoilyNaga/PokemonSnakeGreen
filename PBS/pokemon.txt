@@ -26511,7 +26511,7 @@ Generation = 8
 #-------------------------------
 [FREY]
 Name = Frey
-Types = DARK
+Types = PRED,DARK
 BaseStats = 80,120,84,110,60,96
 GenderRatio = AlwaysMale
 GrowthRate = Slow
@@ -26631,7 +26631,7 @@ Generation = 8
 #-------------------------------
 [TOFFEE]
 Name = Toffee
-Types = NORMAL
+Types = PRED,UNKNOWN
 BaseStats = 80,120,84,110,60,96
 GenderRatio = AlwaysFemale
 GrowthRate = Slow
@@ -26721,7 +26721,7 @@ Weight = 39.8
 Color = Blue
 Shape = Bipedal
 Habitat = Rare
-Category = Nerd
+Category = Shiny Mythical
 Pokedex = A very rare Pokémon... or so I'm told. I found him originally sleeping under a truck. Maybe people just aren't looking in the right places?
 Generation = 8
 #-------------------------------

@@ -139,3 +139,14 @@ Name = Lamia
 IconPosition = 20
 Weaknesses = ICE,GROUND,ELECTRIC
 Resistances = FIRE,GRASS,FAIRY
+#-------------------------------
+[UNKNOWN]
+Name = ???
+IconPosition = 9
+#-------------------------------
+[PRED]
+Name = Alpha Predator
+IconPosition = 21
+Weaknesses = PSYCHIC,FAIRY
+Resistances = SNACK,NORMAL
+Immunities = POISON
