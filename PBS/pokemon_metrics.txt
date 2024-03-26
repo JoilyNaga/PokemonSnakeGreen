@@ -5057,3 +5057,21 @@ BackSprite = 0,0
 FrontSprite = 3,5
 ShadowX = 0
 ShadowSize = 2
+#-------------------------------
+[SHAN]
+BackSprite = 0,0
+FrontSprite = -2,7
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[APRIL]
+BackSprite = 0,0
+FrontSprite = 0,14
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[APRIL,1]
+BackSprite = 0,0
+FrontSprite = 0,14
+ShadowX = 0
+ShadowSize = 2

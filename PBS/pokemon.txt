@@ -27341,3 +27341,54 @@ Habitat = Grassland
 Category = Law
 Pokedex = A Police Officer who maintains all that is good and lawful. Unfortunately for me, eating others is lawful. 
 Generation = 1
+#-------------------------------
+[SHAN]
+Name = Shan
+Types = FIGHTING,DARK
+BaseStats = 95,60,55,100,120,105
+GenderRatio = AlwaysFemale
+GrowthRate = Parabolic
+BaseExp = 250
+EVs = SPECIAL_ATTACK,3
+CatchRate = 255
+Happiness = 80
+Abilities = MAGICGUARD
+HiddenAbilities = BADDREAMS
+Moves = 1,CONSUME
+TutorMoves = AQUATAIL,ATTRACT,BIND,CONFIDE,DARKPULSE,DIG,DOUBLETEAM,ENDURE,FACADE,FRUSTRATION,GASTROACID,GIGADRAIN,HIDDENPOWER,INFESTATION,IRONTAIL,PAYBACK,POISONJAB,PROTECT,RAINDANCE,REST,RETURN,SEEDBOMB,SLEEPTALK,SLUDGEBOMB,SLUDGEWAVE,SNATCH,SNORE,SPITE,SUBSTITUTE,SUNNYDAY,SWAGGER,THIEF,TORMENT,VENOSHOCK,CALMMIND,PSYCHIC,DAZZLINGGLEAM,THUNDERWAVE,LIGHTSCREEN,ICYWIND,TRICKROOM,DRAININGKISS,MISTYTERRAIN,SHADOWBALL,ENERGYBALL,GRASSKNOT,DREAMEATER,THUNDERBOLT,STOREDPOWER,SWIFT,TRIATTACK,WONDERROOM,RETURN
+EggGroups = Field,Dragon
+HatchSteps = 5120
+Height = 4.5
+Weight = 70.0
+Color = White
+Shape = Bipedal
+Habitat = Grassland
+Category = Vicious Beast
+Pokedex = Frey's girlfriend. Less of a predator than him, but more of a psychopath. Clearly has some issues.
+Generation = 1
+#-------------------------------
+[APRIL]
+Name = April
+Types = WATER
+BaseStats = 95,60,55,100,120,105
+GenderRatio = AlwaysFemale
+GrowthRate = Parabolic
+BaseExp = 250
+EVs = SPECIAL_ATTACK,3
+CatchRate = 255
+Happiness = 80
+Abilities = MAGICGUARD
+HiddenAbilities = BADDREAMS
+Moves = 1,CONSUME
+TutorMoves = AQUATAIL,ATTRACT,BIND,CONFIDE,DARKPULSE,DIG,DOUBLETEAM,ENDURE,FACADE,FRUSTRATION,GASTROACID,GIGADRAIN,HIDDENPOWER,INFESTATION,IRONTAIL,PAYBACK,POISONJAB,PROTECT,RAINDANCE,REST,RETURN,SEEDBOMB,SLEEPTALK,SLUDGEBOMB,SLUDGEWAVE,SNATCH,SNORE,SPITE,SUBSTITUTE,SUNNYDAY,SWAGGER,THIEF,TORMENT,VENOSHOCK,CALMMIND,PSYCHIC,DAZZLINGGLEAM,THUNDERWAVE,LIGHTSCREEN,ICYWIND,TRICKROOM,DRAININGKISS,MISTYTERRAIN,SHADOWBALL,ENERGYBALL,GRASSKNOT,DREAMEATER,THUNDERBOLT,STOREDPOWER,SWIFT,TRIATTACK,WONDERROOM,RETURN
+EggGroups = Field,Dragon
+HatchSteps = 5120
+Height = 4.5
+Weight = 70.0
+Color = White
+Shape = Bipedal
+Habitat = Grassland
+Category = Vicious Beast
+Pokedex = A genuinely sweet soul, April may not be the smartest but she's absolutely lovely. Also, a very talented poet!
+Generation = 1
+
