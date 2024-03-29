@@ -16,7 +16,7 @@ BicycleBGM = Bicycle
 TrainerType = POKEMONTRAINER_Red
 WalkCharset = !Joily
 RunCharset = !Joily
-CycleCharset = boy_bike
+CycleCharset = !JoilySkating
 SurfCharset = boy_surf
 FishCharset = boy_fish_offset
 #-------------------------------

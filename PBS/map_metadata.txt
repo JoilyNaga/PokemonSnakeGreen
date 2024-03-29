@@ -308,12 +308,12 @@ Flags = Magnetic,DistortionWorld
 Name = Sphinc Museum
 Outdoor = false
 ShowArea = false
-MapPosition = 0,17,10
+MapPosition = 0,11,6
 #-------------------------------
 [053]   # Museum Upstairs
 Name = Sphinc Museum
-HealingSpot = 52,17,14
-MapPosition = 0,17,10
+HealingSpot = 30,50,44
+MapPosition = 0,11,6
 #-------------------------------
 [054]   # Museum Back
 Name = Sphinc Museum
@@ -389,13 +389,13 @@ BattleBack = field
 #-------------------------------
 [067]   # Museum Upstairs GIANT
 Name = Sphinc Museum
-MapPosition = 0,12,12
+MapPosition = 0,11,6
 #-------------------------------
 [068]   # Museum Upstairs SUPER GIANT
 Name = Sphinc Museum
 Outdoor = false
 ShowArea = false
-MapPosition = 0,11,7
+MapPosition = 0,11,6
 SafariMap = false
 BattleBack = forest
 Environment = Forest
@@ -508,7 +508,7 @@ Name = Gutte Apartments
 [121]   # Gutte City Apartments 1
 Name = Gutte Apartment
 #-------------------------------
-[122]   # Gutte City Apartments 2
+[122]   # Gutte City Apartments: Shan
 Name = Gutte Apartment
 #-------------------------------
 [123]   # Gutte City Apartments 2nd Floor
