@@ -545,3 +545,7 @@ Name = Pokestar Studios
 #-------------------------------
 [133]   # Dressing Room
 Name = Pokestar Studios
+#-------------------------------
+[140]   # Inside Flashback Machine
+Name = Plum's Lab
+MapPosition = 0,13,12

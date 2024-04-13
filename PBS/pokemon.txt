@@ -15231,7 +15231,7 @@ WildItemUncommon = BIGMUSHROOM
 Evolutions = AMOONGUSS,Level,39
 #-------------------------------
 [AMOONGUSS]
-Name = Grunt
+Name = Amoonguss
 Types = DARK
 BaseStats = 114,85,70,30,85,80
 GenderRatio = AlwaysFemale
@@ -23159,7 +23159,7 @@ Generation = 1
 Name = Grunt
 Types = POISON
 BaseStats = 90,110,80,95,100,80
-GenderRatio = AlwaysFemale
+GenderRatio = AlwaysMale
 GrowthRate = Slow
 BaseExp = 194
 EVs = ATTACK,2

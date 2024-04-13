@@ -9786,12 +9786,12 @@ Description = The user bites the target with toxic fangs. It may also leave the 
 #-------------------------------
 [HYPNOEYES]
 Name = Hypno Eyes
-Type = PSYCHIC
+Type = LAMIA
 Category = Status
-Accuracy = 75
+Accuracy = 100
 TotalPP = 20
 Target = NearOther
-FunctionCode = SleepTarget
+FunctionCode = HypnotiseTarget
 Flags = CanProtect,CanMirrorMove
 Description = The user employs hypnotic suggestion to make the target fall into a deep sleep.
 #-------------------------------
@@ -9830,8 +9830,8 @@ FunctionCode = TransformedTarget
 Flags = CanProtect,CanMirrorMove,TrapTargetInBattle
 Description = The user swallows their prey whole.
 #-------------------------------
-[TRAININGBRATRAINER]
-Name = Training Bra Trainer
+[BRATRANSFORMATION]
+Name = Bra Transformation
 Type = PSYCHIC
 Category = Status
 Accuracy = 100
@@ -9976,3 +9976,42 @@ Target = NearOther
 FunctionCode = Devour2Target
 Flags = CanProtect,CanMirrorMove,TrapTargetInBattle
 Description = The user swallows their prey whole.
+#-------------------------------
+[TENDERISE]
+Name = Tenderise
+Type = FIGHTING
+Category = Physical
+Power = 80
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetDef2
+Flags = CanProtect,CanMirrorMove,Sound
+EffectChance = 20
+Description = The user vibrates its wings to generate a damaging sound wave. It may also lower the target's Sp. Def stat.
+#-------------------------------
+[MENTALTORTURE]
+Name = Mental Torture
+Type = PSYCHIC
+Category = Special
+Power = 95
+Accuracy = 90
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetSpDef1
+Flags = CanProtect,CanMirrorMove,Sound
+EffectChance = 20
+Description = The user vibrates its wings to generate a damaging sound wave. It may also lower the target's Sp. Def stat.
+#-------------------------------
+[CLENCH]
+Name = Clench
+Type = PRED
+Category = Special
+Power = 85
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetEvasion2
+Flags = CanProtect,CanMirrorMove,Sound
+EffectChance = 20
+Description = The user vibrates its wings to generate a damaging sound wave. It may also lower the target's Sp. Def stat.

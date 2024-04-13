@@ -4297,3 +4297,78 @@ Errors:80:in `pbCriticalCode'
 Main:18:in `mainFunction'
 Main:45:in `block in <main>'
 Main:44:in `loop'
+
+=================
+
+[2024-03-31 21:37:06 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Move ID 'HYPNOEYES' is used twice.
+File PBS/moves.txt, line 9980
+[HYPNOEYES]
+
+
+
+Backtrace:
+Compiler_CompilePBS:318:in `block in compile_moves'
+Compiler:242:in `block (2 levels) in pbCompilerEachPreppedLine'
+Compiler:234:in `each_line'
+Compiler:234:in `block in pbCompilerEachPreppedLine'
+Compiler:231:in `open'
+Compiler:231:in `pbCompilerEachPreppedLine'
+Compiler_CompilePBS:298:in `compile_moves'
+Compiler:763:in `compile_pbs_files'
+Compiler:784:in `compile_all'
+Compiler:897:in `main'
+
+=================
+
+[2024-04-01 21:31:40 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined value FIGHT in GameData::Type
+File PBS/moves.txt, line 9982
+Type = FIGHT
+
+
+
+Backtrace:
+Compiler:345:in `checkEnumField'
+Compiler:320:in `csvEnumField!'
+Compiler:523:in `block (2 levels) in pbGetCsvRecord'
+Compiler:415:in `each'
+Compiler:415:in `block in pbGetCsvRecord'
+Compiler:413:in `loop'
+Compiler:413:in `pbGetCsvRecord'
+Compiler_CompilePBS:332:in `block in compile_moves'
+Compiler:242:in `block (2 levels) in pbCompilerEachPreppedLine'
+Compiler:234:in `each_line'
+
+=================
+
+[2024-04-02 10:24:56 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined value ALPHA in GameData::Type
+File PBS/moves.txt, line 10008
+Type = ALPHA
+
+
+
+Backtrace:
+Compiler:345:in `checkEnumField'
+Compiler:320:in `csvEnumField!'
+Compiler:523:in `block (2 levels) in pbGetCsvRecord'
+Compiler:415:in `each'
+Compiler:415:in `block in pbGetCsvRecord'
+Compiler:413:in `loop'
+Compiler:413:in `pbGetCsvRecord'
+Compiler_CompilePBS:332:in `block in compile_moves'
+Compiler:242:in `block (2 levels) in pbCompilerEachPreppedLine'
+Compiler:234:in `each_line'

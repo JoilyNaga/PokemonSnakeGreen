@@ -10,6 +10,19 @@ RockSmash,50
     90,NOSEPASS,13,14
     10,GEODUDE,12,15
 #-------------------------------
+[002] # Palate Town
+OldRod
+    20,MAGIKARP,5
+GoodRod
+    20,TOTODILE,15,18
+    20,POLIWAG,7,9
+    10,POLIWHIRL,15,18
+SuperRod
+    15,DONDOZO,25,28
+    10,GYARADOS,25,30
+    15,CROCONAW,19,25
+    5,FERALIGATR,36,39
+#-------------------------------
 [005] # Route 1
 Land,21
     20,EKANS,2,7
@@ -35,6 +48,15 @@ Cave,5
     20,ARBOK,8,12
     20,GOLBAT,6,11
     20,SWALOT,8,12
+#-------------------------------
+[049] # Ruins
+Land,21
+    20,JOLTIK,5,7
+    20,NOSEPASS,6,9
+    20,YAMASK,7,10
+    20,ZUBAT,5,8
+    10,GOLBAT,9,13
+    5,COFAGRIGUS,12,15
 #-------------------------------
 [100] # 90s Sphinc Town
 Land,21

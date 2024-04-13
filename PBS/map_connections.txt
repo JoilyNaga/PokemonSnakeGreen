@@ -1,13 +1,19 @@
 ﻿# See the documentation on the wiki to learn how to edit this file.
 #-------------------------------
+# Palate Town (2) - Route 1 (5)
+2,North,2,5,South,0
+# Late Route (41) - Palate Town (2)
+41,North,0,2,South,2
+# Route 1 (5) - Gullut City (7)
+5,North,0,7,South,4
+# Gullut City (7) - Sphinc Town (30)
+7,North,0,30,South,32
+# Route 2 (32) - Gullut City (7)
+32,East,0,7,West,0
 # Forest (26) - Old Route 3 (23)
 26,North,44,23,South,0
 # Sphinc Town (30) - Forest2 (46)
 30,South,0,46,North,36
-# Route 2 (32) - Forest2 (46)
-32,West,0,46,East,0
-# Gullut City (7) - Sphinc Town (30)
-7,North,0,30,South,32
 # Route 2 (32) - Sphinc Town (30)
 32,North,0,30,South,4
 # Route 3 (34) - Sphinc Town (30)
@@ -18,47 +24,41 @@
 37,South,0,30,North,62
 # Forest3 (64) - Sphinc Town (30)
 64,West,0,30,East,45
-# Route 1 (5) - Gullut City (7)
-5,North,0,7,South,4
-# Route 2 (32) - Gullut City (7)
-32,East,0,7,West,0
-# Palate Town (2) - Route 1 (5)
-2,North,2,5,South,0
-# Late Route (41) - Palate Town (2)
-41,North,0,2,South,2
-# Tribe (40) - Late Route (41)
-40,North,4,41,South,0
-# Route 2 (32) - Tribe (40)
-32,East,154,40,West,0
 # Gurgol City (31) - Route 3 (34)
 31,West,0,34,East,150
-# Vellus Forest (36) - Route 3 (34)
-36,West,0,34,East,0
-# Gutte City (33) - Route 3 (34)
-33,South,0,34,North,22
-# Extended Route (37) - Route 3 (34)
-37,South,18,34,North,0
-# Forest3 (64) - Route 3 (34)
-64,North,0,34,South,0
 # Vellus Forest (36) - Gurgol City (31)
 36,South,0,31,North,0
 # Extended Route 2 (38) - Gurgol City (31)
 38,West,0,31,East,0
 # Forest3 (64) - Gurgol City (31)
 64,East,105,31,West,0
+# Route 2 (32) - Forest2 (46)
+32,West,0,46,East,0
+# Route 2 (32) - Tribe (40)
+32,East,154,40,West,0
+# Gutte City (33) - Route 3 (34)
+33,South,0,34,North,22
 # Gutte City (33) - Vellus Forest (36)
 33,South,28,36,North,0
-# Extended Route (37) - Vellus Forest (36)
-37,South,68,36,North,0
-# Route 4 (35) - Vellus Forest (36)
-35,North,0,36,South,70
-# Extended Route 2 (38) - Vellus Forest (36)
-38,North,0,36,South,50
-# Forest3 (64) - Vellus Forest (36)
-64,East,0,36,West,45
 # Extended Route (37) - Gutte City (33)
 37,East,0,33,West,76
+# Vellus Forest (36) - Route 3 (34)
+36,West,0,34,East,0
+# Extended Route (37) - Route 3 (34)
+37,South,18,34,North,0
+# Forest3 (64) - Route 3 (34)
+64,North,0,34,South,0
+# Route 4 (35) - Vellus Forest (36)
+35,North,0,36,South,70
 # Extended Route 2 (38) - Route 4 (35)
 38,East,0,35,West,0
 # Villi City (39) - Route 4 (35)
 39,West,0,35,East,20
+# Extended Route (37) - Vellus Forest (36)
+37,South,68,36,North,0
+# Extended Route 2 (38) - Vellus Forest (36)
+38,North,0,36,South,50
+# Forest3 (64) - Vellus Forest (36)
+64,East,0,36,West,45
+# Tribe (40) - Late Route (41)
+40,North,4,41,South,0
