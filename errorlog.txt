@@ -4372,3 +4372,53 @@ Compiler:413:in `pbGetCsvRecord'
 Compiler_CompilePBS:332:in `block in compile_moves'
 Compiler:242:in `block (2 levels) in pbCompilerEachPreppedLine'
 Compiler:234:in `each_line'
+
+=================
+
+[2024-04-18 10:16:23 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined value TEASE in GameData::Move
+File PBS/pokemon.txt, section LYRA, key Moves
+1,CONSUME,1,BELLYSQUISH,1,GURGLE,1,TEASE
+
+
+
+Backtrace:
+Compiler:345:in `checkEnumField'
+Compiler:320:in `csvEnumField!'
+Compiler:523:in `block (2 levels) in pbGetCsvRecord'
+Compiler:415:in `each'
+Compiler:415:in `block in pbGetCsvRecord'
+Compiler:413:in `loop'
+Compiler:413:in `pbGetCsvRecord'
+Compiler_CompilePBS:633:in `block (3 levels) in compile_pokemon'
+Compiler_CompilePBS:626:in `each_key'
+Compiler_CompilePBS:626:in `block (2 levels) in compile_pokemon'
+
+=================
+
+[2024-04-21 14:16:53 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined value BIGBGREAKFAST in GameData::Move
+File PBS/pokemon.txt, section TINYLYRA, key Moves
+1,BIGBGREAKFAST,1,BELLYSQUISH,1,GURGLE,1,TEASE
+
+
+
+Backtrace:
+Compiler:345:in `checkEnumField'
+Compiler:320:in `csvEnumField!'
+Compiler:523:in `block (2 levels) in pbGetCsvRecord'
+Compiler:415:in `each'
+Compiler:415:in `block in pbGetCsvRecord'
+Compiler:413:in `loop'
+Compiler:413:in `pbGetCsvRecord'
+Compiler_CompilePBS:633:in `block (3 levels) in compile_pokemon'
+Compiler_CompilePBS:626:in `each_key'
+Compiler_CompilePBS:626:in `block (2 levels) in compile_pokemon'

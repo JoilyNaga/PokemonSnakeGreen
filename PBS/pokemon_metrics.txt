@@ -5075,3 +5075,15 @@ BackSprite = 0,0
 FrontSprite = 0,14
 ShadowX = 0
 ShadowSize = 2
+#-------------------------------
+[TINYLYRA]
+BackSprite = 0,0
+FrontSprite = 2,13
+ShadowX = 0
+ShadowSize = 1
+#-------------------------------
+[TINYLYRA,1]
+BackSprite = 0,0
+FrontSprite = -1,3
+ShadowX = 0
+ShadowSize = 3

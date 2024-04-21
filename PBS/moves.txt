@@ -9701,7 +9701,7 @@ Description = An ivy-wrapped cudgel strike with a high critical-hit ratio. Type 
 #-------------------------------
 [CONSUME]
 Name = Consume
-Type = POISON
+Type = PRED
 Category = Status
 Accuracy = 100
 TotalPP = 20 
@@ -9909,7 +9909,7 @@ Description = The user crunches up the target with sharp fangs. It may also lowe
 Name = Gurgle
 Type = POISON
 Category = Special
-Power = 70
+Power = 30
 Accuracy = 100
 TotalPP = 15
 Target = NearOther
@@ -9998,7 +9998,7 @@ Power = 95
 Accuracy = 90
 TotalPP = 15
 Target = NearOther
-FunctionCode = LowerTargetSpDef1
+FunctionCode = LowerTargetSpDef2
 Flags = CanProtect,CanMirrorMove,Sound
 EffectChance = 20
 Description = The user vibrates its wings to generate a damaging sound wave. It may also lower the target's Sp. Def stat.
@@ -10015,3 +10015,27 @@ FunctionCode = LowerTargetEvasion2
 Flags = CanProtect,CanMirrorMove,Sound
 EffectChance = 20
 Description = The user vibrates its wings to generate a damaging sound wave. It may also lower the target's Sp. Def stat.
+#-------------------------------
+[TEASE]
+Name = Tease
+Type = PRED
+Category = Special
+Power = 10
+Accuracy = 100
+TotalPP = 15
+Target = NearOther
+FunctionCode = LowerTargetSpDef1
+Flags = CanProtect,CanMirrorMove,Sound
+EffectChance = 100
+Description = The user vibrates its wings to generate a damaging sound wave. It may also lower the target's Sp. Def stat.
+#-------------------------------
+[BIGBREAKFAST]
+Name = Big Breakfast
+Type = PRED
+Category = Status
+Accuracy = 100
+TotalPP = 20 
+Target = NearOther
+FunctionCode = DevourTarget
+Flags = CanProtect,CanMirrorMove,TrapTargetInBattle
+Description = The user swallows their prey whole.
