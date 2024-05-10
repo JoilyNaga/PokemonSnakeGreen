@@ -2737,15 +2737,37 @@ FormName = Something Fishy This Way Comes
 #-------------------------------
 [TINYLYRA,1]
 FormName = Stomach Bigger Than Her Eyes
-
-
-
-
-
-
-
-
-
+#-------------------------------
+[GIGANTAMAXLYRA,1]
+FormName = N/A
+#-------------------------------
+[GIGANTAMAXLYRA,2]
+FormName = N/A
+#-------------------------------
+[GIGANTAMAXLYRA,3]
+FormName = N/A
+#-------------------------------
+[GIGANTAMAXLYRA,4]
+FormName = N/A
+#-------------------------------
+[GIGANTAMAXLYRA,5]
+FormName = N/A
+#-------------------------------
+[GIGANTAMAXLYRA,6]
+FormName = N/A
+#-------------------------------
+[GIGANTAMAXLYRA,7]
+FormName = N/A
+#-------------------------------
+[GIGANTAMAXLYRA,8]
+FormName = N/A
+#-------------------------------
+[GIGANTAMAXLYRA,9]
+FormName = N/A
+#-------------------------------
+[GIGANTAMAXLYRA,10]
+FormName = Picnic Pal Pull
+#-------------------------------
 
 
 

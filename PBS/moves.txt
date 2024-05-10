@@ -10039,3 +10039,14 @@ Target = NearOther
 FunctionCode = DevourTarget
 Flags = CanProtect,CanMirrorMove,TrapTargetInBattle
 Description = The user swallows their prey whole.
+#-------------------------------
+[HANDSWOOP]
+Name = Hand Swoop
+Type = PRED
+Category = Status
+Accuracy = 100
+TotalPP = 20 
+Target = NearOther
+FunctionCode = TrappedTarget
+Flags = CanProtect,CanMirrorMove,TrapTargetInBattle
+Description = The user swallows their prey whole.

@@ -27417,3 +27417,29 @@ Category = Wild Snake
 Pokedex = A fierce lamia who was raised in the wilderness. She moved into an abandoned house to stay closer to me. Even as my friend, Lyra would happily eat me for breakfast, lunch and dinner!
 Generation = 5
 #-------------------------------
+[GIGANTAMAXLYRA]
+Name = Lyra
+Types = LAMIA,POISON
+BaseStats = 75,85,90,75,75,65
+GenderRatio = AlwaysFemale
+GrowthRate = Medium
+BaseExp = 150
+EVs = SPEED,2
+CatchRate = 200
+Happiness = 50
+Abilities = CAPTIVEGUTS
+Moves = 1,HANDSWOOP
+TutorMoves = ACROBATICS,AGILITY,AIRSLASH,ATTRACT,BATONPASS,CHARM,DUALWINGBEAT,EERIEIMPULSE,ELECTROBALL,ELECTROWEB,ENCORE,ENDURE,ENERGYBALL,FACADE,FLING,HELPINGHAND,HIDDENPOWER,IRONTAIL,LIGHTSCREEN,PROTECT,RAINDANCE,REST,RISINGVOLTAGE,ROUND,SLEEPTALK,SNORE,SOLARBEAM,SPEEDSWAP,SUBSTITUTE,SWIFT,TAUNT,THUNDER,THUNDERBOLT,THUNDERWAVE,UTURN,VOLTSWITCH,WILDCHARGE
+EggMoves = ASTONISH,COVET,DEFOG,ROOST,SHOCKWAVE,TICKLE
+EggGroups = Field
+HatchSteps = 5120
+Height = 2.7
+Weight = 301.6
+Color = Brown
+Shape = Serpentine
+Habitat = Forest
+Category = Wild Snake
+Pokedex = A fierce lamia who was raised in the wilderness. She moved into an abandoned house to stay closer to me. Even as my friend, Lyra would happily eat me for breakfast, lunch and dinner!
+Generation = 5
+#-------------------------------
+

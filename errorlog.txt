@@ -4422,3 +4422,24 @@ Compiler:413:in `pbGetCsvRecord'
 Compiler_CompilePBS:633:in `block (3 levels) in compile_pokemon'
 Compiler_CompilePBS:626:in `each_key'
 Compiler_CompilePBS:626:in `block (2 levels) in compile_pokemon'
+
+=================
+
+[2024-04-28 20:41:05 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+
+Backtrace:
+UI_Pokedex_Entry:312:in `block in pbGetEncounterPoints'
+Encounter:53:in `block in each_of_version'
+Encounter:45:in `block in each'
+Encounter:45:in `each'
+Encounter:45:in `each'
+Encounter:52:in `each_of_version'
+UI_Pokedex_Entry:306:in `pbGetEncounterPoints'
+UI_Pokedex_Entry:342:in `drawPageArea'
+UI_Pokedex_Entry:195:in `drawPage'
+UI_Pokedex_Entry:533:in `block in pbScene'

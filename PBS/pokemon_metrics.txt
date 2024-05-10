@@ -5087,3 +5087,33 @@ BackSprite = 0,0
 FrontSprite = -1,3
 ShadowX = 0
 ShadowSize = 3
+#-------------------------------
+[GIGANTAMAXLYRA]
+BackSprite = 0,0
+FrontSprite = 17,136
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[GIGANTAMAXLYRA,1]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[GIGANTAMAXLYRA,2]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[GIGANTAMAXLYRA,3]
+BackSprite = 0,0
+FrontSprite = 0,0
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[GIGANTAMAXLYRA,10]
+BackSprite = 0,0
+FrontSprite = 17,136
+ShadowX = 0
+ShadowSize = 2
