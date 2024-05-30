@@ -14,13 +14,13 @@ RockSmash,50
 OldRod
     20,MAGIKARP,5
 GoodRod
-    20,TOTODILE,15,18
     20,POLIWAG,7,9
+    20,TOTODILE,15,18
     10,POLIWHIRL,15,18
 SuperRod
+    15,CROCONAW,19,25
     15,DONDOZO,25,28
     10,GYARADOS,25,30
-    15,CROCONAW,19,25
     5,FERALIGATR,36,39
 #-------------------------------
 [005] # Route 1
@@ -42,6 +42,13 @@ Land,21
     20,BELLSPROUT,6,10
     20,LICKITUNG,8,12
     20,MAWILE,7,10
+#-------------------------------
+[034] # Route 3
+Land,21
+    20,SEVIPER,10,15
+    20,KECLEON,8,11
+    20,CRAMORANT,9,14
+    20,TANGELA,7,10
 #-------------------------------
 [045] # Temporary Cave
 Cave,5
