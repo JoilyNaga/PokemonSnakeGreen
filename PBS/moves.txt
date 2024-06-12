@@ -10050,3 +10050,38 @@ Target = NearOther
 FunctionCode = TrappedTarget
 Flags = CanProtect,CanMirrorMove,TrapTargetInBattle
 Description = The user swallows their prey whole.
+#-------------------------------
+[VINEGRAB]
+Name = Vine Grab
+Type = GRASS
+Category = Status
+Accuracy = 100
+TotalPP = 20 
+Target = NearOther
+FunctionCode = TrappedTarget
+Flags = CanProtect,CanMirrorMove,TrapTargetInBattle
+Description = The user swallows their prey whole.
+#-------------------------------
+[TIGHTEN]
+Name = Tighten
+Type = NORMAL
+Category = Physical
+Power = 20
+Accuracy = 100
+TotalPP = 35
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = A physical attack in which the user charges and slams into the target with its whole body.
+#-------------------------------
+[COILCLENCH]
+Name = Coil Clench
+Type = PRED
+Category = Physical
+Power = 35
+Accuracy = 100
+TotalPP = 35
+Target = NearOther
+FunctionCode = None
+Flags = Contact,CanProtect,CanMirrorMove
+Description = A physical attack in which the user charges and slams into the target with its whole body.

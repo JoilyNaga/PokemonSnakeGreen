@@ -2951,7 +2951,7 @@ CatchRate = 45
 Happiness = 50
 Abilities = CHLOROPHYLL,LEAFGUARD
 HiddenAbilities = REGENERATOR
-Moves = 1,ABSORB,1,BIND,4,STUNSPORE,8,GROWTH,12,MEGADRAIN,16,VINEWHIP,20,POISONPOWDER,24,ANCIENTPOWER,28,KNOCKOFF,32,GIGADRAIN,36,SLEEPPOWDER,40,SLAM,44,TICKLE,48,POWERWHIP,52,INGRAIN,56,GRASSYTERRAIN
+Moves = 1,COILCLENCH,1,TIGHTEN,1,VINEGRAB,1,CLENCH
 TutorMoves = AMNESIA,ATTRACT,BODYSLAM,BULLETSEED,CUT,DOUBLETEAM,ENDURE,ENERGYBALL,FACADE,FLASH,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HIDDENPOWER,HYPERBEAM,LEAFSTORM,POWERSWAP,POWERWHIP,PROTECT,PSYCHUP,REFLECT,REST,ROCKSMASH,ROUND,SEEDBOMB,SHOCKWAVE,SLEEPTALK,SLUDGEBOMB,SNORE,SOLARBEAM,SUBSTITUTE,SUNNYDAY,SWAGGER,SWORDSDANCE,THIEF
 EggMoves = AMNESIA,CONFUSION,ENDEAVOR,FLAIL,LEAFSTORM,LEECHSEED,MEGADRAIN,NATUREPOWER,POWERSWAP,RAGEPOWDER
 EggGroups = Grass
@@ -26673,8 +26673,8 @@ Weight = 39.8
 Color = Red
 Shape = Bipedal
 Habitat = Rare
-Category = Professionally Trained
-Pokedex = A massively talented trainer, with an unfortunately tight gut. This human seems to train constantly instead of overeating. As a result, their food is crammed and doesn't last long...
+Category = Well Trained
+Pokedex = A massively talented trainer with an unfortunately tight gut. They train constantly. As a result, their food is tightly compacted and doesn't last long...
 Generation = 8
 #-------------------------------
 [SCIENTIST]

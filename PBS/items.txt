@@ -6143,3 +6143,13 @@ Price = 0
 FieldUse = Direct
 Flags = KeyItem
 Description = The present Nura wanted you to pick up for their partner!
+#-------------------------------
+[BUNBUNMILK]
+Name = Bunbun Milk
+NamePlural = Bunbun Milks
+Pocket = 2
+Price = 500
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Fling_30
+Description = Milk made fresh by Joan. It restores the HP of one Pokémon by 150 points.
