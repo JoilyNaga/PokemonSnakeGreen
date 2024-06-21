@@ -23102,7 +23102,7 @@ Color = Purple
 Shape = Bipedal
 Habitat = Forest
 Category = Lardball Feline
-Pokedex = A dangerous adversary, considering half of her sentences don't make much sense! What she lacks in language capability, she makes up for in power! 
+Pokedex = A dangerous adversary, considering half of her sentences don't make much sense! What she lacks in language capability, she makes up for in power!
 Generation = 2
 #-------------------------------
 [ROXXIE]
@@ -26616,8 +26616,9 @@ EVs = ATTACK,3
 CatchRate = 5
 Happiness = 50
 Abilities = DEFIANT
-Moves = 1,CONSUME
+Moves = 1,CONSUME,1,CHURN,1,MILKMAKER,1,TITTOFACE,1,TIGHTEN,1,TEASE,1,CLENCH,1,GURGLE,1,SLOSH,1,BOOBYTRAP,1,TITSQUEEZE,1,COMPRESSION
 TutorMoves = BRICKBREAK,BULLETSEED,CHARM,ENCORE,ENDURE,ENERGYBALL,FACADE,FALSESWIPE,FLING,GIGADRAIN,GIGAIMPACT,GRASSKNOT,GRASSYGLIDE,GRASSYTERRAIN,HELPINGHAND,HYPERBEAM,KNOCKOFF,LASHOUT,LEAFSTORM,LOWKICK,LOWSWEEP,MAGICALLEAF,PLAYROUGH,PROTECT,RAINDANCE,REST,REVERSAL,ROCKTOMB,SANDSTORM,SCARYFACE,SEEDBOMB,SLEEPTALK,SOLARBEAM,SOLARBLADE,SPIKES,STOMPINGTANTRUM,SUBSTITUTE,SUNNYDAY,SWORDSDANCE,TAKEDOWN,TAUNT,TRAILBLAZE,UTURN,ZENHEADBUTT
+EggMoves = CHURN,CLENCH,GURGLE,MILKMAKER,SLOSH,TEASE,TITSQUEEZE,TITTOFACE
 EggGroups = Undiscovered
 HatchSteps = 2560
 Height = 1.2
@@ -27034,7 +27035,7 @@ Color = Purple
 Shape = Bipedal
 Habitat = Rare
 Category = Scientific
-Pokedex = A close friend and my boss. When she's not forcing me to do experiments that end in my digestion, she's usually pretty nice. Real name is Prudence Sinclair. 
+Pokedex = A close friend and my boss. When she's not forcing me to do experiments that end in my digestion, she's usually pretty nice. Real name is Prudence Sinclair.
 Generation = 8
 #-------------------------------
 [MILES]
@@ -27058,7 +27059,7 @@ Color = Purple
 Shape = Bipedal
 Habitat = Rare
 Category = Artistic
-Pokedex = A strange painter who's grouchiness matches her artistic capabilities. 
+Pokedex = A strange painter who's grouchiness matches her artistic capabilities.
 #-------------------------------
 [RETROMOON]
 Name = Moon
@@ -27339,7 +27340,7 @@ Color = White
 Shape = Bipedal
 Habitat = Grassland
 Category = Law
-Pokedex = A Police Officer who maintains all that is good and lawful. Unfortunately for me, eating others is lawful. 
+Pokedex = A Police Officer who maintains all that is good and lawful. Unfortunately for me, eating others is lawful.
 Generation = 1
 #-------------------------------
 [SHAN]
@@ -27441,5 +27442,3 @@ Habitat = Forest
 Category = Wild Snake
 Pokedex = A fierce lamia who was raised in the wilderness. She moved into an abandoned house to stay closer to me. Even as my friend, Lyra would happily eat me for breakfast, lunch and dinner!
 Generation = 5
-#-------------------------------
-

@@ -4679,3 +4679,396 @@ Compiler_CompilePBS:599:in `compile_pokemon'
 Compiler:766:in `compile_pbs_files'
 Compiler:784:in `compile_all'
 Compiler:897:in `main'
+
+=================
+
+[2024-06-14 20:21:09 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 12 (coords 22,85), map 33 (Gutte City)
+Exception: RuntimeError
+Message: Species pkmn does not exist.
+
+***Full script:
+setBattleRule("cannotRun")
+setBattleRule("canLose")
+setBattleRule("outcome", 48)
+pkmn = Pokemon.new(:JOAN, 14)
+pkmn.learn_move(:MILKMAKER)
+pkmn.learn_move(:SLOSH)
+pkmn.learn_move(:CHURN)
+pkmn.learn_move(:TITTOFACE)
+WildBattle.start(:pkmn)
+
+Backtrace:
+Overworld_BattleStarting:426:in `block in generate_foes'
+Overworld_BattleStarting:407:in `each'
+Overworld_BattleStarting:407:in `generate_foes'
+Overworld_BattleStarting:348:in `start'
+(eval):9:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+
+=================
+
+[2024-06-14 20:26:12 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 12 (coords 17,77), map 33 (Gutte City)
+Exception: RuntimeError
+Message: Species pkmn does not exist.
+
+***Full script:
+setBattleRule("cannotRun")
+setBattleRule("canLose")
+setBattleRule("outcome", 48)
+pkmn = Pokemon.new(:JOAN, 30)
+pkmn.learn_move(:MILKMAKER)
+pkmn.learn_move(:SLOSH)
+pkmn.learn_move(:CHURN)
+pkmn.learn_move(:TITTOFACE)
+WildBattle.start(:pkmn)
+
+Backtrace:
+Overworld_BattleStarting:426:in `block in generate_foes'
+Overworld_BattleStarting:407:in `each'
+Overworld_BattleStarting:407:in `generate_foes'
+Overworld_BattleStarting:348:in `start'
+(eval):9:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+
+=================
+
+[2024-06-14 20:27:47 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 12 (coords 17,77), map 33 (Gutte City)
+Exception: RuntimeError
+Message: Species pkmn does not exist.
+
+***Full script:
+setBattleRule("cannotRun")
+setBattleRule("canLose")
+setBattleRule("outcome", 48)
+pkmn = Pokemon.new(:PICHU, 30)
+pkmn.learn_move(:MILKMAKER)
+pkmn.learn_move(:SLOSH)
+pkmn.learn_move(:CHURN)
+pkmn.learn_move(:TITTOFACE)
+WildBattle.start(:pkmn)
+
+Backtrace:
+Overworld_BattleStarting:426:in `block in generate_foes'
+Overworld_BattleStarting:407:in `each'
+Overworld_BattleStarting:407:in `generate_foes'
+Overworld_BattleStarting:348:in `start'
+(eval):9:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+
+=================
+
+[2024-06-14 20:29:37 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 12 (coords 17,77), map 33 (Gutte City)
+Exception: RuntimeError
+Message: Species pkmn does not exist.
+
+***Full script:
+setBattleRule("cannotRun")
+setBattleRule("canLose")
+setBattleRule("outcome", 48)
+pkmn = Pokemon.new(:PICHU, 30)
+pkmn.learn_move(:MILKMAKER)
+pkmn.learn_move(:SLOSH)
+pkmn.learn_move(:CHURN)
+pkmn.learn_move(:TITTOFACE)
+WildBattle.start(:pkmn)
+
+Backtrace:
+Overworld_BattleStarting:426:in `block in generate_foes'
+Overworld_BattleStarting:407:in `each'
+Overworld_BattleStarting:407:in `generate_foes'
+Overworld_BattleStarting:348:in `start'
+(eval):9:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+
+=================
+
+[2024-06-14 20:39:38 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 12 (coords 17,77), map 33 (Gutte City)
+Exception: RuntimeError
+Message: Species JOAN was given but not a level.
+
+***Full script:
+setBattleRule("cannotRun")
+setBattleRule("canLose")
+setBattleRule("outcome", 48)
+pkmn = Pokemon.new(:JOAN, 30)
+pkmn.learn_move(:MILKMAKER)
+pkmn.learn_move(:SLOSH)
+pkmn.learn_move(:CHURN)
+pkmn.learn_move(:TITTOFACE)
+WildBattle.start(:JOAN)
+
+Backtrace:
+Overworld_BattleStarting:432:in `generate_foes'
+Overworld_BattleStarting:348:in `start'
+(eval):9:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+=================
+
+[2024-06-15 08:37:56 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 12 (coords 17,77), map 33 (Gutte City)
+Exception: ArgumentError
+Message: wrong number of arguments (given 0, expected 1)
+
+***Full script:
+setBattleRule("cannotRun")
+setBattleRule("canLose")
+setBattleRule("outcome", 48)
+pkmn = Pokemon.new(:JOAN, 16)
+pkmn.learn_move(:MILKMAKER)
+pkmn.learn_move(:SLOSH)
+pkmn.learn_move(:CHURN)
+pkmn.learn_move(:TITTOFACE)
+pkmn.moves[0] = Pokemon::Move.new
+(:SLOSH)
+pkmn.moves[0] = Pokemon::Move.new
+(:CHURN)
+pkmn.moves[0] = Pokemon::Move.new
+(:TITTOFACE)
+pkmn.moves[3] = Pokemon::Move.new
+(:MILKMAKER)
+WildBattle.start(:JOAN, 16)
+
+Backtrace:
+Pokemon_Move:15:in `initialize'
+(eval):9:in `new'
+(eval):9:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+=================
+
+[2024-06-15 08:39:37 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 12 (coords 17,77), map 33 (Gutte City)
+Exception: ArgumentError
+Message: wrong number of arguments (given 0, expected 1)
+
+***Full script:
+setBattleRule("cannotRun")
+setBattleRule("canLose")
+setBattleRule("outcome", 48)
+pkmn = Pokemon.new(:JOAN, 16)
+pkmn.learn_move(:MILKMAKER)
+pkmn.learn_move(:SLOSH)
+pkmn.learn_move(:CHURN)
+pkmn.learn_move(:TITTOFACE)
+pkmn.moves[0] = Pokemon::Move.new
+(:SLOSH)
+pkmn.moves[1] = Pokemon::Move.new
+(:CHURN)
+pkmn.moves[2] = Pokemon::Move.new
+(:TITTOFACE)
+pkmn.moves[3] = Pokemon::Move.new
+(:MILKMAKER)
+WildBattle.start(:JOAN, 16)
+
+Backtrace:
+Pokemon_Move:15:in `initialize'
+(eval):9:in `new'
+(eval):9:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+=================
+
+[2024-06-15 08:47:56 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 12 (coords 17,77), map 33 (Gutte City)
+Exception: ArgumentError
+Message: wrong number of arguments (given 0, expected 1)
+
+***Full script:
+setBattleRule("cannotRun")
+setBattleRule("canLose")
+setBattleRule("outcome", 48)
+pkmn = Pokemon.new(:JOAN, 16)
+pkmn.learn_move(:MILKMAKER)
+pkmn.learn_move(:SLOSH)
+pkmn.learn_move(:CHURN)
+pkmn.learn_move(:TITTOFACE)
+pkmn.moves[0] = Pokemon::Move.new
+(:SLOSH)
+pkmn.moves[1] = Pokemon::Move.new
+(:CHURN)
+pkmn.moves[2] = Pokemon::Move.new
+(:TITTOFACE)
+pkmn.moves[3] = Pokemon::Move.new
+(:MILKMAKER)
+WildBattle.start(:JOAN, 16)
+
+Backtrace:
+Pokemon_Move:15:in `initialize'
+(eval):9:in `new'
+(eval):9:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+=================
+
+[2024-06-15 20:19:24 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: ArgumentError
+Message: wrong number of arguments (given 0, expected 1..2)
+
+Backtrace:
+Battler_Statuses:709:in `pbMilked'
+MoveEffects_BattlerOther:1540:in `pbEffectAgainstTarget'
+Battler_UseMove:705:in `block in pbProcessMoveHit'
+Battler_UseMove:703:in `each'
+Battler_UseMove:703:in `pbProcessMoveHit'
+Battler_UseMove:408:in `block in pbUseMove'
+Battler_UseMove:406:in `times'
+Battler_UseMove:406:in `pbUseMove'
+Battler_UseMove:52:in `block in pbProcessTurn'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-06-15 20:19:39 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: ArgumentError
+Message: wrong number of arguments (given 0, expected 1..2)
+
+Backtrace:
+Battler_Statuses:709:in `pbMilked'
+MoveEffects_BattlerOther:1540:in `pbEffectAgainstTarget'
+Battler_UseMove:705:in `block in pbProcessMoveHit'
+Battler_UseMove:703:in `each'
+Battler_UseMove:703:in `pbProcessMoveHit'
+Battler_UseMove:408:in `block in pbUseMove'
+Battler_UseMove:406:in `times'
+Battler_UseMove:406:in `pbUseMove'
+Battler_UseMove:52:in `block in pbProcessTurn'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-06-15 20:19:42 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: ArgumentError
+Message: wrong number of arguments (given 0, expected 1..2)
+
+Backtrace:
+Battler_Statuses:709:in `pbMilked'
+MoveEffects_BattlerOther:1540:in `pbEffectAgainstTarget'
+Battler_UseMove:705:in `block in pbProcessMoveHit'
+Battler_UseMove:703:in `each'
+Battler_UseMove:703:in `pbProcessMoveHit'
+Battler_UseMove:408:in `block in pbUseMove'
+Battler_UseMove:406:in `times'
+Battler_UseMove:406:in `pbUseMove'
+Battler_UseMove:52:in `block in pbProcessTurn'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-06-15 20:24:14 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: ArgumentError
+Message: wrong number of arguments (given 0, expected 1..2)
+
+Backtrace:
+Battler_Statuses:709:in `pbMilked'
+MoveEffects_BattlerOther:1541:in `pbEffectAgainstTarget'
+Battler_UseMove:705:in `block in pbProcessMoveHit'
+Battler_UseMove:703:in `each'
+Battler_UseMove:703:in `pbProcessMoveHit'
+Battler_UseMove:408:in `block in pbUseMove'
+Battler_UseMove:406:in `times'
+Battler_UseMove:406:in `pbUseMove'
+Battler_UseMove:52:in `block in pbProcessTurn'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-06-15 20:24:30 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: ArgumentError
+Message: wrong number of arguments (given 0, expected 1..2)
+
+Backtrace:
+Battler_Statuses:709:in `pbMilked'
+MoveEffects_BattlerOther:1541:in `pbEffectAgainstTarget'
+Battler_UseMove:705:in `block in pbProcessMoveHit'
+Battler_UseMove:703:in `each'
+Battler_UseMove:703:in `pbProcessMoveHit'
+Battler_UseMove:408:in `block in pbUseMove'
+Battler_UseMove:406:in `times'
+Battler_UseMove:406:in `pbUseMove'
+Battler_UseMove:52:in `block in pbProcessTurn'
+PBDebug:6:in `logonerr'
