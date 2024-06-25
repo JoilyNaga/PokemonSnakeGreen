@@ -10122,3 +10122,15 @@ FunctionCode = BindTarget
 Flags = CanProtect,CanMirrorMove,Sound
 EffectChance = 30
 Description = The user vibrates its wings to generate a damaging sound wave. It may also lower the target's Sp. Def stat.
+
+#-------------------------------
+[CLEAVAGEPULL]
+Name = Cleavage Pull
+Type = FAIRY
+Category = Status
+Accuracy = 100
+TotalPP = 20 
+Target = NearOther
+FunctionCode = CleavagedTarget
+Flags = CanProtect,CanMirrorMove,TrapTargetInBattle
+Description = The user swallows their prey whole.
