@@ -6153,3 +6153,22 @@ FieldUse = OnPokemon
 BattleUse = OnPokemon
 Flags = Fling_30
 Description = Milk made fresh by Joan. It restores the HP of one Pokémon by 150 points.
+#-------------------------------
+[FAINTFLUTE]
+Name = Faint Flute
+NamePlural = Faint Flutes
+Pocket = 8
+Price = 0
+FieldUse = OnPokemon
+BattleUse = Direct
+Flags = KeyItem
+Description = A flute that causes the user to faint upon use. It cannot be sold or tossed.
+#-------------------------------
+[BNNUYKEY]
+Name = Bnnuy Key
+NamePlural = Bnnuy Keys
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = One of two keys in the Old Manor needed to unlock the front door. It's... furry?

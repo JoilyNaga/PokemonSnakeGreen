@@ -549,3 +549,18 @@ Name = Pokestar Studios
 [140]   # Inside Flashback Machine
 Name = Plum's Lab
 MapPosition = 0,13,12
+#-------------------------------
+[143]   # Toffee Manor
+Name = Old Manor
+Outdoor = true
+ShowArea = true
+Bicycle = true
+Weather = Fog,100
+MapPosition = 0,18,6
+#-------------------------------
+[144]   # Manor Interior
+Name = Old Manor
+Outdoor = false
+#-------------------------------
+[145]   # Manor Berry Patch
+Name = Old Manor

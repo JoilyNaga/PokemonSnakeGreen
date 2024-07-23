@@ -5072,3 +5072,427 @@ Battler_UseMove:406:in `times'
 Battler_UseMove:406:in `pbUseMove'
 Battler_UseMove:52:in `block in pbProcessTurn'
 PBDebug:6:in `logonerr'
+
+=================
+
+[2024-07-05 21:06:59 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined value 0 (expected one of: ["OnPokemon", "Direct", "TM", "HM", "TR"])
+File PBS/items.txt, line 6162
+FieldUse = 0
+
+
+
+Backtrace:
+Compiler:370:in `checkEnumField'
+Compiler:320:in `csvEnumField!'
+Compiler:523:in `block (2 levels) in pbGetCsvRecord'
+Compiler:415:in `each'
+Compiler:415:in `block in pbGetCsvRecord'
+Compiler:413:in `loop'
+Compiler:413:in `pbGetCsvRecord'
+Compiler_CompilePBS:461:in `block in compile_items'
+Compiler:242:in `block (2 levels) in pbCompilerEachPreppedLine'
+Compiler:234:in `each_line'
+
+=================
+
+[2024-07-05 21:50:38 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `pbThis' for #<Battle>
+
+Backtrace:
+Item_BattleEffects:331:in `block in <main>'
+Event_Handlers:227:in `trigger'
+Item_Utilities:100:in `triggerUseInBattle'
+Battle_ActionUseItem:143:in `pbUseItemInBattle'
+Battle_AttackPhase:83:in `block in pbAttackPhaseItems'
+Battle_AttackPhase:70:in `each'
+Battle_AttackPhase:70:in `pbAttackPhaseItems'
+Battle_AttackPhase:197:in `pbAttackPhase'
+Battle_StartAndEnd:337:in `block (2 levels) in pbBattleLoop'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-07-05 21:56:38 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `pbDisplay' for nil:NilClass
+
+Backtrace:
+Item_BattleEffects:331:in `block in <main>'
+Event_Handlers:227:in `trigger'
+Item_Utilities:100:in `triggerUseInBattle'
+Battle_ActionUseItem:143:in `pbUseItemInBattle'
+Battle_AttackPhase:83:in `block in pbAttackPhaseItems'
+Battle_AttackPhase:70:in `each'
+Battle_AttackPhase:70:in `pbAttackPhaseItems'
+Battle_AttackPhase:197:in `pbAttackPhase'
+Battle_StartAndEnd:337:in `block (2 levels) in pbBattleLoop'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-07-05 21:56:44 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `pbDisplay' for nil:NilClass
+
+Backtrace:
+Item_BattleEffects:331:in `block in <main>'
+Event_Handlers:227:in `trigger'
+Item_Utilities:100:in `triggerUseInBattle'
+Battle_ActionUseItem:143:in `pbUseItemInBattle'
+Battle_AttackPhase:83:in `block in pbAttackPhaseItems'
+Battle_AttackPhase:70:in `each'
+Battle_AttackPhase:70:in `pbAttackPhaseItems'
+Battle_AttackPhase:197:in `pbAttackPhase'
+Battle_StartAndEnd:337:in `block (2 levels) in pbBattleLoop'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-07-05 22:00:20 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NameError
+Message: undefined local variable or method `battle' for nil:NilClass
+
+Backtrace:
+Item_BattleEffects:331:in `block in <main>'
+Event_Handlers:227:in `trigger'
+Item_Utilities:100:in `triggerUseInBattle'
+Battle_ActionUseItem:143:in `pbUseItemInBattle'
+Battle_AttackPhase:83:in `block in pbAttackPhaseItems'
+Battle_AttackPhase:70:in `each'
+Battle_AttackPhase:70:in `pbAttackPhaseItems'
+Battle_AttackPhase:197:in `pbAttackPhase'
+Battle_StartAndEnd:337:in `block (2 levels) in pbBattleLoop'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-07-05 22:04:55 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `pbFaint' for #<Battle>
+
+Backtrace:
+Item_BattleEffects:331:in `block in <main>'
+Event_Handlers:227:in `trigger'
+Item_Utilities:100:in `triggerUseInBattle'
+Battle_ActionUseItem:143:in `pbUseItemInBattle'
+Battle_AttackPhase:83:in `block in pbAttackPhaseItems'
+Battle_AttackPhase:70:in `each'
+Battle_AttackPhase:70:in `pbAttackPhaseItems'
+Battle_AttackPhase:197:in `pbAttackPhase'
+Battle_StartAndEnd:337:in `block (2 levels) in pbBattleLoop'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-07-05 22:11:23 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `pbUserFaints' for #<Battle>
+
+Backtrace:
+Item_BattleEffects:331:in `block in <main>'
+Event_Handlers:227:in `trigger'
+Item_Utilities:100:in `triggerUseInBattle'
+Battle_ActionUseItem:143:in `pbUseItemInBattle'
+Battle_AttackPhase:83:in `block in pbAttackPhaseItems'
+Battle_AttackPhase:70:in `each'
+Battle_AttackPhase:70:in `pbAttackPhaseItems'
+Battle_AttackPhase:197:in `pbAttackPhase'
+Battle_StartAndEnd:337:in `block (2 levels) in pbBattleLoop'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-07-05 22:16:23 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `pbUserFaints' for #<Battle>
+
+Backtrace:
+Item_BattleEffects:328:in `block in <main>'
+Event_Handlers:227:in `trigger'
+Item_Utilities:100:in `triggerUseInBattle'
+Battle_ActionUseItem:143:in `pbUseItemInBattle'
+Battle_AttackPhase:83:in `block in pbAttackPhaseItems'
+Battle_AttackPhase:70:in `each'
+Battle_AttackPhase:70:in `pbAttackPhaseItems'
+Battle_AttackPhase:197:in `pbAttackPhase'
+Battle_StartAndEnd:337:in `block (2 levels) in pbBattleLoop'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-07-05 22:19:31 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `pbThis' for #<Battle>
+
+Backtrace:
+Item_BattleEffects:329:in `block in <main>'
+Event_Handlers:227:in `trigger'
+Item_Utilities:100:in `triggerUseInBattle'
+Battle_ActionUseItem:143:in `pbUseItemInBattle'
+Battle_AttackPhase:83:in `block in pbAttackPhaseItems'
+Battle_AttackPhase:70:in `each'
+Battle_AttackPhase:70:in `pbAttackPhaseItems'
+Battle_AttackPhase:197:in `pbAttackPhase'
+Battle_StartAndEnd:337:in `block (2 levels) in pbBattleLoop'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-07-05 22:21:32 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `pbThis' for #<Battle>
+
+Backtrace:
+Item_BattleEffects:329:in `block in <main>'
+Event_Handlers:227:in `trigger'
+Item_Utilities:100:in `triggerUseInBattle'
+Battle_ActionUseItem:143:in `pbUseItemInBattle'
+Battle_AttackPhase:83:in `block in pbAttackPhaseItems'
+Battle_AttackPhase:70:in `each'
+Battle_AttackPhase:70:in `pbAttackPhaseItems'
+Battle_AttackPhase:197:in `pbAttackPhase'
+Battle_StartAndEnd:337:in `block (2 levels) in pbBattleLoop'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-07-05 22:23:55 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `name' for #<Battle>
+
+Backtrace:
+Item_BattleEffects:329:in `block in <main>'
+Event_Handlers:227:in `trigger'
+Item_Utilities:100:in `triggerUseInBattle'
+Battle_ActionUseItem:143:in `pbUseItemInBattle'
+Battle_AttackPhase:83:in `block in pbAttackPhaseItems'
+Battle_AttackPhase:70:in `each'
+Battle_AttackPhase:70:in `pbAttackPhaseItems'
+Battle_AttackPhase:197:in `pbAttackPhase'
+Battle_StartAndEnd:337:in `block (2 levels) in pbBattleLoop'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-07-05 22:44:08 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `pbFaint' for #<Battle>
+
+Backtrace:
+Item_BattleEffects:329:in `block in <main>'
+Event_Handlers:227:in `trigger'
+Item_Utilities:100:in `triggerUseInBattle'
+Battle_ActionUseItem:143:in `pbUseItemInBattle'
+Battle_AttackPhase:83:in `block in pbAttackPhaseItems'
+Battle_AttackPhase:70:in `each'
+Battle_AttackPhase:70:in `pbAttackPhaseItems'
+Battle_AttackPhase:197:in `pbAttackPhase'
+Battle_StartAndEnd:337:in `block (2 levels) in pbBattleLoop'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-07-05 22:47:10 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `heal_status' for #<Battle::Battler>
+
+Backtrace:
+Item_BattleEffects:329:in `block in <main>'
+Event_Handlers:227:in `trigger'
+Item_Utilities:100:in `triggerUseInBattle'
+Battle_ActionUseItem:143:in `pbUseItemInBattle'
+Battle_AttackPhase:83:in `block in pbAttackPhaseItems'
+Battle_AttackPhase:70:in `each'
+Battle_AttackPhase:70:in `pbAttackPhaseItems'
+Battle_AttackPhase:197:in `pbAttackPhase'
+Battle_StartAndEnd:337:in `block (2 levels) in pbBattleLoop'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-07-05 22:48:25 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `heal_status' for #<Battle::Battler>
+
+Backtrace:
+Item_BattleEffects:732:in `block in <main>'
+Event_Handlers:227:in `trigger'
+Item_Utilities:100:in `triggerUseInBattle'
+Battle_ActionUseItem:143:in `pbUseItemInBattle'
+Battle_AttackPhase:83:in `block in pbAttackPhaseItems'
+Battle_AttackPhase:70:in `each'
+Battle_AttackPhase:70:in `pbAttackPhaseItems'
+Battle_AttackPhase:197:in `pbAttackPhase'
+Battle_StartAndEnd:337:in `block (2 levels) in pbBattleLoop'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-07-05 22:48:32 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `heal_status' for #<Battle::Battler>
+
+Backtrace:
+Item_BattleEffects:732:in `block in <main>'
+Event_Handlers:227:in `trigger'
+Item_Utilities:100:in `triggerUseInBattle'
+Battle_ActionUseItem:143:in `pbUseItemInBattle'
+Battle_AttackPhase:83:in `block in pbAttackPhaseItems'
+Battle_AttackPhase:70:in `each'
+Battle_AttackPhase:70:in `pbAttackPhaseItems'
+Battle_AttackPhase:197:in `pbAttackPhase'
+Battle_StartAndEnd:337:in `block (2 levels) in pbBattleLoop'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-07-05 22:53:10 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NameError
+Message: undefined local variable or method `user' for nil:NilClass
+
+Backtrace:
+Item_BattleEffects:732:in `block in <main>'
+Event_Handlers:227:in `trigger'
+Item_Utilities:100:in `triggerUseInBattle'
+Battle_ActionUseItem:143:in `pbUseItemInBattle'
+Battle_AttackPhase:83:in `block in pbAttackPhaseItems'
+Battle_AttackPhase:70:in `each'
+Battle_AttackPhase:70:in `pbAttackPhaseItems'
+Battle_AttackPhase:197:in `pbAttackPhase'
+Battle_StartAndEnd:337:in `block (2 levels) in pbBattleLoop'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-07-05 22:56:24 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `pokemon' for #<Battle>
+
+Backtrace:
+Item_BattleEffects:732:in `block in <main>'
+Event_Handlers:227:in `trigger'
+Item_Utilities:100:in `triggerUseInBattle'
+Battle_ActionUseItem:143:in `pbUseItemInBattle'
+Battle_AttackPhase:83:in `block in pbAttackPhaseItems'
+Battle_AttackPhase:70:in `each'
+Battle_AttackPhase:70:in `pbAttackPhaseItems'
+Battle_AttackPhase:197:in `pbAttackPhase'
+Battle_StartAndEnd:337:in `block (2 levels) in pbBattleLoop'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-07-05 22:57:44 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `pbThis' for #<Battle>
+
+Backtrace:
+Item_BattleEffects:732:in `block in <main>'
+Event_Handlers:227:in `trigger'
+Item_Utilities:100:in `triggerUseInBattle'
+Battle_ActionUseItem:143:in `pbUseItemInBattle'
+Battle_AttackPhase:83:in `block in pbAttackPhaseItems'
+Battle_AttackPhase:70:in `each'
+Battle_AttackPhase:70:in `pbAttackPhaseItems'
+Battle_AttackPhase:197:in `pbAttackPhase'
+Battle_StartAndEnd:337:in `block (2 levels) in pbBattleLoop'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-07-05 22:59:39 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `pbThis' for #<Battle>
+
+Backtrace:
+Item_BattleEffects:732:in `block in <main>'
+Event_Handlers:227:in `trigger'
+Item_Utilities:100:in `triggerUseInBattle'
+Battle_ActionUseItem:143:in `pbUseItemInBattle'
+Battle_AttackPhase:83:in `block in pbAttackPhaseItems'
+Battle_AttackPhase:70:in `each'
+Battle_AttackPhase:70:in `pbAttackPhaseItems'
+Battle_AttackPhase:197:in `pbAttackPhase'
+Battle_StartAndEnd:337:in `block (2 levels) in pbBattleLoop'
+PBDebug:6:in `logonerr'
+
+=================
+
+[2024-07-05 23:02:49 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `pbThis' for #<Battle>
+
+Backtrace:
+Item_BattleEffects:732:in `block in <main>'
+Event_Handlers:227:in `trigger'
+Item_Utilities:100:in `triggerUseInBattle'
+Battle_ActionUseItem:143:in `pbUseItemInBattle'
+Battle_AttackPhase:83:in `block in pbAttackPhaseItems'
+Battle_AttackPhase:70:in `each'
+Battle_AttackPhase:70:in `pbAttackPhaseItems'
+Battle_AttackPhase:197:in `pbAttackPhase'
+Battle_StartAndEnd:337:in `block (2 levels) in pbBattleLoop'
+PBDebug:6:in `logonerr'

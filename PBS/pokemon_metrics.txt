@@ -5117,3 +5117,21 @@ BackSprite = 0,0
 FrontSprite = 17,136
 ShadowX = 0
 ShadowSize = 2
+#-------------------------------
+[TIRED]
+BackSprite = 0,0
+FrontSprite = -5,5
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[TIRED,1]
+BackSprite = 0,0
+FrontSprite = -5,5
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[TIRED,9]
+BackSprite = 0,0
+FrontSprite = -5,5
+ShadowX = 0
+ShadowSize = 3

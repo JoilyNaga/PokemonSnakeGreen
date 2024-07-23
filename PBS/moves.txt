@@ -10122,7 +10122,6 @@ FunctionCode = BindTarget
 Flags = CanProtect,CanMirrorMove,Sound
 EffectChance = 30
 Description = The user vibrates its wings to generate a damaging sound wave. It may also lower the target's Sp. Def stat.
-
 #-------------------------------
 [CLEAVAGEPULL]
 Name = Cleavage Pull
@@ -10132,5 +10131,38 @@ Accuracy = 100
 TotalPP = 20 
 Target = NearOther
 FunctionCode = CleavagedTarget
+Flags = CanProtect,CanMirrorMove,TrapTargetInBattle
+Description = The user swallows their prey whole.
+#-------------------------------
+[ARTIFICIALHYPNOSIS]
+Name = Artificial Hypnosis
+Type = PSYCHIC
+Category = Status
+Accuracy = 75
+TotalPP = 20 
+Target = NearOther
+FunctionCode = HypnotiseTarget
+Flags = CanProtect,CanMirrorMove,TrapTargetInBattle
+Description = The user swallows their prey whole.
+#-------------------------------
+[NUTSLOP]
+Name = Nutslop
+Type = WATER
+Category = Status
+Accuracy = 85
+TotalPP = 20 
+Target = NearOther
+FunctionCode = CockedTarget
+Flags = CanProtect,CanMirrorMove,TrapTargetInBattle
+Description = The user swallows their prey whole.
+#-------------------------------
+[TIEDUP]
+Name = Tied Up
+Type = DARK
+Category = Status
+Accuracy = 100
+TotalPP = 20 
+Target = NearOther
+FunctionCode = TrappedTarget
 Flags = CanProtect,CanMirrorMove,TrapTargetInBattle
 Description = The user swallows their prey whole.

@@ -2768,6 +2768,59 @@ FormName = N/A
 [GIGANTAMAXLYRA,10]
 FormName = Picnic Pal Pull
 #-------------------------------
+[TIRED,1]
+FormName = Bnnuy Bulge
+#-------------------------------
+[TIRED,2]
+FormName = Serpent-tailed Cotton Tail
+#-------------------------------
+[TIRED,3]
+FormName = Thick Thigh Bnnuy Guy
+#-------------------------------
+[TIRED,6]
+FormName = Down the Burrow
+#-------------------------------
+[TIRED,9]
+FormName = Hypnosis for Dummies bungis
+#-------------------------------
+[IMPOSTEROAK,1]
+FormName = N/A
+#-------------------------------
+[IMPOSTEROAK,2]
+FormName = N/A
+#-------------------------------
+[IMPOSTEROAK,3]
+FormName = N/A
+#-------------------------------
+[IMPOSTEROAK,4]
+FormName = N/A
+#-------------------------------
+[IMPOSTEROAK,5]
+FormName = N/A
+#-------------------------------
+[IMPOSTEROAK,6]
+FormName = N/A
+#-------------------------------
+[IMPOSTEROAK,7]
+FormName = N/A
+#-------------------------------
+[IMPOSTEROAK,8]
+FormName = N/A
+#-------------------------------
+[IMPOSTEROAK,9]
+FormName = N/A
+#-------------------------------
+[IMPOSTEROAK,10]
+FormName = Rocket's Bounty
+#-------------------------------
+
+
+
+
+
+
+
+
 
 
 
