@@ -39,16 +39,16 @@ MapPosition = 0,13,10
 MapSize = 2,11
 #-------------------------------
 [008]   # BlueDoorHouse
-Name = Villi City
+Name = Gullut City
 MapPosition = 0,13,10
 #-------------------------------
 [009]   # BrownDoorHouse
-Name = Villi City
+Name = Gullut City
 HealingSpot = 8,17,11
 MapPosition = 0,13,10
 #-------------------------------
 [010]   # Purple House
-Name = Villi City
+Name = Gullut City
 MapPosition = 0,13,10
 BattleBack = indoor3
 Environment = Rock
@@ -68,11 +68,11 @@ ShowArea = true
 MapPosition = 0,14,10
 #-------------------------------
 [014]   # More Intestines
-Name = Cedolan City
+Name = Inside the Wailord
 MapPosition = 0,13,10
 #-------------------------------
 [015]   # More Intestines
-Name = Cedolan City
+Name = Inside the Wailord
 MapPosition = 0,13,10
 #-------------------------------
 [016]   # Under the Acids
@@ -80,7 +80,7 @@ Name = Inside the Wailord
 MapPosition = 0,13,10
 #-------------------------------
 [017]   # Passing House
-Name = Villi City
+Name = Gullut City
 MapPosition = 0,13,10
 #-------------------------------
 [018]   # Gullut City Reformation Center
@@ -88,7 +88,7 @@ Name = Gullut City RC
 MapPosition = 0,13,10
 #-------------------------------
 [019]   # Shady Cabin
-Name = Cedolan City
+Name = Shady Cabin
 MapPosition = 0,13,10
 #-------------------------------
 [020]   # Gullut OutHouse
@@ -122,12 +122,11 @@ HealingSpot = 23,11,15
 MapPosition = 0,15,8
 #-------------------------------
 [025]   # Rocket Base
-Name = Lerucean Town
+Name = Rocket Base
 MapPosition = 0,15,8
 #-------------------------------
 [026]   # Forest
 Name = Forest
-Name = 
 MapPosition = 0,15,8
 #-------------------------------
 [027]   # Joily's House
@@ -202,7 +201,7 @@ Weather = Fog,100
 MapPosition = 0,18,6
 #-------------------------------
 [037]   # Extended Route
-Name = Ingido Plateau
+Name = Route 3
 Outdoor = true
 MapPosition = 0,13,6
 BattleBack = elite1
@@ -244,7 +243,7 @@ Name = Gullut Gym
 MapPosition = 0,13,10
 #-------------------------------
 [044]   # Em House
-Name = Route 6
+Name = Em's House
 Outdoor = true
 ShowArea = true
 MapPosition = 0,11,10
@@ -259,13 +258,13 @@ BicycleAlways = true
 MapPosition = 0,11,10
 #-------------------------------
 [046]   # Forest2
-Name = Route 4
+Name = Route 2
 Outdoor = true
 Bicycle = true
 MapPosition = 0,12,6
 #-------------------------------
 [047]   # Shady Cabin
-Name = Route 7
+Name = Shady Cabin
 Outdoor = true
 ShowArea = true
 Weather = Rain,0
@@ -279,7 +278,7 @@ Name = Sphinc Museum
 MapPosition = 0,11,6
 #-------------------------------
 [049]   # Ruins
-Name = Sphinc Ruins
+Name = Slange Ruins
 Bicycle = true
 MapPosition = 0,11,6
 BattleBack = cave1
@@ -287,7 +286,7 @@ Environment = Cave
 Flags = Magnetic,DistortionWorld
 #-------------------------------
 [050]   # Sphinc Gym
-Name = Sphinc Town Gym
+Name = Sphinc Gym
 Bicycle = true
 MapPosition = 0,16,10
 DarkMap = false
@@ -336,11 +335,11 @@ BattleBack = indoor1
 Flags = DisableBoxLink
 #-------------------------------
 [057]   # Sphinc PokeMart
-Name = Battle Frontier
+Name = Sphinc PokeMart
 MapPosition = 0,17,10
 #-------------------------------
 [058]   # Egirl House
-Name = Battle Frontier
+Name = Sphinc Town
 MapPosition = 0,17,10
 #-------------------------------
 [059]   # Inside Jurrasic Sphinc Museum
@@ -354,29 +353,28 @@ Name = Sphinc Museum
 MapPosition = 0,17,10
 #-------------------------------
 [061]   # Sphinc Reformation Center
-Name = Battle Frontier
+Name = Sphinc Town
 MapPosition = 0,17,10
 BattleBack = indoor1
 Flags = DisableBoxLink
 #-------------------------------
 [062]   # Sphinc OutHouse
-Name = Battle Frontier
+Name = Public Bathroom
 MapPosition = 0,17,10
 #-------------------------------
 [063]   # Curator's Home
-Name = Battle Frontier
+Name = Sphinc Town
 MapPosition = 0,17,10
 Flags = DisableBoxLink
 #-------------------------------
 [064]   # Forest3
-Name = Forest3
-Name = 
+Name = Forest
 MapPosition = 0,17,10
 BattleBack = indoor1
 Flags = DisableBoxLink
 #-------------------------------
 [065]   # Cynthia's House
-Name = Battle Frontier
+Name = Sphinc Town
 MapPosition = 0,17,10
 Flags = DisableBoxLink
 #-------------------------------
@@ -401,7 +399,7 @@ BattleBack = forest
 Environment = Forest
 #-------------------------------
 [069]   # Museum Warp
-Name = Sphinct Museum
+Name = Sphinc Museum
 Outdoor = false
 ShowArea = true
 MapPosition = 0,13,13
@@ -409,17 +407,17 @@ DiveMap = 70
 BattleBack = field
 #-------------------------------
 [070]   # Delia's House
-Name = Delia's Holiday Home
+Name = Sphinc Town
 MapPosition = 0,13,13
 BattleBack = underwater
 Environment = Underwater
 #-------------------------------
 [071]   # House by PokeCentre
-Name = Route 8
+Name = Sphinc Town
 MapPosition = 0,13,13
 #-------------------------------
 [072]   # Francis' House
-Name = Francis' House
+Name = Sphinc Town
 Outdoor = false
 ShowArea = false
 MapPosition = 0,18,17
@@ -427,7 +425,7 @@ BattleBack = field
 Flags = DistortionWorld
 #-------------------------------
 [073]   # Francis' Basement
-Name = Faraday Island
+Name = Sphinc Town
 Outdoor = false
 ShowArea = false
 MapPosition = 0,22,16
@@ -440,22 +438,46 @@ Bicycle = true
 MapPosition = 0,12,10
 #-------------------------------
 [075]   # Recycling Bin
-Name = Recycling Bin
+Name = Francis' Computer
 Outdoor = false
 MapPosition = 1,13,16
 BattleBack = city
+#-------------------------------
+[076]   # PorygonVirus
+Name = Francis' Computer
+#-------------------------------
+[077]   # Operating System
+Name = Francis' Computer
+#-------------------------------
+[078]   # HousePC
+Name = Francis' Computer
+#-------------------------------
+[079]   # USB
+Name = Francis' Computer
+#-------------------------------
+[080]   # Games
+Name = Francis' Computer
+#-------------------------------
+[081]   # Bill's PC
+Name = Francis' Computer
+#-------------------------------
+[082]   # Internet Explorer
+Name = Francis' Computer
 #-------------------------------
 [083]   # JoilyBathroom
 Name = Joily's Bathroom
 #-------------------------------
 [084]   # Deep Ruins
-Name = Sphinc Ruins
+Name = Slange Ruins
 #-------------------------------
 [085]   # Plum's Bathroom
 Name = Plum's Bathroom
 #-------------------------------
 [086]   # Sphinc Gym Oral
-Name = Sphinc Gym Oral
+Name = Sphinc Gym
+#-------------------------------
+[087]   # Sphinc Gym Anal
+Name = Sphinc Gym
 #-------------------------------
 [088]   # Gutte City Reformation Center
 Name = Gutte City RC
@@ -476,7 +498,7 @@ Name = Card Shop
 Name = Game Corner
 #-------------------------------
 [100]   # 90s Sphinc Town
-Name = Alternate Sphinc Town
+Name = 90s Sphinc Town
 ShowArea = true
 MapPosition = 0,11,6
 BattleBack = retro
@@ -487,14 +509,56 @@ Environment = None
 [101]   # 90s Sphinc PokeCenter
 Name = 90s Sphinc PokeCenter
 #-------------------------------
+[102]   # 90s Sphinc PokeMart
+Name = 90s Sphinc PokeMart
+#-------------------------------
+[103]   # 90s Sphinc Museum
+Name = 90s Sphinc Museum
+#-------------------------------
+[104]   # 90s Museum Back Room
+Name = 90s Sphinc Museum
+#-------------------------------
 [105]   # 90s Sphinc Gym
-Name = Sphinc Gym
+Name = 90s Sphinc Gym
 BattleBack = retro
 WildBattleBGM = RBY 127 Battle! (Gym Leader).ogg
 WildVictoryBGM = RBY 128 Victory! (Gym Leader).ogg
 #-------------------------------
+[106]   # 90s Sphinc Outhouse
+Name = 90s Bathroom
+#-------------------------------
+[107]   # 90s eGirl house
+Name = 90s Sphinc Town
+#-------------------------------
+[108]   # 90s Champion House
+Name = 90s Sphinc Town
+#-------------------------------
+[109]   # 90s Ruins
+Name = 90s Slange Ruins
+#-------------------------------
+[110]   # 90s Museum Curator House
+Name = 90s Sphinc Town
+#-------------------------------
+[111]   # 90s Red's Mom's House
+Name = 90s Sphinc Town
+#-------------------------------
+[112]   # 90s House
+Name = 90s Sphinc Town
+#-------------------------------
+[113]   # 90s Battle House
+Name = 90s Sphinc Town
+#-------------------------------
+[114]   # 90s Francis' House
+Name = 90s Sphinc Town
+#-------------------------------
+[115]   # 90s Francis' Basement
+Name = 90s Sphinc Town
+#-------------------------------
 [116]   # SuperGiant Museum Under TV
 Name = Sphinc Museum
+#-------------------------------
+[117]   # Sphinc Town Battle House
+Name = Sphinc Battle House
 #-------------------------------
 [118]   # April's Cafe
 Name = April's Cafe
@@ -505,7 +569,7 @@ Name = Gutte Apartments
 [120]   # Gutte City Apartments1st Floor
 Name = Gutte Apartments
 #-------------------------------
-[121]   # Gutte City Apartments 1
+[121]   # Gutte City Apartments: Carmen
 Name = Gutte Apartment
 #-------------------------------
 [122]   # Gutte City Apartments: Shan
@@ -524,9 +588,9 @@ Name = Gutte Apartments
 Name = Gutte Apartments
 #-------------------------------
 [127]   # Game Freak Apartment
-Name = Dame Freak
+Name = Dame Freak Headquarters
 #-------------------------------
-[128]   # Gutte City Apartments 2
+[128]   # Gutte City Apartments: Kelly
 Name = Gutte Apartments
 #-------------------------------
 [129]   # Museum Warp Back
@@ -546,9 +610,33 @@ Name = Pokestar Studios
 [133]   # Dressing Room
 Name = Pokestar Studios
 #-------------------------------
+[134]   # PokeStar Bathroom
+Name = PokeStar Studios
+#-------------------------------
+[135]   # Sabrina's Dressing Room
+Name = PokeStar Studios
+#-------------------------------
+[136]   # Brycen's Dressing Room
+Name = PokeStar Studios
+#-------------------------------
+[137]   # Pokestar Lounge
+Name = PokeStar Studios
+#-------------------------------
+[138]   # Pokestar Garage
+Name = PokeStar Studios
+#-------------------------------
+[139]   # Flashback Machine
+Name = Flashback Machine
+#-------------------------------
 [140]   # Inside Flashback Machine
 Name = Plum's Lab
 MapPosition = 0,13,12
+#-------------------------------
+[141]   # Inside Giant Lyra
+Name = Inside Giant Lyra
+#-------------------------------
+[142]   # Joan's Stomach
+Name = Joan's Stomach
 #-------------------------------
 [143]   # Toffee Manor
 Name = Old Manor
@@ -564,3 +652,9 @@ Outdoor = false
 #-------------------------------
 [145]   # Manor Berry Patch
 Name = Old Manor
+#-------------------------------
+[146]   # Gutte City Apartments: Loreli
+Name = Gutte City Apartments
+#-------------------------------
+[147]   # Gutte City Apartments: Kimono
+Name = Gutte City Apartments
