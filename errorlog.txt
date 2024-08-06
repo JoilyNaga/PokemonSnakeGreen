@@ -5496,3 +5496,28 @@ Battle_AttackPhase:70:in `pbAttackPhaseItems'
 Battle_AttackPhase:197:in `pbAttackPhase'
 Battle_StartAndEnd:337:in `block (2 levels) in pbBattleLoop'
 PBDebug:6:in `logonerr'
+
+=================
+
+[2024-08-05 16:20:06 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 3 (coords 9,5), map 85 (Plum's Bathroom)
+Exception: NameError
+Message: undefined local variable or method `pbSave' for #<Interpreter @event_id: 3>
+
+***Full script:
+pbSave
+
+Backtrace:
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+Scene_Map:159:in `loop'
