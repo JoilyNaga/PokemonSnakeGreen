@@ -6172,3 +6172,48 @@ Price = 0
 FieldUse = Direct
 Flags = KeyItem
 Description = One of two keys in the Old Manor needed to unlock the front door. It's... furry?
+#-------------------------------
+[RETROCARTRIDGE]
+Name = Retro Cartridge
+NamePlural = Retro Cartridges
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A strange cartridge from a few decades ago. Apparently it goes in the Sphinc museum.
+#-------------------------------
+[CUTITEM]
+Name = Retro Trimmer
+NamePlural = Retro Trimmers
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A hedge trimmer from a far off place. Seem to CUT pretty well!
+#-------------------------------
+[SURFITEM]
+Name = Air Pump
+NamePlural = Air Pumps
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = An inflatable pump given to you by Plum to make your dress a buoyancy device.
+#-------------------------------
+[FLYITEM]
+Name = Harpy Whistle
+NamePlural = Harpy Whistles
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A flute given to you by Hayley the Harpy. Use it to summon her to fly you across the region!
+#-------------------------------
+[TELEPORTITEM]
+Name = Teleportation Device
+NamePlural = Teleportation Devices
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = The latest technology from Plum's Lab! Teleports you to the last safe place you visited!

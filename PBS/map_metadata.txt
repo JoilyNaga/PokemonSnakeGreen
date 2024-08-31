@@ -209,6 +209,7 @@ Flags = DisableBoxLink
 #-------------------------------
 [038]   # Extended Route 2
 Name = Ingido Plateau
+Outdoor = true
 MapPosition = 0,13,6
 Flags = DisableBoxLink
 #-------------------------------
