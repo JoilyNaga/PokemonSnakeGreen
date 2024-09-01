@@ -397,7 +397,7 @@ if Item_Flash[:active]
     darkness = $game_temp.darkness_sprite
     return false if !darkness || darkness.disposed?
     item_name = GameData::Item.get(Item_Flash[:internal_name]).name
-    pbMessage(_INTL("{1} used the {2}!", $Trainer.name, item_name))
+    pbMessage(_INTL("{1} flashed her bosom!", $Trainer.name, item_name))
     $PokemonGlobal.flashUsed = true
     $stats.flash_count += 1
     radiusDiff = 8*20/Graphics.frame_rate
@@ -808,10 +808,10 @@ if Item_Surf[:active]
     return false if !$game_player.can_ride_vehicle_with_follower?
     if !pbCanUseItem(Item_Surf)
       item_name = GameData::Item.get(Item_Surf[:internal_name]).name
-      pbMessage(_INTL("You can't the {1} yet.", item_name))
+      pbMessage(_INTL("Your tail is too dense for you to swim.", item_name))
       return false
     end
-    if pbConfirmMessage(_INTL("The water is a deep blue...\nWould you like to surf on it?"))
+    if pbConfirmMessage(_INTL("The water is a deep blue...\nWould you like to inflate your dress?"))
       item_name = GameData::Item.get(Item_Surf[:internal_name]).name
       pbMessage(_INTL("{1} used the {2}!", $Trainer.name, item_name))
       pbCancelVehicles

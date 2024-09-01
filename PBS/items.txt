@@ -6217,3 +6217,12 @@ Price = 0
 FieldUse = Direct
 Flags = KeyItem
 Description = The latest technology from Plum's Lab! Teleports you to the last safe place you visited!
+#-------------------------------
+[FLASHITEM]
+Name = Tassel Bulbs
+NamePlural = Tassel Bulbs
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A set of nipple tassels with headlights built into them. What was Plum thinking with these?!
