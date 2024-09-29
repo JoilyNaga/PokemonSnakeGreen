@@ -51,130 +51,125 @@ module QuestModule
     :RewardString => "Probably being allowed to survive!"
   }
   
-  # Here's an example of a quest with lots of stages that also doesn't have a stage location defined for every stage
-  Quest3 = {
+    Quest3 = {
     :ID => "3",
-    :Name => "Last-minute chores",
-    :QuestGiver => "Grandma",
-    :Stage1 => "A",
-    :Stage2 => "B",
-    :Stage3 => "C",
-    :Stage4 => "D",
-    :Stage5 => "E",
-    :Stage6 => "F",
-    :Stage7 => "G",
-    :Stage8 => "H",
-    :Stage9 => "I",
-    :Stage10 => "J",
-    :Stage11 => "K",
-    :Stage12 => "L",
-    :Location1 => "nil",
-    :Location2 => "nil",
-    :Location3 => "Dewford Town",
-    :QuestDescription => "Isn't the alphabet longer than this?",
-    :RewardString => "Chicken soup!"
-  }
-  
-  # Here's an example of not defining the quest giver and reward text
+    :Name => "Bye-Bye Birdie!",
+    :QuestGiver => "Hayley the Harpy",
+    :Stage1 => "Pay the Prize Corner Grunt",
+    :Location1 => "Gutte City Game Corner",
+    :QuestDescription => "Earn 1800 coins and free Hayley from the Prize Corner!",
+    :RewardString => "The ability to fly!"
+}
+
+ # Here's an example of not defining the quest giver and reward text
   Quest4 = {
     :ID => "4",
-    :Name => "A new beginning",
+    :Name => "Sphinc Takeover",
     :QuestGiver => "nil",
-    :Stage1 => "Turning over a new leaf... literally!",
-    :Stage2 => "Help your neighbours.",
-    :Location1 => "Milky Way",
-    :Location2 => "nil",
-    :QuestDescription => "You crash landed on an alien planet. There are other humans here and they look hungry...",
+    :Stage1 => "Clear the Gastric Grunts",
+    :Stage2 => "Save the Sphinc Town Museum",
+    :Location1 => "Entrance of Sphinc Town",
+    :Location2 => "Sphinc Town Museum",
+    :QuestDescription => "These Green-haired creeps need to be brought to justice!",
     :RewardString => "nil"
-  }
-  
-  # Other random examples you can look at if you want to fill out the UI and check out the page scrolling
-  Quest5 = {
-    :ID => "5",
-    :Name => "All of my friends",
-    :QuestGiver => "Barry",
-    :Stage1 => "Meet your friends near Acuity Lake.",
-    :QuestDescription => "Barry told me that he saw something cool at Acuity Lake and that I should go see. I hope it's not another trick.",
-    :RewardString => "You win nothing for giving in to peer pressure."
-  }
-  
-  Quest6 = {
-    :ID => "6",
-    :Name => "The journey begins",
-    :QuestGiver => "Professor Oak",
-    :Stage1 => "Deliver the parcel to the Pokémon Mart in Viridian City.",
-    :Stage2 => "Return to the Professor.",
-    :Location1 => "Viridian City",
-    :Location2 => "nil",
-    :QuestDescription => "The Professor has entrusted me with an important delivery for the Viridian City Pokémon Mart. This is my first task, best not mess it up!",
-    :RewardString => "nil"
-  }
-  
-  Quest7 = {
-    :ID => "7",
-    :Name => "Close encounters of the... first kind?",
-    :QuestGiver => "nil",
-    :Stage1 => "Make contact with the strange creatures.",
-    :Location1 => "Rock Tunnel",
-    :QuestDescription => "A sudden burst of light, and then...! What are you?",
-    :RewardString => "A possible probing."
-  }
-  
-  Quest8 = {
-    :ID => "8",
-    :Name => "These boots were made for walking",
-    :QuestGiver => "Musician #1",
-    :Stage1 => "Listen to the musician's, uhh, music.",
-    :Stage2 => "Find the source of the power outage.",
-    :Location1 => "nil",
-    :Location2 => "Celadon City Sewers",
-    :QuestDescription => "A musician was feeling down because he thinks no one likes his music. I should help him drum up some business."
-  }
-  
-  Quest9 = {
-    :ID => "9",
-    :Name => "Got any grapes?",
-    :QuestGiver => "Duck",
-    :Stage1 => "Listen to The Duck Song.",
-    :Stage2 => "Try not to sing it all day.",
-    :Location1 => "YouTube",
-    :QuestDescription => "Let's try to revive old memes by listening to this funny song about a duck wanting grapes.",
-    :RewardString => "A loss of braincells. Hurray!"
-  }
-  
-  Quest10 = {
-    :ID => "10",
-    :Name => "Singing in the rain",
-    :QuestGiver => "Some old dude",
-    :Stage1 => "I've run out of things to write.",
-    :Stage2 => "If you're reading this, I hope you have a great day!",
-    :Location1 => "Somewhere prone to rain?",
-    :QuestDescription => "Whatever you want it to be.",
-    :RewardString => "Wet clothes."
-  }
-  
-  Quest11 = {
-    :ID => "11",
-    :Name => "When is this list going to end?",
-    :QuestGiver => "Me",
-    :Stage1 => "When IS this list going to end?",
-    :Stage2 => "123",
-    :Stage3 => "456",
-    :Stage4 => "789",
-    :QuestDescription => "I'm losing my sanity.",
-    :RewardString => "nil"
-  }
-  
-  Quest12 = {
-    :ID => "12",
-    :Name => "The laaast melon",
-    :QuestGiver => "Some stupid dodo",
-    :Stage1 => "Fight for the last of the food.",
-    :Stage2 => "Don't die.",
-    :Location1 => "A volcano/cliff thing?",
-    :Location2 => "Good advice for life.",
-    :QuestDescription => "Tea and biscuits, anyone?",
-    :RewardString => "Food, glorious food!"
   }
 
 end
+
+ Quest5 = {
+    :ID => "5",
+    :Name => "Find the Poké Balls!",
+    :QuestGiver => "Museum Patron",
+    :Stage1 => "Collect the Poké Balls (0/40)",
+    :Stage2 => "Collect the Poké Balls (1/40)",
+    :Stage3 => "Collect the Poké Balls (2/40)",
+    :Stage4 => "Collect the Poké Balls (3/40)",
+    :Stage5 => "Collect the Poké Balls (4/40)",
+    :Stage6 => "Collect the Poké Balls (5/40)",
+    :Stage7 => "Collect the Poké Balls (6/40)",
+    :Stage8 => "Collect the Poké Balls (7/40)",
+    :Stage9 => "Collect the Poké Balls (8/40)",
+    :Stage10 => "Collect the Poké Balls (9/40)",
+    :Stage11 => "Collect the Poké Balls (10/40)",
+    :Stage12 => "Collect the Poké Balls (11/40)",
+    :Stage13 => "Collect the Poké Balls (12/40)",
+    :Stage14 => "Collect the Poké Balls (13/40)",
+    :Stage15 => "Collect the Poké Balls (14/40)",
+    :Stage16 => "Collect the Poké Balls (15/40)",
+    :Stage17 => "Collect the Poké Balls (16/40)",
+    :Stage18 => "Collect the Poké Balls (17/40)",
+    :Stage19 => "Collect the Poké Balls (18/40)",
+    :Stage20 => "Collect the Poké Balls (19/40)",
+    :Stage21 => "Collect the Poké Balls (20/40)",
+    :Stage22 => "Collect the Poké Balls (21/40)",
+    :Stage23 => "Collect the Poké Balls (22/40)",
+    :Stage24 => "Collect the Poké Balls (23/40)",
+    :Stage25 => "Collect the Poké Balls (24/40)",
+    :Stage26 => "Collect the Poké Balls (25/40)",
+    :Stage27 => "Collect the Poké Balls (26/40)",
+    :Stage28 => "Collect the Poké Balls (27/40)",
+    :Stage29 => "Collect the Poké Balls (28/40)",
+    :Stage30 => "Collect the Poké Balls (29/40)",
+    :Stage31 => "Collect the Poké Balls (30/40)",
+    :Stage32 => "Collect the Poké Balls (31/40)",
+    :Stage33 => "Collect the Poké Balls (32/40)",
+    :Stage34 => "Collect the Poké Balls (33/40)",
+    :Stage35 => "Collect the Poké Balls (34/40)",
+    :Stage36 => "Collect the Poké Balls (35/40)",
+    :Stage37 => "Collect the Poké Balls (36/40)",
+    :Stage38 => "Collect the Poké Balls (37/40)",
+    :Stage39 => "Collect the Poké Balls (38/40)",
+    :Stage40 => "Collect the Poké Balls (39/40)",
+    :Stage41 => "You got 40/40! Go back to the Museum and Speak to the Museum man!",
+    :QuestDescription => "Team Gastric stole all the Poké Balls from the Sphinc Town museum. Track them all down and return them to the museum for a reward!",
+    :RewardString => "A Poké Ball for your home!"
+    }
+
+ Quest6 = {
+    :ID => "6",
+    :Name => "New Poké Balls!",
+    :QuestGiver => "Museum Patron",
+    :Stage1 => "Find new Poké Balls (0/40)",
+    :Stage2 => "Find new Poké Balls (1/40)",
+    :Stage3 => "Find new Poké Balls (2/40)",
+    :Stage4 => "Find new Poké Balls (3/40)",
+    :Stage5 => "Find new Poké Balls (4/40)",
+    :Stage6 => "Find new Poké Balls (5/40)",
+    :Stage7 => "Find new Poké Balls (6/40)",
+    :Stage8 => "Find new Poké Balls (7/40)",
+    :Stage9 => "Find new Poké Balls (8/40)",
+    :Stage10 => "Find new Poké Balls (9/40)",
+    :Stage11 => "Find new Poké Balls (10/40)",
+    :Stage12 => "Find new Poké Balls (11/40)",
+    :Stage13 => "Find new Poké Balls (12/40)",
+    :Stage14 => "Find new Poké Balls (13/40)",
+    :Stage15 => "Find new Poké Balls (14/40)",
+    :Stage16 => "Find new Poké Balls (15/40)",
+    :Stage17 => "Find new Poké Balls (16/40)",
+    :Stage18 => "Find new Poké Balls (17/40)",
+    :Stage19 => "Find new Poké Balls (18/40)",
+    :Stage20 => "Find new Poké Balls (19/40)",
+    :Stage21 => "Find new Poké Balls (20/40)",
+    :Stage22 => "Find new Poké Balls (21/40)",
+    :Stage23 => "Find new Poké Balls (22/40)",
+    :Stage24 => "Find new Poké Balls (23/40)",
+    :Stage25 => "Find new Poké Balls (24/40)",
+    :Stage26 => "Find new Poké Balls (25/40)",
+    :Stage27 => "Find new Poké Balls (26/40)",
+    :Stage28 => "Find new Poké Balls (27/40)",
+    :Stage29 => "Find new Poké Balls (28/40)",
+    :Stage30 => "Find new Poké Balls (29/40)",
+    :Stage31 => "Find new Poké Balls (30/40)",
+    :Stage32 => "Find new Poké Balls (31/40)",
+    :Stage33 => "Find new Poké Balls (32/40)",
+    :Stage34 => "Find new Poké Balls (33/40)",
+    :Stage35 => "Find new Poké Balls (34/40)",
+    :Stage36 => "Find new Poké Balls (35/40)",
+    :Stage37 => "Find new Poké Balls (36/40)",
+    :Stage38 => "Find new Poké Balls (37/40)",
+    :Stage39 => "Find new Poké Balls (38/40)",
+    :Stage40 => "Find new Poké Balls (39/40)",
+    :Stage41 => "You got 40/40! Go back to the Museum and Speak to the Museum man!",
+    :QuestDescription => "A lot of unique Poké Balls still exist out there! Track them down and donate them to the museum!",
+    :RewardString => "A Joily Poké Ball for your home!"
+    }
