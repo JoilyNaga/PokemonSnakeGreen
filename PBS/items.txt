@@ -6226,3 +6226,30 @@ Price = 0
 FieldUse = Direct
 Flags = KeyItem
 Description = A set of nipple tassels with headlights built into them. What was Plum thinking with these?!
+#-------------------------------
+[CONTENTWARNING]
+Name = Content Tablet
+NamePlural = Content Tablets
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Plum's Tablet. It can be used to turn ON or OFF the content warnings.
+#-------------------------------
+[DISPOSALTOGGLE]
+Name = Disposal Toggle
+NamePlural = Disposal Toggles
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = It's a switch shaped like a toilet handle. It can be used to turn ON or OFF disposal.
+#-------------------------------
+[SHINYBOX]
+Name = Shiny Box
+NamePlural = Shiny Boxeses
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A box that encourages folks to dress differently. Shiny Pokémon seem to like it, too!

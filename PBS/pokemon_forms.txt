@@ -2813,6 +2813,16 @@ FormName = N/A
 [IMPOSTEROAK,10]
 FormName = Rocket's Bounty
 #-------------------------------
+[JESSIE,1]
+FormName = Jessie's Jelly Belly
+#-------------------------------
+[JAMES,1]
+FormName = James' Jiggling Gut
+#-------------------------------
+
+
+
+
 
 
 

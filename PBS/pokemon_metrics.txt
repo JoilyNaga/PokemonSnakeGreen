@@ -4834,7 +4834,7 @@ ShadowSize = 2
 BackSprite = 0,0
 FrontSprite = 0,16
 ShadowX = 0
-ShadowSize = 2
+ShadowSize = 0
 #-------------------------------
 [JUGGLER]
 BackSprite = 0,0
@@ -5135,3 +5135,15 @@ BackSprite = 0,0
 FrontSprite = -5,5
 ShadowX = 0
 ShadowSize = 3
+#-------------------------------
+[JAMES]
+BackSprite = 0,0
+FrontSprite = 0,10
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[JESSIE]
+BackSprite = 0,0
+FrontSprite = 6,10
+ShadowX = 0
+ShadowSize = 0

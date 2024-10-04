@@ -5626,3 +5626,28 @@ Battle_AttackPhase:70:in `pbAttackPhaseItems'
 Battle_AttackPhase:197:in `pbAttackPhase'
 Battle_StartAndEnd:337:in `block (2 levels) in pbBattleLoop'
 PBDebug:6:in `logonerr'
+
+=================
+
+[2024-10-01 09:08:31 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Species ID 'JESSIE' is used twice.
+File PBS/pokemon.txt, section JESSIE, key header
+
+
+
+
+Backtrace:
+Compiler_CompilePBS:623:in `block (2 levels) in compile_pokemon'
+Compiler:135:in `block in pbEachFileSection'
+Compiler:129:in `pbEachFileSectionEx'
+Compiler:134:in `pbEachFileSection'
+Compiler_CompilePBS:606:in `block in compile_pokemon'
+Compiler_CompilePBS:599:in `open'
+Compiler_CompilePBS:599:in `compile_pokemon'
+Compiler:766:in `compile_pbs_files'
+Compiler:784:in `compile_all'
+Compiler:897:in `main'
