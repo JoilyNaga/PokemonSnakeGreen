@@ -10201,3 +10201,62 @@ Target = NearOther
 FunctionCode = None
 Flags = Contact,CanProtect,CanMirrorMove
 Description = The target is attacked by a kick launched with muscle-packed power.
+#-------------------------------
+[STRETCHYSLAP]
+Name = Stretchy Slap
+Type = NORMAL
+Category = Physical
+Power = 15
+Accuracy = 85
+TotalPP = 10
+Target = NearOther
+FunctionCode = HitTwoToFiveTimes
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The target is slapped repeatedly, back and forth, two to five times in a row.
+#-------------------------------
+[ELASTICWRAP]
+Name = Elastic Wrap
+Type = NORMAL
+Category = Physical
+Power = 15
+Accuracy = 90
+TotalPP = 20
+Target = NearOther
+FunctionCode = BindTarget
+Flags = Contact,CanProtect,CanMirrorMove
+Description = A long body or vines are used to wrap and squeeze the target for four to five turns.
+#-------------------------------
+[POWERBLAST]
+Name = Power Blast
+Type = PSYCHIC
+Category = Special
+Power = 80
+Accuracy = 0
+TotalPP = 20
+Target = Other
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,Pulse,Bomb
+Description = The user looses a blast of aura power from deep within its body. This move is certain to hit.
+#-------------------------------
+[PROTECTIVESTRIKE]
+Name = Protective Strike
+Type = STEEL
+Category = Special
+Power = 80
+Accuracy = 0
+TotalPP = 20
+Target = Other
+FunctionCode = None
+Flags = CanProtect,CanMirrorMove,Pulse,Bomb
+Description = The user looses a blast of aura power from deep within its body. This move is certain to hit.
+#-------------------------------
+[MALICIOUSMUNCH]
+Name = Malicious Munch
+Type = PRED
+Category = Status
+Accuracy = 100
+TotalPP = 20 
+Target = NearOther
+FunctionCode = DevourTarget
+Flags = CanProtect,CanMirrorMove,TrapTargetInBattle
+Description = The user swallows their prey whole.

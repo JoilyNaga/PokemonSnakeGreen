@@ -5147,3 +5147,15 @@ BackSprite = 0,0
 FrontSprite = 6,10
 ShadowX = 0
 ShadowSize = 0
+#-------------------------------
+[BRYCENMAN]
+BackSprite = 0,0
+FrontSprite = -5,27
+ShadowX = 0
+ShadowSize = 0
+#-------------------------------
+[BRYCENFAN]
+BackSprite = 0,0
+FrontSprite = 0,4
+ShadowX = 0
+ShadowSize = 2

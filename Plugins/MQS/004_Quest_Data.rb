@@ -173,3 +173,51 @@ end
     :QuestDescription => "A lot of unique Poké Balls still exist out there! Track them down and donate them to the museum!",
     :RewardString => "A Joily Poké Ball for your home!"
     }
+
+  Quest7 = {
+    :ID => "7",
+    :Name => "Power Plant Pals",
+    :QuestGiver => "Power plant Manager",
+    :Stage1 => "Ask around Gutte City for information",
+    :Stage2 => "Find the missing power plant workers!",
+    :Location1 => "Gutte City",
+    :Location2 => "Game Courner",
+    :QuestDescription => "A trio of workers have went missing! Track them down and make sure they're safe from Team Gastric's wrath!",
+    :RewardString => "nil"
+  }
+
+  Quest8 = {
+    :ID => "8",
+    :Name => "Johto Memories",
+    :QuestGiver => "Archer",
+    :Stage1 => "Speak to DJ Mary about Rocket's Johto takeover.",
+    :Stage2 => "Return to Archer.",
+    :Location1 => "Pokéstar Studios",
+    :Location2 => "Rocket Base",
+    :QuestDescription => "DJ Mary has talked about Rocket's Johto takeover on her show. Go and speak to her to find out the details!",
+    :RewardString => "nil"
+  }
+
+  Quest9 = {
+    :ID => "9",
+    :Name => "The Cloth of the Famous",
+    :QuestGiver => "Petrel",
+    :Stage1 => "Find a Costume for Petrel.",
+    :Stage2 => "Return to Petrel.",
+    :Location1 => "Pokéstar Studios",
+    :Location2 => "Rocket Base",
+    :QuestDescription => "The Rocket master of disguise needs more costumes. Grab him one from Pokéstar Studios!",
+    :RewardString => "nil"
+  }
+
+  Quest10 = {
+    :ID => "10",
+    :Name => "Memories of the Past",
+    :QuestGiver => "Ariana",
+    :Stage1 => "Find Ariana's Photo.",
+    :Stage2 => "Return to Ariana.",
+    :Location1 => "Sphinc Town Museum",
+    :Location2 => "Rocket Base",
+    :QuestDescription => "Ariana is looking for an old photograph. Look for it in the Museum!",
+    :RewardString => "nil"
+  }

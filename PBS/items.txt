@@ -6253,3 +6253,48 @@ Price = 0
 FieldUse = Direct
 Flags = KeyItem
 Description = A box that encourages folks to dress differently. Shiny Pokémon seem to like it, too!
+#-------------------------------
+[BRYCENMANTICKET]
+Name = Brycen-Man Ticket
+NamePlural = Tickets
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A Ticket for Brycen-Man Vs. The Latex Lamia!
+#-------------------------------
+[ARTISTPASSBRYCEN]
+Name = Brycen's Artist Pass
+NamePlural = Passes
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Brycen's Artist Pass! It'll help getting you behind the scenes at PokeStar Studios!
+#-------------------------------
+[ARTISTPASSSABRINA]
+Name =  Sabrina's Artist Pass
+NamePlural = Passes
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Sabrina's Artist Pass! It'll help getting you behind the scenes at PokeStar Studios!
+#-------------------------------
+[ARTISTPASSMINA]
+Name = Mina's Artist Pass
+NamePlural = Passes
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Mina's Artist Pass! It'll help getting you behind the scenes at PokeStar Studios!
+#-------------------------------
+[STRENGTHITEM]
+Name = Rock Gloves
+NamePlural = Rock Gloveves
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A set of object-altering gloves that changes their heavy properties to light while wearing them!

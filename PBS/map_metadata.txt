@@ -121,7 +121,7 @@ Name = Lerucean Town
 HealingSpot = 23,11,15
 MapPosition = 0,15,8
 #-------------------------------
-[025]   # Rocket Base
+[025]   # Rocket Base Backroom
 Name = Rocket Base
 MapPosition = 0,15,8
 #-------------------------------
@@ -659,3 +659,7 @@ Name = Gutte City Apartments
 #-------------------------------
 [147]   # Gutte City Apartments: Kimono
 Name = Gutte City Apartments
+#-------------------------------
+[157]   # PokeStar Studios Hero Set
+Name = PokeStar Studios
+BattleBack = greenscreen

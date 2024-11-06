@@ -5651,3 +5651,64 @@ Compiler_CompilePBS:599:in `compile_pokemon'
 Compiler:766:in `compile_pbs_files'
 Compiler:784:in `compile_all'
 Compiler:897:in `main'
+
+=================
+
+[2024-10-06 23:30:20 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `decision' for nil:NilClass
+
+Backtrace:
+Battle_StartAndEnd:395:in `pbLoseMoney'
+Battle_StartAndEnd:472:in `pbEndOfBattle'
+Battle_StartAndEnd:344:in `pbBattleLoop'
+Battle_StartAndEnd:314:in `pbStartBattleCore'
+Battle_StartAndEnd:270:in `pbStartBattle'
+Overworld_BattleStarting:394:in `block (2 levels) in start_core'
+Overworld_BattleIntroAnim:55:in `pbSceneStandby'
+Overworld_BattleStarting:393:in `block in start_core'
+Overworld_BattleIntroAnim:126:in `pbBattleAnimation'
+Overworld_BattleStarting:392:in `start_core'
+
+=================
+
+[2024-10-06 23:39:30 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `pbParty' for nil:NilClass
+
+Backtrace:
+Battle_StartAndEnd:462:in `pbEndOfBattle'
+Battle_StartAndEnd:344:in `pbBattleLoop'
+Battle_StartAndEnd:314:in `pbStartBattleCore'
+Battle_StartAndEnd:270:in `pbStartBattle'
+Overworld_BattleStarting:394:in `block (2 levels) in start_core'
+Overworld_BattleIntroAnim:55:in `pbSceneStandby'
+Overworld_BattleStarting:393:in `block in start_core'
+Overworld_BattleIntroAnim:126:in `pbBattleAnimation'
+Overworld_BattleStarting:392:in `start_core'
+Overworld_BattleStarting:357:in `start'
+
+=================
+
+[2024-10-18 19:58:17 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 1 (coords 8,61), map 130 (Pokestar Studios)
+Exception: SyntaxError
+Message: (eval):7: syntax error, unexpected end-of-input, expecting `end'
+
+***Full script:
+if !$bag.has?(:BRYCENMANTICKET)
+  hide_choice(1)
+if !$bag.has?(:BRYCENMANTICKET)
+  hide_choice(2)
+if !$bag.has?(:BRYCENMANTICKET)
+  hide_choice(3)
+end

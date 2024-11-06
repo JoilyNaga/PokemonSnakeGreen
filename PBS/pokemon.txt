@@ -27543,4 +27543,53 @@ Category = Rocket Grunt
 Pokedex = A terrifying trainer from somewhere far away. He travels in a trio and is a force to be reckoned with!
 Generation = 1
 #-------------------------------
-
+[BRYCENMAN]
+Name = Brycen-Man
+Types = GRASS,PSYCHIC
+BaseStats = 75,85,90,75,75,65
+GenderRatio = AlwaysMale
+GrowthRate = Medium
+BaseExp = 150
+EVs = SPEED,2
+CatchRate = 200
+Happiness = 50
+Abilities = CAPTIVEGUTS
+Moves = 1,MALICIOUSMUNCH,1,CHURN,1,TIGHTEN,1,TEASE
+TutorMoves = ACROBATICS,AGILITY,AIRSLASH,ATTRACT,BATONPASS,CHARM,DUALWINGBEAT,EERIEIMPULSE,ELECTROBALL,ELECTROWEB,ENCORE,ENDURE,ENERGYBALL,FACADE,FLING,HELPINGHAND,HIDDENPOWER,IRONTAIL,LIGHTSCREEN,PROTECT,RAINDANCE,REST,RISINGVOLTAGE,ROUND,SLEEPTALK,SNORE,SOLARBEAM,SPEEDSWAP,SUBSTITUTE,SWIFT,TAUNT,THUNDER,THUNDERBOLT,THUNDERWAVE,UTURN,VOLTSWITCH,WILDCHARGE
+EggMoves = ASTONISH,COVET,DEFOG,ROOST,SHOCKWAVE,TICKLE
+EggGroups = Field
+HatchSteps = 5120
+Height = 2.7
+Weight = 301.6
+Color = Brown
+Shape = Serpentine
+Habitat = Forest
+Category = Rocket Grunt
+Pokedex = A terrifying trainer from somewhere far away. He travels in a trio and is a force to be reckoned with!
+Generation = 1
+#-------------------------------
+[LATEXLAMIA]
+Name = Latex Lamia
+Types = FIGHTING,LAMIA
+BaseStats = 75,85,90,75,75,65
+GenderRatio = AlwaysFemale
+GrowthRate = Medium
+BaseExp = 150
+EVs = SPEED,2
+CatchRate = 200
+Happiness = 50
+Abilities = CAPTIVEGUTS
+Moves = 1,STRETCHYSLAP,1,ELASTICWRAP,1,POWERBLAST,1,PROTECTIVESTRIKE
+TutorMoves = ACROBATICS,AGILITY,AIRSLASH,ATTRACT,BATONPASS,CHARM,DUALWINGBEAT,EERIEIMPULSE,ELECTROBALL,ELECTROWEB,ENCORE,ENDURE,ENERGYBALL,FACADE,FLING,HELPINGHAND,HIDDENPOWER,IRONTAIL,LIGHTSCREEN,PROTECT,RAINDANCE,REST,RISINGVOLTAGE,ROUND,SLEEPTALK,SNORE,SOLARBEAM,SPEEDSWAP,SUBSTITUTE,SWIFT,TAUNT,THUNDER,THUNDERBOLT,THUNDERWAVE,UTURN,VOLTSWITCH,WILDCHARGE
+EggMoves = ASTONISH,COVET,DEFOG,ROOST,SHOCKWAVE,TICKLE
+EggGroups = Field
+HatchSteps = 5120
+Height = 2.7
+Weight = 301.6
+Color = Brown
+Shape = Serpentine
+Habitat = Forest
+Category = Rocket Grunt
+Pokedex = A terrifying trainer from somewhere far away. He travels in a trio and is a force to be reckoned with!
+Generation = 1
+#-------------------------------
