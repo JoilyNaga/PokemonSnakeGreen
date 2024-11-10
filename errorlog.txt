@@ -5712,3 +5712,28 @@ if !$bag.has?(:BRYCENMANTICKET)
 if !$bag.has?(:BRYCENMANTICKET)
   hide_choice(3)
 end
+
+=================
+
+[2024-11-08 11:43:17 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 5 (coords 2,7), map 153 (Rocket Base Reception)
+Exception: RuntimeError
+Message: Unknown ID Outfit3.
+
+***Full script:
+pbReceiveItem(:Outfit3)
+
+Backtrace:
+GameData:95:in `get'
+Overworld:786:in `pbReceiveItem'
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'

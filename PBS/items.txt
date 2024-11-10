@@ -5398,7 +5398,7 @@ Description = Stationery featuring a print of a tough-looking brick pattern. Let
 [XATTACK]
 Name = X Attack
 NamePlural = X Attacks
-Pocket = 7
+Pocket = 1
 Price = 1000
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5407,7 +5407,7 @@ Description = An item that sharply boosts the Attack stat of a Pokémon while it
 [XATTACK2]
 Name = X Attack 2
 NamePlural = X Attack 2s
-Pocket = 7
+Pocket = 1
 Price = 0
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5416,7 +5416,7 @@ Description = It sharply raises the Attack stat of a Pokémon in battle. It wear
 [XATTACK3]
 Name = X Attack 3
 NamePlural = X Attack 3s
-Pocket = 7
+Pocket = 1
 Price = 0
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5425,7 +5425,7 @@ Description = It drastically raises the Attack stat of a Pokémon in battle. It 
 [XATTACK6]
 Name = X Attack 6
 NamePlural = X Attack 6s
-Pocket = 7
+Pocket = 1
 Price = 0
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5434,7 +5434,7 @@ Description = It raises the Attack stat of a Pokémon in battle immensely. It we
 [XDEFENSE]
 Name = X Defense
 NamePlural = X Defenses
-Pocket = 7
+Pocket = 1
 Price = 2000
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5443,7 +5443,7 @@ Description = An item that sharply boosts the Defense of a Pokémon while it rem
 [XDEFENSE2]
 Name = X Defense 2
 NamePlural = X Defense 2s
-Pocket = 7
+Pocket = 1
 Price = 0
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5452,7 +5452,7 @@ Description = It sharply raises the Defense stat of a Pokémon in battle. It wea
 [XDEFENSE3]
 Name = X Defense 3
 NamePlural = X Defense 3s
-Pocket = 7
+Pocket = 1
 Price = 0
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5461,7 +5461,7 @@ Description = It drastically raises the Defense stat of a Pokémon in battle. It
 [XDEFENSE6]
 Name = X Defense 6
 NamePlural = X Defense 6s
-Pocket = 7
+Pocket = 1
 Price = 0
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5470,7 +5470,7 @@ Description = It raises the Defense stat of a Pokémon in battle immensely. It w
 [XSPATK]
 Name = X Sp. Atk
 NamePlural = X Sp. Atks
-Pocket = 7
+Pocket = 1
 Price = 1000
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5479,7 +5479,7 @@ Description = An item that sharply boosts the Sp. Atk stat of a Pokémon while i
 [XSPATK2]
 Name = X Sp. Atk 2
 NamePlural = X Sp. Atk 2s
-Pocket = 7
+Pocket = 1
 Price = 0
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5488,7 +5488,7 @@ Description = It sharply raises the Sp. Atk stat of a Pokémon in battle. It wea
 [XSPATK3]
 Name = X Sp. Atk 3
 NamePlural = X Sp. Atk 3s
-Pocket = 7
+Pocket = 1
 Price = 0
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5497,7 +5497,7 @@ Description = It drastically raises the Sp. Atk stat of a Pokémon in battle. It
 [XSPATK6]
 Name = X Sp. Atk 6
 NamePlural = X Sp. Atk 6s
-Pocket = 7
+Pocket = 1
 Price = 0
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5506,7 +5506,7 @@ Description = It raises the Sp. Atk stat of a Pokémon in battle immensely. It w
 [XSPDEF]
 Name = X Sp. Def
 NamePlural = X Sp. Defs
-Pocket = 7
+Pocket = 1
 Price = 2000
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5515,7 +5515,7 @@ Description = An item that sharply boosts the Sp. Def stat of a Pokémon while i
 [XSPDEF2]
 Name = X Sp. Def 2
 NamePlural = X Sp. Def 2s
-Pocket = 7
+Pocket = 1
 Price = 0
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5524,7 +5524,7 @@ Description = It sharply raises the Sp. Def stat of a Pokémon in battle. It wea
 [XSPDEF3]
 Name = X Sp. Def 3
 NamePlural = X Sp. Def 3s
-Pocket = 7
+Pocket = 1
 Price = 0
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5533,7 +5533,7 @@ Description = It drastically raises the Sp. Def stat of a Pokémon in battle. It
 [XSPDEF6]
 Name = X Sp. Def 6
 NamePlural = X Sp. Def 6s
-Pocket = 7
+Pocket = 1
 Price = 0
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5542,7 +5542,7 @@ Description = It raises the Sp. Def stat of a Pokémon in battle immensely. It w
 [XSPEED]
 Name = X Speed
 NamePlural = X Speeds
-Pocket = 7
+Pocket = 1
 Price = 1000
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5551,7 +5551,7 @@ Description = An item that sharply boosts the Speed stat of a Pokémon while it 
 [XSPEED2]
 Name = X Speed 2
 NamePlural = X Speed 2s
-Pocket = 7
+Pocket = 1
 Price = 0
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5560,7 +5560,7 @@ Description = It sharply raises the Speed stat of a Pokémon in battle. It wears
 [XSPEED3]
 Name = X Speed 3
 NamePlural = X Speed 3s
-Pocket = 7
+Pocket = 1
 Price = 0
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5569,7 +5569,7 @@ Description = It drastically raises the Speed stat of a Pokémon in battle. It w
 [XSPEED6]
 Name = X Speed 6
 NamePlural = X Speed 6s
-Pocket = 7
+Pocket = 1
 Price = 0
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5578,7 +5578,7 @@ Description = It raises the Speed stat of a Pokémon in battle immensely. It wea
 [XACCURACY]
 Name = X Accuracy
 NamePlural = X Accuracies
-Pocket = 7
+Pocket = 1
 Price = 1000
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5587,7 +5587,7 @@ Description = An item that sharply boosts the accuracy of a Pokémon while it re
 [XACCURACY2]
 Name = X Accuracy 2
 NamePlural = X Accuracy 2s
-Pocket = 7
+Pocket = 1
 Price = 0
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5596,7 +5596,7 @@ Description = It sharply raises the accuracy of a Pokémon in battle. It wears o
 [XACCURACY3]
 Name = X Accuracy 3
 NamePlural = X Accuracy 3s
-Pocket = 7
+Pocket = 1
 Price = 0
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5605,7 +5605,7 @@ Description = It drastically raises the accuracy of a Pokémon in battle. It wea
 [XACCURACY6]
 Name = X Accuracy 6
 NamePlural = X Accuracy 6s
-Pocket = 7
+Pocket = 1
 Price = 0
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5614,7 +5614,7 @@ Description = It raises the accuracy of a Pokémon in battle immensely. It wears
 [MAXMUSHROOMS]
 Name = Max Mushrooms
 NamePlural = clusters of Max Mushrooms
-Pocket = 7
+Pocket = 1
 Price = 8000
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5623,7 +5623,7 @@ Description = Mushrooms that boost all stats of a Pokémon during battle.
 [DIREHIT]
 Name = Dire Hit
 NamePlural = Dire Hits
-Pocket = 7
+Pocket = 1
 Price = 1000
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5632,7 +5632,7 @@ Description = An item that raises the critical-hit ratio greatly. It wears off i
 [DIREHIT2]
 Name = Dire Hit 2
 NamePlural = Dire Hit 2s
-Pocket = 7
+Pocket = 1
 Price = 0
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5641,7 +5641,7 @@ Description = It sharply raises the critical-hit ratio. It wears off if the Pok�
 [DIREHIT3]
 Name = Dire Hit 3
 NamePlural = Dire Hit 3s
-Pocket = 7
+Pocket = 1
 Price = 0
 BattleUse = OnBattler
 Flags = Fling_30
@@ -5650,7 +5650,7 @@ Description = It greatly raises the critical-hit ratio. It wears off if the Pok�
 [GUARDSPEC]
 Name = Guard Spec.
 NamePlural = Guard Specs.
-Pocket = 7
+Pocket = 1
 Price = 1500
 BattleUse = Direct
 Flags = Fling_30
@@ -5659,7 +5659,7 @@ Description = An item that prevents stat reduction among the Trainer's party Pok
 [RESETURGE]
 Name = Reset Urge
 NamePlural = Reset Urges
-Pocket = 7
+Pocket = 1
 Price = 0
 Flags = Fling_30
 Description = When used, it restores any stat changes of an ally Pokémon.
@@ -5667,7 +5667,7 @@ Description = When used, it restores any stat changes of an ally Pokémon.
 [ABILITYURGE]
 Name = Ability Urge
 NamePlural = Ability Urges
-Pocket = 7
+Pocket = 1
 Price = 0
 Flags = Fling_30
 Description = When used, it activates the Ability of an ally Pokémon.
@@ -5675,7 +5675,7 @@ Description = When used, it activates the Ability of an ally Pokémon.
 [ITEMURGE]
 Name = Item Urge
 NamePlural = Item Urges
-Pocket = 7
+Pocket = 1
 Price = 0
 Flags = Fling_30
 Description = When used, it causes an ally Pokémon to use its held item.
@@ -5683,7 +5683,7 @@ Description = When used, it causes an ally Pokémon to use its held item.
 [ITEMDROP]
 Name = Item Drop
 NamePlural = Item Drops
-Pocket = 7
+Pocket = 1
 Price = 0
 Flags = Fling_30
 Description = When used, it causes an ally Pokémon to drop a held item.
@@ -5691,7 +5691,7 @@ Description = When used, it causes an ally Pokémon to drop a held item.
 [BLUEFLUTE]
 Name = Blue Flute
 NamePlural = Blue Flutes
-Pocket = 7
+Pocket = 8
 Price = 20
 FieldUse = OnPokemon
 BattleUse = OnPokemon
@@ -5702,7 +5702,7 @@ Description = A blue flute made from blown glass. Its melody awakens a single Po
 [YELLOWFLUTE]
 Name = Yellow Flute
 NamePlural = Yellow Flutes
-Pocket = 7
+Pocket = 8
 Price = 20
 BattleUse = OnBattler
 Consumable = false
@@ -5712,7 +5712,7 @@ Description = A yellow flute made from blown glass. Its melody snaps a single Po
 [REDFLUTE]
 Name = Red Flute
 NamePlural = Red Flutes
-Pocket = 7
+Pocket = 8
 Price = 20
 BattleUse = OnBattler
 Consumable = false
@@ -5722,7 +5722,7 @@ Description = A red flute made from blown glass. Its melody snaps a single Poké
 [POKEDOLL]
 Name = Poké Doll
 NamePlural = Poké Dolls
-Pocket = 7
+Pocket = 1
 Price = 300
 BattleUse = Direct
 Flags = Fling_30
@@ -5731,7 +5731,7 @@ Description = A doll that attracts Pokémon. Use it to flee from any battle with
 [FLUFFYTAIL]
 Name = Fluffy Tail
 NamePlural = Fluffy Tails
-Pocket = 7
+Pocket = 1
 Price = 300
 BattleUse = Direct
 Flags = Fling_30
@@ -5740,7 +5740,7 @@ Description = An item that attracts Pokémon. Use it to flee from any battle wit
 [POKETOY]
 Name = Poké Toy
 NamePlural = Poké Toys
-Pocket = 7
+Pocket = 1
 Price = 300
 BattleUse = Direct
 Flags = Fling_30
@@ -6086,7 +6086,7 @@ Description = A faded sea chart that shows the way to a certain island.
 [CHARMERFLUTE]
 Name = Charmer Flute
 NamePlural = Charmer Flutes
-Pocket = 7
+Pocket = 8
 Price = 0
 FieldUse = OnPokemon
 BattleUse = OnPokemon
@@ -6298,3 +6298,70 @@ Price = 0
 FieldUse = Direct
 Flags = KeyItem
 Description = A set of object-altering gloves that changes their heavy properties to light while wearing them!
+#-------------------------------
+[OUTFIT0]
+Name = Standard Outfit
+NamePlural = Standard Outfits
+Pocket = 7
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = The standard Joily outfit! Purple tank-top dress with a bandage and metal armband! Pretty!
+#-------------------------------
+[OUTFIT1]
+Name = Latex Lamia Costume
+NamePlural = Superhero Outfits
+Pocket = 7
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = Stretchy hero of the silver screen! This costume would make anyone feel mighty!
+#-------------------------------
+[OUTFIT2]
+Name = Pretty Red Dress
+NamePlural = Pretty Outfits
+Pocket = 7
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = The prettiest dress you own! It seems to have survived your last night out!
+#-------------------------------
+[OUTFIT3]
+Name = Rocket Disguise
+NamePlural = Team R Outfits
+Pocket = 7
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A Rocket grunt's uniform! It fits you pretty well!
+#-------------------------------
+[OUTFIT4]
+Name = Retro Outfit
+NamePlural = 8-Bit Outfits
+Pocket = 7
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A strange outfit that alters your physical form! It seems vaguely nostalgic...
+#-------------------------------
+[OUTFIT5]
+Name = Monochrome Costume
+NamePlural = Best Wishes Outfits
+Pocket = 7
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A noir look! You feel filled with Best Wishes with this costume!
+#-------------------------------
+[OUTFIT6]
+Name = Classic Outfit
+NamePlural = 2-8-Bit Outfits
+Pocket = 7
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A strange outfit that alters your physical form! It seems vaguely nostalgic... And green?
+
+
+
+
