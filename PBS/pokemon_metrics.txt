@@ -4862,7 +4862,7 @@ ShadowSize = 2
 #-------------------------------
 [ROV]
 BackSprite = 0,0
-FrontSprite = -2,6
+FrontSprite = -2,20
 ShadowX = 0
 ShadowSize = 2
 #-------------------------------

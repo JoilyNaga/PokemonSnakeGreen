@@ -6361,7 +6361,31 @@ Price = 0
 FieldUse = Direct
 Flags = KeyItem
 Description = A strange outfit that alters your physical form! It seems vaguely nostalgic... And green?
-
-
-
+#-------------------------------
+[OUTFIT7]
+Name = Maid Outfit
+NamePlural = Maidy Outfits
+Pocket = 7
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A uniform for maids! It seems stereotypically revealing for no real reason.
+#-------------------------------
+[OUTFIT8]
+Name = No Outfit
+NamePlural = No Outfits
+Pocket = 7
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = No clothes! For when you want to feel the breeze on your bod!
+#-------------------------------
+[VAMPKEY]
+Name = Vampire Key
+NamePlural = Vamp Keys
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = One of two keys in the Old Manor needed to unlock the front door. It has jam running down the side... I think it's jam?
 

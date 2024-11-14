@@ -45,10 +45,23 @@ Land,21
 #-------------------------------
 [034] # Route 3
 Land,21
-    20,SEVIPER,10,15
-    20,KECLEON,8,11
     20,CRAMORANT,9,14
+    20,KECLEON,8,11
+    20,SEVIPER,10,15
     20,TANGELA,7,10
+#-------------------------------
+[036] # Vellus Forest
+Land,21
+    15,BULBASAUR,12,18
+    10,IVYSAUR,15,20
+    5,VENUSAUR,32
+    10,WEEPINBELL,15,18
+    5,VICTREEBEL,20,22
+    10,TROPIUS,15,17
+    10,TANGELA,12,17
+    5,TANGROWTH,20,25
+    15,BELLSPROUT,9,14
+    15,CATERPIE,7,15
 #-------------------------------
 [045] # Temporary Cave
 Cave,5
