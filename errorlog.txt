@@ -5737,3 +5737,132 @@ Interpreter_Commands:116:in `execute_command'
 Interpreter:133:in `block in update'
 Interpreter:90:in `loop'
 Interpreter:90:in `update'
+
+=================
+
+[2024-11-15 15:52:48 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in Common Event, map 145 (Old Manor)
+Exception: NoMethodError
+Message: undefined method `pattern=' for nil:NilClass
+
+***Full script:
+get_character(4).pattern = 0
+
+Backtrace:
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+Scene_Map:159:in `loop'
+
+=================
+
+[2024-11-17 13:54:14 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined species constant name: FRIDGEROTOM
+Make sure the species is defined in PBS/pokemon.txt.
+File PBS/regional_dexes.txt, line 249
+FRIDGEROTOM
+
+
+
+Backtrace:
+Compiler:669:in `parseSpecies'
+Compiler_CompilePBS:1149:in `block (2 levels) in compile_regional_dexes'
+Compiler_CompilePBS:1147:in `each'
+Compiler_CompilePBS:1147:in `block in compile_regional_dexes'
+Compiler:242:in `block (2 levels) in pbCompilerEachPreppedLine'
+Compiler:234:in `each_line'
+Compiler:234:in `block in pbCompilerEachPreppedLine'
+Compiler:231:in `open'
+Compiler:231:in `pbCompilerEachPreppedLine'
+Compiler_CompilePBS:1136:in `compile_regional_dexes'
+
+=================
+
+[2024-11-17 13:55:16 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined species constant name: JOILYROTOM
+Make sure the species is defined in PBS/pokemon.txt.
+File PBS/regional_dexes.txt, line 250
+JOILYROTOM
+
+
+
+Backtrace:
+Compiler:669:in `parseSpecies'
+Compiler_CompilePBS:1149:in `block (2 levels) in compile_regional_dexes'
+Compiler_CompilePBS:1147:in `each'
+Compiler_CompilePBS:1147:in `block in compile_regional_dexes'
+Compiler:242:in `block (2 levels) in pbCompilerEachPreppedLine'
+Compiler:234:in `each_line'
+Compiler:234:in `block in pbCompilerEachPreppedLine'
+Compiler:231:in `open'
+Compiler:231:in `pbCompilerEachPreppedLine'
+Compiler_CompilePBS:1136:in `compile_regional_dexes'
+
+=================
+
+[2024-11-17 13:56:47 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined species constant name: RETROJOILY
+Make sure the species is defined in PBS/pokemon.txt.
+File PBS/regional_dexes.txt, line 253
+RETROJOILY
+
+
+
+Backtrace:
+Compiler:669:in `parseSpecies'
+Compiler_CompilePBS:1149:in `block (2 levels) in compile_regional_dexes'
+Compiler_CompilePBS:1147:in `each'
+Compiler_CompilePBS:1147:in `block in compile_regional_dexes'
+Compiler:242:in `block (2 levels) in pbCompilerEachPreppedLine'
+Compiler:234:in `each_line'
+Compiler:234:in `block in pbCompilerEachPreppedLine'
+Compiler:231:in `open'
+Compiler:231:in `pbCompilerEachPreppedLine'
+Compiler_CompilePBS:1136:in `compile_regional_dexes'
+
+=================
+
+[2024-11-17 13:58:33 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined species constant name: IMPOSTOROAK
+Make sure the species is defined in PBS/pokemon.txt.
+File PBS/regional_dexes.txt, line 258
+IMPOSTOROAK
+
+
+
+Backtrace:
+Compiler:669:in `parseSpecies'
+Compiler_CompilePBS:1149:in `block (2 levels) in compile_regional_dexes'
+Compiler_CompilePBS:1147:in `each'
+Compiler_CompilePBS:1147:in `block in compile_regional_dexes'
+Compiler:242:in `block (2 levels) in pbCompilerEachPreppedLine'
+Compiler:234:in `each_line'
+Compiler:234:in `block in pbCompilerEachPreppedLine'
+Compiler:231:in `open'
+Compiler:231:in `pbCompilerEachPreppedLine'
+Compiler_CompilePBS:1136:in `compile_regional_dexes'

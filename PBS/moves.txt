@@ -10260,3 +10260,15 @@ Target = NearOther
 FunctionCode = DevourTarget
 Flags = CanProtect,CanMirrorMove,TrapTargetInBattle
 Description = The user swallows their prey whole.
+#-------------------------------
+[LIFESTEAL]
+Name = Life Steal
+Type = DARK
+Category = Physical
+Power = 75
+Accuracy = 100
+TotalPP = 10
+Target = NearOther
+FunctionCode = HealUserByHalfOfDamageDone
+Flags = Contact,CanProtect,CanMirrorMove
+Description = The user drains the target's blood. The user's HP is restored by half the damage taken by the target.

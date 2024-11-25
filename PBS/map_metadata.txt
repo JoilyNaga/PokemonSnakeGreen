@@ -643,7 +643,6 @@ Name = Old Manor
 Outdoor = true
 ShowArea = true
 Bicycle = true
-Weather = Fog,100
 MapPosition = 0,18,6
 #-------------------------------
 [144]   # Manor Interior

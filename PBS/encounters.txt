@@ -52,16 +52,16 @@ Land,21
 #-------------------------------
 [036] # Vellus Forest
 Land,21
-    15,BULBASAUR,12,18
-    10,IVYSAUR,15,20
-    5,VENUSAUR,32
-    10,WEEPINBELL,15,18
-    5,VICTREEBEL,20,22
-    10,TROPIUS,15,17
-    10,TANGELA,12,17
-    5,TANGROWTH,20,25
     15,BELLSPROUT,9,14
+    15,BULBASAUR,12,18
     15,CATERPIE,7,15
+    10,IVYSAUR,15,20
+    10,TANGELA,12,17
+    10,TROPIUS,15,17
+    10,WEEPINBELL,15,18
+    5,TANGROWTH,20,25
+    5,VENUSAUR,32
+    5,VICTREEBEL,20,22
 #-------------------------------
 [045] # Temporary Cave
 Cave,5
@@ -86,3 +86,11 @@ Land,21
 [129] # Museum Warp Back
 Land,21
     20,EYEKANS,8,11
+#-------------------------------
+[143] # Toffee Manor
+Land,21
+    5,GOLBAT,14,18
+    5,SPIRITOMB,12,18
+    25,GASTLY,9,15
+    35,CARNIVINE,15,17
+    20,BANETTE,15,18
