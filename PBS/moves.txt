@@ -10272,3 +10272,60 @@ Target = NearOther
 FunctionCode = HealUserByHalfOfDamageDone
 Flags = Contact,CanProtect,CanMirrorMove
 Description = The user drains the target's blood. The user's HP is restored by half the damage taken by the target.
+#-------------------------------
+[CAKETINTRAP]
+Name = Cake Tin Trap
+Type = FIRE
+Category = Status
+Accuracy = 100
+TotalPP = 20 
+Target = NearOther
+FunctionCode = TransformedTarget
+Flags = CanProtect,CanMirrorMove,TrapTargetInBattle
+Description = The user swallows their prey whole.
+#-------------------------------
+[SPINNINGBLADES]
+Name = Spinning Blades
+Type = FLYING
+Category = Status
+Accuracy = 100
+TotalPP = 20 
+Target = NearOther
+FunctionCode = TransformedTarget
+Flags = CanProtect,CanMirrorMove,TrapTargetInBattle
+Description = The user swallows their prey whole.
+#-------------------------------
+[POWERWASH]
+Name = Power Wash
+Type = WATER
+Category = Status
+Accuracy = 100
+TotalPP = 20 
+Target = NearOther
+FunctionCode = TransformedTarget
+Flags = CanProtect,CanMirrorMove,TrapTargetInBattle
+Description = The user swallows their prey whole.
+#-------------------------------
+[ICECUBETRAY]
+Name = Ice Cube Tray
+Type = ICE
+Category = Status
+Accuracy = 100
+TotalPP = 20 
+Target = NearOther
+FunctionCode = TransformedTarget
+Flags = CanProtect,CanMirrorMove,TrapTargetInBattle
+Description = The user swallows their prey whole.
+#-------------------------------
+[LIQUIDFREEZE]
+Name = Liquid Freeze
+Type = WATER
+Category = Special
+Power = 50
+Accuracy = 90
+TotalPP = 20
+Target = NearOther
+FunctionCode = FreezeTarget
+Flags = CanProtect,CanMirrorMove,ThawsUser
+EffectChance = 30
+Description = The user shoots boiling hot water at its target. It may also leave the target with a burn.
