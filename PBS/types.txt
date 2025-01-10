@@ -149,4 +149,4 @@ Name = Alpha Predator
 IconPosition = 21
 Weaknesses = PSYCHIC,FAIRY
 Resistances = SNACK,NORMAL
-Immunities = POISON
+Immunities = POISON,PRED
