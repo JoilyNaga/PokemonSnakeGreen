@@ -661,3 +661,6 @@ Name = Gutte City Apartments
 [157]   # PokeStar Studios Hero Set
 Name = PokeStar Studios
 BattleBack = greenscreen
+#-------------------------------
+[163]   # Gutte City Tall Building 1
+Name = Gutte City

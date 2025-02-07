@@ -115,3 +115,24 @@ Pokemon = CHARIZARD,63
     Item = SITRUSBERRY
 Pokemon = BLASTOISE,63
     Item = SITRUSBERRY
+#-------------------------------
+[TEAMROCKET_M,David,1]
+LoseText = Wha- How did you...?
+Pokemon = HERACROSS,21
+    Name = Harleen
+    Shadow = yes
+    Ball = PREMIERBALL
+#-------------------------------
+[TEAMROCKET_M,David]
+LoseText = Wha- How did you...?
+Pokemon = HERACROSS,21
+    Name = Harleen
+    Shadow = yes
+    Ball = PREMIERBALL
+#-------------------------------
+[SUPERNERD,Soos]
+LoseText = Wha- How did you...?
+Pokemon = HERACROSS,21
+    Gender = female
+    Shadow = yes
+    Ball = PREMIERBALL

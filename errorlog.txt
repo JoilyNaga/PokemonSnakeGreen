@@ -5960,3 +5960,658 @@ Interpreter:133:in `block in update'
 Interpreter:90:in `loop'
 Interpreter:90:in `update'
 Scene_Map:160:in `block in update'
+
+=================
+
+[2025-01-28 09:53:41 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: EventScriptError
+Message: Script error in event 1 (coords 44,50), map 35 (Route 4)
+Exception: NoMethodError
+Message: undefined method `[]' for nil:NilClass
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:163:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+
+
+***Full script:
+advanceQuestToStage(:Quest13,2)
+
+Backtrace:
+Interpreter:182:in `rescue in execute_script'
+Interpreter:141:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Interpreter:103:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'

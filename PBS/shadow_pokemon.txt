@@ -310,7 +310,7 @@ Moves = SHADOWRUSH
 #-------------------------------
 [HERACROSS]
 GaugeSize = 7000
-Moves = SHADOWRUSH
+Moves = SHADOWSTORM,SHADOWSHED,SHADOWHOLD,SHADOWEND
 #-------------------------------
 [SNEASEL]
 GaugeSize = 6000

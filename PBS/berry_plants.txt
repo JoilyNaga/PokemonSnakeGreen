@@ -334,3 +334,98 @@ Yield = 1,5
 HoursPerStage = 24
 DryingPerHour = 7
 Yield = 1,5
+#-------------------------------
+[DRASHBERRY]
+HoursPerStage = 18
+DryingPerHour = 7
+Yield = 2,3
+#-------------------------------
+[EGGANTBERRY]
+HoursPerStage = 18
+DryingPerHour = 7
+Yield = 2,3
+#-------------------------------
+[PUMKINBERRY]
+HoursPerStage = 18
+DryingPerHour = 7
+Yield = 2,3
+#-------------------------------
+[STRIBBERRY]
+HoursPerStage = 24
+DryingPerHour = 7
+Yield = 4,12
+#-------------------------------
+[NUTPEABERRY]
+HoursPerStage = 18
+DryingPerHour = 7
+Yield = 1,3
+#-------------------------------
+[RARECHILANBERRY]
+HoursPerStage = 1
+DryingPerHour = 2
+Yield = 1,4
+#-------------------------------
+[GINEMABERRY]
+HoursPerStage = 18
+DryingPerHour = 7
+Yield = 2,3
+#-------------------------------
+[KUOBERRY]
+HoursPerStage = 18
+DryingPerHour = 7
+Yield = 1,3
+#-------------------------------
+[GOYABERRY]
+HoursPerStage = 18
+DryingPerHour = 7
+Yield = 2,3
+#-------------------------------
+[TOUGABERRY]
+HoursPerStage = 18
+DryingPerHour = 7
+Yield = 2,3
+#-------------------------------
+[NINIKUBERRY]
+HoursPerStage = 18
+DryingPerHour = 7
+Yield = 2,3
+#-------------------------------
+[TOPOBERRY]
+HoursPerStage = 24
+DryingPerHour = 7
+Yield = 4,12
+#-------------------------------
+[HOPOBERRY]
+HoursPerStage = 4
+DryingPerHour = 15
+Yield = 2,5
+#-------------------------------
+[GOLDENRAZZBERRY]
+HoursPerStage = 2
+DryingPerHour = 35
+Yield = 2,10
+#-------------------------------
+[GOLDENPINAPBERRY]
+HoursPerStage = 2
+DryingPerHour = 35
+Yield = 2,10
+#-------------------------------
+[SILVERPINAPBERRY]
+HoursPerStage = 2
+DryingPerHour = 35
+Yield = 2,10
+#-------------------------------
+[GOLDENNANABBERRY]
+HoursPerStage = 2
+DryingPerHour = 35
+Yield = 2,10
+#-------------------------------
+[SILVERNANABBERRY]
+HoursPerStage = 2
+DryingPerHour = 35
+Yield = 2,10
+#-------------------------------
+[SILVERRAZZBERRY]
+HoursPerStage = 2
+DryingPerHour = 35
+Yield = 2,10

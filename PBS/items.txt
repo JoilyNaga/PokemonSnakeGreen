@@ -586,12 +586,12 @@ Flags = Fling_30
 Description = A crown made in a civilization about 3,000 years ago. A maniac will buy it for a high price.
 #-------------------------------
 [GROWTHMULCH]
-Name = Growth Mulch
-NamePlural = Growth Mulch
+Name = Joily Mulch
+NamePlural = Joily Mulch
 Pocket = 1
 Price = 200
 Flags = Mulch,Fling_30
-Description = A fertilizer to be spread on soft soil in regions where Berries are grown. A maniac will buy it for a high price.
+Description = A fertilizer made from lamia to be spread on soft soil.
 #-------------------------------
 [DAMPMULCH]
 Name = Damp Mulch
@@ -6388,4 +6388,166 @@ Price = 0
 FieldUse = Direct
 Flags = KeyItem
 Description = One of two keys in the Old Manor needed to unlock the front door. It has jam running down the side... I think it's jam?
-
+#-------------------------------
+[DRASHBERRY]
+Name = Drash Berry
+NamePlural = Drash Berries
+Pocket = 5
+Price = 20
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Berry,Fling_10,NaturalGift_ELECTRIC_80
+Description = A berry from an unknown place. It may be used or held by a Pokémon to recover from poison.
+#-------------------------------
+[EGGANTBERRY]
+Name = Eggant Berry
+NamePlural = Eggant Berries
+Pocket = 5
+Price = 20
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Berry,Fling_10,NaturalGift_WATER_80
+Description = A berry from an unknown place. It may be used or held by a Pokémon to recover from infatuation.
+#-------------------------------
+[PUMKINBERRY]
+Name = Pumkin Berry
+NamePlural = Pumkin Berries
+Pocket = 5
+Price = 20
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Berry,Fling_10,NaturalGift_GRASS_80
+Description =  A berry from an unknown place. It may be used or held by a Pokémon to recover from freezing.
+#-------------------------------
+[STRIBBERRY]
+Name = Strib Berry
+NamePlural = Strib Berries
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_DRAGON_80
+Description =  A berry from an unknown place. It can't be eaten raw.
+#-------------------------------
+[NUTPEABERRY]
+Name = Nutpea Berry
+NamePlural = Nutpea Berries
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_FAIRY_80
+Description =  A berry from an unknown place. It can't be eaten raw.
+#-------------------------------
+[RARECHILANBERRY]
+Name = Rare Chilan Berry
+NamePlural = Rare Chilan Berries
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_ICE_80
+Description =  A rare berry variant from an unknown place. It can't be eaten raw.
+#-------------------------------
+[GINEMABERRY]
+Name = Ginema Berry
+NamePlural = Ginmema Berries
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_GHOST_80
+Description =  A berry from an unknown place. If the holder's stats are lowered in battle, it will raise the lowered stats.
+#-------------------------------
+[KUOBERRY]
+Name = Kuo Berry
+NamePlural = Kuo Berries
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_BUG_80
+Description =  A berry from an unknown place. It can't be eaten raw.
+#-------------------------------
+[YAGOBERRY]
+Name = Yago Berry
+NamePlural = Yago Berries
+Pocket = 5
+Price = 20
+FieldUse = OnPokemon
+BattleUse = OnPokemon
+Flags = Berry,Fling_10,NaturalGift_ELECTRIC_80
+Description = A berry from an unknown place. It may be used or held by a Pokémon to recover from a burn.
+#-------------------------------
+[TOUGABERRY]
+Name = Touga Berry
+NamePlural = Touga Berries
+Pocket = 5
+Price = 20
+BattleUse = OnBattler
+Flags = Berry,Fling_10,NaturalGift_GROUND_80
+Description = A berry from an unknown place. It may be used or held by a Pokémon to recover from confusion.
+#-------------------------------
+[NINIKUBERRY]
+Name = Niniku Berry
+NamePlural = Niniku Berries
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_GRASS_80
+Description =  A berry from an unknown place. It can't be eaten raw.
+#-------------------------------
+[TOPOBERRY]
+Name = Topo Berry
+NamePlural = Topo Berries
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_FLYING_80
+Description =  A berry from an unknown place. It can't be eaten raw.
+#-------------------------------
+[HOPOBERRY]
+Name = Hopo Berry
+NamePlural = Hopo Berries
+Pocket = 5
+Price = 20
+FieldUse = OnPokemon
+BattleUse = OnMove
+Flags = Berry,Fling_10,NaturalGift_FIGHTING_80
+Description = A berry thought extinct from long ago. It can be used to restore PP.
+#-------------------------------
+[SILVERRAZZBERRY]
+Name = Silver Razz Berry
+NamePlural = Silver Razz Berries
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_STEEL_80
+Description = A berry from a far-off land, used when catching without battling.
+#-------------------------------
+[GOLDENRAZZBERRY]
+Name = Golden Razz Berry
+NamePlural = Golden Razz Berries
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_STEEL_80
+Description = A berry from a far-off land, used when catching without battling.
+#-------------------------------
+[SILVERPINAPBERRY]
+Name = Silver Pinap Berry
+NamePlural = Silver Pinap Berries
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_STEEL_80
+Description = A berry from a far-off land, used when catching without battling.
+#-------------------------------
+[GOLDENPINAPBERRY]
+Name = Golden Pinap Berry
+NamePlural = Golden Pinap Berries
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_STEEL_80
+Description = A berry from a far-off land, used when catching without battling.
+#-------------------------------
+[SILVERNANABBERRY]
+Name = Silver Nanab Berry
+NamePlural = Silver Nanab Berries
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_STEEL_80
+Description = A berry from a far-off land, used when catching without battling.
+#-------------------------------
+[GOLDENNANABBERRY]
+Name = Golden Nanab Berry
+NamePlural = Golden Nanab Berries
+Pocket = 5
+Price = 20
+Flags = Berry,Fling_10,NaturalGift_STEEL_80
+Description = A berry from a far-off land, used when catching without battling.
