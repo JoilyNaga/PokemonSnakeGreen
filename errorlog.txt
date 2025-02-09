@@ -6615,3 +6615,24 @@ Interpreter:90:in `update'
 Interpreter:103:in `block in update'
 Interpreter:90:in `loop'
 Interpreter:90:in `update'
+
+=================
+
+[2025-02-09 16:27:23 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NoMethodError
+Message: undefined method `trainertype' for #<Player Pokémon Trainer Joily @party=[:JOILY]>
+
+Backtrace:
+[Modular Title Screen] Misc.rb:46:in `getTrainer'
+[Modular Title Screen] Misc.rb:20:in `initialize'
+(eval):1:in `new'
+(eval):1:in `block in initialize'
+[Modular Title Screen] Main Class.rb:133:in `eval'
+[Modular Title Screen] Main Class.rb:133:in `block in initialize'
+[Modular Title Screen] Main Class.rb:24:in `each'
+[Modular Title Screen] Main Class.rb:24:in `initialize'
+[Modular Title Screen] Scene Intro.rb:30:in `new'
+[Modular Title Screen] Scene Intro.rb:30:in `main'
