@@ -445,6 +445,9 @@ BattleBack = city
 #-------------------------------
 [076]   # PorygonVirus
 Name = Francis' Computer
+BattleBack = retro
+WildBattleBGM = RBY 110 Battle! (Wild Pokemon).ogg
+WildVictoryBGM = RBY 111 Victory! (Wild Pokemon).ogg
 #-------------------------------
 [077]   # Operating System
 Name = Francis' Computer
