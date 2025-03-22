@@ -6636,3 +6636,53 @@ Backtrace:
 [Modular Title Screen] Main Class.rb:24:in `initialize'
 [Modular Title Screen] Scene Intro.rb:30:in `new'
 [Modular Title Screen] Scene Intro.rb:30:in `main'
+
+=================
+
+[2025-03-22 07:59:37 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 25 (coords 22,18), map 46 (Route 2)
+Exception: NoMethodError
+Message: undefined method `pbRefresh' for nil:NilClass
+
+***Full script:
+pbChangeLevel($Trainer.party[0],$Trainer.party[0].level+5,nil)
+
+Backtrace:
+[v20.1 Hotfixes] Misc bug fixes.rb:122:in `pbChangeLevel'
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+
+=================
+
+[2025-03-22 21:26:58 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 8 (coords 24,18), map 46 (Route 2)
+Exception: NoMethodError
+Message: undefined method `ChangeLevel' for #<Interpreter @event_id: 8>
+
+***Full script:
+ChangeLevel($Trainer.party[0],$Trainer.party[0].level+1,nil)
+
+Backtrace:
+(eval):1:in `execute_script'
+Interpreter:143:in `eval'
+Interpreter:143:in `execute_script'
+Interpreter_Commands:1112:in `command_355'
+Interpreter_Commands:116:in `execute_command'
+Interpreter:133:in `block in update'
+Interpreter:90:in `loop'
+Interpreter:90:in `update'
+Scene_Map:160:in `block in update'
+Scene_Map:159:in `loop'
