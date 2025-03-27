@@ -6551,3 +6551,12 @@ Pocket = 5
 Price = 20
 Flags = Berry,Fling_10,NaturalGift_STEEL_80
 Description = A berry from a far-off land, used when catching without battling.
+#-------------------------------
+[GOLDENBANANA]
+Name = Golden Banana
+NamePlural = Golden Banana
+Pocket = 2
+Price = 10000
+FieldUse = OnPokemon
+Flags = Fling_30
+Description = One of the legendary treasures. It increases Joily's level by five.

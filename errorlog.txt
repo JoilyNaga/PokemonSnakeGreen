@@ -6686,3 +6686,24 @@ Interpreter:90:in `loop'
 Interpreter:90:in `update'
 Scene_Map:160:in `block in update'
 Scene_Map:159:in `loop'
+
+=================
+
+[2025-03-24 07:50:59 +0000]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: NameError
+Message: undefined local variable or method `pokemon' for nil:NilClass
+
+Backtrace:
+Item_Effects:969:in `block in <main>'
+Event_Handlers:227:in `trigger'
+Item_Utilities:84:in `triggerUseOnPokemon'
+Item_Utilities:678:in `block (2 levels) in pbUseItem'
+Item_Utilities:659:in `loop'
+Item_Utilities:659:in `block in pbUseItem'
+MessageConfig:570:in `pbFadeOutIn'
+Item_Utilities:655:in `pbUseItem'
+UI_Bag:499:in `block in pbStartScreen'
+UI_Bag:462:in `loop'
