@@ -581,8 +581,8 @@ Name = Gutte Apartment
 [123]   # Gutte City Apartments 2nd Floor
 Name = Gutte Apartments
 #-------------------------------
-[124]   # Gutte City Apartments Lift
-Name = Gutte Apartments
+[124]   # Elevator
+Name = Elevator
 #-------------------------------
 [125]   # Gutte City Apartments 3rd Floor
 Name = Gutte Apartments
