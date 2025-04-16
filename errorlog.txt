@@ -6707,3 +6707,31 @@ MessageConfig:570:in `pbFadeOutIn'
 Item_Utilities:655:in `pbUseItem'
 UI_Bag:499:in `block in pbStartScreen'
 UI_Bag:462:in `loop'
+
+=================
+
+[2025-04-16 09:57:42 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 15 (coords 33,4), map 124 (Gutte Apartments)
+Exception: SyntaxError
+Message: (eval):6: syntax error, unexpected (, expecting ']'
+("Exit")],
+^
+(eval):6: syntax error, unexpected ']', expecting end-of-input
+("Exit")],
+        ^
+
+***Line '("Exit")],' shouldn't begin with '('. Try putting the '('
+at the end of the previous line instead, or using 'extendtext.exe'.
+
+***Full script:
+numfloors = 3
+current_floor = numfloors - pbGet(10)
+new_floor = pbMessage(
+   _I("Which floor do you want?"),
+   [_I("3F"),_I("2F"),_I("1F"),_I
+("Exit")],
+   numfloors + 1, nil, current_floor)
+pbSet(11, numfloors - new_floor)
