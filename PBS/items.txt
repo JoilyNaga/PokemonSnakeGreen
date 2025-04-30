@@ -6380,6 +6380,15 @@ FieldUse = Direct
 Flags = KeyItem
 Description = No clothes! For when you want to feel the breeze on your bod!
 #-------------------------------
+[OUTFIT9]
+Name = Rocker Outfit
+NamePlural = Rocker Outfits
+Pocket = 7
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = An outfit to wear when listening to rock and/or roll!
+#-------------------------------
 [VAMPKEY]
 Name = Vampire Key
 NamePlural = Vamp Keys
