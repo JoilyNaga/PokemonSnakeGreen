@@ -6763,3 +6763,41 @@ new_floor = pbMessage(
 ("Exit")],
    numfloors + 1, nil, current_floor)
 pbSet(11, numfloors - new_floor)
+
+=================
+
+[2025-04-30 08:20:51 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 130 (coords 208,32), map 163 (Gutte City)
+Exception: SyntaxError
+Message: (eval):4: syntax error, unexpected integer literal, expecting ')'
+WildBattle.start(:MILOTIC 19)
+                          ^~
+
+
+***Full script:
+setBattleRule("cannotRun")
+setBattleRule("canLose")
+setBattleRule("outcome", 48)
+WildBattle.start(:MILOTIC 19)
+
+=================
+
+[2025-04-30 08:26:26 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 130 (coords 208,32), map 163 (Gutte City)
+Exception: SyntaxError
+Message: (eval):4: syntax error, unexpected integer literal, expecting ')'
+WildBattle.start(:MILOTIC 19)
+                          ^~
+
+
+***Full script:
+setBattleRule("cannotRun")
+setBattleRule("canLose")
+setBattleRule("outcome", 48)
+WildBattle.start(:MILOTIC 19)
