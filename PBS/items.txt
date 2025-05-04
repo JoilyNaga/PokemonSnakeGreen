@@ -6389,6 +6389,15 @@ FieldUse = Direct
 Flags = KeyItem
 Description = An outfit to wear when listening to rock and/or roll!
 #-------------------------------
+[OUTFIT10]
+Name = Dominatrix Outfit
+NamePlural = Dominatrix Outfits
+Pocket = 7
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = An outfit that is just for special occasions!
+#-------------------------------
 [VAMPKEY]
 Name = Vampire Key
 NamePlural = Vamp Keys

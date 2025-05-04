@@ -136,3 +136,10 @@ Pokemon = HERACROSS,21
     Gender = female
     Shadow = yes
     Ball = PREMIERBALL
+#-------------------------------
+[LEADER_Steph,Steph]
+WinText = Haha! You're no match for my mighty mon!
+LoseText = B-but... I'm a gym leader...
+Pokemon = GIRAFARIG,22
+    Gender = female
+    Ball = NESTBALL
