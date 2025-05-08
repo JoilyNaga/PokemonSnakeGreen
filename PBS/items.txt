@@ -3748,11 +3748,11 @@ Description = A move that leaves the target badly poisoned. Its poison damage wo
 Name = TM07
 NamePlural = TM07s
 Pocket = 4
-Price = 2000
+Price = 1500
 FieldUse = TR
 Flags = Fling_10
-Move = HAIL
-Description = The user summons a hailstorm lasting five turns. It damages all Pokémon except Ice types.
+Move = BABYDOLLEYES
+Description = The user looks really cute, lowering the target's attack stat by one.
 #-------------------------------
 [TM08]
 Name = TM08
@@ -3788,11 +3788,11 @@ Description = The user is roused, and its Attack and Sp. Atk stats increase.
 Name = TM11
 NamePlural = TM11s
 Pocket = 4
-Price = 2000
+Price = 1500
 FieldUse = TR
 Flags = Fling_10
-Move = SUNNYDAY
-Description = The user intensifies the sun for five turns, powering up Fire-type moves and weakening Water-type moves.
+Move = SWEETKISS
+Description = The user gives the target a little kiss, making them second guess their choices.
 #-------------------------------
 [TM12]
 Name = TM12
@@ -3908,11 +3908,11 @@ Description = In this two-turn attack, the user gathers light, then blasts a bun
 Name = TM23
 NamePlural = TM23s
 Pocket = 4
-Price = 3000
+Price = 1500
 FieldUse = TR
 Flags = Fling_100
-Move = IRONTAIL
-Description = The target is slammed with a steel-hard tail. This may also lower the target's Defense stat.
+Move = BELLYDRUM
+Description = The user slams either their own belly or their foes, cutting the user's health and raising attack.
 #-------------------------------
 [TM24]
 Name = TM24
@@ -4011,8 +4011,8 @@ Pocket = 4
 Price = 2000
 FieldUse = TR
 Flags = Fling_10
-Move = REFLECT
-Description = A wondrous wall of light is put up to reduce damage from physical attacks for five turns.
+Move = HIDDENPOWER
+Description = An attack that varies in type and intensity depending on the user. 
 #-------------------------------
 [TM34]
 Name = TM34
@@ -4058,11 +4058,11 @@ Description = A five-turn sandstorm is summoned to hurt all combatants except Ro
 Name = TM38
 NamePlural = TM38s
 Pocket = 4
-Price = 5500
+Price = 2000
 FieldUse = TR
 Flags = Fling_110
-Move = FIREBLAST
-Description = The target is attacked with an intense blast of all-consuming fire. This may also leave them with a burn.
+Move = TICKLE
+Description = Makes the foe laugh to lower Attack and Defense.
 #-------------------------------
 [TM39]
 Name = TM39
@@ -4078,11 +4078,11 @@ Description = Boulders are hurled at the target. This also lowers the target's S
 Name = TM40
 NamePlural = TM40s
 Pocket = 4
-Price = 3000
+Price = 2500
 FieldUse = TR
 Flags = Fling_60
-Move = AERIALACE
-Description = The user confounds the target with speed, then slashes. This attack never misses.
+Move = FLAIL
+Description = A desperate attack that becomes more powerful the less HP the user has..
 #-------------------------------
 [TM41]
 Name = TM41
@@ -4181,8 +4181,8 @@ Pocket = 4
 Price = 5500
 FieldUse = TR
 Flags = Fling_130
-Move = OVERHEAT
-Description = The user attacks the target at full power. The attack's recoil harshly lowers the user's Sp. Atk stat.
+Move = CLOSECOMBAT
+Description = The user combats closely.
 #-------------------------------
 [TM51]
 Name = TM51
