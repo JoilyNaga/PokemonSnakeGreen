@@ -31,7 +31,7 @@ Description = An item that prevents weak wild Pokémon from appearing for 250 st
 Name = Black Flute
 NamePlural = Black Flutes
 Pocket = 1
-Price = 20
+Price = 2000
 FieldUse = Direct
 Consumable = false
 Flags = Fling_30
@@ -41,7 +41,7 @@ Description = A black flute made from blown glass. Its melody makes wild Pokémo
 Name = White Flute
 NamePlural = White Flutes
 Pocket = 1
-Price = 20
+Price = 2000
 FieldUse = Direct
 Consumable = false
 Flags = Fling_30
@@ -557,7 +557,7 @@ Description = A gold coin used in a civilization about 3,000 years ago. A maniac
 Name = Relic Vase
 NamePlural = Relic Vases
 Pocket = 1
-Price = 0
+Price = 100000
 Flags = Fling_30
 Description = A vase made in a civilization about 3,000 years ago. A maniac will buy it for a high price.
 #-------------------------------
@@ -581,7 +581,7 @@ Description = A stone figure made in a civilization about 3,000 years ago. A man
 Name = Relic Crown
 NamePlural = Relic Crowns
 Pocket = 1
-Price = 0
+Price = 600000
 Flags = Fling_30
 Description = A crown made in a civilization about 3,000 years ago. A maniac will buy it for a high price.
 #-------------------------------
@@ -4018,11 +4018,11 @@ Description = An attack that varies in type and intensity depending on the user.
 Name = TM34
 NamePlural = TM34s
 Pocket = 4
-Price = 3000
+Price = 100000
 FieldUse = TR
 Flags = Fling_60
-Move = SHOCKWAVE
-Description = The user strikes the target with a quick jolt of electricity. This attack never misses.
+Move = SPLASH
+Description = The most powerful move ever of all time... What are you, a cop?
 #-------------------------------
 [TM35]
 Name = TM35
@@ -4111,8 +4111,8 @@ Pocket = 4
 Price = 3000
 FieldUse = TR
 Flags = Fling_70
-Move = VOLTSWITCH
-Description = After making its attack, the user rushes back to switch places with a party Pokémon in waiting.
+Move = SUPERFANG
+Description = The User provides a fairly strong bite attack.
 #-------------------------------
 [TM44]
 Name = TM44

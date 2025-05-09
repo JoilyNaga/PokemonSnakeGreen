@@ -248,7 +248,7 @@ Description = Ribbon for clearing the Pokémon League and entering the Hall of F
 [SINNOHCHAMP]
 Name = Sinnoh Champ Ribbon
 IconPosition = 49
-Description = Ribbon awarded for beating the Sinnoh Champion and entering the Hall of Fame.
+Description = Ribbon awarded for beating the Sinnoh Champion.
 #-------------------------------
 [RECORD]
 Name = Record Ribbon

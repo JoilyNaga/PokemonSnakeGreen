@@ -9408,8 +9408,8 @@ Flags = CanProtect,CannotMetronome
 Description = If used when the user has a Tatsugiri in its mouth, a boost occurs based on its form.
 #-------------------------------
 [POPULATIONBOMB]
-Name = Population Bomb
-Type = NORMAL
+Name = Champion's Clenches
+Type = DRAGON
 Category = Physical
 Power = 20
 Accuracy = 90
@@ -9600,7 +9600,7 @@ Flags = Contact,CanProtect,CanMirrorMove
 Description = The user performs a perfectly timed triple dive, hitting the target three times in a row.
 #-------------------------------
 [TWINBEAM]
-Name = Twin Beam
+Name = Light Teasing
 Type = PSYCHIC
 Category = Special
 Power = 40

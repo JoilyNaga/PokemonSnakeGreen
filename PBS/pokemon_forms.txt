@@ -2831,7 +2831,9 @@ Height = 2.4
 Weight = 155.5
 Pokedex = Tangly.
 Generation = 1
-
+#-------------------------------
+[CYNTHIA,1]
+FormName = Champ's Chump
 
 
 

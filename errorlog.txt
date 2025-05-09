@@ -6852,3 +6852,153 @@ Backtrace:
 034:Interpreter_Commands:1112:in `command_355'
 034:Interpreter_Commands:116:in `execute_command'
 033:Interpreter:133:in `block in update'
+
+=================
+
+[2025-05-09 11:57:13 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Field '0' must be greater than 0
+File PBS/pokemon.txt, section CYNTHIA, key BaseExp
+0
+
+
+
+Backtrace:
+380:Compiler:442:in `block (2 levels) in pbGetCsvRecord'
+380:Compiler:415:in `each'
+380:Compiler:415:in `block in pbGetCsvRecord'
+380:Compiler:413:in `loop'
+380:Compiler:413:in `pbGetCsvRecord'
+381:Compiler_CompilePBS:633:in `block (3 levels) in compile_pokemon'
+381:Compiler_CompilePBS:626:in `each_key'
+381:Compiler_CompilePBS:626:in `block (2 levels) in compile_pokemon'
+380:Compiler:135:in `block in pbEachFileSection'
+380:Compiler:129:in `pbEachFileSectionEx'
+
+=================
+
+[2025-05-09 11:58:04 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined value Humanlike in GameData::BodyShape
+File PBS/pokemon.txt, section CYNTHIA, key Shape
+Humanlike
+
+
+
+Backtrace:
+380:Compiler:345:in `checkEnumField'
+380:Compiler:320:in `csvEnumField!'
+380:Compiler:523:in `block (2 levels) in pbGetCsvRecord'
+380:Compiler:415:in `each'
+380:Compiler:415:in `block in pbGetCsvRecord'
+380:Compiler:413:in `loop'
+380:Compiler:413:in `pbGetCsvRecord'
+381:Compiler_CompilePBS:633:in `block (3 levels) in compile_pokemon'
+381:Compiler_CompilePBS:626:in `each_key'
+381:Compiler_CompilePBS:626:in `block (2 levels) in compile_pokemon'
+
+=================
+
+[2025-05-09 11:59:14 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined value Humanlike in GameData::BodyShape
+File PBS/pokemon.txt, section CYNTHIA, key Shape
+Humanlike
+
+
+
+Backtrace:
+380:Compiler:345:in `checkEnumField'
+380:Compiler:320:in `csvEnumField!'
+380:Compiler:523:in `block (2 levels) in pbGetCsvRecord'
+380:Compiler:415:in `each'
+380:Compiler:415:in `block in pbGetCsvRecord'
+380:Compiler:413:in `loop'
+380:Compiler:413:in `pbGetCsvRecord'
+381:Compiler_CompilePBS:633:in `block (3 levels) in compile_pokemon'
+381:Compiler_CompilePBS:626:in `each_key'
+381:Compiler_CompilePBS:626:in `block (2 levels) in compile_pokemon'
+
+=================
+
+[2025-05-09 13:47:31 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 11 (coords 7,7), map 65 (Sphinc Town)
+Exception: NameError
+Message: undefined local variable or method `pkmn' for #<Interpreter @event_id: 11>
+
+***Full script:
+pkmn.giveRibbon(:SINNOHCHAMP)
+
+Backtrace:
+(eval):1:in `execute_script'
+033:Interpreter:143:in `eval'
+033:Interpreter:143:in `execute_script'
+034:Interpreter_Commands:1112:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:133:in `block in update'
+033:Interpreter:90:in `loop'
+033:Interpreter:90:in `update'
+032:Scene_Map:160:in `block in update'
+032:Scene_Map:159:in `loop'
+
+=================
+
+[2025-05-09 13:49:35 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 11 (coords 7,7), map 65 (Sphinc Town)
+Exception: NoMethodError
+Message: undefined method `giveRibbon' for #<Interpreter @event_id: 11>
+
+***Full script:
+giveRibbon(:SINNOHCHAMP)
+
+Backtrace:
+(eval):1:in `execute_script'
+033:Interpreter:143:in `eval'
+033:Interpreter:143:in `execute_script'
+034:Interpreter_Commands:1112:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:133:in `block in update'
+033:Interpreter:90:in `loop'
+033:Interpreter:90:in `update'
+032:Scene_Map:160:in `block in update'
+032:Scene_Map:159:in `loop'
+
+=================
+
+[2025-05-09 13:50:54 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 11 (coords 7,7), map 65 (Sphinc Town)
+Exception: NameError
+Message: undefined local variable or method `poke' for #<Interpreter @event_id: 11>
+
+***Full script:
+poke.setRibbon(:SINNOHCHAMP) 
+
+Backtrace:
+(eval):1:in `execute_script'
+033:Interpreter:143:in `eval'
+033:Interpreter:143:in `execute_script'
+034:Interpreter_Commands:1112:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:133:in `block in update'
+033:Interpreter:90:in `loop'
+033:Interpreter:90:in `update'
+032:Scene_Map:160:in `block in update'
+032:Scene_Map:159:in `loop'
