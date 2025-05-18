@@ -5159,3 +5159,33 @@ BackSprite = 0,0
 FrontSprite = 0,4
 ShadowX = 0
 ShadowSize = 2
+#-------------------------------
+[LUNA]
+BackSprite = 0,0
+FrontSprite = -4,13
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[LUNA,1]
+BackSprite = 0,0
+FrontSprite = 0,9
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[FRANCIS]
+BackSprite = 0,0
+FrontSprite = 0,6
+ShadowX = 0
+ShadowSize = 3
+#-------------------------------
+[RETROJOILY]
+BackSprite = 0,0
+FrontSprite = 3,6
+ShadowX = 0
+ShadowSize = 2
+#-------------------------------
+[JOILYROTOM]
+BackSprite = 0,0
+FrontSprite = 0,8
+ShadowX = 0
+ShadowSize = 2

@@ -2834,6 +2834,10 @@ Generation = 1
 #-------------------------------
 [CYNTHIA,1]
 FormName = Champ's Chump
+#-------------------------------
+[LUNA,1]
+FormName = Insnakesption
+
 
 
 

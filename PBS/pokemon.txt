@@ -27814,4 +27814,29 @@ Category = Champion
 Pokedex = A gross AI representation of Plum. AI sucks. This thing gained sentience, though. A tricky situation. Nice enough, though.
 FormName = Digital
 Generation = 2
-
+#-------------------------------
+[LUNA]
+Name = Luna
+Types = NORMAL
+BaseStats = 35,60,44,55,40,54
+GenderRatio = AlwaysFemale
+GrowthRate = Medium
+BaseExp = 20
+EVs = ATTACK,1
+CatchRate = 255
+Happiness = 50
+Abilities = INTIMIDATE
+Moves = 1,CONSUME
+TutorMoves = AQUATAIL,ATTRACT,BIND,BRUTALSWING,BULLDOZE,CONFIDE,DARKPULSE,DIG,DOUBLETEAM,EARTHQUAKE,ENDURE,FACADE,FRUSTRATION,GASTROACID,GIGADRAIN,HIDDENPOWER,INFESTATION,IRONTAIL,PAYBACK,POISONJAB,PROTECT,RAINDANCE,REST,RETURN,ROCKSLIDE,ROCKTOMB,ROUND,SEEDBOMB,SLEEPTALK,SLUDGEBOMB,SLUDGEWAVE,SNATCH,SNORE,SPITE,STRENGTH,SUBSTITUTE,SUNNYDAY,SWAGGER,THIEF,TORMENT,VENOSHOCK
+EggMoves = BEATUP,DISABLE,POISONFANG,POISONTAIL,SCARYFACE,SLAM,SPITE,SUCKERPUNCH,SWITCHEROO
+EggGroups = Field,Dragon
+HatchSteps = 5120
+Height = 2.0
+Weight = 6.9
+Color = Blue
+Shape = Serpentine
+Habitat = Grassland
+Category = Snake
+Pokedex = A regional variant of Ekans. This one belongs to one of Carmen's friends.
+Generation = 1
+Evolutions = ARBOK,Level,22

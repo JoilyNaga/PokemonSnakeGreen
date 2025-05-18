@@ -7002,3 +7002,28 @@ Backtrace:
 033:Interpreter:90:in `update'
 032:Scene_Map:160:in `block in update'
 032:Scene_Map:159:in `loop'
+
+=================
+
+[2025-05-18 14:18:10 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined value THICKCLUB in GameData::Item
+File PBS/pokemon.txt, section CUBONE, key WildItemUncommon
+THICKCLUB
+
+
+
+Backtrace:
+380:Compiler:345:in `checkEnumField'
+380:Compiler:320:in `csvEnumField!'
+380:Compiler:523:in `block (2 levels) in pbGetCsvRecord'
+380:Compiler:415:in `each'
+380:Compiler:415:in `block in pbGetCsvRecord'
+380:Compiler:413:in `loop'
+380:Compiler:413:in `pbGetCsvRecord'
+381:Compiler_CompilePBS:633:in `block (3 levels) in compile_pokemon'
+381:Compiler_CompilePBS:626:in `each_key'
+381:Compiler_CompilePBS:626:in `block (2 levels) in compile_pokemon'
