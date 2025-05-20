@@ -7027,3 +7027,31 @@ Backtrace:
 381:Compiler_CompilePBS:633:in `block (3 levels) in compile_pokemon'
 381:Compiler_CompilePBS:626:in `each_key'
 381:Compiler_CompilePBS:626:in `block (2 levels) in compile_pokemon'
+
+=================
+
+[2025-05-20 11:34:41 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Script error in event 2 (coords 10,6), map 121 (Gutte Apartment)
+Exception: RuntimeError
+Message: Species CARMEN does not exist.
+
+***Full script:
+setBattleRule("cannotRun")
+setBattleRule("canLose")
+setBattleRule("outcome", 48)
+WildBattle.start(:CARMEN, 18)
+
+Backtrace:
+242:Overworld_BattleStarting:424:in `block in generate_foes'
+242:Overworld_BattleStarting:405:in `each'
+242:Overworld_BattleStarting:405:in `generate_foes'
+242:Overworld_BattleStarting:346:in `start'
+(eval):4:in `execute_script'
+033:Interpreter:143:in `eval'
+033:Interpreter:143:in `execute_script'
+034:Interpreter_Commands:1112:in `command_355'
+034:Interpreter_Commands:116:in `execute_command'
+033:Interpreter:133:in `block in update'
