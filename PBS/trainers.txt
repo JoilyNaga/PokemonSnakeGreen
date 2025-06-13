@@ -143,3 +143,9 @@ LoseText = B-but... I'm a gym leader...
 Pokemon = GIRAFARIG,22
     Gender = female
     Ball = NESTBALL
+#-------------------------------
+[RUINMANIAC,Peter]
+WinText = Gotcha! Now just stay still...
+LoseText = G-gah! B-but... My exhibit!
+Pokemon = COFAGRIGUS,34
+    Ball = DUSKBALL
