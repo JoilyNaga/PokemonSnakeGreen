@@ -151,7 +151,3 @@ Weaknesses = PSYCHIC,FAIRY
 Resistances = SNACK,NORMAL
 Immunities = POISON,PRED
 #-------------------------------
-[SHADOW]
-Name = Shadow
-IconPosition = 21
-IsSpecialType = true

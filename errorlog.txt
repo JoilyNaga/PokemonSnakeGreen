@@ -7055,3 +7055,28 @@ Backtrace:
 034:Interpreter_Commands:1112:in `command_355'
 034:Interpreter_Commands:116:in `execute_command'
 033:Interpreter:133:in `block in update'
+
+=================
+
+[2025-06-13 22:19:37 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Exception: RuntimeError
+Message: Undefined value SHADOW in GameData::Type
+File PBS/moves.txt, line 10335
+Type = SHADOW
+
+
+
+Backtrace:
+380:Compiler:345:in `checkEnumField'
+380:Compiler:320:in `csvEnumField!'
+380:Compiler:523:in `block (2 levels) in pbGetCsvRecord'
+380:Compiler:415:in `each'
+380:Compiler:415:in `block in pbGetCsvRecord'
+380:Compiler:413:in `loop'
+380:Compiler:413:in `pbGetCsvRecord'
+381:Compiler_CompilePBS:332:in `block in compile_moves'
+380:Compiler:242:in `block (2 levels) in pbCompilerEachPreppedLine'
+380:Compiler:234:in `each_line'
