@@ -214,11 +214,11 @@ end
     :ID => "10",
     :Name => "Memories of the Past",
     :QuestGiver => "Ariana",
-    :Stage1 => "Find Ariana's Photo.",
+    :Stage1 => "Find Ariana's Box.",
     :Stage2 => "Return to Ariana.",
     :Location1 => "Sphinc Town Museum",
     :Location2 => "Rocket Base",
-    :QuestDescription => "Ariana is looking for an old photograph. Look for it in the Museum!",
+    :QuestDescription => "Ariana is looking for an old box of possessions. She said an apartment in Gutte City is owned by Rocket and should have it stored somewhere!",
     :RewardString => "nil"
   }
 
