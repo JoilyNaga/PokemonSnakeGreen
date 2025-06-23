@@ -57,7 +57,7 @@ module QuestModule
     :QuestGiver => "Hayley the Harpy",
     :Stage1 => "Pay the Prize Corner Grunt",
     :Location1 => "Gutte City Game Corner",
-    :QuestDescription => "Earn 1800 coins and free Hayley from the Prize Corner!",
+    :QuestDescription => "Earn 1800 coins and free Hayley from the Prize Corner!... Or, find another way to rescue her!",
     :RewardString => "The ability to fly!"
 }
 

@@ -6578,3 +6578,12 @@ Price = 10000
 FieldUse = OnPokemon
 Flags = Fling_30
 Description = One of the legendary treasures. It increases Joily's level by five.
+#-------------------------------
+[ARIANA]
+Name = Ariana's Box
+NamePlural = Boxeseses
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = A case filled with possessions. Inside are civilian clothes and a picture of a boy with red hair.
