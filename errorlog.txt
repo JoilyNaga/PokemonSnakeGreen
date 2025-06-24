@@ -7080,3 +7080,28 @@ Backtrace:
 381:Compiler_CompilePBS:332:in `block in compile_moves'
 380:Compiler:242:in `block (2 levels) in pbCompilerEachPreppedLine'
 380:Compiler:234:in `each_line'
+
+=================
+
+[2025-06-24 14:50:23 +0100]
+[Pokémon Essentials version 20.1]
+[v20.1 Hotfixes 1.0.7]
+
+Error in Plugin: [Modern Quest System + UI]
+Exception: SyntaxError
+Message: [Modern Quest System + UI] 004_Quest_Data.rb:366: syntax error, unexpected end-of-input, expecting '}'
+    :RewardString => "nil"
+                          ^
+
+
+Backtrace:
+008:PluginManager:653:in `eval'
+008:PluginManager:653:in `block (2 levels) in runPlugins'
+008:PluginManager:643:in `each'
+008:PluginManager:643:in `block in runPlugins'
+008:PluginManager:634:in `each'
+008:PluginManager:634:in `runPlugins'
+386:Main:28:in `mainFunctionDebug'
+386:Main:18:in `block in mainFunction'
+014:Errors:80:in `pbCriticalCode'
+386:Main:18:in `mainFunction'

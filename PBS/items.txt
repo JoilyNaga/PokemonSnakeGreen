@@ -6587,3 +6587,12 @@ Price = 0
 FieldUse = Direct
 Flags = KeyItem
 Description = A case filled with possessions. Inside are civilian clothes and a picture of a boy with red hair.
+#-------------------------------
+[PETREL]
+Name = Wad of Unovan Fabric
+NamePlural = Wads of Materials
+Pocket = 8
+Price = 0
+FieldUse = Direct
+Flags = KeyItem
+Description = High quality clothing materials from Unova.

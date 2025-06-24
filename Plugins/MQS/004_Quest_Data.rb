@@ -202,11 +202,11 @@ end
     :ID => "9",
     :Name => "The Cloth of the Famous",
     :QuestGiver => "Petrel",
-    :Stage1 => "Find a Costume for Petrel.",
+    :Stage1 => "Find costume material for Petrel.",
     :Stage2 => "Return to Petrel.",
     :Location1 => "Pokéstar Studios",
     :Location2 => "Rocket Base",
-    :QuestDescription => "The Rocket master of disguise needs more costumes. Grab him one from Pokéstar Studios!",
+    :QuestDescription => "The Rocket master of disguise needs more costumes. Grab him something to make one out of from Pokéstar Studios!",
     :RewardString => "nil"
   }
 
@@ -352,4 +352,16 @@ Quest13= {
     :Stage41 => "You got 40/40! Go back to Toffee Manor and Speak to Tired!",
     :QuestDescription => "There's a lot of berries out in the world. Probably a lot from regions Tired has never even seen or heard of. You should get him some as a gift!",
     :RewardString => "Friendship!"
+    }
+
+  Quest14 = {
+    :ID => "14",
+    :Name => "I Have The Power!",
+    :QuestGiver => "The Sailor outside the Gym",
+    :Stage1 => "Get into the Power Plant!",
+    :Stage2 => "Take down Team Gastric in the Power Plant!!",
+    :Location1 => "Gutte City",
+    :Location2 => "Game Courner",
+    :QuestDescription => "The Power Generators in Gutte City are being tampered with! You need to restore full power to the City!",
+    :RewardString => "nil"
     }
