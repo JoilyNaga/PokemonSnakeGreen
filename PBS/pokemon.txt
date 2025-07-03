@@ -27464,8 +27464,8 @@ Weight = 301.6
 Color = Brown
 Shape = Serpentine
 Habitat = Forest
-Category = Wild Snake
-Pokedex = A fierce lamia who was raised in the wilderness. She moved into an abandoned house to stay closer to me. Even as my friend, Lyra would happily eat me for breakfast, lunch and dinner!
+Category = Bnnuy
+Pokedex = An upbeat femboy who's obsessed with berries and his girlfriend. He's pretty kind, but would easily let his hunger get the better of him. And you.
 Generation = 5
 #-------------------------------
 [IMPOSTEROAK]
@@ -27489,8 +27489,8 @@ Weight = 301.6
 Color = Brown
 Shape = Serpentine
 Habitat = Forest
-Category = Wild Snake
-Pokedex = A fierce lamia who was raised in the wilderness. She moved into an abandoned house to stay closer to me. Even as my friend, Lyra would happily eat me for breakfast, lunch and dinner!
+Category = Sus
+Pokedex = A heavily-underutilised impostor from a land far away and a time long ago. 
 Generation = 5
 #-------------------------------
 [JESSIE]
@@ -27540,7 +27540,7 @@ Color = Brown
 Shape = Serpentine
 Habitat = Forest
 Category = Rocket Grunt
-Pokedex = A terrifying trainer from somewhere far away. He travels in a trio and is a force to be reckoned with!
+Pokedex = A terrifying trainer from somewhere far away. He travels in a trio and is a force to be reckoned with.
 Generation = 1
 #-------------------------------
 [BRYCENMAN]
@@ -27564,8 +27564,8 @@ Weight = 301.6
 Color = Brown
 Shape = Serpentine
 Habitat = Forest
-Category = Rocket Grunt
-Pokedex = A terrifying trainer from somewhere far away. He travels in a trio and is a force to be reckoned with!
+Category = Movie Villain
+Pokedex = It's Brycen dressed as his signature film character! A force to be reckoned with!
 Generation = 1
 #-------------------------------
 [LATEXLAMIA]
@@ -27589,8 +27589,8 @@ Weight = 301.6
 Color = Brown
 Shape = Serpentine
 Habitat = Forest
-Category = Rocket Grunt
-Pokedex = A terrifying trainer from somewhere far away. He travels in a trio and is a force to be reckoned with!
+Category = Stretchy Super
+Pokedex = The heroine version of you! She's super stretchy!
 Generation = 1
 #-------------------------------
 [WASHROTOM]
@@ -27613,7 +27613,7 @@ Weight = 0.3
 Color = Red
 Shape = Head
 Category = Plasma
-Pokedex = Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.
+Pokedex = Its body is composed of plasma. It can clean just about anything.
 FormName = Rotom
 Generation = 4
 #-------------------------------
@@ -27637,7 +27637,7 @@ Weight = 0.3
 Color = Red
 Shape = Head
 Category = Plasma
-Pokedex = Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.
+Pokedex = Its body is composed of plasma. Using dark magic, it can alter the matter inside it into a perfect baked treat!
 FormName = Rotom
 Generation = 4
 #-------------------------------
@@ -27661,7 +27661,7 @@ Weight = 0.3
 Color = Red
 Shape = Head
 Category = Plasma
-Pokedex = Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.
+Pokedex = Its body is composed of plasma. Anything unlucky enough to end up under it ends up as mulch.
 FormName = Rotom
 Generation = 4
 #-------------------------------
@@ -27685,7 +27685,7 @@ Weight = 0.3
 Color = Red
 Shape = Head
 Category = Plasma
-Pokedex = Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.
+Pokedex = Its body is composed of plasma. Its temperatures can go so low, it can freeze a whole person!
 FormName = Rotom
 Generation = 4
 #-------------------------------
@@ -27709,7 +27709,7 @@ Weight = 0.3
 Color = Red
 Shape = Head
 Category = Plasma
-Pokedex = Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.
+Pokedex = Its body is composed of plasma. Its blades are so sharp, it could convert anything into confetti!
 FormName = Rotom
 Generation = 4
 #-------------------------------
@@ -27733,7 +27733,7 @@ Weight = 0.3
 Color = Red
 Shape = Head
 Category = Plasma
-Pokedex = Its body is composed of plasma. It is known to infiltrate electronic devices and wreak havoc.
+Pokedex = Rotom inhabiting a robotic suit based on you. It requires your D.N.A to fully work.
 FormName = Rotom
 Generation = 4
 #-------------------------------
@@ -27759,7 +27759,7 @@ Color = Pink
 Shape = Serpentine
 Habitat = Forest
 Category = Weak Serpent
-Pokedex = The runt of the litter, Joily was almost executed in her tribe for being too small and weak.
+Pokedex = It's... me? But not me?
 FormName = Snake
 Generation = 2
 #-------------------------------
@@ -27786,7 +27786,6 @@ Shape = Bipedal
 Habitat = Forest
 Category = Champion
 Pokedex = The Champion of the Sinnoh region. ...Maybe annoying her isn't the best option!
-FormName = Unfed
 Generation = 2
 #-------------------------------
 [AIPLUM]
@@ -27810,9 +27809,8 @@ Weight = 120.6
 Color = Pink
 Shape = Bipedal
 Habitat = Forest
-Category = Champion
-Pokedex = A gross AI representation of Plum. AI sucks. This thing gained sentience, though. A tricky situation. Nice enough, though.
-FormName = Digital
+Category = Artificial
+Pokedex = A gross AI representation of Plum. AI sucks. This thing gained sentience, though. A tricky situation, as this thing is now alive.
 Generation = 2
 #-------------------------------
 [LUNA]
@@ -27837,7 +27835,7 @@ Color = Blue
 Shape = Serpentine
 Habitat = Grassland
 Category = Snake
-Pokedex = A regional variant of Ekans. This one belongs to one of Carmen's friends.
+Pokedex = A regional variant of Ekans. This one belongs to one of Carmen's friends. Friendly and fairly docile.
 Generation = 1
 Evolutions = ARBOK,Level,22
 #-------------------------------
@@ -27855,13 +27853,13 @@ Abilities = MAGICGUARD
 HiddenAbilities = BADDREAMS
 Moves = 1,CONSUME
 TutorMoves = AQUATAIL,ATTRACT,BIND,CONFIDE,DARKPULSE,DIG,DOUBLETEAM,ENDURE,FACADE,FRUSTRATION,GASTROACID,GIGADRAIN,HIDDENPOWER,INFESTATION,IRONTAIL,PAYBACK,POISONJAB,PROTECT,RAINDANCE,REST,RETURN,SEEDBOMB,SLEEPTALK,SLUDGEBOMB,SLUDGEWAVE,SNATCH,SNORE,SPITE,SUBSTITUTE,SUNNYDAY,SWAGGER,THIEF,TORMENT,VENOSHOCK,CALMMIND,PSYCHIC,DAZZLINGGLEAM,THUNDERWAVE,LIGHTSCREEN,ICYWIND,TRICKROOM,DRAININGKISS,MISTYTERRAIN,SHADOWBALL,ENERGYBALL,GRASSKNOT,DREAMEATER,THUNDERBOLT,STOREDPOWER,SWIFT,TRIATTACK,WONDERROOM,RETURN
-EggGroups = Field,Dragon
+EggGroups = Humanlike
 HatchSteps = 5120
 Height = 4.5
 Weight = 70.0
 Color = White
 Shape = Bipedal
 Habitat = Grassland
-Category = Law
-Pokedex = A Police Officer who maintains all that is good and lawful. Unfortunately for me, eating others is lawful.
+Category = Wide Hipped
+Pokedex = A very nice lady! However, make sure not to upset her. Her hips are pretty wide for a reason...
 Generation = 1
