@@ -371,13 +371,9 @@ Quest13= {
     :Name => "The King and I!",
     :QuestGiver => "Kevin",
     :Stage1 => "Find Kevin in Gutte City!",
-    :Stage2 => "Find Kevin in Sphinc Town!",
-    :Stage3 => "Find Kevin in Palate Town!",
-    :Stage4 => "Find the Pokémon with Kevin in Vellus Forest!",
+    :Stage2 => "Find the Pokémon with Kevin in Vellus Forest!",
     :Location1 => "Gutte City",
-    :Location2 => "Sphinc Town",
-    :Location3 => "Palate City",
-    :Location4 => "Vellus Forest",
+    :Location2 => "Vellus Forest",
     :QuestDescription => "A gentleman named Kevin is looking for some kind of royal Pokémon! Go and see if you can help him hunt it down!",
     :RewardString => "nil"
     }
