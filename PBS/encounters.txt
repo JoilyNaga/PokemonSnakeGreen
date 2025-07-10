@@ -89,8 +89,14 @@ Land,21
 #-------------------------------
 [143] # Toffee Manor
 Land,21
+    35,CARNIVINE,15,17
+    25,GASTLY,9,15
+    20,BANETTE,15,18
     5,GOLBAT,14,18
     5,SPIRITOMB,12,18
-    25,GASTLY,9,15
-    35,CARNIVINE,15,17
-    20,BANETTE,15,18
+#-------------------------------
+[170] # Plum's Old Lab
+Land,21
+    20,DITTO,15,20
+    20,GRIMER,16,25
+    20,MUK,38,39
